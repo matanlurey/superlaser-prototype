@@ -1,0 +1,3132 @@
+{
+  "code": "sor",
+  "name": "Spark of Rebellion",
+  "count": 252,
+  "cards": [
+    {
+      "number": 1,
+      "kind": "leader",
+      "title": "Director Krennic",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 7,
+      "power": 2,
+      "sub_title": "Aspiring to Authority"
+    },
+    {
+      "number": 2,
+      "kind": "leader",
+      "title": "Iden Versio",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 4,
+      "power": 4,
+      "sub_title": "Inferno Squad Commander"
+    },
+    {
+      "number": 3,
+      "kind": "leader",
+      "title": "Chewbacca",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 7,
+      "health": 9,
+      "power": 2,
+      "sub_title": "Walking Carpet"
+    },
+    {
+      "number": 4,
+      "kind": "leader",
+      "title": "Chirrut Ãmwe",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 3,
+      "sub_title": "One With The Force"
+    },
+    {
+      "number": 5,
+      "kind": "leader",
+      "title": "Luke Skywalker",
+      "rarity": "special",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 7,
+      "power": 4,
+      "sub_title": "Faithful Friend"
+    },
+    {
+      "number": 6,
+      "kind": "leader",
+      "title": "Emperor Palpatine",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 8,
+      "health": 10,
+      "power": 4,
+      "sub_title": "Galactic Ruler"
+    },
+    {
+      "number": 7,
+      "kind": "leader",
+      "title": "Grand Moff Tarkin",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 7,
+      "power": 2,
+      "sub_title": "Oversector Governor"
+    },
+    {
+      "number": 8,
+      "kind": "leader",
+      "title": "Hera Syndulla",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": "Spectre Two"
+    },
+    {
+      "number": 9,
+      "kind": "leader",
+      "title": "Leia Organa",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 3,
+      "sub_title": "Alliance General"
+    },
+    {
+      "number": 10,
+      "kind": "leader",
+      "title": "Darth Vader",
+      "rarity": "special",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 7,
+      "health": 8,
+      "power": 5,
+      "sub_title": "Dark Lord of the Sith"
+    },
+    {
+      "number": 11,
+      "kind": "leader",
+      "title": "Grand Inquisitor",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 3,
+      "sub_title": "Hunting the Jedi"
+    },
+    {
+      "number": 12,
+      "kind": "leader",
+      "title": "IG-88",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 4,
+      "power": 5,
+      "sub_title": "Ruthless Bounty Hunter"
+    },
+    {
+      "number": 13,
+      "kind": "leader",
+      "title": "Cassian Andor",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": "Dedicated to the Rebellion"
+    },
+    {
+      "number": 14,
+      "kind": "leader",
+      "title": "Sabine Wren",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 5,
+      "power": 2,
+      "sub_title": "Galvanized Revolutionary"
+    },
+    {
+      "number": 15,
+      "kind": "leader",
+      "title": "Boba Fett",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 7,
+      "power": 4,
+      "sub_title": "Collecting the Bounty"
+    },
+    {
+      "number": 16,
+      "kind": "leader",
+      "title": "Grand Admiral Thrawn",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 9,
+      "power": 3,
+      "sub_title": "Patient and Insightful"
+    },
+    {
+      "number": 17,
+      "kind": "leader",
+      "title": "Han Solo",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": "Audacious Smuggler"
+    },
+    {
+      "number": 18,
+      "kind": "leader",
+      "title": "Jyn Erso",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 7,
+      "power": 4,
+      "sub_title": "Resisting Oppression"
+    },
+    {
+      "number": 19,
+      "kind": "base",
+      "title": "Security Complex",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance"
+      ],
+      "health": 25
+    },
+    {
+      "number": 20,
+      "kind": "base",
+      "title": "Capital City",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "health": 30
+    },
+    {
+      "number": 21,
+      "kind": "base",
+      "title": "Dagobah Swamp",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "health": 30
+    },
+    {
+      "number": 22,
+      "kind": "base",
+      "title": "Energy Conversion Lab",
+      "rarity": "rare",
+      "aspects": [
+        "command"
+      ],
+      "health": 25
+    },
+    {
+      "number": 23,
+      "kind": "base",
+      "title": "Command Center",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "health": 30
+    },
+    {
+      "number": 24,
+      "kind": "base",
+      "title": "Echo Base",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "health": 30
+    },
+    {
+      "number": 25,
+      "kind": "base",
+      "title": "Tarkintown",
+      "rarity": "rare",
+      "aspects": [
+        "aggression"
+      ],
+      "health": 25
+    },
+    {
+      "number": 26,
+      "kind": "base",
+      "title": "Catacombs of Cadera",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "health": 30
+    },
+    {
+      "number": 27,
+      "kind": "base",
+      "title": "Kestro City",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "health": 30
+    },
+    {
+      "number": 28,
+      "kind": "base",
+      "title": "Jedha City",
+      "rarity": "rare",
+      "aspects": [
+        "cunning"
+      ],
+      "health": 25
+    },
+    {
+      "number": 29,
+      "kind": "base",
+      "title": "Administrator's Tower",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "health": 30
+    },
+    {
+      "number": 30,
+      "kind": "base",
+      "title": "Chopper Base",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "health": 30
+    },
+    {
+      "number": 31,
+      "kind": "unit",
+      "title": "Inferno Four",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": "Unforgetting"
+    },
+    {
+      "number": 32,
+      "kind": "unit",
+      "title": "Scout Bike Pursuer",
+      "rarity": "common",
+      "aspects": [
+        "villainy",
+        "vigilance"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 33,
+      "kind": "unit",
+      "title": "Death Trooper",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 34,
+      "kind": "unit",
+      "title": "Del Meeko",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": "Providing Overwatch"
+    },
+    {
+      "number": 35,
+      "kind": "unit",
+      "title": "Lieutenant Childsen",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 4,
+      "health": 2,
+      "power": 2,
+      "sub_title": "Death Star Prison Warden"
+    },
+    {
+      "number": 36,
+      "kind": "unit",
+      "title": "Gideon Hask",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 5,
+      "sub_title": "Ruthless Loyalist"
+    },
+    {
+      "number": 37,
+      "kind": "unit",
+      "title": "Academy Defense Walker",
+      "rarity": "common",
+      "aspects": [
+        "villainy",
+        "vigilance"
+      ],
+      "cost": 6,
+      "health": 5,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 38,
+      "kind": "unit",
+      "title": "Count Dooku",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 7,
+      "health": 4,
+      "power": 5,
+      "sub_title": "Darth Tyranus"
+    },
+    {
+      "number": 39,
+      "kind": "unit",
+      "title": "AT-AT Suppressor",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 8,
+      "health": 8,
+      "power": 8,
+      "sub_title": null
+    },
+    {
+      "number": 40,
+      "kind": "unit",
+      "title": "Avenger",
+      "rarity": "legendary",
+      "aspects": [
+        "villainy",
+        "vigilance"
+      ],
+      "cost": 9,
+      "health": 8,
+      "power": 8,
+      "sub_title": "Hunting Star Destroyer"
+    },
+    {
+      "number": 41,
+      "kind": "event",
+      "title": "Power of the Dark Side",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 42,
+      "kind": "event",
+      "title": "Search Your Feelings",
+      "rarity": "rare",
+      "aspects": [
+        "villainy",
+        "vigilance"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 43,
+      "kind": "event",
+      "title": "Superlaser Blast",
+      "rarity": "legendary",
+      "aspects": [
+        "vigilance",
+        "villainy"
+      ],
+      "cost": 8
+    },
+    {
+      "number": 44,
+      "kind": "unit",
+      "title": "Restored ARC-170",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 45,
+      "kind": "unit",
+      "title": "Yoda",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 2,
+      "sub_title": "Old Master"
+    },
+    {
+      "number": 46,
+      "kind": "unit",
+      "title": "Consular Security Force",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 7,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 47,
+      "kind": "unit",
+      "title": "Kanan Jarrus",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 5,
+      "power": 4,
+      "sub_title": "Revealed Jedi"
+    },
+    {
+      "number": 48,
+      "kind": "unit",
+      "title": "Vigilant Honor Guards",
+      "rarity": "common",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 49,
+      "kind": "unit",
+      "title": "Obi-Wan Kenobi",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": "Following Fate"
+    },
+    {
+      "number": 50,
+      "kind": "unit",
+      "title": "The Ghost",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 5,
+      "power": 5,
+      "sub_title": "Spectre Home Base"
+    },
+    {
+      "number": 51,
+      "kind": "unit",
+      "title": "Luke Skywalker",
+      "rarity": "legendary",
+      "aspects": [
+        "heroism",
+        "vigilance"
+      ],
+      "cost": 7,
+      "health": 7,
+      "power": 6,
+      "sub_title": "Jedi Knight"
+    },
+    {
+      "number": 52,
+      "kind": "unit",
+      "title": "Redemption",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 8,
+      "health": 9,
+      "power": 6,
+      "sub_title": "Medical Frigate"
+    },
+    {
+      "number": 53,
+      "kind": "upgrade",
+      "title": "Luke's Lightsaber",
+      "rarity": "special",
+      "aspects": [
+        "heroism",
+        "vigilance"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 54,
+      "kind": "upgrade",
+      "title": "Jedi Lightsaber",
+      "rarity": "rare",
+      "aspects": [
+        "heroism",
+        "vigilance"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 55,
+      "kind": "event",
+      "title": "The Force Is With Me",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance",
+        "heroism"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 56,
+      "kind": "unit",
+      "title": "Bendu",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 6,
+      "health": 7,
+      "power": 4,
+      "sub_title": "The One in the Middle"
+    },
+    {
+      "number": 57,
+      "kind": "upgrade",
+      "title": "Protector",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 58,
+      "kind": "event",
+      "title": "Vigilance",
+      "rarity": "legendary",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 59,
+      "kind": "unit",
+      "title": "2-1B Surgical Droid",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 1,
+      "health": 3,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 60,
+      "kind": "unit",
+      "title": "Distant Patroller",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 61,
+      "kind": "unit",
+      "title": "Guardian of the Whills",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 62,
+      "kind": "unit",
+      "title": "Regional Governor",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 63,
+      "kind": "unit",
+      "title": "Cloud City Wing Guard",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 64,
+      "kind": "unit",
+      "title": "Wilderness Fighter",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 65,
+      "kind": "unit",
+      "title": "Baze Malbus",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 4,
+      "health": 5,
+      "power": 2,
+      "sub_title": "Temple Guardian"
+    },
+    {
+      "number": 66,
+      "kind": "unit",
+      "title": "System Patrol Craft",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 67,
+      "kind": "unit",
+      "title": "Rugged Survivors",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 68,
+      "kind": "unit",
+      "title": "Cargo Juggernaut",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 69,
+      "kind": "upgrade",
+      "title": "Resilient",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 70,
+      "kind": "upgrade",
+      "title": "Devotion",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 71,
+      "kind": "upgrade",
+      "title": "Electrostaff",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 72,
+      "kind": "upgrade",
+      "title": "Entrenched",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 73,
+      "kind": "event",
+      "title": "Moment of Peace",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 74,
+      "kind": "event",
+      "title": "Repair",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 75,
+      "kind": "event",
+      "title": "It Binds All Things",
+      "rarity": "rare",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 76,
+      "kind": "event",
+      "title": "Make an Opening",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 77,
+      "kind": "event",
+      "title": "Takedown",
+      "rarity": "uncommon",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 78,
+      "kind": "event",
+      "title": "Vanquish",
+      "rarity": "common",
+      "aspects": [
+        "vigilance"
+      ],
+      "cost": 5
+    },
+    {
+      "number": 79,
+      "kind": "unit",
+      "title": "Admiral Piett",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 1,
+      "sub_title": "Captain of the Executor"
+    },
+    {
+      "number": 80,
+      "kind": "unit",
+      "title": "General Tagge",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 2,
+      "sub_title": "Concerned Commander"
+    },
+    {
+      "number": 81,
+      "kind": "unit",
+      "title": "Seasoned Shoretrooper",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 82,
+      "kind": "unit",
+      "title": "Emperor's Royal Guard",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 83,
+      "kind": "unit",
+      "title": "Superlaser Technician",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 84,
+      "kind": "unit",
+      "title": "Grand Moff Tarkin",
+      "rarity": "special",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 4,
+      "health": 3,
+      "power": 2,
+      "sub_title": "Death Star Overseer"
+    },
+    {
+      "number": 85,
+      "kind": "unit",
+      "title": "Rukh",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 3,
+      "sub_title": "Thrawn's Assassin"
+    },
+    {
+      "number": 86,
+      "kind": "unit",
+      "title": "Gladiator Star Destroyer",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 87,
+      "kind": "unit",
+      "title": "Darth Vader",
+      "rarity": "legendary",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 7,
+      "health": 7,
+      "power": 5,
+      "sub_title": "Commanding the First Legion"
+    },
+    {
+      "number": 88,
+      "kind": "unit",
+      "title": "Blizzard Assault AT-AT",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 8,
+      "health": 9,
+      "power": 9,
+      "sub_title": null
+    },
+    {
+      "number": 89,
+      "kind": "unit",
+      "title": "Relentless",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 9,
+      "health": 8,
+      "power": 8,
+      "sub_title": "Konstantine's Folly"
+    },
+    {
+      "number": 90,
+      "kind": "unit",
+      "title": "Devastator",
+      "rarity": "legendary",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 10,
+      "health": 10,
+      "power": 10,
+      "sub_title": "Inescapable"
+    },
+    {
+      "number": 91,
+      "kind": "event",
+      "title": "The Emperor's Legion",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 92,
+      "kind": "event",
+      "title": "Overwhelming Barrage",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "villainy"
+      ],
+      "cost": 5
+    },
+    {
+      "number": 93,
+      "kind": "unit",
+      "title": "Alliance Dispatcher",
+      "rarity": "common",
+      "aspects": [
+        "heroism",
+        "command"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 94,
+      "kind": "unit",
+      "title": "Bail Organa",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 1,
+      "sub_title": "Rebel Councilor"
+    },
+    {
+      "number": 95,
+      "kind": "unit",
+      "title": "Battlefield Marine",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 96,
+      "kind": "unit",
+      "title": "Mon Mothma",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 1,
+      "sub_title": "Voice Of The Rebellion"
+    },
+    {
+      "number": 97,
+      "kind": "unit",
+      "title": "Admiral Ackbar",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 1,
+      "sub_title": "Brilliant Strategist"
+    },
+    {
+      "number": 98,
+      "kind": "unit",
+      "title": "Echo Base Defender",
+      "rarity": "common",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 99,
+      "kind": "unit",
+      "title": "Bright Hope",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 6,
+      "power": 2,
+      "sub_title": "The Last Transport"
+    },
+    {
+      "number": 100,
+      "kind": "unit",
+      "title": "Wedge Antilles",
+      "rarity": "rare",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 5,
+      "sub_title": "Star of the Rebellion"
+    },
+    {
+      "number": 101,
+      "kind": "unit",
+      "title": "Rogue Squadron Skirmisher",
+      "rarity": "uncommon",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 102,
+      "kind": "unit",
+      "title": "Home One",
+      "rarity": "legendary",
+      "aspects": [
+        "command",
+        "heroism"
+      ],
+      "cost": 8,
+      "health": 7,
+      "power": 7,
+      "sub_title": "Alliance Flagship"
+    },
+    {
+      "number": 103,
+      "kind": "event",
+      "title": "Rebel Assault",
+      "rarity": "uncommon",
+      "aspects": [
+        "heroism",
+        "command"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 104,
+      "kind": "event",
+      "title": "U-Wing Reinforcement",
+      "rarity": "rare",
+      "aspects": [
+        "heroism",
+        "command"
+      ],
+      "cost": 7
+    },
+    {
+      "number": 105,
+      "kind": "unit",
+      "title": "General Krell",
+      "rarity": "rare",
+      "aspects": [
+        "command"
+      ],
+      "cost": 5,
+      "health": 4,
+      "power": 5,
+      "sub_title": "Heartless Tactician"
+    },
+    {
+      "number": 106,
+      "kind": "event",
+      "title": "Attack Pattern Delta",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 107,
+      "kind": "event",
+      "title": "Command",
+      "rarity": "legendary",
+      "aspects": [
+        "command"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 108,
+      "kind": "unit",
+      "title": "Vanguard Infantry",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 109,
+      "kind": "unit",
+      "title": "Colonel Yularen",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": "ISB Director"
+    },
+    {
+      "number": 110,
+      "kind": "unit",
+      "title": "Frontline Shuttle",
+      "rarity": "rare",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 111,
+      "kind": "unit",
+      "title": "Patrolling V-Wing",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2,
+      "health": 1,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 112,
+      "kind": "unit",
+      "title": "Consortium StarViper",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 113,
+      "kind": "unit",
+      "title": "Homestead Militia",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 114,
+      "kind": "unit",
+      "title": "Escort Skiff",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 115,
+      "kind": "unit",
+      "title": "Agent Kallus",
+      "rarity": "rare",
+      "aspects": [
+        "command"
+      ],
+      "cost": 5,
+      "health": 4,
+      "power": 4,
+      "sub_title": "Seeking the Rebels"
+    },
+    {
+      "number": 116,
+      "kind": "unit",
+      "title": "Steadfast Battalion",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 117,
+      "kind": "unit",
+      "title": "Mercenary Company",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 6,
+      "health": 5,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 118,
+      "kind": "unit",
+      "title": "97th Legion",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 7,
+      "health": 0,
+      "power": 0,
+      "sub_title": "Keeping the Peace on Sullust"
+    },
+    {
+      "number": 119,
+      "kind": "unit",
+      "title": "Reinforcement Walker",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 8,
+      "health": 9,
+      "power": 6,
+      "sub_title": null
+    },
+    {
+      "number": 120,
+      "kind": "upgrade",
+      "title": "Academy Training",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 121,
+      "kind": "upgrade",
+      "title": "Hardpoint Heavy Blaster",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 122,
+      "kind": "upgrade",
+      "title": "Traitorous",
+      "rarity": "rare",
+      "aspects": [
+        "command"
+      ],
+      "cost": 5
+    },
+    {
+      "number": 123,
+      "kind": "event",
+      "title": "Recruit",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 124,
+      "kind": "event",
+      "title": "Tactical Advantage",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 125,
+      "kind": "event",
+      "title": "Prepare for Takeoff",
+      "rarity": "uncommon",
+      "aspects": [
+        "command"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 126,
+      "kind": "event",
+      "title": "Resupply",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 127,
+      "kind": "event",
+      "title": "Strike True",
+      "rarity": "common",
+      "aspects": [
+        "command"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 128,
+      "kind": "unit",
+      "title": "Death Star Stormtrooper",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 1,
+      "health": 1,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 129,
+      "kind": "unit",
+      "title": "Admiral Ozzel",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": "Overconfident"
+    },
+    {
+      "number": 130,
+      "kind": "unit",
+      "title": "First Legion Snowtrooper",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 131,
+      "kind": "unit",
+      "title": "Fifth Brother",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 2,
+      "sub_title": "Fear Hunter"
+    },
+    {
+      "number": 132,
+      "kind": "unit",
+      "title": "Imperial Interceptor",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 4,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 133,
+      "kind": "unit",
+      "title": "Seventh Sister",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 3,
+      "sub_title": "Implacable Inquisitor"
+    },
+    {
+      "number": 134,
+      "kind": "unit",
+      "title": "Ruthless Raider",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 135,
+      "kind": "unit",
+      "title": "Emperor Palpatine",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 8,
+      "health": 6,
+      "power": 6,
+      "sub_title": "Master of the Dark Side"
+    },
+    {
+      "number": 136,
+      "kind": "upgrade",
+      "title": "Vader's Lightsaber",
+      "rarity": "special",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 137,
+      "kind": "upgrade",
+      "title": "Fallen Lightsaber",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 138,
+      "kind": "event",
+      "title": "Force Lightning",
+      "rarity": "legendary",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 139,
+      "kind": "event",
+      "title": "Force Choke",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "villainy"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 140,
+      "kind": "unit",
+      "title": "SpecForce Soldier",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 141,
+      "kind": "unit",
+      "title": "Green Squadron A-Wing",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 142,
+      "kind": "unit",
+      "title": "Sabine Wren",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": "Explosives Artist"
+    },
+    {
+      "number": 143,
+      "kind": "unit",
+      "title": "Fighters for Freedom",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 144,
+      "kind": "unit",
+      "title": "Red Three",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 2,
+      "sub_title": "Unstoppable"
+    },
+    {
+      "number": 145,
+      "kind": "unit",
+      "title": "K-2SO",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 4,
+      "sub_title": "Cassian's Counterpart"
+    },
+    {
+      "number": 146,
+      "kind": "unit",
+      "title": "Zeb Orrelios",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 5,
+      "sub_title": "Headstrong Warrior"
+    },
+    {
+      "number": 147,
+      "kind": "unit",
+      "title": "Black One",
+      "rarity": "legendary",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 4,
+      "power": 4,
+      "sub_title": "Scourge of Starkiller Base"
+    },
+    {
+      "number": 148,
+      "kind": "unit",
+      "title": "Guerilla Attack Pod",
+      "rarity": "common",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 149,
+      "kind": "unit",
+      "title": "Mace Windu",
+      "rarity": "legendary",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 7,
+      "health": 7,
+      "power": 5,
+      "sub_title": "Party Crasher"
+    },
+    {
+      "number": 150,
+      "kind": "event",
+      "title": "Heroic Sacrifice",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 151,
+      "kind": "event",
+      "title": "Karabast",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 152,
+      "kind": "event",
+      "title": "For a Cause I Believe In",
+      "rarity": "rare",
+      "aspects": [
+        "aggression",
+        "heroism"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 153,
+      "kind": "unit",
+      "title": "Saw Gerrera",
+      "rarity": "rare",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 5,
+      "sub_title": "Extremist"
+    },
+    {
+      "number": 154,
+      "kind": "event",
+      "title": "Rallying Cry",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 155,
+      "kind": "event",
+      "title": "Aggression",
+      "rarity": "legendary",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 156,
+      "kind": "unit",
+      "title": "Benthic \"Two Tubes\"",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 2,
+      "sub_title": "Partisan Lieutenant"
+    },
+    {
+      "number": 157,
+      "kind": "unit",
+      "title": "Cantina Braggart",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 1,
+      "health": 3,
+      "power": 0,
+      "sub_title": null
+    },
+    {
+      "number": 158,
+      "kind": "unit",
+      "title": "Jedha Agitator",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 2,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 159,
+      "kind": "unit",
+      "title": "Partisan Insurgent",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 160,
+      "kind": "unit",
+      "title": "Wolffe",
+      "rarity": "rare",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 3,
+      "sub_title": "Suspicious Veteran"
+    },
+    {
+      "number": 161,
+      "kind": "unit",
+      "title": "Ardent Sympathizer",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 162,
+      "kind": "unit",
+      "title": "Disabling Fang Fighter",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 163,
+      "kind": "unit",
+      "title": "Star Wing Scout",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3,
+      "health": 1,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 164,
+      "kind": "unit",
+      "title": "Wampa",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 4,
+      "health": 5,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 165,
+      "kind": "unit",
+      "title": "Occupier Siege Tank",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 5,
+      "health": 4,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 166,
+      "kind": "upgrade",
+      "title": "Infiltrator's Skill",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 167,
+      "kind": "event",
+      "title": "Force Throw",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 168,
+      "kind": "event",
+      "title": "Precision Fire",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 169,
+      "kind": "event",
+      "title": "Keep Fighting",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 170,
+      "kind": "event",
+      "title": "Power Failure",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 171,
+      "kind": "event",
+      "title": "Mission Briefing",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 172,
+      "kind": "event",
+      "title": "Open Fire",
+      "rarity": "common",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 173,
+      "kind": "event",
+      "title": "Bombing Run",
+      "rarity": "rare",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 5
+    },
+    {
+      "number": 174,
+      "kind": "event",
+      "title": "Smoke and Cinders",
+      "rarity": "rare",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 5
+    },
+    {
+      "number": 175,
+      "kind": "event",
+      "title": "Forced Surrender",
+      "rarity": "uncommon",
+      "aspects": [
+        "aggression"
+      ],
+      "cost": 6
+    },
+    {
+      "number": 176,
+      "kind": "unit",
+      "title": "ISB Agent",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 1,
+      "health": 3,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 177,
+      "kind": "unit",
+      "title": "Bib Fortuna",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 1,
+      "sub_title": "Jabbaâs Majordomo"
+    },
+    {
+      "number": 178,
+      "kind": "unit",
+      "title": "Cartel Spacer",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 179,
+      "kind": "unit",
+      "title": "Boba Fett",
+      "rarity": "legendary",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 5,
+      "power": 3,
+      "sub_title": "Disintegrator"
+    },
+    {
+      "number": 180,
+      "kind": "unit",
+      "title": "Seventh Fleet Defender",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 181,
+      "kind": "unit",
+      "title": "Jabba the Hutt",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 4,
+      "health": 8,
+      "power": 2,
+      "sub_title": "Cunning Daimyo"
+    },
+    {
+      "number": 182,
+      "kind": "unit",
+      "title": "Bossk",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 4,
+      "sub_title": "Deadly Stalker"
+    },
+    {
+      "number": 183,
+      "kind": "unit",
+      "title": "Bounty Hunter Crew",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 4,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 184,
+      "kind": "unit",
+      "title": "Fett's Firespray",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 6,
+      "power": 5,
+      "sub_title": "Pursuing the Bounty"
+    },
+    {
+      "number": 185,
+      "kind": "unit",
+      "title": "Chimaera",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 8,
+      "health": 7,
+      "power": 8,
+      "sub_title": "Flagship of the Seventh Fleet"
+    },
+    {
+      "number": 186,
+      "kind": "event",
+      "title": "No Good to Me Dead",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 187,
+      "kind": "event",
+      "title": "I Had No Choice",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "villainy"
+      ],
+      "cost": 7
+    },
+    {
+      "number": 188,
+      "kind": "unit",
+      "title": "Chopper",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 1,
+      "health": 3,
+      "power": 1,
+      "sub_title": "Metal Menace"
+    },
+    {
+      "number": 189,
+      "kind": "unit",
+      "title": "Leia Organa",
+      "rarity": "special",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 2,
+      "sub_title": "Defiant Princess"
+    },
+    {
+      "number": 190,
+      "kind": "unit",
+      "title": "Lothal Insurgent",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 191,
+      "kind": "unit",
+      "title": "Vanguard Ace",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 1,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 192,
+      "kind": "unit",
+      "title": "Ezra Bridger",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 3,
+      "sub_title": "Resourceful Troublemaker"
+    },
+    {
+      "number": 193,
+      "kind": "unit",
+      "title": "Millennium Falcon",
+      "rarity": "legendary",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 3,
+      "sub_title": "Piece of Junk"
+    },
+    {
+      "number": 194,
+      "kind": "unit",
+      "title": "Rogue Operative",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 4,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 195,
+      "kind": "unit",
+      "title": "Auzituck Liberator Gunship",
+      "rarity": "common",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 196,
+      "kind": "unit",
+      "title": "Chewbacca",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 3,
+      "sub_title": "Loyal Companion"
+    },
+    {
+      "number": 197,
+      "kind": "unit",
+      "title": "Lando Calrissian",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 6,
+      "health": 5,
+      "power": 6,
+      "sub_title": "Responsible Businessman"
+    },
+    {
+      "number": 198,
+      "kind": "unit",
+      "title": "Han Solo",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 7,
+      "health": 6,
+      "power": 6,
+      "sub_title": "Reluctant Hero"
+    },
+    {
+      "number": 199,
+      "kind": "event",
+      "title": "Bamboozle",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 200,
+      "kind": "event",
+      "title": "Spark of Rebellion",
+      "rarity": "rare",
+      "aspects": [
+        "cunning",
+        "heroism"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 201,
+      "kind": "unit",
+      "title": "Bodhi Rook",
+      "rarity": "rare",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": "Imperial Defector"
+    },
+    {
+      "number": 202,
+      "kind": "unit",
+      "title": "Cantina Bouncer",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 5,
+      "health": 5,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 203,
+      "kind": "event",
+      "title": "Cunning",
+      "rarity": "legendary",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 204,
+      "kind": "unit",
+      "title": "Greedo",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1,
+      "health": 1,
+      "power": 3,
+      "sub_title": "Slow on the Draw"
+    },
+    {
+      "number": 205,
+      "kind": "unit",
+      "title": "Jawa Scavenger",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 206,
+      "kind": "unit",
+      "title": "Mining Guild TIE Fighter",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1,
+      "health": 2,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 207,
+      "kind": "unit",
+      "title": "Crafty Smuggler",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 208,
+      "kind": "unit",
+      "title": "Outer Rim Headhunter",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 1,
+      "sub_title": null
+    },
+    {
+      "number": 209,
+      "kind": "unit",
+      "title": "Pirated Starfighter",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 210,
+      "kind": "unit",
+      "title": "Swoop Racer",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 211,
+      "kind": "unit",
+      "title": "Gamorrean Guards",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 212,
+      "kind": "unit",
+      "title": "Strafing Gunship",
+      "rarity": "rare",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 213,
+      "kind": "unit",
+      "title": "Syndicate Lackeys",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 5,
+      "health": 4,
+      "power": 5,
+      "sub_title": null
+    },
+    {
+      "number": 214,
+      "kind": "upgrade",
+      "title": "Smuggling Compartment",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 215,
+      "kind": "upgrade",
+      "title": "Snapshot Reflexes",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 216,
+      "kind": "event",
+      "title": "Disarm",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 217,
+      "kind": "event",
+      "title": "Shoot First",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 1
+    },
+    {
+      "number": 218,
+      "kind": "event",
+      "title": "Asteroid Sanctuary",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 219,
+      "kind": "event",
+      "title": "Sneak Attack",
+      "rarity": "rare",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 220,
+      "kind": "event",
+      "title": "Surprise Strike",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 2
+    },
+    {
+      "number": 221,
+      "kind": "event",
+      "title": "Outmaneuver",
+      "rarity": "uncommon",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 222,
+      "kind": "event",
+      "title": "Waylay",
+      "rarity": "common",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 223,
+      "kind": "event",
+      "title": "Don't Get Cocky",
+      "rarity": "rare",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 224,
+      "kind": "event",
+      "title": "Change of Heart",
+      "rarity": "legendary",
+      "aspects": [
+        "cunning"
+      ],
+      "cost": 6
+    },
+    {
+      "number": 225,
+      "kind": "unit",
+      "title": "TIE/ln Fighter",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 1,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 226,
+      "kind": "unit",
+      "title": "Admiral Motti",
+      "rarity": "special",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 1,
+      "power": 1,
+      "sub_title": "Brazen and Scornful"
+    },
+    {
+      "number": 227,
+      "kind": "unit",
+      "title": "Snowtrooper Lieutenant",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 228,
+      "kind": "unit",
+      "title": "Viper Probe Droid",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 2,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 229,
+      "kind": "unit",
+      "title": "Cell Block Guard",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 230,
+      "kind": "unit",
+      "title": "General Veers",
+      "rarity": "uncommon",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": "Blizzard Force Commander"
+    },
+    {
+      "number": 231,
+      "kind": "unit",
+      "title": "TIE Advanced",
+      "rarity": "uncommon",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 4,
+      "health": 2,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 232,
+      "kind": "unit",
+      "title": "AT-ST",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 6,
+      "health": 7,
+      "power": 6,
+      "sub_title": null
+    },
+    {
+      "number": 233,
+      "kind": "event",
+      "title": "I Am Your Father",
+      "rarity": "special",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 234,
+      "kind": "event",
+      "title": "Maximum Firepower",
+      "rarity": "common",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 4
+    },
+    {
+      "number": 235,
+      "kind": "event",
+      "title": "Galactic Ambition",
+      "rarity": "rare",
+      "aspects": [
+        "villainy"
+      ],
+      "cost": 7
+    },
+    {
+      "number": 236,
+      "kind": "unit",
+      "title": "R2-D2",
+      "rarity": "special",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 1,
+      "health": 4,
+      "power": 1,
+      "sub_title": "Ignoring Protocol"
+    },
+    {
+      "number": 237,
+      "kind": "unit",
+      "title": "Alliance X-Wing",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 238,
+      "kind": "unit",
+      "title": "C-3PO",
+      "rarity": "special",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 4,
+      "power": 1,
+      "sub_title": "Protocol Droid"
+    },
+    {
+      "number": 239,
+      "kind": "unit",
+      "title": "Rebel Pathfinder",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 240,
+      "kind": "unit",
+      "title": "Fleet Lieutenant",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 3,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 241,
+      "kind": "unit",
+      "title": "Wing Leader",
+      "rarity": "uncommon",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 3,
+      "health": 1,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 242,
+      "kind": "unit",
+      "title": "General Dodonna",
+      "rarity": "uncommon",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 4,
+      "sub_title": "Massassi Group Commander"
+    },
+    {
+      "number": 243,
+      "kind": "unit",
+      "title": "Regional Sympathizers",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 4,
+      "health": 4,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 244,
+      "kind": "unit",
+      "title": "Snowspeeder",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 5,
+      "health": 6,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 245,
+      "kind": "event",
+      "title": "Medal Ceremony",
+      "rarity": "common",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 0
+    },
+    {
+      "number": 246,
+      "kind": "event",
+      "title": "You're My Only Hope",
+      "rarity": "rare",
+      "aspects": [
+        "heroism"
+      ],
+      "cost": 3
+    },
+    {
+      "number": 247,
+      "kind": "unit",
+      "title": "Underworld Thug",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 2,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 248,
+      "kind": "unit",
+      "title": "Volunteer Soldier",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 3,
+      "health": 3,
+      "power": 2,
+      "sub_title": null
+    },
+    {
+      "number": 249,
+      "kind": "unit",
+      "title": "Frontier AT-RT",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 4,
+      "health": 5,
+      "power": 3,
+      "sub_title": null
+    },
+    {
+      "number": 250,
+      "kind": "unit",
+      "title": "Corellian Freighter",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 5,
+      "health": 4,
+      "power": 4,
+      "sub_title": null
+    },
+    {
+      "number": 251,
+      "kind": "event",
+      "title": "Confiscate",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 1
+    },
+    {
+      "number": 252,
+      "kind": "event",
+      "title": "Restock",
+      "rarity": "common",
+      "aspects": [],
+      "cost": 1
+    }
+  ]
+}

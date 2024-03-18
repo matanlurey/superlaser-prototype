@@ -52,11 +52,10 @@ packages:
   jsonut:
     dependency: "direct main"
     description:
-      name: jsonut
-      sha256: "8965f92857af39685a6b9abf4e66ed80a4b2dffdc798b951b2b14efaf68672bc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.0"
+      path: "../../../jsonut"
+      relative: true
+    source: path
+    version: "0.4.0-dev"
   lints:
     dependency: "direct dev"
     description:
@@ -81,6 +80,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  scrap:
+    dependency: "direct main"
+    description:
+      path: "../scrap"
+      relative: true
+    source: path
+    version: "0.0.0"
   source_span:
     dependency: transitive
     description:

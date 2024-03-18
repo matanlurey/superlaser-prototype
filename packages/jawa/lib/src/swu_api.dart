@@ -56,7 +56,10 @@ extension type const CardData._(JsonObject _fields) {
     return CardData._(JsonObject.parse(json));
   }
 
-  List<CardAttributes> get cards => _fields['attributes'].array().cast();
+  List<CardAttributes> get cards {
+    final data = _fields['data'].array().cast<JsonObject>();
+    return data.map((t) => t['attributes'].object()).toList().cast();
+  }
 
   CardPagination get pagination {
     return _fields.deepGet(const ['meta', 'pagination']).as();
@@ -71,10 +74,13 @@ extension type const CardPagination._(JsonObject _fields) {
 }
 
 extension type const CardAttributes._(JsonObject _fields) {
+  String get cardUid => _fields['cardUid'].as();
+
   int get cardNumber => _fields['cardNumber'].as();
+  int get cardCount => _fields['cardCount'].as();
 
   String get title => _fields['title'].as();
-  String get subTitle => _fields['subtitle'].as();
+  String? get subTitle => _fields['subtitle'].asOrNull();
   String get artist => _fields['artist'].as();
   bool get unique => _fields['unique'].as();
 
@@ -104,12 +110,14 @@ extension type const CardAttributes._(JsonObject _fields) {
   }
 
   CardData? get variants {
-    return _fields.deepGet(const ['variants', 'data']).asOrNull();
+    return _fields.deepGet(const ['variants', 'data']).as();
   }
 
   CardData? get variantOf {
-    return _fields.deepGet(const ['variantOf', 'data']).asOrNull();
+    return _fields.deepGet(const ['variantOf', 'data']).as();
   }
+
+  bool get isVariant => variantOf != null;
 
   List<CardAspect> get aspects {
     final data = _fields.deepGet(const ['aspects', 'data']);
