@@ -97,11 +97,38 @@ final class _Scavenge extends Command<void> {
           );
 
           final Card card;
+          final art = [
+            Art(
+              artist: data.artist,
+              front: ArtImage(
+                name: data.artFront.name,
+                url: Uri.parse(data.artFront.url),
+                width: data.artFront.width,
+                height: data.artFront.height,
+              ),
+              back: data.artBack != null
+                  ? ArtImage(
+                      name: data.artBack!.name,
+                      url: Uri.parse(data.artBack!.url),
+                      width: data.artBack!.width,
+                      height: data.artBack!.height,
+                    )
+                  : null,
+              thumbnail: ArtImage(
+                name: data.artThumbnail.name,
+                url: Uri.parse(data.artThumbnail.url),
+                width: data.artThumbnail.width,
+                height: data.artThumbnail.height,
+              ),
+            ),
+          ];
+
           switch (data.type.name) {
             case 'Leader':
               card = LeaderCard(
                 title: data.title,
                 number: data.cardNumber,
+                art: art,
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -117,6 +144,7 @@ final class _Scavenge extends Command<void> {
               card = BaseCard(
                 title: data.title,
                 number: data.cardNumber,
+                art: art,
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -129,6 +157,7 @@ final class _Scavenge extends Command<void> {
               card = UnitCard(
                 title: data.title,
                 number: data.cardNumber,
+                art: art,
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -144,6 +173,7 @@ final class _Scavenge extends Command<void> {
               card = UpgradeCard(
                 title: data.title,
                 number: data.cardNumber,
+                art: art,
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -156,6 +186,7 @@ final class _Scavenge extends Command<void> {
               card = EventCard(
                 title: data.title,
                 number: data.cardNumber,
+                art: art,
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(

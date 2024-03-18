@@ -12,6 +12,30 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_001_Director_Krennic_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_001_Director_Krennic_Leader_62eaa20dc2.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_001_Director_Krennic_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_001_Director_Krennic_Leader_Unit_e2c6231b35.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_001_Director Krennic_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_001_Director_Krennic_Thumbnail_74b3f22a00.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 7,
       "power": 2,
@@ -25,6 +49,30 @@
       "aspects": [
         "vigilance",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_002_Iden_Versio_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_002_Iden_Versio_Leader_8638ef7fc2.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_002_Iden_Versio_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_002_Iden_Versio_Leader_Unit_b0dbca5c05.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_002_Iden_Versio_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_002_Iden_Versio_Thumbnail_6af0c01986.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 4,
@@ -40,6 +88,30 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_003_Chewbacca_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_003_Chewbacca_Leader_962112464e.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_003_Chewbacca_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_003_Chewbacca_Leader_Unit_8301e8d7ef.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_003_Chewbacca_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_003_Chewbacca_Thumbnail_b9f97f3f31.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7,
       "health": 9,
       "power": 2,
@@ -53,6 +125,30 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_004_Chirrut_Imwe_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Leader_3a0a77d2b4.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_004_Chirrut_Imwe_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Leader_Unit_d1a7b76ae7.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_004_Chirrut_Ãmwe_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Thumbnail_2ce98b2152.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 5,
@@ -68,6 +164,30 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_005_Luke_Skywalker_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_005_Luke_Skywalker_Leader_ce133fc923.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_005_Luke_Skywalker_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_005_Luke_Skywalker_Leader_Unit_0dcb77795c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_005_Luke_Skywalker_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_005_Luke_Skywalker_Thumbnail_e92b37229f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 7,
       "power": 4,
@@ -81,6 +201,30 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_006_Emperor_Palpatine_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_006_Emperor_Palpatine_Leader_602d034208.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_006_Emperor_Palpatine_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_006_Emperor_Palpatine_Leader_Unit_6c5b96c7ef.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_006_Emperor_Palpatine_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_006_Emperor_Palpatine_Thumbnail_3090a45abe.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 8,
       "health": 10,
@@ -96,6 +240,30 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tomas Oleksak",
+          "front": {
+            "name": "SWH01_007_Grand_Moff_Tarkin_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_007_Grand_Moff_Tarkin_Leader_c48bb1fb15.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_007_Grand_Moff_Tarkin_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_007_Grand_Moff_Tarkin_Leader_Unit_59cd013a2d.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_007_Grand_Moff_Tarkin_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_007_Grand_Moff_Tarkin_Thumbnail_fc5e9ec63d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 7,
       "power": 2,
@@ -109,6 +277,30 @@
       "aspects": [
         "command",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_008_Hera_Syndulla_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_008_Hera_Syndulla_Leader_31a4e3f9cb.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_008_Hera_Syndulla_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_008_Hera_Syndulla_Leader_Unit_80df3928eb.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_008_Hera_Syndulla_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_008_Hera_Syndulla_Thumbnail_3a895c216f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 6,
@@ -124,6 +316,30 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_009_Leia_Organa_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_009_Leia_Organa_Leader_d6e0eccc71.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_009_Leia_Organa_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_009_Leia_Organa_Leader_Unit_87e8807695.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_009_Leia Organa_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_009_Leia_Organa_Thumbnail_ea4c19bab3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 6,
       "power": 3,
@@ -137,6 +353,30 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_010_Darth_Vader_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_010_Darth_Vader_Leader_2854ebf6ec.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_010_Darth_Vader_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_010_Darth_Vader_Leader_Unit_0ca1902a46.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_010_Darth_Vader_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_010_Darth_Vader_Thumbnail_577ced9f41.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 7,
       "health": 8,
@@ -152,6 +392,30 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_011_Grand_Inquisitor_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_011_Grand_Inquisitor_Leader_0a32464fea.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_011_Grand_Inquisitor_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_011_Grand_Inquisitor_Leader_Unit_6827598372.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_011_Grand_Inquisitor_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_011_Grand_Inquisitor_Thumbnail_92b3c4de9e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 3,
@@ -165,6 +429,30 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Hoan Nguyen",
+          "front": {
+            "name": "SWH01_012_IG-88_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_012_IG_88_Leader_7626adb7fd.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_012_IG-88_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_012_IG_88_Leader_Unit_fb475d4ea4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_012_IG-88_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_012_IG_88_Thumbnail_43eeadcad7.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 4,
@@ -180,6 +468,30 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mickael Balloul",
+          "front": {
+            "name": "SWH01_013_Cassian_Andor_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_013_Cassian_Andor_Leader_7c8ffa9fd1.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_013_Cassian_Andor_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_013_Cassian_Andor_Leader_Unit_3c60596a7a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_013_Cassian_Andor_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_013_Cassian_Andor_Thumbnail_8bc3a94c1b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -193,6 +505,30 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_014_Sabine_Wren_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_014_Sabine_Wren_Leader_9f5d2ca6b1.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_014_Sabine_Wren_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_014_Sabine_Wren_Leader_Unit_51e8757e4c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_014_Sabine_Wren_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_014_Sabine_Wren_Thumbnail_509d51b9bb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 5,
@@ -208,6 +544,30 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_015_Boba_Fett_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_015_Boba_Fett_Leader_86bd50de3a.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_015_Boba_Fett_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_015_Boba_Fett_Leader_Unit_0e65f012f5.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_015_Boba_Fett_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_015_Boba_Fett_Thumbnail_99a6e1fd94.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 7,
       "power": 4,
@@ -221,6 +581,30 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ivan Dedov",
+          "front": {
+            "name": "SWH01_016_Grand_Admiral_Thrawn_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_016_Grand_Admiral_Thrawn_Leader_42331c80f2.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_016_Grand_Admiral_Thrawn_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_016_Grand_Admiral_Thrawn_Leader_Unit_02199f9f1e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_016_Grand_Admiral_Thrawn_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_016_Grand_Admiral_Thrawn_Thumbnail_531937d242.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 9,
@@ -236,6 +620,30 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Nash",
+          "front": {
+            "name": "SWH01_017_Han_Solo_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_017_Han_Solo_Leader_97fbf52c61.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_017_Han_Solo_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_017_Hansolo_Leader_Unit_5e90bd91b0.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_017_Han_Solo_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_017_Han_Solo_Thumbnail_0d922f48af.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -250,6 +658,30 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_018_Jyn_Erso_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_018_Jyn_Erso_Leader_fa2fe074c7.png",
+            "width": 418,
+            "height": 300
+          },
+          "back": {
+            "name": "SWH01_018_Jyn_Erso_Leader_Unit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_018_Jyn_Erso_Leader_Unit_20f21b4948.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_018_Jyn_Erso_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_018_Jyn_Erso_Thumbnail_188715fed3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 7,
       "power": 4,
@@ -263,6 +695,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tyler Edlin",
+          "front": {
+            "name": "SWH01_019_Security_Complex_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_019_Security_Complex_Base_e27cea5c5f.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_019_Security_Complex_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_019_Security_Complex_Thumbnail_62ae9af486.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 25
     },
     {
@@ -272,6 +722,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "SebastiÃ¡n Guidobono",
+          "front": {
+            "name": "SWH01_020_CapitalCity_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_020_Capital_City_Base_4ab50bb7e0.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_020_Capital City_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_020_Capital_City_Thumbnail_db82d5306a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 30
     },
@@ -283,6 +751,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tyler Edlin",
+          "front": {
+            "name": "SWH01_021_DagobahSwamp_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_021_Dagobah_Swamp_Base_d416015b8b.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_021_Dagobah Swamp_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_021_Dagobah_Swamp_Thumbnail_59e4315e34.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 30
     },
     {
@@ -292,6 +778,24 @@
       "rarity": "rare",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Adrien Girod",
+          "front": {
+            "name": "SWH01_022_Energy_Conversion_Lab_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_022_Energy_Conversion_Lab_Base_7933f36b37.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_022_Energy_Conversion_Lab_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_022_Energy_Conversion_Lab_Thumbnail_236456f6f4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 25
     },
@@ -303,6 +807,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_023_Command_Center_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_023_Command_Center_Base_c455f9e940.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_023_Command_Center_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_023_Command_Center_Thumbnail_8a46d7dcf4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 30
     },
     {
@@ -312,6 +834,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_024_Echo_Base_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_024_Echobase_Base_0878ce5c65.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_024_Echo_Base_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_024_Echo_Base_Thumbnail_a3c7d60f6d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 30
     },
@@ -323,6 +863,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Adrien Girod",
+          "front": {
+            "name": "SWH01_025_Tarkintown_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_025_Tarkintown_Base_d70be70a40.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_025_Tarkintown_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_025_Tarkintown_Thumbnail_073f15e38f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 25
     },
     {
@@ -332,6 +890,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tyler Edlin",
+          "front": {
+            "name": "SWH01_026_Catacombs_Of_Cadera_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_026_Catacombs_Of_Cadera_Base_68cc6c16b0.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_026_Catacombs_of_Cadera_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_026_Catacombs_of_Cadera_Thumbnail_bcda5d865e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 30
     },
@@ -343,6 +919,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_027_KestroCity_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_027_Kestro_City_Base_1416658e9a.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_027_Kestro City_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_027_Kestro_City_Thumbnail_d8f00c9491.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 30
     },
     {
@@ -352,6 +946,24 @@
       "rarity": "rare",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "RocÃ­o EspÃ­n",
+          "front": {
+            "name": "SWH01_028_Jedha_City_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_028_Jedha_City_Base_ac20bd51d2.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_028_Jedha_City_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_028_Jedha_City_Thumbnail_212af04337.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 25
     },
@@ -363,6 +975,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tyler Edlin",
+          "front": {
+            "name": "SWH01_029_Administrators_Tower_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_029_Administrators_Tower_Base_7dac299254.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_029_Administrators_Tower_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_029_Administrator_s_Tower_Thumbnail_2bbe8ea753.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "health": 30
     },
     {
@@ -372,6 +1002,24 @@
       "rarity": "common",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tyler Edlin",
+          "front": {
+            "name": "SWH01_030_Chopper_Base_Base.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_030_Chopper_Base_Base_6ae28db083.png",
+            "width": 418,
+            "height": 300
+          },
+          "thumbnail": {
+            "name": "SWH01_030_Chopper_Base_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_030_Chopper_Base_Thumbnail_846b97a06c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "health": 30
     },
@@ -383,6 +1031,24 @@
       "aspects": [
         "vigilance",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Randall Mackey",
+          "front": {
+            "name": "SWH01_031_Inferno_Four.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_031_Inferno_Four_c5229e9c96.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_031_Inferno_Four_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_031_Inferno_Four_Thumbnail_a60b6d969f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -398,6 +1064,24 @@
         "villainy",
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mickael Balloul",
+          "front": {
+            "name": "SWH01_032_ScoutBikePunisher.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_032_Scout_Bike_Punisher_d4d83ad650.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_032_Scout Bike Pursuer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_032_Scout_Bike_Pursuer_Thumbnail_b1401202cf.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 4,
       "power": 1,
@@ -411,6 +1095,24 @@
       "aspects": [
         "vigilance",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_033_Death_Trooper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_033_Death_Trooper_7505586c94.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_033_Death_Trooper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_033_Death_Trooper_Thumbnail_434fb2a344.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -426,6 +1128,24 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_034_Del_Meeko.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_034_Del_Meeko_b5f3fa0f46.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_034_Del_Meeko_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_034_Del_Meeko_Thumbnail_20583987e1.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -439,6 +1159,24 @@
       "aspects": [
         "vigilance",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Yvette Chua",
+          "front": {
+            "name": "SWH01_035_Lieutenant_Childsen.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_035_Liutenant_Chilsen_080a3ccb73.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_035_Lieutenant_Childsen_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_035_Lieutenant_Childsen_Thumbnail_bb8eb643ec.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 2,
@@ -454,6 +1192,24 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_036_Gideon_Hask.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_036_Gideon_Hask_ba4c42082b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_036_Gideon_Hask_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_036_Gideon_Hask_Thumbnail_1fcc55be54.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 5,
       "power": 5,
@@ -467,6 +1223,24 @@
       "aspects": [
         "villainy",
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_037_Academy_Defense_Walker.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_037_Academy_Defense_Walker_4a93f3ed3b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_037_Academy_Defense_Walker_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_037_Academy_Defense_Walker_Thumbnail_2dedc98627.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 5,
@@ -482,6 +1256,24 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mona Finden",
+          "front": {
+            "name": "SWH01_038_Count_Dooku.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_038_Count_Dooku_ca0953bc50.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_038_Count_Dooku_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_038_Count_Dooku_Thumbnail_80699ab320.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7,
       "health": 4,
       "power": 5,
@@ -495,6 +1287,24 @@
       "aspects": [
         "vigilance",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_039_ATATSupressor.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_039_ATAT_Supressor_04eec30907.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_039_AT-AT Suppressor_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_039_AT_AT_Suppressor_Thumbnail_4dfe045114.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 8,
       "health": 8,
@@ -510,6 +1320,24 @@
         "villainy",
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_040_Avenger.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_040_Avenger_6096088795.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_040_Avenger_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_040_Avenger_Thumbnail_9237b23274.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 9,
       "health": 8,
       "power": 8,
@@ -524,6 +1352,24 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_041_Power_Of_The_Dark_Side.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_041_Power_Of_The_Dark_Side_79623c71c8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_041_Power_of_the_Dark_Side_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_041_Power_of_the_Dark_Side_Thumbnail_fb101ea692.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -534,6 +1380,24 @@
       "aspects": [
         "villainy",
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Nash",
+          "front": {
+            "name": "SWH01_042_Search_Your_Feelings.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_042_Search_Your_Feelings_ef8cca4456.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_042_Search_Your_Feelings_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_042_Search_Your_Feelings_Thumbnail_7c96c49f01.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4
     },
@@ -546,6 +1410,24 @@
         "vigilance",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Liana Anatolevich",
+          "front": {
+            "name": "SWH01_043_SuperlaserBlast.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_043_Superlaser_Blast_09e51a024d.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_043_Superlaser Blast_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_043_Superlaser_Blast_Thumbnail_7aace5c5b5.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8
     },
     {
@@ -556,6 +1438,24 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_044_Restored_ARC-170.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_044_Restored_ARC_170_ac04c34ea4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_044_Restored_ARC-170_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_044_Restored_ARC_170_Thumbnail_6bd3ac4ee4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -571,6 +1471,24 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Alexandria Huntington",
+          "front": {
+            "name": "SWH01_045_Yoda.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_045_Yoda_93e59381ba.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_045_Yoda_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_045_Yoda_Thumbnail_ade9f8e6d9.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -584,6 +1502,24 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Rebecca Farrow",
+          "front": {
+            "name": "SWH01_046_Consular_Security_Force.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_046_Consular_Security_Force_6543d9e686.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_046_Consular_Security_Force_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_046_Consular_Security_Force_Thumbnail_4a073639f2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 7,
@@ -599,6 +1535,24 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_047_Kanan_Jarrus.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_047_Kanan_Jarrus_36cc0aea8b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_047_Kanan_Jarrus_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_047_Kanan_Jarrus_Thumbnail_ceb8b43628.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 5,
       "power": 4,
@@ -612,6 +1566,24 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_048_Vigilant_Honor_Guards.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_048_Vigilant_Honor_Guards_b7ab09882a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_048_Vigilant_Honor_Guards_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_048_Vigilant_Honor_Guards_Thumbnail_9fd6ada77c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 6,
@@ -627,6 +1599,24 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_049_Obi_Wan_Kenobi.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_049_Obi_Wan_Kenobi_a167dcc2ea.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_049_Obi_Wan_Kenobi_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_049_Obi_Wan_Kenobi_Thumbnail_d54231b9fb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -640,6 +1630,24 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_050_The_Ghost.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_050_The_Ghost_7029a2e044.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_050_The_Ghost_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_050_The_Ghost_Thumbnail_d9c0ba6e24.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 5,
@@ -655,6 +1663,24 @@
         "heroism",
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eric Hibbeler",
+          "front": {
+            "name": "SWH01_051_Luke_Skywalker.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_051_Luke_Skywalker_04975ee125.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_051_Luke_Skywalker_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_051_Luke_Skywalker_Thumbnail_3ce4896e58.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7,
       "health": 7,
       "power": 6,
@@ -668,6 +1694,24 @@
       "aspects": [
         "vigilance",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_052_Redemption.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_052_Redemption_01f6e827d7.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_052_Redemption_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_052_Redemption_Thumbnail_d84bb3c555.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 8,
       "health": 9,
@@ -683,6 +1727,24 @@
         "heroism",
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_053_Lukes_Lightsaber.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_053_Lukes_Lightsaber_4267483ca6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_053_Lukes_Lightsaber_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_053_Luke_s_Lightsaber_Thumbnail_1df1bc875a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -693,6 +1755,24 @@
       "aspects": [
         "heroism",
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_054_JediLightsaber.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_054_Jedi_Lightsaber_f6c31f52a2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_054_Jedi Lightsaber_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_054_Jedi_Lightsaber_Thumbnail_77dade5cbb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -705,6 +1785,24 @@
         "vigilance",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Anny Maulina",
+          "front": {
+            "name": "SWH01_055_TheForceIsWithMe.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_055_The_Force_Is_With_Me_bde94ded40.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_055_The Force Is With Me_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_055_The_Force_Is_With_Me_Thumbnail_37d56faf61.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -714,6 +1812,24 @@
       "rarity": "rare",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_056_Bendu.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_056_Bendu_6e9cd1d87c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_056_Bendu_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_056_Bendu_Thumbnail_e4e569b515.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 7,
@@ -728,6 +1844,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Alex Accorsi",
+          "front": {
+            "name": "SWH01_057_Protector.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_057_Protector_2ef40152f5.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_057_Protector_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_057_Protector_Thumbnail_1a01a41ddf.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -738,6 +1872,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Cristina LaviÃ±a",
+          "front": {
+            "name": "SWH01_058_Vigilance.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_058_Vigilance_522eb820dd.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_058_Vigilance_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_058_Vigilance_Thumbnail_4b6d65d0fb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -747,6 +1899,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Hoan Nguyen",
+          "front": {
+            "name": "SWH01_059_2-1B_Surgical_Droid.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_059_21_B_Surgical_Droid_890820aa54.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_059_2-1B_Surgical_Droid_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_059_2_1_B_Surgical_Droid_Thumbnail_368d8f67c3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 3,
@@ -761,6 +1931,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_060_Distant_Patroller.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_060_Distant_Patroller_cca6fb353a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_060_Distant_Patroller_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_060_Distant_Patroller_Thumbnail_93d1e6bd2a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 1,
       "power": 2,
@@ -773,6 +1961,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Alexandria Huntington",
+          "front": {
+            "name": "SWH01_061_GuardianOfTheWhills.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_061_Guardian_Of_The_Whills_1f3ca9d6e7.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_061_Guardian of the Whills_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_061_Guardian_of_the_Whills_Thumbnail_fe7677304f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 2,
@@ -787,6 +1993,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Yvette Chua",
+          "front": {
+            "name": "SWH01_062_Regional_Governor.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_062_Regional_Governor_2a4d9c9ec9.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_062_Regional_Governor_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_062_Regional_Governor_Thumbnail_cddde478d1.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 4,
       "power": 1,
@@ -799,6 +2023,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tomas Oleksak",
+          "front": {
+            "name": "SWH01_063_Cloud_City_Wing_Guard.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_063_Cloud_City_Wing_Guard_ff2aa3a955.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_063_Cloud_City_Wing_Guard_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_063_Cloud_City_Wing_Guard_Thumbnail_ef89d05bf7.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 4,
@@ -813,6 +2055,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ash Pierce",
+          "front": {
+            "name": "SWH01_064_WildernessFighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_064_Wilderness_Fighter_6a4ed85811.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_064_Wilderness Fighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_064_Wilderness_Fighter_Thumbnail_c6116fd197.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -825,6 +2085,24 @@
       "rarity": "uncommon",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_065_BazeMalbus.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_065_Baze_Malbus_da639950e1.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_065_Baze Malbus_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_065_Baze_Malbus_Thumbnail_1f9b32bd67.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 5,
@@ -839,6 +2117,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_066_System_Patrol_Craft.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_066_System_Patrol_Craft_d9eed83dab.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_066_System_Patrol_Craft_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_066_System_Patrol_Craft_Thumbnail_8951ffacad.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -851,6 +2147,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Elena Skitalets",
+          "front": {
+            "name": "SWH01_067_Rugged_Survivors.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_067_Rugged_Survivors_f9ab35178a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_067_Rugged_Survivors_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_067_Rugged_Survivors_Thumbnail_e1e26894b3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 5,
@@ -865,6 +2179,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Thomas Wievegg",
+          "front": {
+            "name": "SWH01_068_CargoJuggernaut.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_068_Cargo_Juggernaut_a018dfb1c5.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_068_Cargo Juggernaut_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_068_Cargo_Juggernaut_Thumbnail_08b28bc2ee.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -878,6 +2210,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_069_Resilient.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_069_Resilient_fa2f9cf645.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_069_Resilient_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_069_Resilient_Thumbnail_8ecc68a3f4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -887,6 +2237,24 @@
       "rarity": "uncommon",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Liana Anatolevich",
+          "front": {
+            "name": "SWH01_070_Devotion.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_070_Devotion_4fcdd3e166.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_070_Devotion_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_070_Devotion_Thumbnail_94eeb5887c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -898,6 +2266,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_071_Electrostaff.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_071_Electrostaff_dbe28372b8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_071_Electrostaff_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_071_Electrostaff_Thumbnail_e3ca0d4c15.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -907,6 +2293,24 @@
       "rarity": "uncommon",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_072_Entrenched.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_072_Entrenched_d3a4629144.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_072_Entrenched_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_072_Entrenched_Thumbnail_4c6d1d03eb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -918,6 +2322,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_073_MomentOfPeace.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_073_Moment_Of_Peace_ddba7c56ea.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_073_Moment of Peace_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_073_Moment_of_Peace_Thumbnail_0b951bd835.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -927,6 +2349,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_074_Repair.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_074_Repair_4307220e6c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_074_Repair_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_074_Repair_Thumbnail_d5c513de2b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1
     },
@@ -938,6 +2378,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_075_It_Binds_All_Things.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_075_It_Binds_All_Things_5abf5d1ff3.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_075_It Binds_All_Things_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_075_It_Binds_All_Things_Thumbnail_93fb4d6c65.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -947,6 +2405,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kevin Libranda",
+          "front": {
+            "name": "SWH01_076_MakeAnOpening.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_076_Make_An_Opening_19ec93f7b2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_076_Make an Opening_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_076_Make_an_Opening_Thumbnail_ec18afc9cb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -958,6 +2434,24 @@
       "aspects": [
         "vigilance"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_077_Takedown.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_077_Takedown_61b30eae9b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_077_Takedown_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_077_Takedown_Thumbnail_03d70a1e17.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -967,6 +2461,24 @@
       "rarity": "common",
       "aspects": [
         "vigilance"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_078_Vanquish.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_078_Vanquish_ce5f5c8e38.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_078_Vanquish_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_078_Vanquish_Thumbnail_19a8c7c2fa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5
     },
@@ -978,6 +2490,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Denis Medri",
+          "front": {
+            "name": "SWH01_079_Admiral_Piett.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_079_Admiral_Piett_f8e83b47d8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_079_Admiral_Piett_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_079_Admiral_Piett_Thumbnail_0d23e91b98.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 4,
@@ -993,6 +2523,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eric Hibbeler",
+          "front": {
+            "name": "SWH01_080_General_Tagge.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_080_General_Tagge_ff768147c1.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_080_General_Tagge_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_080_General_Tagge_Thumbnail_9b8f385a1e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -1006,6 +2554,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_081_Seasoned_Shoretrooper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_081_Seasoned_Shoretrooper_1899d2dcf2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_081_Seasoned_Shoretrooper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_081_Seasoned_Shoretrooper_Thumbnail_253c1f261f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -1021,6 +2587,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_082_Emperors_Royal_Guard.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_082_Emperors_Royal_Guard_85a63df270.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_082_Emperors_Royal_Guard_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_082_Emperor_s_Royal_Guard_Thumbnail_e0ddbbb2fb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -1034,6 +2618,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Denis Medri",
+          "front": {
+            "name": "SWH01_083_Superlaser_Technician.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_083_Superlaser_Technician_c3564989cd.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_083_Superlaser_Technician_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_083_Superlaser_Technician_Thumbnail_db9ed8f030.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 1,
@@ -1049,6 +2651,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_084_Grand_Moff_Tarkin.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_084_Grand_Moff_Tarkin_dc42121c84.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_084_Grand_Moff_Tarkin_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_084_Grand_Moff_Tarkin_Thumbnail_e7cfe86389.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 3,
       "power": 2,
@@ -1062,6 +2682,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Elena Skitalets",
+          "front": {
+            "name": "SWH01_085_Rukh.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_085_Rukh_eab07260af.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_085_Rukh_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_085_Rukh_Thumbnail_30ec376689.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 6,
@@ -1077,6 +2715,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_086_Gladiator_Star_Destroyer.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_086_Gladiator_Star_Destroyer_ca172c68f4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_086_Gladiator_Star_Destroyer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_086_Gladiator_Star_Destroyer_Thumbnail_e81a4b8351.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 6,
       "power": 5,
@@ -1090,6 +2746,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ivan Dedov",
+          "front": {
+            "name": "SWH01_087_Darth_Vader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_087_Darth_Vader_9428962c5e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_087_Darth_Vader_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_087_Darth_Vader_Thumbnail_d3fe7a07a8.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 7,
       "health": 7,
@@ -1105,6 +2779,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_088_Blizzard_Assault_AT-AT.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_088_Blizzard_Assault_ATAT_603c53ec43.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_088_Blizzard_Assault_AT-AT_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_088_Blizzard_Assault_AT_AT_Thumbnail_d3c3a05bd0.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8,
       "health": 9,
       "power": 9,
@@ -1118,6 +2810,24 @@
       "aspects": [
         "command",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ross Taylor",
+          "front": {
+            "name": "SWH01_089_Relentless.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_089_Relentless_42a871350e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_089_Relentless_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_089_Relentless_Thumbnail_d7e6488003.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 9,
       "health": 8,
@@ -1133,6 +2843,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ignacio Bazan Lazcano",
+          "front": {
+            "name": "SWH01_090_Devastator.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_090_Devastator_c81abff726.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_090_Devastator_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_090_Devastator_Thumbnail_f129a78514.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 10,
       "health": 10,
       "power": 10,
@@ -1147,6 +2875,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_091_The_Emperors_Legion.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_091_The_Emperors_Legion_42a787f10f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_091_The Emperors_Legion_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_091_The_Emperor_s_Legion_Thumbnail_bf35c188dc.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -1158,6 +2904,24 @@
         "command",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_092_Overwhelming_Barrage.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_092_Overwhelming_Barrage_25875af3c4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_092_Overwhelming_Barrage_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_092_Overwhelming_Barrage_Thumbnail_abbbd4b4ad.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5
     },
     {
@@ -1168,6 +2932,24 @@
       "aspects": [
         "heroism",
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_093_AllianceDispatcher.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_093_Alliance_Dispatcher_fe21f2cebe.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_093_Alliance Dispatcher_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_093_Alliance_Dispatcher_Thumbnail_b4cb323d0a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 2,
@@ -1183,6 +2965,24 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_094_BailOrgana.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_094_Bail_Organa_4d401b0573.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_094_Bail Organa_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_094_Bail_Organa_Thumbnail_167dd43ee2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1,
       "health": 2,
       "power": 1,
@@ -1196,6 +2996,24 @@
       "aspects": [
         "command",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Buisan",
+          "front": {
+            "name": "SWH01_095_BattlefieldMarine.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_095_Battlefield_Marine_57f78e775c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_095_Battlefield Marine_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_095_Battlefield_Marine_Thumbnail_f399c00e8d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -1211,6 +3029,24 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eric Hibbeler",
+          "front": {
+            "name": "SWH01_096_MonMothma.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_096_Mon_Mothma_56adc6421e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_096_Mon Mothma_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_096_Mon_Mothma_Thumbnail_f4731509b3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -1224,6 +3060,24 @@
       "aspects": [
         "command",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_097_Admiral_Ackbar.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_097_Admiral_Ackbar_8882afe8ce.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_097_Admiral_Ackbar_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_097_Admiral_Ackbar_Thumbnail_6adf61bd92.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 4,
@@ -1239,6 +3093,24 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Thomas Wievegg",
+          "front": {
+            "name": "SWH01_098_EchoBaseDefender.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_098_Echo_Base_Defender_48430642d0.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_098_Echo Base Defender_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_098_Echo_Base_Defender_Thumbnail_7565972a61.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 3,
       "power": 4,
@@ -1252,6 +3124,24 @@
       "aspects": [
         "command",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Randall Mackey",
+          "front": {
+            "name": "SWH01_099_Bright_Hope.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_099_Bright_Hope_ae50787ef5.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_099_Bright_Hope_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_099_Bright_Hope_Thumbnail_3a3cd03e89.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 6,
@@ -1267,6 +3157,24 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_100_Wedge_Antilles.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_100_Wedge_Antilles_bf13e74641.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_100_Wedge_Antilles_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_100_Wedge_Antilles_Thumbnail_3751e2c3de.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 5,
       "power": 5,
@@ -1280,6 +3188,24 @@
       "aspects": [
         "command",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ross Taylor",
+          "front": {
+            "name": "SWH01_101_Rogue_Squadron_Skirmisher.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_101_Rogue_Squadron_Skirmisher_e5659ca239.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_101_Rogue_Squadron_Skirmisher_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_101_Rogue_Squadron_Skirmisher_Thumbnail_468c50a66d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 6,
@@ -1295,6 +3221,24 @@
         "command",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_102_Home_One.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_102_Home_One_98b715810f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_102_Home_One_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_102_Home_One_Thumbnail_79f2ab88eb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8,
       "health": 7,
       "power": 7,
@@ -1309,6 +3253,24 @@
         "heroism",
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_103_RebelAssault.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_103_Rebel_Assault_6cf559c9a4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_103_Rebel Assault_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_103_Rebel_Assault_Thumbnail_1ff4b7e49e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -1320,6 +3282,24 @@
         "heroism",
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_104_UWingReinforcement.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_104_U_Wing_Reinforcement_f153644979.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_104_U-Wing Reinforcement_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_104_U_Wing_Reinforcement_Thumbnail_4f507b123b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7
     },
     {
@@ -1329,6 +3309,24 @@
       "rarity": "rare",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_105_GeneralKrell.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_105_General_Krell_a069b8f8fa.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_105_General Krell_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_105_General_Krell_Thumbnail_f866f8918f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 4,
@@ -1343,6 +3341,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_106_AttackPatternDelta.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_106_Attack_Pattern_Delta_9984c8ea9a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_106_Attack Pattern Delta_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_106_Attack_Pattern_Delta_Thumbnail_59e22e954f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -1353,6 +3369,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Maxine Vee",
+          "front": {
+            "name": "SWH01_107_Command.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_107_Command_122a2a1778.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_107_Command_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_107_Command_Thumbnail_2335d47a22.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -1362,6 +3396,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_108_VanguardInfantry.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_108_Vanguard_Infantry_b205ba75eb.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_108_Vanguard Infantry_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_108_Vanguard_Infantry_Thumbnail_f5aa1ff18f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 2,
@@ -1376,6 +3428,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Buisan",
+          "front": {
+            "name": "SWH01_109_Colonel_Yularen.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_109_Colonel_Yularen_f2e0118329.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_109_Colonel_Yularen_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_109_Colonel_Yularen_Thumbnail_3cfc8c1403.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -1388,6 +3458,24 @@
       "rarity": "rare",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_110_FrontlineShuttle.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_110_Frontline_Shuttle_c59574d2cf.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_110_Frontline Shuttle_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_110_Frontline_Shuttle_Thumbnail_a2dc56ee59.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -1402,6 +3490,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_111_Patrolling_V-Wing.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_111_Patrolling_V_Wing_3a3a53da96.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_111_Patrolling_V-Wing_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_111_Patrolling_V_Wing_Thumbnail_2054307b4e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -1414,6 +3520,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_112_Consortium_Star_Viper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_112_Consortium_Star_Viper_2195622c64.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_112_Consortium_StarViper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_112_Consortium_Star_Viper_Thumbnail_e7342eaf99.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -1428,6 +3552,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_113_Homestead_Militia.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_113_Homestead_Militia_cc7d656a70.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_113_Homestead_Militia_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_113_Homestead_Militia_Thumbnail_07e4081902.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -1440,6 +3582,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mickael Balloul",
+          "front": {
+            "name": "SWH01_114_EscortSkiff.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_114_Escort_Skiff_3b80c2783f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_114_Escort Skiff_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_114_Escort_Skiff_Thumbnail_ff09cf78f4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 4,
@@ -1454,6 +3614,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Omercan Cirit",
+          "front": {
+            "name": "SWH01_115_Agent_Kallus.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_115_Agent_Kallus_36c692851c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_115_Agent_Kallus_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_115_Agent_Kallus_Thumbnail_28a6a00a84.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 4,
       "power": 4,
@@ -1466,6 +3644,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kevin Libranda",
+          "front": {
+            "name": "SWH01_116_SteadfastBattalion.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_116_Steadfast_Battalion_ec03fae55f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_116_Steadfast Battalion_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_116_Steadfast_Battalion_Thumbnail_dabc9469ee.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 5,
@@ -1480,6 +3676,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Elena Skitalets",
+          "front": {
+            "name": "SWH01_117_MercenaryCompany.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_117_Mercenary_Company_a80a97ec0e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_117_Mercenary Company_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_117_Mercenary_Company_Thumbnail_563ee289cb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 5,
       "power": 5,
@@ -1492,6 +3706,24 @@
       "rarity": "uncommon",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_118_97th_Legion.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_118_97th_Legion_bc9c6ec4e2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_118_97th_Legion_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_118_97th_Legion_Thumbnail_59e6b634aa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 7,
       "health": 0,
@@ -1506,6 +3738,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_119_Reinforcement_Walker.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_119_Reinforcement_Walker_39f6c799de.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_119_Reinforcement_Walker_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_119_Reinforcement_Walker_Thumbnail_e9a31ba584.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8,
       "health": 9,
       "power": 6,
@@ -1519,6 +3769,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Buisan",
+          "front": {
+            "name": "SWH01_120_AcademyTraining.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_120_Academy_Training_8e39c1fc2e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_120_Academy Training_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_120_Academy_Training_Thumbnail_3e183145b5.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -1528,6 +3796,24 @@
       "rarity": "uncommon",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_121_Hardpoint_Heavy_Blaster.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_121_Hardpoint_Heavy_Blaster_a2e73fbba0.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_121_Hardpoint_Heavy_Blaster_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_121_Hardpoint_Heavy_Blaster_Thumbnail_96570c23ee.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -1539,6 +3825,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Gretel Lusky",
+          "front": {
+            "name": "SWH01_122_Traitorous.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_122_Traitorous_a95670f273.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_122_Traitorous_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_122_Traitorous_Thumbnail_ebb0ac52ff.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5
     },
     {
@@ -1548,6 +3852,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_123_Recruit.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_123_Recruit_fb2e998b39.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_123_Recruit_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_123_Recruit_Thumbnail_60acd7558e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1
     },
@@ -1559,6 +3881,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_124_Tactical_Advantage.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_124_Tactical_Advantage_dc518d12d9.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_124_Tactical_Advantage_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_124_Tactical_Advantage_Thumbnail_bdafaa3ed4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -1568,6 +3908,24 @@
       "rarity": "uncommon",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_125_Prepare_For_Takeoff.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_125_Prepare_For_Takeoff_d643ffe52b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_125_Prepare_for_Takeoff_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_125_Prepare_for_Takeoff_Thumbnail_b47e6c9b0d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -1579,6 +3937,24 @@
       "aspects": [
         "command"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Robynn Frauhn",
+          "front": {
+            "name": "SWH01_126_Resupply.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_126_Resupply_5da424d70f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_126_Resupply_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_126_Resupply_Thumbnail_6ec32b4bcb.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -1588,6 +3964,24 @@
       "rarity": "common",
       "aspects": [
         "command"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Audrey Hotte",
+          "front": {
+            "name": "SWH01_127_StrikeTrue.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_127_Strike_True_6f0d15fd8b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_127_Strike True_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_127_Strike_True_Thumbnail_41677c814c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -1599,6 +3993,24 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_128_Death_Star_Stormtrooper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_128_Death_Star_Stormtrooper_5bf4e0a2bc.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_128_Death_Star_Stormtrooper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_128_Death_Star_Stormtrooper_Thumbnail_6d5d5bff29.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 1,
@@ -1614,6 +4026,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Yvette Chua",
+          "front": {
+            "name": "SWH01_129_Admiral_Ozzel.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_129_Admiral_Ozzel_9f86355d3f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_129_Admiral Ozzel_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_129_Admiral_Ozzel_Thumbnail_6d5d8f1c07.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -1627,6 +4057,24 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_130_First_Legion_Snowtrooper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_130_First_Legion_Snowtrooper_d75cd2eb7a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_130_First_Legion_Snowtrooper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_130_First_Legion_Snowtrooper_Thumbnail_a317d21ad0.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -1642,6 +4090,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_131_FifthBrother.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_131_Fifth_Brother_a3f3956b2e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_131_Fifth Brother_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_131_Fifth_Brother_Thumbnail_3d43b50af1.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -1655,6 +4121,24 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_132_Imperial_Interceptor.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_132_Imperial_Interceptor_5f1cdce534.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_132_Imperial_Interceptor_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_132_Imperial_Interceptor_Thumbnail_0f9a4b7132.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 2,
@@ -1670,6 +4154,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Lenka Å imeÄkovÃ¡",
+          "front": {
+            "name": "SWH01_133_SeventhSister.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_133_Seventh_Sister_939ade1f02.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_133_Seventh Sister_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_133_Seventh_Sister_Thumbnail_6abcc360dc.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 6,
       "power": 3,
@@ -1683,6 +4185,24 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_134_Ruthless_Raider.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_134_Ruthless_Raider_dde5cd9caf.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_134_Ruthless_Raider_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_134_Ruthless_Raider_Thumbnail_9903ed5d09.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 6,
@@ -1698,6 +4218,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Dider Nguyen",
+          "front": {
+            "name": "SWH01_135_Emperor_Palpatine.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_135_Emperor_Palpatine_4a0519e02f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_135_Emperor_Palpatine_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_135_Emperor_Palpatine_Thumbnail_2a3372d2d2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8,
       "health": 6,
       "power": 6,
@@ -1712,6 +4250,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_136_Vaders_Lightsaber.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_136_Vaders_Lightsaber_68a2f8ece6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_136_Vaderâs_Lightsaber_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_136_Vader_s_Lightsaber_Thumbnail_42735c72fc.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -1722,6 +4278,24 @@
       "aspects": [
         "aggression",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Milos Slavkovic",
+          "front": {
+            "name": "SWH01_137_Fallen_Lightsaber.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_137_Fallen_Lightsaber_64ca62f967.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_137_Fallen_Lightsaber_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_137_Fallen_Lightsaber_Thumbnail_e97c29f141.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -1734,6 +4308,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_138_ForceLightning.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_138_Force_Lightning_9b313a51da.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_138_Force Lightning_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_138_Force_Lightning_Thumbnail_d78ec418da.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -1745,6 +4337,24 @@
         "aggression",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stefano Landini",
+          "front": {
+            "name": "SWH01_139_Force_Choke.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_139_Force_Choke_257201b643.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_139_Force_Choke_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_139_Force_Choke_Thumbnail_1c98141784.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -1755,6 +4365,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Didier Nguyen",
+          "front": {
+            "name": "SWH01_140_SpecForceSoldier.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_140_Spec_Force_Soldier_89ff6a8e9b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_140_SpecForce Soldier_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_140_Spec_Force_Soldier_Thumbnail_f2b83c1316.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 2,
@@ -1770,6 +4398,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_141_Green_Squadron_A-Wing.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_141_Green_Squadron_A_Wing_eabe5f2b9d.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_141_Green_Squadron_A-Wing_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_141_Green_Squadron_A_Wing_Thumbnail_3c0e0f7f98.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -1783,6 +4429,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Rebecca Farrow",
+          "front": {
+            "name": "SWH01_142_Sabine_Wren.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_142_Sabine_Wren_995ee38895.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_142_Sabine Wren_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_142_Sabine_Wren_Thumbnail_c0123573f3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -1798,6 +4462,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Yvette Chua",
+          "front": {
+            "name": "SWH01_143_Fighters_For_Freedom.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_143_Fighters_For_Freedom_f4bad9778e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_143_Fighters_For_Freedom_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_143_Fighters_For_Freedom_Thumbnail_a0d69cc2e4.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -1811,6 +4493,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_144_Red_Three.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_143_Red_Three_2e17ca688b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_144_Red_Three_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_144_Red_Three_Thumbnail_add3632b2a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -1826,6 +4526,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ross Taylor",
+          "front": {
+            "name": "SWH01_145_K-2SO.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_145_K2_S0_8e6236d7e8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_145_K-2SO_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_145_K_2_SO_Thumbnail_91c061b075.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 4,
       "power": 4,
@@ -1839,6 +4557,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Aitor Prieto",
+          "front": {
+            "name": "SWH01_146_Zeb_Orrelios.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_146_Zeb_Orrelios_1b3869647c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_146_Zeb_Orrelios_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_146_Zeb_Orrelios_Thumbnail_05bd4841b6.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 5,
@@ -1854,6 +4590,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_147_Black_One.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_147_Black_One_f539d8bc9f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_147_Black_One_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_147_Black_One_Thumbnail_3a895cfa9f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 4,
       "power": 4,
@@ -1867,6 +4621,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_148_GuerillaAttackPod.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_148_Guerilla_Attack_Pod_551b329d28.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_148_Guerilla Attack Pod_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_148_Guerilla_Attack_Pod_Thumbnail_5a1fe03c5a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 6,
@@ -1882,6 +4654,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_149_Mace_Windu.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_149_Mace_Windu_a670a01a3f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_149_Mace_Windu_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_149_Mace_Windu_Thumbnail_3b2f774621.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7,
       "health": 7,
       "power": 5,
@@ -1896,6 +4686,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_150_Heroic_Sacrifice.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_150_Heroic_Sacrifice_e4c646edbb.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_150_Heroic_Sacrifice_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_150_Heroic_Sacrifice_Thumbnail_f39e6e7585.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -1906,6 +4714,24 @@
       "aspects": [
         "aggression",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_151_Karabast.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_151_Karabast_754625da12.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_151_Karabast_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_151_Karabast_Thumbnail_347c65725d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -1918,6 +4744,24 @@
         "aggression",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eric Hibbeler",
+          "front": {
+            "name": "SWH01_152_For_A_Cause_I_Believe_In.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_152_For_A_Cause_I_Believe_In_f234f48322.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_152_For_a_Cause_I_Believe_In_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_152_For_a_Cause_I_Believe_In_Thumbnail_2ecc6e8821.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -1927,6 +4771,24 @@
       "rarity": "rare",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Buisan",
+          "front": {
+            "name": "SWH01_153_SawGerrera.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_153_Saw_Gerrera_7a3f0b31f7.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_153_Saw Gerrera_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_153_Saw_Gerrera_Thumbnail_b3e309c6aa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 4,
@@ -1941,6 +4803,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_154_RallyingCry.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_154_Rallying_Cry_7d8a1c2db5.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_154_Rallying Cry_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_154_Rallying_Cry_Thumbnail_7f8eda803a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -1951,6 +4831,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_155_Aggression.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_155_Aggression_5849eaf280.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_155_Aggression_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_155_Aggression_Thumbnail_d97001177d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -1960,6 +4858,24 @@
       "rarity": "uncommon",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Omercan Cirit",
+          "front": {
+            "name": "SWH01_156_Benthic_Two_Tubes.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_156_Benthic_Two_Tubes_f1969dcb25.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_156_Benthic_Two_Tubes_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_156_Benthic_Two_Tubes_276fc85c18.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 2,
@@ -1974,6 +4890,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_157_Cantina_Braggart.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_157_Cantina_Braggart_f4544557b8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_157_Cantina_Braggart_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_157_Cantina_Braggart_Thumbnail_32bc4d53f2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1,
       "health": 3,
       "power": 0,
@@ -1986,6 +4920,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Hoan Nguyen",
+          "front": {
+            "name": "SWH01_158_JeddhaAgitator.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_158_Jeddha_Agitator_f896f597f2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_158_Jedha Agitator_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_158_Jedha_Agitator_Thumbnail_2b2701c967.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 1,
@@ -2000,6 +4952,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_159_Partisan_Insurgent.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_159_Partisan_Insurgent_b83fde9127.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_159_Partisan_Insurgent_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_159_Partisan_Insurgent_Thumbnail_01e31ff630.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 4,
       "power": 1,
@@ -2012,6 +4982,24 @@
       "rarity": "rare",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Elena Skitalets",
+          "front": {
+            "name": "SWH01_160_Wolffe.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_160_Wolffe_cc05de4569.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_160_Wolffe_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_160_Wolffe_Thumbnail_9430da96b5.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 2,
@@ -2026,6 +5014,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_161_Ardent_Sympathizer.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_161_Ardent_Sympathizer_9d04b27f69.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_161_Ardent_Sympathizer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_161_Ardent_Sympathizer_Thumbnail_12eb0b4d30.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -2038,6 +5044,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_162_Disabling_Fang_Fighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_162_Disabling_Fang_Fighter_4cb5da9da3.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_162_Disabling_Fang_Fighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_162_Disabling_Fang_Fighter_Thumbnail_a782e1366f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 2,
@@ -2052,6 +5076,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_163_Star_Wing_Scout.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_163_Star_Wing_Scout_002018b805.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_163_Star_Wing_Scout_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_163_Star_Wing_Scout_Thumbnail_fa0c33bf49.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 1,
       "power": 4,
@@ -2064,6 +5106,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_164_Wampa.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_164_Wampa_3890f373aa.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_164_Wampa_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_164_Wampa_Thumbnail_9af9de3196.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 5,
@@ -2078,6 +5138,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_165_OccupierSiegeTank.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_165_Occupier_Siege_Tank_1321456822.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_165_Occupier Siege Tank_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_165_Occupier_Siege_Tank_Thumbnail_5712bbfe31.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 4,
       "power": 5,
@@ -2091,6 +5169,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_166_Infiltrators_Skill.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_166_Infiltrators_Skill_51a7fc5d9b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_166_Infiltrators_Skill_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_166_Infiltrator_s_Skill_Thumbnail_4b2022faaa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -2100,6 +5196,24 @@
       "rarity": "uncommon",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Elena Skitalets",
+          "front": {
+            "name": "SWH01_167_Force_Throw.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_167_Force_Throw_dc5ebf0218.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_167_Force_Throw_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_167_Force_Throw_Thumbnail_efd702d541.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1
     },
@@ -2111,6 +5225,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ash Pierce",
+          "front": {
+            "name": "SWH01_168_Precision_Fire.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_168_Precision_Fire_1f0d428f19.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_168_Precision Fire_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_168_Precision_Fire_Thumbnail_1ff3d37427.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -2120,6 +5252,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_169_Keep_Fighting.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_169_Keep_Fighting_6a5cc36ed4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_169_Keep_Fighting_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_169_Keep_Fighting_Thumbnail_675112fb0f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -2131,6 +5281,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Marc Escachx",
+          "front": {
+            "name": "SWH01_170_PowerFailure.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_170_Power_Failure_724950e0c3.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_170_Power Failure_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_170_Power_Failure_Thumbnail_f6585550bd.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2140,6 +5308,24 @@
       "rarity": "common",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kyle Petchock",
+          "front": {
+            "name": "SWH01_171_Mission_Briefing.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_171_Mission_Briefing_99591d1560.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_171_Mission_Briefing_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_171_Mission_Briefing_Thumbnail_48e495fd7b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -2151,6 +5337,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_172_Open_Fire.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_172_Open_Fire_e69912844c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_172_Open_Fire_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_172_Open_Fire_Thumbnail_fc85c2ab6c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -2160,6 +5364,24 @@
       "rarity": "rare",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kyle Petchock",
+          "front": {
+            "name": "SWH01_173_BombingRun.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_173_Bombing_Run_bdc698f9ae.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_173_Bombing Run_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_173_Bombing_Run_Thumbnail_f918f0876c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5
     },
@@ -2171,6 +5393,24 @@
       "aspects": [
         "aggression"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stefano Landini",
+          "front": {
+            "name": "SWH01_174_SmokeAndCinders.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_174_Smoke_And_Cinders_bcec5a296c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_174_Smoke and Cinders_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_174_Smoke_and_Cinders_Thumbnail_b83fc22f76.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5
     },
     {
@@ -2180,6 +5420,24 @@
       "rarity": "uncommon",
       "aspects": [
         "aggression"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_175_ForcedSurrender.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_175_Forced_Surrender_5f674561a0.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_175_Forced Surrender_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_175_Forced_Surrender_Thumbnail_81a3701922.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6
     },
@@ -2191,6 +5449,24 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Yvette Chua",
+          "front": {
+            "name": "SWH01_176_ISB_Agent.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_176_ISB_Agent_e5452d3065.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_176_ISB_Agent_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_176_ISB_Agent_Thumbnail_0570532026.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 3,
@@ -2206,6 +5482,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_177_BibFortuna.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_177_Bib_Fortuna_a5a1c03260.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_177_Bib Fortuna_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_177_Bib_Fortuna_Thumbnail_793e6b03e5.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -2219,6 +5513,24 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_178_CartelSpacer.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_178_Cartel_Spacer_cecc964b71.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_178_Cartel Spacer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_178_Cartel_Spacer_Thumbnail_0428e36e93.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -2234,6 +5546,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_179_Boba_Fett.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_179_Boba_Fett_9c9eed5611.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_179_Boba_Fett_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_179_Boba_Fett_Thumbnail_3a134ff87d.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 5,
       "power": 3,
@@ -2247,6 +5577,24 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_180_Seventh_Fleet_Defender.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_180_Seventh_Fleet_Defender_2bf98d81f8.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_180_Seventh_Fleet_Defender_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_180_Seventh_Fleet_Defender_Thumbnail_c0347d91db.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 2,
@@ -2262,6 +5610,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "David Nash",
+          "front": {
+            "name": "SWH01_181_JabbaTheHutt.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_181_Jabba_The_Hutt_4a28d3748a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_181_Jabba the Hutt_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_181_Jabba_the_Hutt_Thumbnail_d9b3d78432.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 8,
       "power": 2,
@@ -2275,6 +5641,24 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stefano Landini",
+          "front": {
+            "name": "SWH01_182_Bossk.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_182_Bossk_2633bd7731.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_182_Bossk_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_182_Bossk_Thumbnail_07109dd2bd.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 5,
@@ -2290,6 +5674,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_183_BountyHunterCrew.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_183_Bounty_Hunter_Crew_8704bb6c4c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_183_Bounty Hunter Crew_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_183_Bounty_Hunter_Crew_Thumbnail_1413c82439.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 4,
       "power": 4,
@@ -2303,6 +5705,24 @@
       "aspects": [
         "cunning",
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AndrÃ© Mealha",
+          "front": {
+            "name": "SWH01_184_Fetts_Firespray.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_184_Fetts_Firespray_44132b56bb.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_184_Fetts_Firespray_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_184_Fett_s_Firespray_Thumbnail_32664b575a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 6,
       "health": 6,
@@ -2318,6 +5738,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_185_Chimaera.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_185_Chimaera_4af32aee78.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_185_Chimaera_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_185_Chimaera_Thumbnail_485c31229b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 8,
       "health": 7,
       "power": 8,
@@ -2332,6 +5770,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Denis Medri",
+          "front": {
+            "name": "SWH01_186_No_Good_To_Me_Dead.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_186_No_Good_To_Me_Dead_a4460900c1.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_186_No_Good_to_Me_Dead_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_186_No_Good_to_Me_Dead_Thumbnail_bc3db4dce8.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2343,6 +5799,24 @@
         "cunning",
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_187_IHadNoChoice.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_187_I_Had_No_Choice_a366b7cd1c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_187_I Had No Choice_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_187_I_Had_No_Choice_Thumbnail_c75fed73bf.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7
     },
     {
@@ -2353,6 +5827,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Arthur Mougne",
+          "front": {
+            "name": "SWH01_188_Chopper.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_188_Chopper_a0da9faeb3.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_188_Chopper_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_188_Chopper_Thumbnail_1fdf8151e2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 3,
@@ -2368,6 +5860,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Robynn Frauhn",
+          "front": {
+            "name": "SWH01_189_Leia_Organa.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_189_Leia_Organa_e20b52b08f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_189_Leia_Organa_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_189_Leia_Organa_Thumbnail_570772c706.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -2381,6 +5891,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kevin Libranda",
+          "front": {
+            "name": "SWH01_190_Lothal_Insurgent.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_190_Lothal_Insurgent_2e45ed14e6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_190_Lothal_Insurgent_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_190_Lothal_Insurgent_Thumbnail_54fbed02a3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 2,
@@ -2396,6 +5924,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AndrÃ© Mealha",
+          "front": {
+            "name": "SWH01_191_Vanguard_Ace.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_191_Vanguard_Ace_026fca1a49.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_191_Vanguard_Ace_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_191_Vanguard_Ace_Thumbnail_a093703526.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -2409,6 +5955,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_192_Ezra_Bridger.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_192_Ezra_Bridger_077a7ef3e2.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_192_Ezra_Bridger_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_192_Ezra_Bridger_Thumbnail_592d116ea5.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 4,
@@ -2424,6 +5988,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_193_Millennium_Falcon.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_193_Millennium_Falcon_06698f1d2c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_193_Millennium Falcon_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_193_Millennium_Falcon_Thumbnail_39e68a240a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -2437,6 +6019,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_194_Rogue_Operative.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_194_Rogue_Operative_a7c093aaee.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_194_Rogue_Operative_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_194_Rogue_Operative_Thumbnail_a689a9f4f9.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 4,
@@ -2452,6 +6052,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mark Zhang",
+          "front": {
+            "name": "SWH01_195_Auzituck_Liberator_Gunship.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_195_Auzituck_Liberator_Gunship_b49766ca42.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_195_Auzituck_Liberator_Gunship_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_195_Auzituck_Liberator_Gunship_Thumbnail_86b18ac4d1.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -2465,6 +6083,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Luke Harrington",
+          "front": {
+            "name": "SWH01_196_Chewbacca.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_196_Chewbacca_6599ca8457.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_196_Chewbacca_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_196_Chewbacca_Thumbnail_cddd04c3f9.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 6,
@@ -2480,6 +6116,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Audrey Hotte",
+          "front": {
+            "name": "SWH01_197_Lando_Calrissian.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_197_Lando_Calrissian_9ac350bf70.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_197_Lando Calrissian_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_197_Lando_Calrissian_Thumbnail_e0f3f6d71f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 5,
       "power": 6,
@@ -2493,6 +6147,24 @@
       "aspects": [
         "cunning",
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_198_Han_Solo.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_198_Han_Solo_d085629c6c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_198_Han Solo_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_198_Han_Solo_Thumbnail_ee004615f3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 7,
       "health": 6,
@@ -2508,6 +6180,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_199_Bamboozle.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_199_Bamboozle_21fb187545.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_199_Bamboozle_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_199_Bamboozle_Thumbnail_41bc4b7142.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2519,6 +6209,24 @@
         "cunning",
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kevin Libranda",
+          "front": {
+            "name": "SWH01_200_Spark_Of_Rebellion.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_200_Spark_Of_Rebellion_2a64e7a09c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_200_Spark_of_Rebellion_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_200_Spark_of_Rebellion_Thumbnail_5a2d27f989.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2528,6 +6236,24 @@
       "rarity": "rare",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_201_Bodhi_Rook.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_201_Bodhi_Rook_58ed4f8a69.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_201_Bodhi_Rook_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_201_Bodhi_Rook_Thumbnail_d1aac607be.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -2542,6 +6268,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "James Daly",
+          "front": {
+            "name": "SWH01_202_CantinaBouncer.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_202_Cantina_Bouncer_eaf6a61193.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_202_Cantina Bouncer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_202_Cantina_Bouncer_Thumbnail_3f523dfcac.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 5,
       "power": 3,
@@ -2555,6 +6299,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Sandra ChlewiÅska",
+          "front": {
+            "name": "SWH01_203_Cunning.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_203_Cunning_d4280baf43.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_203_Cunning_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_203_Cunning_Thumbnail_6a65a3d2a8.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4
     },
     {
@@ -2564,6 +6326,24 @@
       "rarity": "uncommon",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Aitor Prieto",
+          "front": {
+            "name": "SWH01_204_Greedo.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_204_Greedo_8650a17d31.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_204_Greedo_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_204_Greedo_Thumbnail_9bba35f84c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 1,
@@ -2578,6 +6358,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Cristina LaviÃ±a",
+          "front": {
+            "name": "SWH01_205_JawaScavenger.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_205_Jawa_Scavenger_bf9055b2fd.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_205_Jawa Scavenger_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_205_Jawa_Scavenger_Thumbnail_28b5c8a852.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1,
       "health": 1,
       "power": 2,
@@ -2590,6 +6388,24 @@
       "rarity": "common",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AndrÃ© Mealha",
+          "front": {
+            "name": "SWH01_206_Mining_Guild_TIE_Fighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_206_Mining_Guild_TIE_Fighter_fb27c1293e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_206_Mining_Guild_TIE_Fighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_206_Mining_Guild_TIE_Fighter_Thumbnail_8739968896.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 2,
@@ -2604,6 +6420,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_207_Crafty_Smuggler.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_207_Crafty_Smuggler_813c6f291f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_207_Crafty_Smuggler_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_207_Crafty_Smuggler_Thumbnail_c938f2120e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -2616,6 +6450,24 @@
       "rarity": "common",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Christian Papazoglakis",
+          "front": {
+            "name": "SWH01_208_Outer_Rim_Headhunter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_208_Outer_Rim_Headhunter_938e9320bc.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_208_Outer_Rim_Headhunter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_208_Outer_Rim_Headhunter_Thumbnail_ef285f2e12.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 3,
@@ -2630,6 +6482,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_209_Pirated_Starfighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_209_Pirated_Starfighter_33be875b1f.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_209_Pirated_Starfighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_209_Pirated_Starfighter_Thumbnail_85f69f630b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 4,
       "power": 2,
@@ -2642,6 +6512,24 @@
       "rarity": "common",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AndrÃ© Mealha",
+          "front": {
+            "name": "SWH01_210_SwoopRacer.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_210_Swoop_Racer_be0dd7171e.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_210_Swoop Racer_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_210_Swoop_Racer_Thumbnail_977698e877.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -2656,6 +6544,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Mickael Balloul",
+          "front": {
+            "name": "SWH01_211_GamorreanGuards.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_211_Gamorrean_Guards_5c01711f83.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_211_Gamorrean Guards_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_211_Gamorrean_Guards_Thumbnail_da5f0e1705.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 4,
       "power": 4,
@@ -2668,6 +6574,24 @@
       "rarity": "rare",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_212_StrafingGunship.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_212_Strafing_Gunship_f816ff4f90.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_212_Strafing Gunship_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_212_Strafing_Gunship_Thumbnail_7fb8542887.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 4,
@@ -2682,6 +6606,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Aitor Prieto",
+          "front": {
+            "name": "SWH01_213_Syndicate_Lackeys.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_213_Syndicate_Lackeys_89779ec675.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_213_Syndicate Lackeys_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_213_Syndicate_Lackeys_Thumbnail_6b0744bf2a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 4,
       "power": 5,
@@ -2695,6 +6637,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_214_SmugglingCompartment.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_214_Smuggling_Compartment_af5217ef68.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_214_Smuggling_Compartment_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_214_Smuggling_Compartment_Thumbnail_3150ea97e3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -2704,6 +6664,24 @@
       "rarity": "common",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_215_Snapshot_Reflexes.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_215_Snapshot_Reflexes_fa4a7864c6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_215_Snapshot_Reflexes_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_215_Snapshot_Reflexes_Thumbnail_e869a2a2fa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1
     },
@@ -2715,6 +6693,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_216_Disarm.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_216_Disarm_39c9e618e7.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_216_Disarm_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_216_Disarm_Thumbnail_6bf6c19a4a.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -2724,6 +6720,24 @@
       "rarity": "uncommon",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_217_Shoot_First.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_217_Shoot_First_e46216b8dd.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_217_Shoot_First_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_217_Shoot_First_Thumbnail_97260b690f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1
     },
@@ -2735,6 +6749,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Rebecca Farrow",
+          "front": {
+            "name": "SWH01_218_Asteroid_Sanctuary.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_218_Asteroid_Sanctuary_bf0ad4d7a6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_218_Asteroid_Sanctuary_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_218_Asteroid_Sanctuary_Thumbnail_e3d4ad98a9.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2744,6 +6776,24 @@
       "rarity": "rare",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_219_Sneak_Attack.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_219_Sneak_Attack_38789b63f1.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_219_Sneak_Attack_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_219_Sneak_Attack_Thumbnail_110d51fe90.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2
     },
@@ -2755,6 +6805,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_220_Surprise_Strike.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_220_Surprise_Strike_7cc3a7022a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_220_Surprise_Strike_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_220_Surprise_Strike_Thumbnail_99d76272df.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2
     },
     {
@@ -2764,6 +6832,24 @@
       "rarity": "uncommon",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Leonardo Giammichele",
+          "front": {
+            "name": "SWH01_221_Outmaneuver.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_221_Outmaneuver_b33024914c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_221_Outmaneuver_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_221_Outmaneuver_Thumbnail_8c2ee77216.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3
     },
@@ -2775,6 +6861,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AmÃ©lie Hutt",
+          "front": {
+            "name": "SWH01_222_Waylay.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_222_Waylay_cccabd353c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_222_Waylay_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_222_Waylay_Thumbnail_6138afbd9c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -2784,6 +6888,24 @@
       "rarity": "rare",
       "aspects": [
         "cunning"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Borja Pindado",
+          "front": {
+            "name": "SWH01_223_Dont_Get_Cocky.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_223_Dont_Get_Cocky_628dd78a82.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_223_Dont_Get_Cocky_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_223_Don_t_Get_Cocky_Thumbnail_115ac548dd.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4
     },
@@ -2795,6 +6917,24 @@
       "aspects": [
         "cunning"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Kevin Libranda",
+          "front": {
+            "name": "SWH01_224_Change_Of_Heart.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_224_Change_Of_Heart_adee9f8153.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_224_Change_of_Heart_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_224_Change_of_Heart_Thumbnail_db59e5dce9.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6
     },
     {
@@ -2804,6 +6944,24 @@
       "rarity": "common",
       "aspects": [
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_Card 225_TIE_ln_Fighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_Card_225_TI_Eln_Fighter_379343b95d.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_225_TIE_ln_Fighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_225_TIE_ln_Fighter_Thumbnail_676208f57c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 1,
@@ -2818,6 +6976,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Tomas Oleksak",
+          "front": {
+            "name": "SWH01_226_Admiral_Motti.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_226_Admiral_Motti_ac552a5f4a.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_226_Admiral_Motti_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_226_Admiral_Motti_Thumbnail_2a6d0ea4f2.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -2830,6 +7006,24 @@
       "rarity": "common",
       "aspects": [
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Erik Ly",
+          "front": {
+            "name": "SWH01_227_Snowtrooper_Lieutenant.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_227_Snowtrooper_Lieutenant_85680a8a33.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_227_Snowtrooper_Lieutenant_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_227_Snowtrooper_Lieutenant_Thumbnail_c22915e055.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 2,
@@ -2844,6 +7038,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Amad Mir",
+          "front": {
+            "name": "SWH01_228_Viper_Probe_Droid.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_228_Viper_Probe_Droid_91a557b6cf.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_228_Viper_Probe_Droid_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_228_Viper_Probe_Droid_Thumbnail_5e7ae5422b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 2,
       "power": 3,
@@ -2856,6 +7068,24 @@
       "rarity": "common",
       "aspects": [
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_229_Cell_Block_Guard.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_229_Cell_Block_Guard_a62b77b8b4.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_229_Cell_Block_Guard_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_229_Cell_Block_Guard_Thumbnail_42f3f97c6f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -2870,6 +7100,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_230_General_Veers.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_230_General_Veers_6699e13d84.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_230_General_Veers_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_230_General_Veers_Thumbnail_57ed421c3c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -2882,6 +7130,24 @@
       "rarity": "uncommon",
       "aspects": [
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Eslam AboShady",
+          "front": {
+            "name": "SWH01_231_TIE_Advanced.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_231_TIE_Advanced_cbf57e8c97.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_231_TIE_Advanced_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_231_TIE_Advanced_Thumbnail_93a7f2dc64.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 2,
@@ -2896,6 +7162,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_232_AT-ST.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_232_ATST_3c55d0e2b1.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_232_AT-ST_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_232_AT_ST_Thumbnail_a41dcde026.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 6,
       "health": 7,
       "power": 6,
@@ -2909,6 +7193,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stefano Landini",
+          "front": {
+            "name": "SWH01_233_I_Am_Your_Father.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_233_I_Am_Your_Father_5e53c2d02c.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_233_I Am_Your_Father_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_233_I_Am_Your_Father_Thumbnail_1abe0bef4e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -2918,6 +7220,24 @@
       "rarity": "common",
       "aspects": [
         "villainy"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Stephen Zavala",
+          "front": {
+            "name": "SWH01_234_Maximum_Firepower.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_234_Maximum_Firepower_7df2337c32.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_234_Maximum Firepower_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_234_Maximum_Firepower_Thumbnail_8f8030eb26.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4
     },
@@ -2929,6 +7249,24 @@
       "aspects": [
         "villainy"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "AndrÃ© Mealha",
+          "front": {
+            "name": "SWH01_235_Galactic_Ambition.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_235_Galactic_Ambition_be0224b2a3.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_235_Galactic_Ambition_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_235_Galactic_Ambition_Thumbnail_c390c3ff76.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 7
     },
     {
@@ -2938,6 +7276,24 @@
       "rarity": "special",
       "aspects": [
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Aitor Prieto",
+          "front": {
+            "name": "SWH01_236_R2-D2.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_236_R2_D2_e5e4f768fa.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_236_R2-D2_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_236_R2_D2_Thumbnail_ead0a1a144.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 1,
       "health": 4,
@@ -2952,6 +7308,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_237_Alliance_X-Wing.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_237_Alliance_X_Wing_ede2b16894.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_237_Alliance_X-Wing_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_237_Alliance_X_Wing_Thumbnail_dfc2a5ce3e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -2964,6 +7338,24 @@
       "rarity": "special",
       "aspects": [
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ash Pierce",
+          "front": {
+            "name": "SWH01_238_C-3PO.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_238_C3_P0_8c742a4f15.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_238_C-3PO_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_238_C_3_PO_Thumbnail_d3f07ace2c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 2,
       "health": 4,
@@ -2978,6 +7370,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_239_Rebel_Pathfinder.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_239_Rebel_Pathfinder_0380a1a328.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_239_Rebel_Pathfinder_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_239_Rebel_Pathfinder_Thumbnail_fea24635ac.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -2990,6 +7400,24 @@
       "rarity": "common",
       "aspects": [
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Hoan Nguyen",
+          "front": {
+            "name": "SWH01_240_Fleet_Lieutenant.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_240_Fleet_Lieutenant_8af3989b00.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_240_Fleet_Lieutenant_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_240_Fleet_Lieutenant_Thumbnail_cf2cfbe54f.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 3,
       "health": 3,
@@ -3004,6 +7432,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_241_Wing_Leader.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_241_Wing_Leader_26a51a0f10.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_241_Wing_Leader_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_241_Wing_Leader_Thumbnail_3bb8e1ef6e.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 1,
       "power": 2,
@@ -3016,6 +7462,24 @@
       "rarity": "uncommon",
       "aspects": [
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_242_General_Dodonna.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_242_General_Dodonna_d9036338c0.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_242_General_Dodonna_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_242_General_Dodonna_Thumbnail_0b333f1ff8.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 4,
       "health": 4,
@@ -3030,6 +7494,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Liana Anatolevich",
+          "front": {
+            "name": "SWH01_243_RegionalSympathizers.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_243_Regional_Sympathizers_7ffa03f84d.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_243_Regional Sympathizers_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_243_Regional_Sympathizers_Thumbnail_c232bc3247.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -3042,6 +7524,24 @@
       "rarity": "common",
       "aspects": [
         "heroism"
+      ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Fernando Correa",
+          "front": {
+            "name": "SWH01_244_Snowspeeder.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_244_Snowspeeder_d5baa2fb00.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_244_Snowspeeder_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_244_Snowspeeder_Thumbnail_5ed18b027b.png",
+            "width": 300,
+            "height": 100
+          }
+        }
       ],
       "cost": 5,
       "health": 6,
@@ -3056,6 +7556,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Ario Murti",
+          "front": {
+            "name": "SWH01_245_Medal_Ceremony.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_245_Medal_Ceremony_e66f55c7f9.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_245_Medal_Ceremony_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_245_Medal_Ceremony_Thumbnail_a53547b001.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 0
     },
     {
@@ -3066,6 +7584,24 @@
       "aspects": [
         "heroism"
       ],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Gretel Lusky",
+          "front": {
+            "name": "SWH01_246_Youre_My_Only_Hope.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_246_Youre_My_Only_Hope_372787ccf9.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_246_Youre_My_Only_Hope_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_246_You_re_My_Only_Hope_Thumbnail_41a8049c79.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3
     },
     {
@@ -3074,6 +7610,24 @@
       "title": "Underworld Thug",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Felipe Goncalves",
+          "front": {
+            "name": "SWH01_247_UnderworldThug.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_247_Underworld_Thug_7bda62b474.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_247_Underworld Thug_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_247_Underworld_Thug_Thumbnail_88c6aee9e7.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -3085,6 +7639,24 @@
       "title": "Volunteer Soldier",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Steve Morris",
+          "front": {
+            "name": "SWH01_248_VolunteerSoldier.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_248_Volunteer_Soldier_5e62d197ca.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_248_Volunteer Soldier_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_248_Volunteer_Soldier_Thumbnail_7d58a896fa.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 3,
       "health": 3,
       "power": 2,
@@ -3096,6 +7668,24 @@
       "title": "Frontier AT-RT",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Thomas Wievegg",
+          "front": {
+            "name": "SWH01_249_FrontierATRT.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_249_Frontier_ATRT_c16ab78e05.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_249_Frontier AT-RT_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_249_Frontier_AT_RT_Thumbnail_d08fef87b3.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 4,
       "health": 5,
       "power": 3,
@@ -3107,6 +7697,24 @@
       "title": "Corellian Freighter",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Francois Cannels",
+          "front": {
+            "name": "SWH01_250_CorellianFreighter.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_250_Corellian_Fighter_5c0cc308c6.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_250_Corellian Freighter_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_250_Corellian_Freighter_Thumbnail_13818344a0.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 5,
       "health": 4,
       "power": 4,
@@ -3118,6 +7726,24 @@
       "title": "Confiscate",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "French Carlomagno",
+          "front": {
+            "name": "SWH01_251_Confiscate.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_251_Confiscate_871d436979.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_251_Confiscate_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_251_Confiscate_Thumbnail_6d7da66a43.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     },
     {
@@ -3126,6 +7752,24 @@
       "title": "Restock",
       "rarity": "common",
       "aspects": [],
+      "art": [
+        {
+          "kind": "standard",
+          "artist": "Joshua Carson",
+          "front": {
+            "name": "SWH01_252_Restock.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_252_Restock_0d8d539b8b.png",
+            "width": 300,
+            "height": 418
+          },
+          "thumbnail": {
+            "name": "SWH01_252_Restock_Thumbnail.png",
+            "url": "https://cdn.starwarsunlimited.com/SWH_01_252_Restock_Thumbnail_b8b2b9884c.png",
+            "width": 300,
+            "height": 100
+          }
+        }
+      ],
       "cost": 1
     }
   ]

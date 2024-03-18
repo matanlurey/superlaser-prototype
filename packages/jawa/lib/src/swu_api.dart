@@ -101,8 +101,8 @@ extension type const CardAttributes._(JsonObject _fields) {
     return _fields.deepGet(const ['artFront', 'data', 'attributes']).as();
   }
 
-  CardArtAttributes get artBack {
-    return _fields.deepGet(const ['artBack', 'data', 'attributes']).as();
+  CardArtAttributes? get artBack {
+    return _fields.deepGetOrNull(const ['artBack', 'data', 'attributes']).as();
   }
 
   CardArtAttributes get artThumbnail {
@@ -167,6 +167,9 @@ extension type const CardAttributes._(JsonObject _fields) {
 extension type const CardArtAttributes._(JsonObject _fields) {
   String get name => _fields['name'].as();
   String get url => _fields['url'].as();
+
+  int get width => _fields['width'].as();
+  int get height => _fields['height'].as();
 
   String get alternativeText => _fields['alternativeText'].as();
   String? get caption => _fields['caption'].asOrNull();

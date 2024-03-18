@@ -246,7 +246,8 @@ sealed class Card {
     required this.number,
     required this.rarity,
     required this.aspects,
-  }) {
+    required Iterable<Art> art,
+  }) : art = List.unmodifiable(art) {
     _checkNotEmpty(title, 'title');
     _checkAtLeast1(number, 'number');
   }
@@ -279,6 +280,10 @@ sealed class Card {
   @nonVirtual
   final Aspects aspects;
 
+  /// Art of the card.
+  @nonVirtual
+  final List<Art> art;
+
   @mustBeOverridden
   JsonObject toJson() {
     return JsonObject({
@@ -287,6 +292,7 @@ sealed class Card {
       'title': JsonString(title),
       'rarity': rarity.toJson(),
       'aspects': aspects.toJson(),
+      'art': JsonArray(art.map((a) => a.toJson()).toList()),
     });
   }
 }
@@ -325,6 +331,7 @@ final class BaseCard extends Card {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required super.art,
     required this.health,
   });
 
@@ -332,6 +339,7 @@ final class BaseCard extends Card {
     return BaseCard(
       number: json['number'].as(),
       title: json['title'].as(),
+      art: json['art'].array().cast<JsonObject>().mapUnmodifiable(Art.fromJson),
       rarity: Rarity.fromName(json['rarity'].as()),
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
@@ -365,6 +373,7 @@ sealed class DeckCard extends Card {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required super.art,
     required this.cost,
   }) {
     _checkAtLeast0(cost, 'cost');
@@ -397,6 +406,7 @@ sealed class ArenaCard extends DeckCard {
     required super.rarity,
     required super.aspects,
     required super.cost,
+    required super.art,
     required this.health,
     required this.power,
   }) {
@@ -437,6 +447,7 @@ final class LeaderCard extends ArenaCard {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required super.art,
     required this.subTitle,
     required super.cost,
     required super.health,
@@ -447,6 +458,7 @@ final class LeaderCard extends ArenaCard {
     return LeaderCard(
       number: json['number'].as(),
       title: json['title'].as(),
+      art: json['art'].array().cast<JsonObject>().mapUnmodifiable(Art.fromJson),
       rarity: Rarity.fromName(json['rarity'].as()),
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
@@ -478,6 +490,7 @@ final class UnitCard extends ArenaCard {
   UnitCard({
     required super.number,
     required super.title,
+    required super.art,
     required this.subTitle,
     required super.rarity,
     required super.aspects,
@@ -490,6 +503,7 @@ final class UnitCard extends ArenaCard {
     return UnitCard(
       number: json['number'].as(),
       title: json['title'].as(),
+      art: json['art'].array().cast<JsonObject>().mapUnmodifiable(Art.fromJson),
       subTitle: json['sub_title'].asOrNull(),
       rarity: Rarity.fromName(json['rarity'].as()),
       aspects: Aspects.from(
@@ -521,6 +535,7 @@ final class UpgradeCard extends DeckCard {
   UpgradeCard({
     required super.number,
     required super.title,
+    required super.art,
     required super.rarity,
     required super.aspects,
     required super.cost,
@@ -530,6 +545,7 @@ final class UpgradeCard extends DeckCard {
     return UpgradeCard(
       number: json['number'].as(),
       title: json['title'].as(),
+      art: json['art'].array().cast<JsonObject>().mapUnmodifiable(Art.fromJson),
       rarity: Rarity.fromName(json['rarity'].as()),
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
@@ -554,6 +570,7 @@ final class EventCard extends DeckCard {
   EventCard({
     required super.number,
     required super.title,
+    required super.art,
     required super.rarity,
     required super.aspects,
     required super.cost,
@@ -564,6 +581,7 @@ final class EventCard extends DeckCard {
       number: json['number'].as(),
       title: json['title'].as(),
       rarity: Rarity.fromName(json['rarity'].as()),
+      art: json['art'].array().cast<JsonObject>().mapUnmodifiable(Art.fromJson),
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
@@ -578,6 +596,176 @@ final class EventCard extends DeckCard {
   JsonObject toJson() {
     return JsonObject({
       ...super.toJson(),
+    });
+  }
+}
+
+enum _ArtKind {
+  /// Standard art.
+  standard,
+
+  /// Variant art with expanded artwork and a unique frame.
+  hyperspace,
+
+  /// Variant art with a full-art alternate treatment for [LeaderCard]s only.
+  showcase;
+
+  static final _byName = {
+    for (final kind in values) kind.name: kind,
+  };
+
+  factory _ArtKind.fromName(String name) {
+    final kind = _byName[name];
+    if (kind == null) {
+      throw ArgumentError.value(name, 'name', 'unknown art kind');
+    }
+    return kind;
+  }
+
+  JsonValue toJson() => JsonString(name);
+}
+
+final class Art {
+  Art._({
+    required _ArtKind kind,
+    required this.artist,
+    required this.front,
+    required this.back,
+    required this.thumbnail,
+  }) : _kind = kind {
+    _checkNotEmpty(artist, 'artist');
+  }
+
+  factory Art({
+    required String artist,
+    required ArtImage front,
+    ArtImage? back,
+    required ArtImage thumbnail,
+  }) {
+    return Art._(
+      kind: _ArtKind.standard,
+      artist: artist,
+      front: front,
+      back: back,
+      thumbnail: thumbnail,
+    );
+  }
+
+  factory Art.hyperspace({
+    required String artist,
+    required ArtImage front,
+    ArtImage? back,
+    required ArtImage thumbnail,
+  }) {
+    return Art._(
+      kind: _ArtKind.hyperspace,
+      artist: artist,
+      front: front,
+      back: back,
+      thumbnail: thumbnail,
+    );
+  }
+
+  factory Art.showcase({
+    required String artist,
+    required ArtImage front,
+    ArtImage? back,
+    required ArtImage thumbnail,
+  }) {
+    return Art._(
+      kind: _ArtKind.showcase,
+      artist: artist,
+      front: front,
+      back: back,
+      thumbnail: thumbnail,
+    );
+  }
+
+  factory Art.fromJson(JsonObject json) {
+    final kind = _ArtKind.fromName(json['kind'].as());
+    final back = json['back'].objectOrNull();
+    return Art._(
+      kind: kind,
+      artist: json['artist'].as(),
+      front: ArtImage.fromJson(json['front'].object()),
+      back: back == null ? null : ArtImage.fromJson(back),
+      thumbnail: ArtImage.fromJson(json['thumbnail'].object()),
+    );
+  }
+
+  /// Tag to track the serialized state of the art.
+  final _ArtKind _kind;
+
+  /// Artist of the image.
+  ///
+  /// This value is always non-empty.
+  final String artist;
+
+  /// Front image of the card.
+  final ArtImage front;
+
+  /// Back image of the card, if any.
+  final ArtImage? back;
+
+  /// Thumbnail of the card.
+  final ArtImage thumbnail;
+
+  JsonObject toJson() {
+    return JsonObject({
+      'kind': _kind.toJson(),
+      'artist': JsonString(artist),
+      'front': front.toJson(),
+      if (back case final ArtImage back) 'back': back.toJson(),
+      'thumbnail': thumbnail.toJson(),
+    });
+  }
+}
+
+final class ArtImage {
+  ArtImage({
+    required this.name,
+    required this.url,
+    required this.width,
+    required this.height,
+  }) {
+    _checkNotEmpty(name, 'name');
+    _checkAtLeast1(width, 'width');
+    _checkAtLeast1(height, 'height');
+  }
+
+  factory ArtImage.fromJson(JsonObject json) {
+    return ArtImage(
+      name: json['name'].as(),
+      url: Uri.parse(json['url'].as()),
+      width: json['width'].as(),
+      height: json['height'].as(),
+    );
+  }
+
+  /// Name of the image.
+  ///
+  /// This value is always non-empty.
+  final String name;
+
+  /// URL of the image.
+  final Uri url;
+
+  /// Width of the image.
+  ///
+  /// This value is at least 1.
+  final int width;
+
+  /// Height of the image.
+  ///
+  /// This value is at least 1.
+  final int height;
+
+  JsonObject toJson() {
+    return JsonObject({
+      'name': JsonString(name),
+      'url': JsonString(url.toString()),
+      'width': JsonNumber(width),
+      'height': JsonNumber(height),
     });
   }
 }
