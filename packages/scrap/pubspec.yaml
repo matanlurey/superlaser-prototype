@@ -1,0 +1,14 @@
+# Format: https://dart.dev/tools/pub/pubspec.
+
+name: scrap
+verison: 0.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  meta: ^1.12.0
+
+dev_dependencies:
+  lints: ^3.0.0

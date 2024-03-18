@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Get the absolute path to the directory containing this script.
+ROOT_PATH=$(cd "$(dirname $0)" && cd "../" && pwd)
+
+JAWA_PART="${ROOT_PATH}/packages/jawa/bin/jawa.dart"
+DART_PATH="dart"
+
+break() {
+  exit 0
+}
+
+# If the only argument is "-i" or "--interactive", start the Jawa shell.
+if [ $# -eq 1 ] && ([ "$1" = "-i" ] || [ "$1" = "--interactive" ]); then
+  export JAWA_SHELL=true
+  while true; do
+    # Check for a CTRL-C and exit the loop if it is detected.
+    trap break SIGINT
+    read -p "jawa> " input
+
+    # If the input was empty, use the previous input.
+    if [ -z "$input" ]; then
+      input=$previous_input
+      echo "jawa> $input"
+    else
+      previous_input=$input
+    fi
+
+    ${DART_PATH} "${JAWA_PART}" $input
+  done
+fi
+
+set -e
+${DART_PATH} "${JAWA_PART}" "$@"

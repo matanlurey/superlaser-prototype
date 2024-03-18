@@ -1,0 +1,9 @@
+# Format: https://dart.dev/tools/analysis#the-analysis-options-file.
+
+include: package:lints/recommended.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
