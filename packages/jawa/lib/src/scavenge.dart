@@ -137,6 +137,7 @@ final class _Json extends Command<void> {
                 cost: data.cost!,
                 health: data.hp!,
                 power: data.power!,
+                unique: data.unique,
               );
             case 'Base':
               card = BaseCard(
@@ -150,6 +151,7 @@ final class _Json extends Command<void> {
                   ),
                 ),
                 health: data.hp!,
+                unique: data.unique,
               );
             case 'Unit':
               card = UnitCard(
@@ -167,6 +169,7 @@ final class _Json extends Command<void> {
                 cost: data.cost!,
                 health: data.hp!,
                 power: data.power!,
+                unique: data.unique,
               );
             case 'Upgrade':
               card = UpgradeCard(
@@ -180,6 +183,7 @@ final class _Json extends Command<void> {
                   ),
                 ),
                 cost: data.cost!,
+                unique: data.unique,
               );
             case 'Event':
               card = EventCard(
@@ -193,6 +197,7 @@ final class _Json extends Command<void> {
                   ),
                 ),
                 cost: data.cost!,
+                unique: data.unique,
               );
             default:
               io.stderr.writeln(

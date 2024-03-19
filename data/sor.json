@@ -12,6 +12,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -48,6 +49,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -84,6 +86,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -120,6 +123,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -156,6 +160,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -192,6 +197,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -228,6 +234,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -264,6 +271,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -300,6 +308,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -336,6 +345,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -372,6 +382,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -408,6 +419,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -444,6 +456,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -480,6 +493,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -516,6 +530,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -552,6 +567,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -588,6 +604,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -624,6 +641,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -659,6 +677,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -685,6 +704,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -711,6 +731,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -737,6 +758,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -763,6 +785,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -789,6 +812,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -815,6 +839,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -841,6 +866,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -867,6 +893,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -893,6 +920,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -919,6 +947,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -945,6 +974,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -972,6 +1002,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1003,6 +1034,7 @@
         "villainy",
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1034,6 +1066,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1065,6 +1098,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1096,6 +1130,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1127,6 +1162,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1158,6 +1194,7 @@
         "villainy",
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1189,6 +1226,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1220,6 +1258,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1251,6 +1290,7 @@
         "villainy",
         "vigilance"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1282,6 +1322,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1309,6 +1350,7 @@
         "villainy",
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1336,6 +1378,7 @@
         "vigilance",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1363,6 +1406,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1394,6 +1438,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1425,6 +1470,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1456,6 +1502,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1487,6 +1534,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1518,6 +1566,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1549,6 +1598,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1580,6 +1630,7 @@
         "heroism",
         "vigilance"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1611,6 +1662,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1642,6 +1694,7 @@
         "heroism",
         "vigilance"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1669,6 +1722,7 @@
         "heroism",
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1696,6 +1750,7 @@
         "vigilance",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1722,6 +1777,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -1752,6 +1808,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1778,6 +1835,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1804,6 +1862,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1834,6 +1893,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1864,6 +1924,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1894,6 +1955,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1924,6 +1986,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1954,6 +2017,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -1984,6 +2048,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2014,6 +2079,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2044,6 +2110,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2074,6 +2141,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2104,6 +2172,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2130,6 +2199,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2156,6 +2226,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2182,6 +2253,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2208,6 +2280,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2234,6 +2307,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2260,6 +2334,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2286,6 +2361,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2312,6 +2388,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2338,6 +2415,7 @@
       "aspects": [
         "vigilance"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2365,6 +2443,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2396,6 +2475,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2427,6 +2507,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2458,6 +2539,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2489,6 +2571,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2520,6 +2603,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2551,6 +2635,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2582,6 +2667,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2613,6 +2699,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2644,6 +2731,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2675,6 +2763,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2706,6 +2795,7 @@
         "command",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2737,6 +2827,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2764,6 +2855,7 @@
         "command",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2791,6 +2883,7 @@
         "heroism",
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2822,6 +2915,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2853,6 +2947,7 @@
         "command",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2884,6 +2979,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2915,6 +3011,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -2946,6 +3043,7 @@
         "command",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -2977,6 +3075,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3008,6 +3107,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3039,6 +3139,7 @@
         "command",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3070,6 +3171,7 @@
         "command",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3101,6 +3203,7 @@
         "heroism",
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3128,6 +3231,7 @@
         "heroism",
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3154,6 +3258,7 @@
       "aspects": [
         "command"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3184,6 +3289,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3210,6 +3316,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3236,6 +3343,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3266,6 +3374,7 @@
       "aspects": [
         "command"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3296,6 +3405,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3326,6 +3436,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3356,6 +3467,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3386,6 +3498,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3416,6 +3529,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3446,6 +3560,7 @@
       "aspects": [
         "command"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3476,6 +3591,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3506,6 +3622,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3536,6 +3653,7 @@
       "aspects": [
         "command"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3566,6 +3684,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3596,6 +3715,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3622,6 +3742,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3648,6 +3769,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3674,6 +3796,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3700,6 +3823,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3726,6 +3850,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3752,6 +3877,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3778,6 +3904,7 @@
       "aspects": [
         "command"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3805,6 +3932,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3836,6 +3964,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3867,6 +3996,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3898,6 +4028,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3929,6 +4060,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -3960,6 +4092,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -3991,6 +4124,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4022,6 +4156,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4053,6 +4188,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4080,6 +4216,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4107,6 +4244,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4134,6 +4272,7 @@
         "aggression",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4161,6 +4300,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4192,6 +4332,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4223,6 +4364,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4254,6 +4396,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4285,6 +4428,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4316,6 +4460,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4347,6 +4492,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4378,6 +4524,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4409,6 +4556,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4440,6 +4588,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4471,6 +4620,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4498,6 +4648,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4525,6 +4676,7 @@
         "aggression",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4551,6 +4703,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4581,6 +4734,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4607,6 +4761,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4633,6 +4788,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4663,6 +4819,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4693,6 +4850,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4723,6 +4881,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4753,6 +4912,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -4783,6 +4943,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4813,6 +4974,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4843,6 +5005,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4873,6 +5036,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4903,6 +5067,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4933,6 +5098,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4959,6 +5125,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -4985,6 +5152,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5011,6 +5179,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5037,6 +5206,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5063,6 +5233,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5089,6 +5260,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5115,6 +5287,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5141,6 +5314,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5167,6 +5341,7 @@
       "aspects": [
         "aggression"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5194,6 +5369,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5225,6 +5401,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5256,6 +5433,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5287,6 +5465,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5318,6 +5497,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5349,6 +5529,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5380,6 +5561,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5411,6 +5593,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5442,6 +5625,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5473,6 +5657,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5504,6 +5689,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5531,6 +5717,7 @@
         "cunning",
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5558,6 +5745,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5589,6 +5777,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5620,6 +5809,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5651,6 +5841,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5682,6 +5873,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5713,6 +5905,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5744,6 +5937,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5775,6 +5969,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5806,6 +6001,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5837,6 +6033,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5868,6 +6065,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5899,6 +6097,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5926,6 +6125,7 @@
         "cunning",
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -5952,6 +6152,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -5982,6 +6183,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6012,6 +6214,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6038,6 +6241,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -6068,6 +6272,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6098,6 +6303,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6128,6 +6334,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6158,6 +6365,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6188,6 +6396,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6218,6 +6427,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6248,6 +6458,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6278,6 +6489,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6308,6 +6520,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6338,6 +6551,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6364,6 +6578,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6390,6 +6605,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6416,6 +6632,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6442,6 +6659,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6468,6 +6686,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6494,6 +6713,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6520,6 +6740,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6546,6 +6767,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6572,6 +6794,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6598,6 +6821,7 @@
       "aspects": [
         "cunning"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6624,6 +6848,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6654,6 +6879,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -6684,6 +6910,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6714,6 +6941,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6744,6 +6972,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6774,6 +7003,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -6804,6 +7034,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6834,6 +7065,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6864,6 +7096,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6890,6 +7123,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6916,6 +7150,7 @@
       "aspects": [
         "villainy"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -6942,6 +7177,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -6972,6 +7208,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7002,6 +7239,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -7032,6 +7270,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7062,6 +7301,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7092,6 +7332,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7122,6 +7363,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": true,
       "art": [
         {
           "kind": "standard",
@@ -7152,6 +7394,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7182,6 +7425,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7212,6 +7456,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7238,6 +7483,7 @@
       "aspects": [
         "heroism"
       ],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7262,6 +7508,7 @@
       "title": "Underworld Thug",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7290,6 +7537,7 @@
       "title": "Volunteer Soldier",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7318,6 +7566,7 @@
       "title": "Frontier AT-RT",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7346,6 +7595,7 @@
       "title": "Corellian Freighter",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7374,6 +7624,7 @@
       "title": "Confiscate",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
@@ -7398,6 +7649,7 @@
       "title": "Restock",
       "rarity": "common",
       "aspects": [],
+      "unique": false,
       "art": [
         {
           "kind": "standard",
