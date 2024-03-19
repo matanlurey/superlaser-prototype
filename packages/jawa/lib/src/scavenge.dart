@@ -23,6 +23,22 @@ final class Scavenge extends Command<void> {
 
   Scavenge({
     required bool interactive,
+    required String projectRoot,
+  }) {
+    addSubcommand(_Images(projectRoot: projectRoot));
+    addSubcommand(_Json(projectRoot: projectRoot, interactive: interactive));
+  }
+}
+
+final class _Json extends Command<void> {
+  @override
+  String get name => 'json';
+
+  @override
+  String get description => 'Scrapes the web for card data.';
+
+  _Json({
+    required bool interactive,
     required this.projectRoot,
   }) {
     argParser
@@ -38,8 +54,6 @@ final class Scavenge extends Command<void> {
         help: 'The output directory for the artifacts.',
         defaultsTo: p.join(projectRoot, 'data'),
       );
-
-    addSubcommand(_Images(projectRoot: projectRoot));
   }
 
   final String projectRoot;
@@ -118,6 +132,7 @@ final class Scavenge extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                arena: Arena.fromName(data.arenas.single.toLowerCase()),
                 subTitle: data.subTitle!,
                 cost: data.cost!,
                 health: data.hp!,
@@ -147,6 +162,7 @@ final class Scavenge extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                arena: Arena.fromName(data.arenas.single.toLowerCase()),
                 subTitle: data.subTitle,
                 cost: data.cost!,
                 health: data.hp!,

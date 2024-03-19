@@ -395,6 +395,25 @@ sealed class DeckCard extends Card {
   }
 }
 
+enum Arena {
+  ground,
+  space;
+
+  static final _byName = {
+    for (final arena in values) arena.name: arena,
+  };
+
+  factory Arena.fromName(String name) {
+    final arena = _byName[name];
+    if (arena == null) {
+      throw ArgumentError.value(name, 'name', 'unknown arena');
+    }
+    return arena;
+  }
+
+  JsonValue toJson() => JsonString(name);
+}
+
 /// A deployable card.
 ///
 /// A synthetic type that represnts a card that can be deployed to the game
@@ -407,12 +426,16 @@ sealed class ArenaCard extends DeckCard {
     required super.aspects,
     required super.cost,
     required super.art,
+    required this.arena,
     required this.health,
     required this.power,
   }) {
     _checkAtLeast0(health, 'health');
     _checkAtLeast0(power, 'power');
   }
+
+  /// Arena of the card.
+  final Arena arena;
 
   /// Health points of the card.
   ///
@@ -435,6 +458,7 @@ sealed class ArenaCard extends DeckCard {
       ...super.toJson(),
       'health': JsonNumber(health),
       'power': JsonNumber(power),
+      'arena': arena.toJson(),
       'sub_title': JsonAny.from(subTitle),
     });
   }
@@ -449,6 +473,7 @@ final class LeaderCard extends ArenaCard {
     required super.aspects,
     required super.art,
     required this.subTitle,
+    required super.arena,
     required super.cost,
     required super.health,
     required super.power,
@@ -463,6 +488,7 @@ final class LeaderCard extends ArenaCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      arena: Arena.fromName(json['arena'].as()),
       subTitle: json['sub_title'].as(),
       cost: json['cost'].as(),
       health: json['health'].as(),
@@ -494,6 +520,7 @@ final class UnitCard extends ArenaCard {
     required this.subTitle,
     required super.rarity,
     required super.aspects,
+    required super.arena,
     required super.cost,
     required super.health,
     required super.power,
@@ -509,6 +536,7 @@ final class UnitCard extends ArenaCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      arena: Arena.fromName(json['arena'].as()),
       cost: json['cost'].as(),
       health: json['health'].as(),
       power: json['power'].as(),
