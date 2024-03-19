@@ -3,7 +3,7 @@ import 'dart:io' as io;
 import 'package:jsonut/jsonut.dart';
 import 'package:path/path.dart' as p;
 import 'package:scrap/scrap.dart' as scrap;
-import 'package:unlimited/src/model/trait.dart';
+import 'package:unlimited/unlimited.dart';
 
 import '../test.dart';
 

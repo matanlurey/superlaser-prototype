@@ -1,4 +1,4 @@
-import 'package:unlimited/src/model/aspect.dart';
+import 'package:unlimited/unlimited.dart';
 
 import '../test.dart';
 

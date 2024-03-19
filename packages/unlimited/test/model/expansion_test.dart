@@ -1,4 +1,4 @@
-import 'package:unlimited/src/model/expansion.dart';
+import 'package:unlimited/unlimited.dart';
 
 import '../test.dart';
 
