@@ -723,29 +723,21 @@ final class Art {
 
 final class ArtImage {
   ArtImage({
-    required this.name,
     required this.url,
     required this.width,
     required this.height,
   }) {
-    _checkNotEmpty(name, 'name');
     _checkAtLeast1(width, 'width');
     _checkAtLeast1(height, 'height');
   }
 
   factory ArtImage.fromJson(JsonObject json) {
     return ArtImage(
-      name: json['name'].as(),
       url: Uri.parse(json['url'].as()),
       width: json['width'].as(),
       height: json['height'].as(),
     );
   }
-
-  /// Name of the image.
-  ///
-  /// This value is always non-empty.
-  final String name;
 
   /// URL of the image.
   final Uri url;
@@ -762,7 +754,6 @@ final class ArtImage {
 
   JsonObject toJson() {
     return JsonObject({
-      'name': JsonString(name),
       'url': JsonString(url.toString()),
       'width': JsonNumber(width),
       'height': JsonNumber(height),
