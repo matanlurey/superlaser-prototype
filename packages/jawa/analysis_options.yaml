@@ -61,7 +61,6 @@ linter:
     - package_api_docs
     - prefer_asserts_in_initializer_lists
     - prefer_asserts_with_message
-    - prefer_const_constructors_in_immutables
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_final_in_for_each
