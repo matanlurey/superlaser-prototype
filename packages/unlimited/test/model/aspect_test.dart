@@ -1,4 +1,4 @@
-import 'package:unlimited/unlimited.dart';
+import 'package:unlimited/core.dart';
 
 import '../test.dart';
 
