@@ -6,21 +6,19 @@ import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:jawa/src/tools/cached_http_client.dart';
+import 'package:jawa/src/tools/swu_api.dart';
 import 'package:jsonut/jsonut.dart';
 import 'package:meta/meta.dart';
 import 'package:path/path.dart' as p;
 import 'package:scrap/scrap.dart';
 
-import 'tools/cached_http_client.dart';
-import 'tools/swu_api.dart';
-
+/// Provides the ability to scrape JSON and images from the web.
 final class Scavenge extends Command<void> {
-  @override
-  String get name => 'scavenge';
-
-  @override
-  String get description => 'Scrapes the web for card data.';
-
+  /// Creates a new [Scavenge] command.
+  ///
+  /// - [interactive] is whether the command is running in an interactive shell.
+  /// - [projectRoot] is the root directory of the project.
   Scavenge({
     required bool interactive,
     required String projectRoot,
@@ -28,15 +26,14 @@ final class Scavenge extends Command<void> {
     addSubcommand(_Images(projectRoot: projectRoot));
     addSubcommand(_Json(projectRoot: projectRoot, interactive: interactive));
   }
-}
-
-final class _Json extends Command<void> {
   @override
-  String get name => 'json';
+  String get name => 'scavenge';
 
   @override
   String get description => 'Scrapes the web for card data.';
+}
 
+final class _Json extends Command<void> {
   _Json({
     required bool interactive,
     required this.projectRoot,
@@ -55,6 +52,11 @@ final class _Json extends Command<void> {
         defaultsTo: p.join(projectRoot, 'data'),
       );
   }
+  @override
+  String get name => 'json';
+
+  @override
+  String get description => 'Scrapes the web for card data.';
 
   final String projectRoot;
 
@@ -63,7 +65,7 @@ final class _Json extends Command<void> {
   ArgResults get argResults => super.argResults!;
 
   @override
-  void run() async {
+  Future<void> run() async {
     final (cache, output) = (
       argResults['cache'] as bool,
       argResults['output'] as String,
@@ -119,7 +121,6 @@ final class _Json extends Command<void> {
               ),
             ),
           ];
-
           switch (data.type.name) {
             case 'Leader':
               card = LeaderCard(
@@ -237,9 +238,11 @@ final class _Json extends Command<void> {
       for (final set in sets.values) {
         final expansion = set.build();
         final file = io.File(p.join(outputDir.path, '${set.code}.json'));
-        await file.writeAsString(const JsonEncoder.withIndent('  ').convert(
-          expansion.toJson(),
-        ));
+        await file.writeAsString(
+          const JsonEncoder.withIndent('  ').convert(
+            expansion.toJson(),
+          ),
+        );
       }
     } finally {
       client.close();
@@ -247,17 +250,18 @@ final class _Json extends Command<void> {
   }
 }
 
+@immutable
 final class _ExpansionBuilder {
-  final String name;
-  final String code;
-  final int count;
-  final List<Card> cards;
-
   _ExpansionBuilder({
     required this.name,
     required this.code,
     required this.count,
   }) : cards = [];
+
+  final String name;
+  final String code;
+  final int count;
+  final List<Card> cards;
 
   @override
   bool operator ==(Object other) {
@@ -278,12 +282,6 @@ final class _ExpansionBuilder {
 }
 
 final class _Images extends Command<void> {
-  @override
-  String get name => 'images';
-
-  @override
-  String get description => 'Downloads card images.';
-
   _Images({
     required this.projectRoot,
   }) {
@@ -301,6 +299,11 @@ final class _Images extends Command<void> {
         defaultsTo: p.join(projectRoot, 'data', 'assets'),
       );
   }
+  @override
+  String get name => 'images';
+
+  @override
+  String get description => 'Downloads card images.';
 
   final String projectRoot;
 
@@ -309,7 +312,7 @@ final class _Images extends Command<void> {
   ArgResults get argResults => super.argResults!;
 
   @override
-  void run() async {
+  Future<void> run() async {
     final (input, output) = (
       argResults['input'] as String,
       argResults['output'] as String,
@@ -385,8 +388,13 @@ final class _Images extends Command<void> {
   }
 }
 
+@immutable
 final class _Download {
-  _Download({
+  /// Creates a new pending download.
+  ///
+  /// - [url] is the URL of the file to download.
+  /// - [file] is the file to save the downloaded data to.
+  const _Download({
     required this.url,
     required this.file,
   });
@@ -409,12 +417,15 @@ final class _Download {
     if (cache && await file.exists()) {
       ifModifiedSince = _dateFormat.format(await file.lastModified());
     }
-    final response = await client.get(url, headers: {
-      if (ifModifiedSince != null) ...{
-        'Cache-Control': 'max-age=0',
-        'If-Modified-Since': ifModifiedSince,
+    final response = await client.get(
+      url,
+      headers: {
+        if (ifModifiedSince != null) ...{
+          'Cache-Control': 'max-age=0',
+          'If-Modified-Since': ifModifiedSince,
+        },
       },
-    });
+    );
     if (response.statusCode == 304) {
       return;
     }

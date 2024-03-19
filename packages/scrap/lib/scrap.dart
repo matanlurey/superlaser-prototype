@@ -64,7 +64,8 @@ void _checkUniqueAndOrderedBy<T, C extends Comparable<C>>(
 }
 
 /// Represents a data-pack from an expansion (set).
-final class Expansion {
+final class Expansion implements ToJson {
+  /// Creates a new expansion.
   Expansion({
     required this.name,
     required this.code,
@@ -79,6 +80,7 @@ final class Expansion {
     _checkUniqueAndOrderedBy<Card, num>(cards, (c) => c.number, 'Card.number');
   }
 
+  /// Parses the given JSON string into an [Expansion].
   factory Expansion.fromJson(JsonObject json) {
     return Expansion(
       name: json['name'].as(),
@@ -118,7 +120,8 @@ final class Expansion {
   /// Cards must be ordered and unique by their [Card.number].
   final List<Card> cards;
 
-  JsonObject toJson() {
+  @override
+  JsonValue toJson() {
     return JsonObject({
       'code': JsonString(code),
       'name': JsonString(name),
@@ -128,18 +131,27 @@ final class Expansion {
   }
 }
 
-enum Aspect {
+/// Represents a card's aspect.
+enum Aspect implements ToJson {
+  /// Represents the `Vigilance` aspect.
   vigilance,
+
+  /// Represents the `Command` aspect.
   command,
+
+  /// Represents the `Aggression` aspect.
   aggression,
+
+  /// Represents the `Cunning` aspect.
   cunning,
+
+  /// Represents the `Heroism` aspect.
   heroism,
+
+  /// Represents the `Villainy` aspect.
   villainy;
 
-  static final _byName = {
-    for (final aspect in values) aspect.name: aspect,
-  };
-
+  /// Returns the aspect with the given [name].
   factory Aspect.fromName(String name) {
     final aspect = _byName[name];
     if (aspect == null) {
@@ -148,18 +160,18 @@ enum Aspect {
     return aspect;
   }
 
-  JsonString toJson() => JsonString(name);
+  static final _byName = {
+    for (final aspect in values) aspect.name: aspect,
+  };
+
+  @override
+  JsonValue toJson() => JsonString(name);
 }
 
 /// Encapsulates between 0 and 2 aspect icons present on a card.
-final class Aspects {
-  static const none = Aspects._(null, null);
-
-  final Aspect? _a;
-  final Aspect? _b;
-
-  const Aspects._(this._a, this._b);
-
+@immutable
+final class Aspects implements ToJson {
+  /// Creates a new [Aspects] instance.
   factory Aspects([Aspect? a, Aspect? b]) {
     if (a == null && b == null) {
       return none;
@@ -170,6 +182,9 @@ final class Aspects {
     return Aspects._(a, b);
   }
 
+  const Aspects._(this._a, this._b);
+
+  /// Creates a new [Aspects] instance from the given [aspects].
   factory Aspects.from(Iterable<Aspect> aspects) {
     final list = aspects.toList();
     if (list.isEmpty) {
@@ -185,6 +200,13 @@ final class Aspects {
     return Aspects._(list[0], list.length > 1 ? list[1] : null);
   }
 
+  /// No aspects.
+  static const none = Aspects._(null, null);
+
+  final Aspect? _a;
+  final Aspect? _b;
+
+  /// The aspects present.
   Iterable<Aspect> get values => _a == null
       ? const []
       : _b == null
@@ -199,7 +221,8 @@ final class Aspects {
   @override
   int get hashCode => Object.hash(_a, _b);
 
-  JsonArray toJson() {
+  @override
+  JsonValue toJson() {
     return JsonArray(values.map((a) => a.toJson()).toList());
   }
 
@@ -213,16 +236,21 @@ final class Aspects {
 }
 
 /// Represents a card's rarity.
-enum Rarity {
+enum Rarity implements ToJson {
+  /// Represents a common card.
   common,
-  uncommon,
-  rare,
-  legendary,
-  special;
 
-  static final _byName = {
-    for (final rarity in values) rarity.name: rarity,
-  };
+  /// Represents an uncommon card.
+  uncommon,
+
+  /// Represents a rare card.
+  rare,
+
+  /// Represents a legendary card.
+  legendary,
+
+  /// Represents a special card.
+  special;
 
   factory Rarity.fromName(String name) {
     final rarity = _byName[name];
@@ -232,15 +260,21 @@ enum Rarity {
     return rarity;
   }
 
+  static final _byName = {
+    for (final rarity in values) rarity.name: rarity,
+  };
+
+  /// Returns the name of the rarity.
   String get character => name[0];
 
-  JsonString toJson() => JsonString(name);
+  @override
+  JsonValue toJson() => JsonString(name);
 }
 
 /// Represents any card in the game, regardless of type.
 ///
-/// An art _variant_ of an existing card is tracked separately, see [Variant].
-sealed class Card {
+/// An art _variant_ of an existing card is tracked separately.
+sealed class Card implements ToJson {
   Card({
     required this.title,
     required this.number,
@@ -260,7 +294,7 @@ sealed class Card {
 
   /// Number of the card.
   ///
-  /// At least 1, and at most [Expansion.cardCount].
+  /// At least 1, and at most [Expansion.count].
   @nonVirtual
   final int number;
 
@@ -290,6 +324,7 @@ sealed class Card {
   final bool unique;
 
   @mustBeOverridden
+  @override
   JsonObject toJson() {
     return JsonObject({
       'number': JsonNumber(number),
@@ -311,12 +346,6 @@ enum _CardKind {
   unit(UnitCard.fromJson),
   upgrade(UpgradeCard.fromJson);
 
-  final Card Function(JsonObject) _parser;
-
-  static final _byName = {
-    for (final type in values) type.name: type,
-  };
-
   const _CardKind(this._parser);
 
   factory _CardKind.fromName(String name) {
@@ -327,11 +356,18 @@ enum _CardKind {
     return type;
   }
 
+  final Card Function(JsonObject) _parser;
+
+  static final _byName = {
+    for (final type in values) type.name: type,
+  };
+
   Card parseJson(JsonObject json) => _parser(json);
 }
 
 /// A base.
 final class BaseCard extends Card {
+  /// Creates a new base card.
   BaseCard({
     required super.number,
     required super.title,
@@ -342,6 +378,7 @@ final class BaseCard extends Card {
     required this.health,
   });
 
+  /// Parses the given JSON string into a [BaseCard].
   factory BaseCard.fromJson(JsonObject json) {
     return BaseCard(
       number: json['number'].as(),
@@ -404,19 +441,19 @@ sealed class DeckCard extends Card {
   JsonObject toJson() {
     return JsonObject({
       ...super.toJson(),
-      'traits': JsonArray(traits.map((t) => JsonString(t)).toList()),
+      'traits': JsonArray(traits.map(JsonString.new).toList()),
       'cost': JsonNumber(cost),
     });
   }
 }
 
-enum Arena {
+/// Represents a card's arena.
+enum Arena implements ToJson {
+  /// The battlefield.
   ground,
-  space;
 
-  static final _byName = {
-    for (final arena in values) arena.name: arena,
-  };
+  /// The space.
+  space;
 
   factory Arena.fromName(String name) {
     final arena = _byName[name];
@@ -426,6 +463,11 @@ enum Arena {
     return arena;
   }
 
+  static final _byName = {
+    for (final arena in values) arena.name: arena,
+  };
+
+  @override
   JsonValue toJson() => JsonString(name);
 }
 
@@ -483,6 +525,7 @@ sealed class ArenaCard extends DeckCard {
 
 /// A leader card.
 final class LeaderCard extends ArenaCard {
+  /// Creates a new leader card.
   LeaderCard({
     required super.number,
     required super.title,
@@ -498,6 +541,7 @@ final class LeaderCard extends ArenaCard {
     required super.power,
   });
 
+  /// Parses the given JSON string into a [LeaderCard].
   factory LeaderCard.fromJson(JsonObject json) {
     return LeaderCard(
       number: json['number'].as(),
@@ -534,6 +578,7 @@ final class LeaderCard extends ArenaCard {
 
 /// A unit card.
 final class UnitCard extends ArenaCard {
+  /// Creates a new unit card.
   UnitCard({
     required super.number,
     required super.title,
@@ -549,6 +594,7 @@ final class UnitCard extends ArenaCard {
     required super.power,
   });
 
+  /// Parses the given JSON string into a [UnitCard].
   factory UnitCard.fromJson(JsonObject json) {
     return UnitCard(
       number: json['number'].as(),
@@ -585,6 +631,7 @@ final class UnitCard extends ArenaCard {
 
 /// An upgrade card.
 final class UpgradeCard extends DeckCard {
+  /// Creates a new upgrade card.
   UpgradeCard({
     required super.number,
     required super.title,
@@ -596,6 +643,7 @@ final class UpgradeCard extends DeckCard {
     required super.cost,
   });
 
+  /// Parses the given JSON string into an [UpgradeCard].
   factory UpgradeCard.fromJson(JsonObject json) {
     return UpgradeCard(
       number: json['number'].as(),
@@ -624,6 +672,7 @@ final class UpgradeCard extends DeckCard {
 
 /// An event card.
 final class EventCard extends DeckCard {
+  /// Creates a new event card.
   EventCard({
     required super.number,
     required super.title,
@@ -635,6 +684,7 @@ final class EventCard extends DeckCard {
     required super.cost,
   });
 
+  /// Parses the given JSON string into an [EventCard].
   factory EventCard.fromJson(JsonObject json) {
     return EventCard(
       number: json['number'].as(),
@@ -661,7 +711,7 @@ final class EventCard extends DeckCard {
   }
 }
 
-enum _ArtKind {
+enum _ArtKind implements ToJson {
   /// Standard art.
   standard,
 
@@ -671,10 +721,6 @@ enum _ArtKind {
   /// Variant art with a full-art alternate treatment for [LeaderCard]s only.
   showcase;
 
-  static final _byName = {
-    for (final kind in values) kind.name: kind,
-  };
-
   factory _ArtKind.fromName(String name) {
     final kind = _byName[name];
     if (kind == null) {
@@ -683,25 +729,23 @@ enum _ArtKind {
     return kind;
   }
 
+  static final _byName = {
+    for (final kind in values) kind.name: kind,
+  };
+
+  @override
   JsonValue toJson() => JsonString(name);
 }
 
-final class Art {
-  Art._({
-    required _ArtKind kind,
-    required this.artist,
-    required this.front,
-    required this.back,
-    required this.thumbnail,
-  }) : _kind = kind {
-    _checkNotEmpty(artist, 'artist');
-  }
-
+/// Represents the art of a card.
+@immutable
+final class Art implements ToJson {
+  /// Creates a new standard art.
   factory Art({
     required String artist,
     required ArtImage front,
-    ArtImage? back,
     required ArtImage thumbnail,
+    ArtImage? back,
   }) {
     return Art._(
       kind: _ArtKind.standard,
@@ -712,11 +756,22 @@ final class Art {
     );
   }
 
+  Art._({
+    required _ArtKind kind,
+    required this.artist,
+    required this.front,
+    required this.back,
+    required this.thumbnail,
+  }) : _kind = kind {
+    _checkNotEmpty(artist, 'artist');
+  }
+
+  /// Creates a new hyperspace art.
   factory Art.hyperspace({
     required String artist,
     required ArtImage front,
-    ArtImage? back,
     required ArtImage thumbnail,
+    ArtImage? back,
   }) {
     return Art._(
       kind: _ArtKind.hyperspace,
@@ -727,11 +782,12 @@ final class Art {
     );
   }
 
+  /// Creates a new showcase art.
   factory Art.showcase({
     required String artist,
     required ArtImage front,
-    ArtImage? back,
     required ArtImage thumbnail,
+    ArtImage? back,
   }) {
     return Art._(
       kind: _ArtKind.showcase,
@@ -742,6 +798,7 @@ final class Art {
     );
   }
 
+  /// Parses the given JSON string into an [Art].
   factory Art.fromJson(JsonObject json) {
     final kind = _ArtKind.fromName(json['kind'].as());
     final back = json['back'].objectOrNull();
@@ -771,7 +828,8 @@ final class Art {
   /// Thumbnail of the card.
   final ArtImage thumbnail;
 
-  JsonObject toJson() {
+  @override
+  JsonValue toJson() {
     return JsonObject({
       'kind': _kind.toJson(),
       'artist': JsonString(artist),
@@ -782,7 +840,10 @@ final class Art {
   }
 }
 
-final class ArtImage {
+/// Represents an image of a card.
+@immutable
+final class ArtImage implements ToJson {
+  /// Creates a new art image.
   ArtImage({
     required this.url,
     required this.width,
@@ -792,6 +853,7 @@ final class ArtImage {
     _checkAtLeast1(height, 'height');
   }
 
+  /// Parses the given JSON string into an [ArtImage].
   factory ArtImage.fromJson(JsonObject json) {
     return ArtImage(
       url: Uri.parse(json['url'].as()),
@@ -813,7 +875,8 @@ final class ArtImage {
   /// This value is at least 1.
   final int height;
 
-  JsonObject toJson() {
+  @override
+  JsonValue toJson() {
     return JsonObject({
       'url': JsonString(url.toString()),
       'width': JsonNumber(width),

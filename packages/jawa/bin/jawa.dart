@@ -10,7 +10,7 @@ void main(List<String> args) async {
     await _JawaRunner().run(args);
   } on UsageException catch (e) {
     io.stdout.writeln(e.usage);
-  } catch (e, st) {
+  } on Object catch (e, st) {
     io.stderr.writeln('An error occurred: $e');
     io.stderr.writeln(Trace.from(st).terse);
     io.exitCode = 1;
@@ -25,9 +25,11 @@ final _path = Uri.file(
 
 final class _JawaRunner extends CommandRunner<void> {
   _JawaRunner() : super('jawa', 'A tool.') {
-    addCommand(Scavenge(
-      interactive: _shell,
-      projectRoot: _path,
-    ));
+    addCommand(
+      Scavenge(
+        interactive: _shell,
+        projectRoot: _path,
+      ),
+    );
   }
 }

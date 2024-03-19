@@ -5,10 +5,14 @@ import 'package:crypto/crypto.dart' show md5;
 import 'package:http/http.dart' as http;
 import 'package:path/path.dart' as p;
 
+/// A [http.Client] that caches GET requests to the file system.
 final class CachedHttpClient extends http.BaseClient {
+  CachedHttpClient._(this._cacheDir, this._innerClient);
+
   final io.Directory _cacheDir;
   final http.Client _innerClient;
 
+  /// Creates a new [CachedHttpClient] that caches requests in [cacheDir].
   static Future<CachedHttpClient> using(
     io.Directory cacheDir,
     http.Client innerClient,
@@ -17,8 +21,6 @@ final class CachedHttpClient extends http.BaseClient {
     final client = CachedHttpClient._(cacheDir, innerClient);
     return client;
   }
-
-  CachedHttpClient._(this._cacheDir, this._innerClient);
 
   @override
   Future<http.StreamedResponse> send(http.BaseRequest request) async {
@@ -47,11 +49,13 @@ final class CachedHttpClient extends http.BaseClient {
     );
   }
 
+  /// Clears the cache.
   Future<void> clearCache() async {
     await _cacheDir.delete(recursive: true);
     await _cacheDir.create();
   }
 
+  /// Sets the cache for `GET` calls to [uri] to [response].
   Future<void> setCache(Uri uri, http.StreamedResponse response) async {
     final hash = md5.convert(uri.toString().codeUnits).toString();
     final type = response.headers['content-type'] ?? '';
