@@ -381,6 +381,7 @@ sealed class DeckCard extends Card {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required this.traits,
     required super.unique,
     required super.art,
     required this.cost,
@@ -394,11 +395,16 @@ sealed class DeckCard extends Card {
   @nonVirtual
   final int cost;
 
+  /// Traits on the card.
+  @nonVirtual
+  final Set<String> traits;
+
   @mustBeOverridden
   @override
   JsonObject toJson() {
     return JsonObject({
       ...super.toJson(),
+      'traits': JsonArray(traits.map((t) => JsonString(t)).toList()),
       'cost': JsonNumber(cost),
     });
   }
@@ -433,6 +439,7 @@ sealed class ArenaCard extends DeckCard {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required super.traits,
     required super.cost,
     required super.art,
     required super.unique,
@@ -481,6 +488,7 @@ final class LeaderCard extends ArenaCard {
     required super.title,
     required super.rarity,
     required super.aspects,
+    required super.traits,
     required super.art,
     required super.unique,
     required this.subTitle,
@@ -499,6 +507,7 @@ final class LeaderCard extends ArenaCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      traits: json['traits'].array().cast<JsonString>().toSet(),
       unique: json['unique'].as(),
       arena: Arena.fromName(json['arena'].as()),
       subTitle: json['sub_title'].as(),
@@ -533,6 +542,7 @@ final class UnitCard extends ArenaCard {
     required super.rarity,
     required super.unique,
     required super.aspects,
+    required super.traits,
     required super.arena,
     required super.cost,
     required super.health,
@@ -549,6 +559,7 @@ final class UnitCard extends ArenaCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      traits: json['traits'].array().cast<JsonString>().toSet(),
       unique: json['unique'].as(),
       arena: Arena.fromName(json['arena'].as()),
       cost: json['cost'].as(),
@@ -581,6 +592,7 @@ final class UpgradeCard extends DeckCard {
     required super.rarity,
     required super.unique,
     required super.aspects,
+    required super.traits,
     required super.cost,
   });
 
@@ -593,6 +605,7 @@ final class UpgradeCard extends DeckCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      traits: json['traits'].array().cast<JsonString>().toSet(),
       unique: json['unique'].as(),
       cost: json['cost'].as(),
     );
@@ -618,6 +631,7 @@ final class EventCard extends DeckCard {
     required super.rarity,
     required super.unique,
     required super.aspects,
+    required super.traits,
     required super.cost,
   });
 
@@ -630,6 +644,7 @@ final class EventCard extends DeckCard {
       aspects: Aspects.from(
         json['aspects'].array().cast<JsonString>().map(Aspect.fromName),
       ),
+      traits: json['traits'].array().cast<JsonString>().toSet(),
       unique: json['unique'].as(),
       cost: json['cost'].as(),
     );

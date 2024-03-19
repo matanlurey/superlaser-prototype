@@ -132,6 +132,7 @@ final class _Json extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                traits: data.traits.map((t) => t.toLowerCase()).toSet(),
                 arena: Arena.fromName(data.arenas.single.toLowerCase()),
                 subTitle: data.subTitle!,
                 cost: data.cost!,
@@ -164,6 +165,7 @@ final class _Json extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                traits: data.traits.map((t) => t.toLowerCase()).toSet(),
                 arena: Arena.fromName(data.arenas.single.toLowerCase()),
                 subTitle: data.subTitle,
                 cost: data.cost!,
@@ -182,6 +184,7 @@ final class _Json extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                traits: data.traits.map((t) => t.toLowerCase()).toSet(),
                 cost: data.cost!,
                 unique: data.unique,
               );
@@ -196,6 +199,7 @@ final class _Json extends Command<void> {
                     (a) => Aspect.fromName(a.name.toLowerCase()),
                   ),
                 ),
+                traits: data.traits.map((t) => t.toLowerCase()).toSet(),
                 cost: data.cost!,
                 unique: data.unique,
               );

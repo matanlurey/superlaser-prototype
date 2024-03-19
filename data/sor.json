@@ -34,6 +34,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 5,
       "health": 7,
       "power": 2,
@@ -70,6 +74,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 6,
       "health": 4,
@@ -108,6 +116,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "wookiee"
+      ],
       "cost": 7,
       "health": 9,
       "power": 2,
@@ -144,6 +156,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "rebel"
       ],
       "cost": 5,
       "health": 5,
@@ -182,6 +198,10 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "rebel"
+      ],
       "cost": 6,
       "health": 7,
       "power": 4,
@@ -218,6 +238,12 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "imperial",
+        "sith",
+        "official"
       ],
       "cost": 8,
       "health": 10,
@@ -256,6 +282,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 5,
       "health": 7,
       "power": 2,
@@ -292,6 +322,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "twi'lek",
+        "spectre"
       ],
       "cost": 6,
       "health": 6,
@@ -330,6 +365,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "official"
+      ],
       "cost": 5,
       "health": 6,
       "power": 3,
@@ -366,6 +405,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "imperial",
+        "sith"
       ],
       "cost": 7,
       "health": 8,
@@ -404,6 +448,11 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "imperial",
+        "inquisitor"
+      ],
       "cost": 6,
       "health": 6,
       "power": 3,
@@ -440,6 +489,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "droid",
+        "bounty hunter"
       ],
       "cost": 5,
       "health": 4,
@@ -478,6 +532,9 @@
           }
         }
       ],
+      "traits": [
+        "rebel"
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -514,6 +571,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "mandalorian",
+        "rebel",
+        "spectre"
       ],
       "cost": 4,
       "health": 5,
@@ -552,6 +614,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "bounty hunter"
+      ],
       "cost": 5,
       "health": 7,
       "power": 4,
@@ -588,6 +654,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "official"
       ],
       "cost": 6,
       "health": 9,
@@ -626,6 +696,9 @@
           }
         }
       ],
+      "traits": [
+        "underworld"
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -662,6 +735,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 6,
       "health": 7,
@@ -1019,6 +1095,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -1050,6 +1131,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 2,
       "health": 4,
@@ -1083,6 +1168,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "trooper"
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -1114,6 +1203,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 3,
       "health": 3,
@@ -1147,6 +1240,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 4,
       "health": 2,
       "power": 2,
@@ -1178,6 +1275,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 5,
       "health": 5,
@@ -1211,6 +1312,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "walker"
+      ],
       "cost": 6,
       "health": 5,
       "power": 5,
@@ -1242,6 +1348,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "sith",
+        "separatist"
       ],
       "cost": 7,
       "health": 4,
@@ -1275,6 +1386,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "walker"
+      ],
       "cost": 8,
       "health": 8,
       "power": 8,
@@ -1306,6 +1422,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
       ],
       "cost": 9,
       "health": 8,
@@ -1339,6 +1460,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 3
     },
     {
@@ -1366,6 +1490,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "innate"
       ],
       "cost": 4
     },
@@ -1395,6 +1522,10 @@
           }
         }
       ],
+      "traits": [
+        "tactic",
+        "disaster"
+      ],
       "cost": 8
     },
     {
@@ -1422,6 +1553,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "fighter"
       ],
       "cost": 2,
       "health": 3,
@@ -1455,6 +1591,10 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "jedi"
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -1486,6 +1626,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 4,
       "health": 7,
@@ -1519,6 +1663,12 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "jedi",
+        "rebel",
+        "spectre"
+      ],
       "cost": 4,
       "health": 5,
       "power": 4,
@@ -1550,6 +1700,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 5,
       "health": 6,
@@ -1583,6 +1736,10 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "jedi"
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -1614,6 +1771,12 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "transport",
+        "spectre"
       ],
       "cost": 6,
       "health": 5,
@@ -1647,6 +1810,11 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "jedi",
+        "rebel"
+      ],
       "cost": 7,
       "health": 7,
       "power": 6,
@@ -1678,6 +1846,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "capital ship"
       ],
       "cost": 8,
       "health": 9,
@@ -1711,6 +1884,11 @@
           }
         }
       ],
+      "traits": [
+        "item",
+        "weapon",
+        "lightsaber"
+      ],
       "cost": 2
     },
     {
@@ -1738,6 +1916,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "item",
+        "weapon",
+        "lightsaber"
       ],
       "cost": 3
     },
@@ -1767,6 +1950,9 @@
           }
         }
       ],
+      "traits": [
+        "force"
+      ],
       "cost": 4
     },
     {
@@ -1793,6 +1979,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "creature",
+        "force"
       ],
       "cost": 6,
       "health": 7,
@@ -1825,6 +2015,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 1
     },
     {
@@ -1852,6 +2045,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 4
     },
     {
@@ -1878,6 +2074,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "droid"
       ],
       "cost": 1,
       "health": 3,
@@ -1910,6 +2109,11 @@
           }
         }
       ],
+      "traits": [
+        "fringe",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 1,
       "power": 2,
@@ -1940,6 +2144,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "fringe"
       ],
       "cost": 2,
       "health": 2,
@@ -1972,6 +2180,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 2,
       "health": 4,
       "power": 1,
@@ -2002,6 +2214,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe",
+        "trooper"
       ],
       "cost": 3,
       "health": 4,
@@ -2034,6 +2250,9 @@
           }
         }
       ],
+      "traits": [
+        "trooper"
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -2064,6 +2283,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe"
       ],
       "cost": 4,
       "health": 5,
@@ -2096,6 +2318,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "fighter"
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -2126,6 +2352,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe"
       ],
       "cost": 5,
       "health": 5,
@@ -2158,6 +2387,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "tank"
+      ],
       "cost": 6,
       "health": 6,
       "power": 4,
@@ -2189,6 +2422,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 1
     },
     {
@@ -2215,6 +2451,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "innate"
       ],
       "cost": 2
     },
@@ -2243,6 +2482,10 @@
           }
         }
       ],
+      "traits": [
+        "item",
+        "weapon"
+      ],
       "cost": 2
     },
     {
@@ -2269,6 +2512,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "condition"
       ],
       "cost": 2
     },
@@ -2297,6 +2543,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 1
     },
     {
@@ -2323,6 +2572,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "supply"
       ],
       "cost": 1
     },
@@ -2351,6 +2603,9 @@
           }
         }
       ],
+      "traits": [
+        "force"
+      ],
       "cost": 2
     },
     {
@@ -2377,6 +2632,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 3
     },
@@ -2405,6 +2663,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 4
     },
     {
@@ -2431,6 +2692,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 5
     },
@@ -2459,6 +2723,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "official"
       ],
       "cost": 2,
       "health": 4,
@@ -2492,6 +2760,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -2523,6 +2795,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 2,
       "health": 3,
@@ -2556,6 +2832,9 @@
           }
         }
       ],
+      "traits": [
+        "imperial"
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -2587,6 +2866,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial"
       ],
       "cost": 3,
       "health": 1,
@@ -2620,6 +2902,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 4,
       "health": 3,
       "power": 2,
@@ -2651,6 +2937,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial"
       ],
       "cost": 5,
       "health": 6,
@@ -2684,6 +2973,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
+      ],
       "cost": 6,
       "health": 6,
       "power": 5,
@@ -2715,6 +3009,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "imperial",
+        "sith"
       ],
       "cost": 7,
       "health": 7,
@@ -2748,6 +3047,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "walker"
+      ],
       "cost": 8,
       "health": 9,
       "power": 9,
@@ -2779,6 +3083,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
       ],
       "cost": 9,
       "health": 8,
@@ -2812,6 +3121,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
+      ],
       "cost": 10,
       "health": 10,
       "power": 10,
@@ -2844,6 +3158,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "supply"
+      ],
       "cost": 2
     },
     {
@@ -2872,6 +3190,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 5
     },
     {
@@ -2899,6 +3220,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 1,
       "health": 2,
@@ -2932,6 +3256,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "official"
+      ],
       "cost": 1,
       "health": 2,
       "power": 1,
@@ -2963,6 +3291,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 2,
       "health": 3,
@@ -2996,6 +3328,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "official"
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -3027,6 +3363,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "official"
       ],
       "cost": 3,
       "health": 4,
@@ -3060,6 +3400,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "trooper"
+      ],
       "cost": 3,
       "health": 3,
       "power": 4,
@@ -3091,6 +3435,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "transport"
       ],
       "cost": 4,
       "health": 6,
@@ -3124,6 +3473,9 @@
           }
         }
       ],
+      "traits": [
+        "rebel"
+      ],
       "cost": 5,
       "health": 5,
       "power": 5,
@@ -3155,6 +3507,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "speeder"
       ],
       "cost": 6,
       "health": 6,
@@ -3188,6 +3545,11 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "capital ship"
+      ],
       "cost": 8,
       "health": 7,
       "power": 7,
@@ -3220,6 +3582,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "tactic"
+      ],
       "cost": 1
     },
     {
@@ -3248,6 +3614,9 @@
           }
         }
       ],
+      "traits": [
+        "supply"
+      ],
       "cost": 7
     },
     {
@@ -3274,6 +3643,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "jedi",
+        "republic"
       ],
       "cost": 5,
       "health": 4,
@@ -3306,6 +3680,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 3
     },
     {
@@ -3333,6 +3710,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 4
     },
     {
@@ -3359,6 +3739,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "trooper"
       ],
       "cost": 1,
       "health": 2,
@@ -3391,6 +3774,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -3421,6 +3808,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "vehicle",
+        "transport"
       ],
       "cost": 2,
       "health": 3,
@@ -3453,6 +3844,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -3483,6 +3878,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe",
+        "vehicle",
+        "fighter"
       ],
       "cost": 3,
       "health": 3,
@@ -3515,6 +3915,10 @@
           }
         }
       ],
+      "traits": [
+        "fringe",
+        "trooper"
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -3545,6 +3949,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "speeder"
       ],
       "cost": 4,
       "health": 4,
@@ -3577,6 +3986,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "trooper"
+      ],
       "cost": 5,
       "health": 4,
       "power": 4,
@@ -3607,6 +4020,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "trooper"
       ],
       "cost": 5,
       "health": 5,
@@ -3639,6 +4055,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "trooper"
+      ],
       "cost": 6,
       "health": 5,
       "power": 5,
@@ -3669,6 +4089,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 7,
       "health": 0,
@@ -3701,6 +4125,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "walker"
+      ],
       "cost": 8,
       "health": 9,
       "power": 6,
@@ -3732,6 +4160,9 @@
           }
         }
       ],
+      "traits": [
+        "learned"
+      ],
       "cost": 2
     },
     {
@@ -3758,6 +4189,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "modification",
+        "weapon"
       ],
       "cost": 2
     },
@@ -3786,6 +4221,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 5
     },
     {
@@ -3812,6 +4250,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "supply"
       ],
       "cost": 1
     },
@@ -3840,6 +4281,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 1
     },
     {
@@ -3866,6 +4310,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "plan"
       ],
       "cost": 2
     },
@@ -3894,6 +4341,9 @@
           }
         }
       ],
+      "traits": [
+        "supply"
+      ],
       "cost": 3
     },
     {
@@ -3920,6 +4370,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 3
     },
@@ -3948,6 +4401,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 1,
       "health": 1,
@@ -3981,6 +4438,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -4012,6 +4473,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 2,
       "health": 3,
@@ -4045,6 +4510,11 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "imperial",
+        "inquisitor"
+      ],
       "cost": 3,
       "health": 4,
       "power": 2,
@@ -4076,6 +4546,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "fighter"
       ],
       "cost": 4,
       "health": 2,
@@ -4109,6 +4584,11 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "imperial",
+        "inquisitor"
+      ],
       "cost": 5,
       "health": 6,
       "power": 3,
@@ -4140,6 +4620,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
       ],
       "cost": 6,
       "health": 6,
@@ -4173,6 +4658,12 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "imperial",
+        "sith",
+        "official"
+      ],
       "cost": 8,
       "health": 6,
       "power": 6,
@@ -4205,6 +4696,11 @@
           }
         }
       ],
+      "traits": [
+        "item",
+        "weapon",
+        "lightsaber"
+      ],
       "cost": 2
     },
     {
@@ -4232,6 +4728,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "item",
+        "weapon",
+        "lightsaber"
       ],
       "cost": 3
     },
@@ -4261,6 +4762,9 @@
           }
         }
       ],
+      "traits": [
+        "force"
+      ],
       "cost": 1
     },
     {
@@ -4289,6 +4793,9 @@
           }
         }
       ],
+      "traits": [
+        "force"
+      ],
       "cost": 2
     },
     {
@@ -4316,6 +4823,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 1,
       "health": 2,
@@ -4349,6 +4860,11 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -4380,6 +4896,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "mandalorian",
+        "rebel",
+        "spectre"
       ],
       "cost": 2,
       "health": 3,
@@ -4413,6 +4934,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "trooper"
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -4444,6 +4969,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "fighter"
       ],
       "cost": 3,
       "health": 3,
@@ -4477,6 +5007,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "droid"
+      ],
       "cost": 4,
       "health": 4,
       "power": 4,
@@ -4508,6 +5042,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "spectre"
       ],
       "cost": 5,
       "health": 5,
@@ -4541,6 +5079,11 @@
           }
         }
       ],
+      "traits": [
+        "resistance",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 6,
       "health": 4,
       "power": 4,
@@ -4572,6 +5115,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "walker"
       ],
       "cost": 6,
       "health": 6,
@@ -4605,6 +5153,11 @@
           }
         }
       ],
+      "traits": [
+        "force",
+        "jedi",
+        "republic"
+      ],
       "cost": 7,
       "health": 7,
       "power": 5,
@@ -4637,6 +5190,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 1
     },
     {
@@ -4664,6 +5220,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "spectre"
       ],
       "cost": 2
     },
@@ -4693,6 +5252,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 3
     },
     {
@@ -4719,6 +5281,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 4,
       "health": 4,
@@ -4751,6 +5316,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 3
     },
     {
@@ -4778,6 +5346,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 4
     },
     {
@@ -4804,6 +5375,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 1,
       "health": 2,
@@ -4836,6 +5411,9 @@
           }
         }
       ],
+      "traits": [
+        "underworld"
+      ],
       "cost": 1,
       "health": 3,
       "power": 0,
@@ -4866,6 +5444,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 2,
       "health": 1,
@@ -4898,6 +5479,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "trooper"
+      ],
       "cost": 2,
       "health": 4,
       "power": 1,
@@ -4928,6 +5513,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe",
+        "clone"
       ],
       "cost": 2,
       "health": 2,
@@ -4960,6 +5549,9 @@
           }
         }
       ],
+      "traits": [
+        "trooper"
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -4990,6 +5582,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "mandalorian",
+        "vehicle",
+        "fighter"
       ],
       "cost": 3,
       "health": 2,
@@ -5022,6 +5619,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "fighter"
+      ],
       "cost": 3,
       "health": 1,
       "power": 4,
@@ -5052,6 +5653,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "creature"
       ],
       "cost": 4,
       "health": 5,
@@ -5084,6 +5688,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "tank"
+      ],
       "cost": 5,
       "health": 4,
       "power": 5,
@@ -5115,6 +5724,9 @@
           }
         }
       ],
+      "traits": [
+        "learned"
+      ],
       "cost": 1
     },
     {
@@ -5141,6 +5753,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force"
       ],
       "cost": 1
     },
@@ -5169,6 +5784,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 1
     },
     {
@@ -5195,6 +5813,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 2
     },
@@ -5223,6 +5844,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 2
     },
     {
@@ -5249,6 +5873,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "plan"
       ],
       "cost": 3
     },
@@ -5277,6 +5904,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 3
     },
     {
@@ -5303,6 +5933,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 5
     },
@@ -5331,6 +5964,9 @@
           }
         }
       ],
+      "traits": [
+        "disaster"
+      ],
       "cost": 5
     },
     {
@@ -5357,6 +5993,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "plan"
       ],
       "cost": 6
     },
@@ -5385,6 +6024,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial"
       ],
       "cost": 1,
       "health": 3,
@@ -5418,6 +6060,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "twi'lek"
+      ],
       "cost": 2,
       "health": 3,
       "power": 1,
@@ -5449,6 +6095,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "fighter"
       ],
       "cost": 2,
       "health": 3,
@@ -5482,6 +6133,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "bounty hunter"
+      ],
       "cost": 3,
       "health": 5,
       "power": 3,
@@ -5513,6 +6168,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "fighter"
       ],
       "cost": 3,
       "health": 2,
@@ -5546,6 +6206,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "hutt"
+      ],
       "cost": 4,
       "health": 8,
       "power": 2,
@@ -5577,6 +6241,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "bounty hunter"
       ],
       "cost": 5,
       "health": 5,
@@ -5610,6 +6278,10 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "bounty hunter"
+      ],
       "cost": 6,
       "health": 4,
       "power": 4,
@@ -5641,6 +6313,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "transport"
       ],
       "cost": 6,
       "health": 6,
@@ -5674,6 +6351,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "capital ship"
+      ],
       "cost": 8,
       "health": 7,
       "power": 8,
@@ -5706,6 +6388,9 @@
           }
         }
       ],
+      "traits": [
+        "plan"
+      ],
       "cost": 2
     },
     {
@@ -5734,6 +6419,9 @@
           }
         }
       ],
+      "traits": [
+        "trick"
+      ],
       "cost": 7
     },
     {
@@ -5761,6 +6449,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "droid",
+        "spectre"
       ],
       "cost": 1,
       "health": 3,
@@ -5794,6 +6487,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "official"
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -5825,6 +6522,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel"
       ],
       "cost": 2,
       "health": 2,
@@ -5858,6 +6558,11 @@
           }
         }
       ],
+      "traits": [
+        "new republic",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -5889,6 +6594,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "force",
+        "rebel",
+        "spectre"
       ],
       "cost": 3,
       "health": 4,
@@ -5922,6 +6632,11 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "transport"
+      ],
       "cost": 3,
       "health": 4,
       "power": 3,
@@ -5953,6 +6668,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 3,
       "health": 4,
@@ -5986,6 +6705,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "fighter"
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -6017,6 +6740,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "wookiee"
       ],
       "cost": 5,
       "health": 6,
@@ -6050,6 +6777,10 @@
           }
         }
       ],
+      "traits": [
+        "fringe",
+        "official"
+      ],
       "cost": 6,
       "health": 5,
       "power": 6,
@@ -6081,6 +6812,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld"
       ],
       "cost": 7,
       "health": 6,
@@ -6114,6 +6848,9 @@
           }
         }
       ],
+      "traits": [
+        "trick"
+      ],
       "cost": 2
     },
     {
@@ -6142,6 +6879,9 @@
           }
         }
       ],
+      "traits": [
+        "spectre"
+      ],
       "cost": 2
     },
     {
@@ -6168,6 +6908,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "rebel"
       ],
       "cost": 3,
       "health": 3,
@@ -6200,6 +6944,9 @@
           }
         }
       ],
+      "traits": [
+        "fringe"
+      ],
       "cost": 5,
       "health": 5,
       "power": 3,
@@ -6231,6 +6978,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 4
     },
     {
@@ -6257,6 +7007,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "bounty hunter"
       ],
       "cost": 1,
       "health": 1,
@@ -6289,6 +7043,10 @@
           }
         }
       ],
+      "traits": [
+        "fringe",
+        "jawa"
+      ],
       "cost": 1,
       "health": 1,
       "power": 2,
@@ -6319,6 +7077,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe",
+        "vehicle",
+        "fighter"
       ],
       "cost": 1,
       "health": 2,
@@ -6351,6 +7114,9 @@
           }
         }
       ],
+      "traits": [
+        "underworld"
+      ],
       "cost": 2,
       "health": 2,
       "power": 2,
@@ -6381,6 +7147,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe",
+        "vehicle",
+        "fighter"
       ],
       "cost": 2,
       "health": 3,
@@ -6413,6 +7184,11 @@
           }
         }
       ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 4,
       "power": 2,
@@ -6443,6 +7219,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "fringe"
       ],
       "cost": 3,
       "health": 3,
@@ -6475,6 +7254,9 @@
           }
         }
       ],
+      "traits": [
+        "underworld"
+      ],
       "cost": 4,
       "health": 4,
       "power": 4,
@@ -6505,6 +7287,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld",
+        "vehicle",
+        "fighter"
       ],
       "cost": 4,
       "health": 4,
@@ -6537,6 +7324,9 @@
           }
         }
       ],
+      "traits": [
+        "underworld"
+      ],
       "cost": 5,
       "health": 4,
       "power": 5,
@@ -6568,6 +7358,9 @@
           }
         }
       ],
+      "traits": [
+        "modification"
+      ],
       "cost": 1
     },
     {
@@ -6594,6 +7387,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "learned"
       ],
       "cost": 1
     },
@@ -6622,6 +7418,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 1
     },
     {
@@ -6648,6 +7447,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "trick"
       ],
       "cost": 1
     },
@@ -6676,6 +7478,9 @@
           }
         }
       ],
+      "traits": [
+        "trick"
+      ],
       "cost": 2
     },
     {
@@ -6702,6 +7507,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "trick"
       ],
       "cost": 2
     },
@@ -6730,6 +7538,9 @@
           }
         }
       ],
+      "traits": [
+        "tactic"
+      ],
       "cost": 2
     },
     {
@@ -6756,6 +7567,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "tactic"
       ],
       "cost": 3
     },
@@ -6784,6 +7598,9 @@
           }
         }
       ],
+      "traits": [
+        "trick"
+      ],
       "cost": 3
     },
     {
@@ -6810,6 +7627,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "gambit"
       ],
       "cost": 4
     },
@@ -6838,6 +7658,9 @@
           }
         }
       ],
+      "traits": [
+        "gambit"
+      ],
       "cost": 6
     },
     {
@@ -6864,6 +7687,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "fighter"
       ],
       "cost": 1,
       "health": 1,
@@ -6896,6 +7724,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 2,
       "health": 1,
       "power": 1,
@@ -6926,6 +7758,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 2,
       "health": 2,
@@ -6958,6 +7794,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "droid"
+      ],
       "cost": 2,
       "health": 2,
       "power": 3,
@@ -6988,6 +7828,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "trooper"
       ],
       "cost": 3,
       "health": 3,
@@ -7020,6 +7864,10 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "official"
+      ],
       "cost": 3,
       "health": 3,
       "power": 3,
@@ -7050,6 +7898,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "fighter"
       ],
       "cost": 4,
       "health": 2,
@@ -7082,6 +7935,11 @@
           }
         }
       ],
+      "traits": [
+        "imperial",
+        "vehicle",
+        "walker"
+      ],
       "cost": 6,
       "health": 7,
       "power": 6,
@@ -7113,6 +7971,9 @@
           }
         }
       ],
+      "traits": [
+        "gambit"
+      ],
       "cost": 3
     },
     {
@@ -7139,6 +8000,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "imperial",
+        "tactic"
       ],
       "cost": 4
     },
@@ -7167,6 +8032,9 @@
           }
         }
       ],
+      "traits": [
+        "innate"
+      ],
       "cost": 7
     },
     {
@@ -7193,6 +8061,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "droid"
       ],
       "cost": 1,
       "health": 4,
@@ -7225,6 +8097,11 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -7255,6 +8132,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "droid"
       ],
       "cost": 2,
       "health": 4,
@@ -7287,6 +8168,10 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "trooper"
+      ],
       "cost": 2,
       "health": 3,
       "power": 2,
@@ -7317,6 +8202,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "trooper"
       ],
       "cost": 3,
       "health": 3,
@@ -7349,6 +8238,11 @@
           }
         }
       ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "fighter"
+      ],
       "cost": 3,
       "health": 1,
       "power": 2,
@@ -7379,6 +8273,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "official"
       ],
       "cost": 4,
       "health": 4,
@@ -7411,6 +8309,9 @@
           }
         }
       ],
+      "traits": [
+        "rebel"
+      ],
       "cost": 4,
       "health": 4,
       "power": 3,
@@ -7441,6 +8342,11 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "rebel",
+        "vehicle",
+        "speeder"
       ],
       "cost": 5,
       "health": 6,
@@ -7473,6 +8379,9 @@
           }
         }
       ],
+      "traits": [
+        "rebel"
+      ],
       "cost": 0
     },
     {
@@ -7500,6 +8409,9 @@
           }
         }
       ],
+      "traits": [
+        "gambit"
+      ],
       "cost": 3
     },
     {
@@ -7524,6 +8436,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "underworld"
       ],
       "cost": 2,
       "health": 3,
@@ -7554,6 +8469,9 @@
           }
         }
       ],
+      "traits": [
+        "trooper"
+      ],
       "cost": 3,
       "health": 3,
       "power": 2,
@@ -7582,6 +8500,10 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "vehicle",
+        "walker"
       ],
       "cost": 4,
       "health": 5,
@@ -7612,6 +8534,10 @@
           }
         }
       ],
+      "traits": [
+        "vehicle",
+        "transport"
+      ],
       "cost": 5,
       "health": 4,
       "power": 4,
@@ -7641,6 +8567,9 @@
           }
         }
       ],
+      "traits": [
+        "law"
+      ],
       "cost": 1
     },
     {
@@ -7665,6 +8594,9 @@
             "height": 100
           }
         }
+      ],
+      "traits": [
+        "supply"
       ],
       "cost": 1
     }
