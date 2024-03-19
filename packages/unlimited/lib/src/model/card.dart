@@ -234,7 +234,17 @@ final class UnitCard extends DeckCard implements TargetCard, PowerCard {
 ///
 /// A _marker_ interface.
 @immutable
-sealed class AttachmentCard implements Card {}
+sealed class AttachmentCard implements Card {
+  /// The power modifier of this card.
+  ///
+  /// Must be at least 0.
+  int get powerModifier;
+
+  /// The health modifier of this card.
+  ///
+  /// Must be at least 0.
+  int get healthModifier;
+}
 
 /// Represents an upgrade card that exists in a player's deck.
 @immutable
@@ -248,7 +258,15 @@ final class UpgradeCard extends DeckCard implements AttachmentCard {
     required super.arena,
     required super.traits,
     required super.cost,
+    this.powerModifier = 0,
+    this.healthModifier = 0,
   });
+
+  @override
+  final int powerModifier;
+
+  @override
+  final int healthModifier;
 }
 
 /// Represents a token.
@@ -260,7 +278,15 @@ final class TokenCard extends Card implements AttachmentCard {
     required super.number,
     required super.name,
     required super.unique,
+    this.powerModifier = 0,
+    this.healthModifier = 0,
   });
+
+  @override
+  final int powerModifier;
+
+  @override
+  final int healthModifier;
 
   @override
   String toString() {
