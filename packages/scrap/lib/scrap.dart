@@ -332,7 +332,7 @@ sealed class Card implements ToJson {
       'title': JsonString(title),
       'rarity': rarity.toJson(),
       'aspects': aspects.toJson(),
-      'unique': JsonBool(unique),
+      'unique': JsonBoolean(unique),
       'art': JsonArray(art.map((a) => a.toJson()).toList()),
     });
   }

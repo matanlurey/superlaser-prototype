@@ -68,10 +68,11 @@ packages:
   jsonut:
     dependency: "direct main"
     description:
-      path: "../../../jsonut"
-      relative: true
-    source: path
-    version: "0.4.0-dev"
+      name: jsonut
+      sha256: ae81ebbdffd73ae2e5b9f6635fb3d744681b27e9a82814391ada1b74a2f5ba54
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.0"
   lints:
     dependency: "direct dev"
     description:
