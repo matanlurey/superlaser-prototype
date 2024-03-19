@@ -31,7 +31,6 @@ linter:
     - avoid_dynamic_calls
     - avoid_escaping_inner_quotes
     - avoid_equals_and_hash_code_on_mutable_classes
-    - avoid_implementing_value_types
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
     - avoid_positional_boolean_parameters
