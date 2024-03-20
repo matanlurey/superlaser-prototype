@@ -3,6 +3,105 @@ import 'package:unlimited/src/model/arena.dart';
 import 'package:unlimited/src/model/expansion.dart';
 import 'package:unlimited/src/model/trait.dart';
 
+/// Represents a reference to a card.
+///
+/// This class is used to refer to a card without needing exact details about
+/// the card itself. It is used in cases where a card's details are not needed,
+/// such as for storage in a database or for a player's decklist.
+///
+/// ## Equality
+///
+/// Two card references are considered equal if:
+/// - They belong to the same [expansion];
+/// - They have the same [number];
+/// - They are both [foil] or both _aren't_ [foil].
+///
+/// To ignore [foil] when comparing two card references, use [withFoil].
+///
+/// ## Example
+///
+/// ```dart
+/// final a = CardReference(expansion: 'ABC', number: 1);
+/// final b = CardReference(expansion: 'ABC', number: 1);
+/// print(a == b); // true
+///
+/// final c = CardReference(expansion: 'ABC', number: 1, foil: true);
+/// print(a == c); // false
+/// print(a.withFoil() == c.withFoil()); // true
+/// ```
+@immutable
+final class CardReference implements Comparable<CardReference> {
+  /// Creates a new card reference.
+  ///
+  /// Optionally, [foil] can be set to `true`.
+  const CardReference({
+    required this.expansion,
+    required this.number,
+    this.foil = false,
+  });
+
+  /// A reference to an [Expansion.code].
+  ///
+  /// Must be non-empty.
+  final String expansion;
+
+  /// A reference to a [Card.number] within the [expansion].
+  ///
+  /// Must be at least 1.
+  final int number;
+
+  /// Whether this card is a foil.
+  final bool foil;
+
+  /// Compares this card reference to another.
+  ///
+  /// The comparison is done by comparing [expansion] first, then [number], and
+  /// finally [foil] (with non-foil cards coming before foil cards).
+  @override
+  int compareTo(CardReference other) {
+    final result = expansion.compareTo(other.expansion);
+    if (result != 0) {
+      return result;
+    }
+
+    final result2 = number.compareTo(other.number);
+    if (result2 != 0) {
+      return result2;
+    }
+
+    return foil ? 1 : -1;
+  }
+
+  /// Returns the same card reference, but with [foil] set explicitly.
+  CardReference withFoil({bool foil = true}) {
+    if (foil == this.foil) {
+      return this;
+    }
+    return CardReference(
+      expansion: expansion,
+      number: number,
+      foil: foil,
+    );
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return other is CardReference &&
+        expansion == other.expansion &&
+        number == other.number &&
+        foil == other.foil;
+  }
+
+  @override
+  int get hashCode => Object.hash(expansion, number, foil);
+
+  @override
+  String toString() {
+    final number = '${this.number}'.padLeft(3, '0');
+    return '${expansion.toUpperCase()} $number${foil ? ' (Foil)' : ''}';
+  }
+}
+
 /// Represents _any_ card in Star Wars: Unlimited.
 ///
 /// The hierarchy is sealed as the following:

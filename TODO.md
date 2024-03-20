@@ -41,11 +41,11 @@ _None_.
     }
     ```
 
-- [ ] Start collection management tool (`package:superlaser_app`).
-  - [ ] Add cards to collection (`###`) with optional foil toggle (`f###`).
-  - [ ] Automatically load `collection.csv` (if it exists) from storage.
-  - [ ] Automatically save to disk.
-  - [ ] Explicit import/export to CSV file.
+- [x] Start collection management tool (`package:superlaser_app`).
+  - [x] Add cards to collection (`###`) with optional foil toggle (`f###`).
+  - [x] Automatically load `collection.json` (if it exists) from storage.
+  - [x] Automatically save to disk.
+  - [ ] Explicit import/export to json file.
 
 - [x] Create `packages/unlimited`:
   - [x] Add `lib/model.dart` with the core data model.

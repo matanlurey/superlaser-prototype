@@ -8,7 +8,7 @@ environment:
   sdk: ^3.3.0
 
 dependencies:
-  meta: ^1.12.0
+  meta: ^1.11.0
 
 dev_dependencies:
   checks: ^0.3.0

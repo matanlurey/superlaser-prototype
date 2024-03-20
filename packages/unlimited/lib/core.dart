@@ -6,6 +6,7 @@ export 'src/model/card.dart'
         AttachmentCard,
         BaseCard,
         Card,
+        CardReference,
         DeckCard,
         EventCard,
         LeaderCard,
