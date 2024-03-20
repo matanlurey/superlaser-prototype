@@ -99,34 +99,103 @@ final class _Json extends Command<void> {
           );
 
           final Card card;
-          final art = [
-            Art(
-              artist: data.artist,
-              front: ArtImage(
-                url: Uri.parse(data.artFront.url),
-                width: data.artFront.width,
-                height: data.artFront.height,
-              ),
-              back: data.artBack != null
-                  ? ArtImage(
-                      url: Uri.parse(data.artBack!.url),
-                      width: data.artBack!.width,
-                      height: data.artBack!.height,
-                    )
-                  : null,
-              thumbnail: ArtImage(
-                url: Uri.parse(data.artThumbnail.url),
-                width: data.artThumbnail.width,
-                height: data.artThumbnail.height,
-              ),
+          final art = Art(
+            artist: data.artist,
+            front: ArtImage(
+              url: Uri.parse(data.artFront.url),
+              width: data.artFront.width,
+              height: data.artFront.height,
             ),
-          ];
+            back: data.artBack != null
+                ? ArtImage(
+                    url: Uri.parse(data.artBack!.url),
+                    width: data.artBack!.width,
+                    height: data.artBack!.height,
+                  )
+                : null,
+            thumbnail: ArtImage(
+              url: Uri.parse(data.artThumbnail.url),
+              width: data.artThumbnail.width,
+              height: data.artThumbnail.height,
+            ),
+          );
+
+          Variants? variants() {
+            if (data.variants == null) {
+              return null;
+            }
+            Variant? showcase;
+            Variant? hyperspace;
+            for (final c in data.variants!.cards) {
+              if (c.hyperspace) {
+                hyperspace = Variant(
+                  number: c.cardNumber,
+                  art: Art(
+                    artist: c.artist,
+                    front: ArtImage(
+                      url: Uri.parse(c.artFront.url),
+                      width: c.artFront.width,
+                      height: c.artFront.height,
+                    ),
+                    back: c.artBack != null
+                        ? ArtImage(
+                            url: Uri.parse(c.artBack!.url),
+                            width: c.artBack!.width,
+                            height: c.artBack!.height,
+                          )
+                        : null,
+                    thumbnail: ArtImage(
+                      url: Uri.parse(c.artThumbnail.url),
+                      width: c.artThumbnail.width,
+                      height: c.artThumbnail.height,
+                    ),
+                  ),
+                );
+              } else if (c.showcase) {
+                showcase = Variant(
+                  number: c.cardNumber,
+                  art: Art(
+                    artist: c.artist,
+                    front: ArtImage(
+                      url: Uri.parse(c.artFront.url),
+                      width: c.artFront.width,
+                      height: c.artFront.height,
+                    ),
+                    back: c.artBack != null
+                        ? ArtImage(
+                            url: Uri.parse(c.artBack!.url),
+                            width: c.artBack!.width,
+                            height: c.artBack!.height,
+                          )
+                        : null,
+                    thumbnail: ArtImage(
+                      url: Uri.parse(c.artThumbnail.url),
+                      width: c.artThumbnail.width,
+                      height: c.artThumbnail.height,
+                    ),
+                  ),
+                );
+              } else {
+                // TODO: Support promotional variants.
+                // Example: https://cdn.starwarsunlimited.com//card_SWOP_0103_018_Greedo_OP_55b8cb8698.png.
+                io.stderr.writeln(
+                  'Unknown variant: ${c.cardUid} (${c.cardNumber}).',
+                );
+              }
+            }
+            return Variants(
+              showcase: showcase,
+              hyperspace: hyperspace,
+            );
+          }
+
           switch (data.type.name) {
             case 'Leader':
               card = LeaderCard(
                 title: data.title,
                 number: data.cardNumber,
                 art: art,
+                variants: variants(),
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -146,6 +215,7 @@ final class _Json extends Command<void> {
                 title: data.title,
                 number: data.cardNumber,
                 art: art,
+                variants: variants(),
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -160,6 +230,7 @@ final class _Json extends Command<void> {
                 title: data.title,
                 number: data.cardNumber,
                 art: art,
+                variants: variants(),
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -179,6 +250,7 @@ final class _Json extends Command<void> {
                 title: data.title,
                 number: data.cardNumber,
                 art: art,
+                variants: variants(),
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -194,6 +266,7 @@ final class _Json extends Command<void> {
                 title: data.title,
                 number: data.cardNumber,
                 art: art,
+                variants: variants(),
                 rarity: Rarity.fromName(data.rarity.name.toLowerCase()),
                 aspects: Aspects.from(
                   data.aspects.map(
@@ -337,7 +410,9 @@ final class _Images extends Command<void> {
 
         for (final card in expansion.cards) {
           final number = card.number.toString().padLeft(maxDigits, '0');
-          for (final art in card.art) {
+
+          // TODO: Add variants.
+          for (final art in [card.art]) {
             downloads.add(
               _Download(
                 url: art.front.url,

@@ -4,7 +4,7 @@ void main() {
   runApp(const _MainApp());
 }
 
-class _MainApp extends StatelessWidget {
+final class _MainApp extends StatelessWidget {
   const _MainApp();
 
   @override

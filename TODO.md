@@ -8,6 +8,39 @@ _None_.
 
 ## Next up
 
+- [x] Add variants to the scraped data model:
+  - [x] Change the `art` scraped field to be a single object not a list:
+
+    ```jsonc
+    "art": {
+      "kind": "standard",
+      "artist": "John Doe",
+      "front": {
+        /* ... */
+      },
+      /* ... */
+    }
+    ```
+
+  - [x] Extend the data model:
+
+    ```jsonc
+    "variants": {
+      "hyperspace": {
+        "number": 253,
+        "art": {
+          /*...*/
+        },
+      },
+      "showcase": {
+        "number": 254,
+        "art": {
+          /*...*/
+        },
+      },
+    }
+    ```
+
 - [ ] Start collection management tool (`package:superlaser_app`).
   - [ ] Add cards to collection (`###`) with optional foil toggle (`f###`).
   - [ ] Automatically load `collection.csv` (if it exists) from storage.

@@ -157,16 +157,23 @@ extension type const CardAttributes._(JsonObject _fields) {
 
   /// The card's variants.
   CardData? get variants {
-    return _fields.deepGet(const ['variants', 'data']).as();
+    final variants = _fields['variants'].objectOrNull();
+    if (variants == null || variants['data'].isNull) {
+      return null;
+    }
+    final result = CardData._(variants);
+    return result;
   }
 
   /// The card this card is a variant of.
   CardData? get variantOf {
-    return _fields.deepGet(const ['variantOf', 'data']).as();
+    return _fields.deepGet(const ['variantOf']).as();
   }
 
   /// Whether this card is a variant.
-  bool get isVariant => variantOf != null;
+  bool get isVariant {
+    return !_fields.deepGet(const ['variantOf', 'data']).isNull;
+  }
 
   /// The card's aspects.
   List<CardAspect> get aspects {
