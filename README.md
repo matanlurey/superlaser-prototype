@@ -9,6 +9,16 @@ project is not affiliated with Star Wars: Unlimited or Fantasy Flight Games.
 
 ## Repository
 
+### Applications
+
+A [Flutter](https://flutter.dev/) application is in early development in
+[`superlaser_app`](./packages/superlaser_app/).
+
+<img 
+  alt="Screenshot of the Superlaser app"
+  width="300"
+  src="https://github.com/matanlurey/superlaser/assets/168174/dce723d5-4314-4d90-ba65-ed3f8b244eba" />
+
 ### Data
 
 Raw card data is stored in the [`data`](data/) directory, and is organized by
@@ -38,6 +48,11 @@ To parse the card data, see [`package:scrap`](./packages/scrap/):
 > [!NOTE]
 > There is no stable format for the card data, and it is subject to change at
 > any time.
+
+### Packages
+
+[`package:unlimited`](./packages/unlimited) contains an application agnostic
+data model for the game.
 
 ### Tools
 
