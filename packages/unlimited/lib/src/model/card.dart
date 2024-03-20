@@ -129,6 +129,7 @@ sealed class Card {
     required this.set,
     required this.number,
     required this.name,
+    required this.subTitle,
     required this.unique,
   });
 
@@ -147,6 +148,9 @@ sealed class Card {
   ///
   /// Must be non-empty.
   final String name;
+
+  /// Subtitle of the card, if any.
+  final String? subTitle;
 
   /// Whether the card is unique.
   ///
@@ -193,6 +197,7 @@ final class LeaderCard extends Card {
     required super.set,
     required super.number,
     required super.name,
+    required super.subTitle,
     required super.unique,
     required this.unit,
   });
@@ -209,12 +214,27 @@ final class BaseCard extends Card implements TargetCard {
     required super.set,
     required super.number,
     required super.name,
-    required super.unique,
     required this.health,
-  });
+  }) : super(unique: false, subTitle: null);
 
   @override
   final int health;
+
+  /// Bases are not _played_, therefore they are not considered _unique_.
+  ///
+  /// _Technically it would be better to not even expose this property, but it
+  /// simplifies the card hierarchy to have it here (we already have enough
+  /// sealed classes as it is)._
+  @override
+  bool get unique => false;
+
+  /// Bases do not have a subtitle.
+  ///
+  /// _Technically it would be better to not even expose this property, but it
+  /// simplifies the card hierarchy to have it here (we already have enough
+  /// sealed classes as it is)._
+  @override
+  Null get subTitle => null;
 }
 
 /// Represents a card that can be played.
@@ -226,6 +246,7 @@ sealed class PlayableCard extends Card {
     required super.number,
     required super.name,
     required super.unique,
+    required super.subTitle,
     required Iterable<Trait> traits,
     required this.cost,
   }) : traits = Set.unmodifiable(traits);
@@ -255,6 +276,7 @@ sealed class ArenaCard extends PlayableCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.subTitle,
     required super.traits,
     required super.cost,
     required this.arena,
@@ -288,6 +310,7 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.subTitle,
     required super.traits,
     required super.cost,
     required this.health,
@@ -312,6 +335,7 @@ final class UnitCard extends ArenaCard
     required super.number,
     required super.name,
     required super.unique,
+    required super.subTitle,
     required super.arena,
     required super.traits,
     required super.cost,
@@ -356,13 +380,21 @@ final class UpgradeCard extends PlayableCard
     required super.cost,
     this.powerModifier = 0,
     this.healthModifier = 0,
-  });
+  }) : super(subTitle: null);
 
   @override
   final int powerModifier;
 
   @override
   final int healthModifier;
+
+  /// Events never have a subtitle.
+  ///
+  /// _Technically it would be better to not even expose this property, but it
+  /// simplifies the card hierarchy to have it here (we already have enough
+  /// sealed classes as it is)._
+  @override
+  Null get subTitle => null;
 }
 
 /// Represents a token.
@@ -401,5 +433,13 @@ final class EventCard extends PlayableCard implements DeckCard {
     required super.unique,
     required super.traits,
     required super.cost,
-  });
+  }) : super(subTitle: null);
+
+  /// Events never have a subtitle.
+  ///
+  /// _Technically it would be better to not even expose this property, but it
+  /// simplifies the card hierarchy to have it here (we already have enough
+  /// sealed classes as it is)._
+  @override
+  Null get subTitle => null;
 }

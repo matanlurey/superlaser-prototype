@@ -177,17 +177,20 @@ final class Retrofit extends Command<void> {
       'set': 'set',
       'number': card.number.toString(),
       'name': _safeString(card.title),
-      'unique': card.unique.toString(),
     };
     return switch (card) {
       final scrap.LeaderCard c => _invokeConstructor(
           'LeaderCard',
           {
             ...base,
+            'unique': card.unique.toString(),
+            'subTitle': _safeString(c.subTitle),
             'unit': _invokeConstructor(
               'LeaderUnitCard',
               {
                 ...base,
+                'unique': card.unique.toString(),
+                'subTitle': _safeString(c.subTitle),
                 'traits': _createList(
                   c.traits.map((t) => 'Trait.${_nameToIdentifier(t)}'),
                   indent: '    ',
@@ -211,6 +214,8 @@ final class Retrofit extends Command<void> {
           'UnitCard',
           {
             ...base,
+            'subTitle': _safeString(c.subTitle),
+            'unique': card.unique.toString(),
             'traits': _createList(
               c.traits.map((t) => 'Trait.${_nameToIdentifier(t)}'),
               indent: '  ',
@@ -225,6 +230,7 @@ final class Retrofit extends Command<void> {
           'EventCard',
           {
             ...base,
+            'unique': card.unique.toString(),
             'traits': _createList(
               c.traits.map((t) => 'Trait.${_nameToIdentifier(t)}'),
               indent: '  ',
@@ -236,6 +242,7 @@ final class Retrofit extends Command<void> {
           'UpgradeCard',
           {
             ...base,
+            'unique': card.unique.toString(),
             'traits': _createList(
               c.traits.map((t) => 'Trait.${_nameToIdentifier(t)}'),
               indent: '  ',
@@ -247,7 +254,12 @@ final class Retrofit extends Command<void> {
   }
 
   /// Wraps a string in quotes as a valid Dart string.
-  static String _safeString(String string) {
+  static String _safeString(String? string) {
+    // If it's null, return null.
+    if (string == null) {
+      return 'null';
+    }
+
     // If it has an apostrophe, use double quotes.
     if (string.contains("'")) {
       return '"$string"';

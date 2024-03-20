@@ -29,11 +29,13 @@ final directorKrennic = LeaderCard(
   number: 1,
   name: 'Director Krennic',
   unique: true,
+  subTitle: 'Aspiring to Authority',
   unit: LeaderUnitCard(
     set: set,
     number: 1,
     name: 'Director Krennic',
     unique: true,
+    subTitle: 'Aspiring to Authority',
     traits: [
       Trait.imperial,
       Trait.official,
@@ -52,11 +54,13 @@ final idenVersio = LeaderCard(
   number: 2,
   name: 'Iden Versio',
   unique: true,
+  subTitle: 'Inferno Squad Commander',
   unit: LeaderUnitCard(
     set: set,
     number: 2,
     name: 'Iden Versio',
     unique: true,
+    subTitle: 'Inferno Squad Commander',
     traits: [
       Trait.imperial,
       Trait.trooper,
@@ -75,11 +79,13 @@ final chewbacca = LeaderCard(
   number: 3,
   name: 'Chewbacca',
   unique: true,
+  subTitle: 'Walking Carpet',
   unit: LeaderUnitCard(
     set: set,
     number: 3,
     name: 'Chewbacca',
     unique: true,
+    subTitle: 'Walking Carpet',
     traits: [
       Trait.underworld,
       Trait.wookiee,
@@ -98,11 +104,13 @@ final chirrutMwe = LeaderCard(
   number: 4,
   name: 'Chirrut Ãmwe',
   unique: true,
+  subTitle: 'One With The Force',
   unit: LeaderUnitCard(
     set: set,
     number: 4,
     name: 'Chirrut Ãmwe',
     unique: true,
+    subTitle: 'One With The Force',
     traits: [
       Trait.force,
       Trait.rebel,
@@ -121,11 +129,13 @@ final lukeSkywalker = LeaderCard(
   number: 5,
   name: 'Luke Skywalker',
   unique: true,
+  subTitle: 'Faithful Friend',
   unit: LeaderUnitCard(
     set: set,
     number: 5,
     name: 'Luke Skywalker',
     unique: true,
+    subTitle: 'Faithful Friend',
     traits: [
       Trait.force,
       Trait.rebel,
@@ -144,11 +154,13 @@ final emperorPalpatine = LeaderCard(
   number: 6,
   name: 'Emperor Palpatine',
   unique: true,
+  subTitle: 'Galactic Ruler',
   unit: LeaderUnitCard(
     set: set,
     number: 6,
     name: 'Emperor Palpatine',
     unique: true,
+    subTitle: 'Galactic Ruler',
     traits: [
       Trait.force,
       Trait.imperial,
@@ -169,11 +181,13 @@ final grandMoffTarkin = LeaderCard(
   number: 7,
   name: 'Grand Moff Tarkin',
   unique: true,
+  subTitle: 'Oversector Governor',
   unit: LeaderUnitCard(
     set: set,
     number: 7,
     name: 'Grand Moff Tarkin',
     unique: true,
+    subTitle: 'Oversector Governor',
     traits: [
       Trait.imperial,
       Trait.official,
@@ -192,11 +206,13 @@ final heraSyndulla = LeaderCard(
   number: 8,
   name: 'Hera Syndulla',
   unique: true,
+  subTitle: 'Spectre Two',
   unit: LeaderUnitCard(
     set: set,
     number: 8,
     name: 'Hera Syndulla',
     unique: true,
+    subTitle: 'Spectre Two',
     traits: [
       Trait.rebel,
       Trait.twilek,
@@ -216,11 +232,13 @@ final leiaOrgana = LeaderCard(
   number: 9,
   name: 'Leia Organa',
   unique: true,
+  subTitle: 'Alliance General',
   unit: LeaderUnitCard(
     set: set,
     number: 9,
     name: 'Leia Organa',
     unique: true,
+    subTitle: 'Alliance General',
     traits: [
       Trait.rebel,
       Trait.official,
@@ -239,11 +257,13 @@ final darthVader = LeaderCard(
   number: 10,
   name: 'Darth Vader',
   unique: true,
+  subTitle: 'Dark Lord of the Sith',
   unit: LeaderUnitCard(
     set: set,
     number: 10,
     name: 'Darth Vader',
     unique: true,
+    subTitle: 'Dark Lord of the Sith',
     traits: [
       Trait.force,
       Trait.imperial,
@@ -263,11 +283,13 @@ final grandInquisitor = LeaderCard(
   number: 11,
   name: 'Grand Inquisitor',
   unique: true,
+  subTitle: 'Hunting the Jedi',
   unit: LeaderUnitCard(
     set: set,
     number: 11,
     name: 'Grand Inquisitor',
     unique: true,
+    subTitle: 'Hunting the Jedi',
     traits: [
       Trait.force,
       Trait.imperial,
@@ -287,11 +309,13 @@ final ig88 = LeaderCard(
   number: 12,
   name: 'IG-88',
   unique: true,
+  subTitle: 'Ruthless Bounty Hunter',
   unit: LeaderUnitCard(
     set: set,
     number: 12,
     name: 'IG-88',
     unique: true,
+    subTitle: 'Ruthless Bounty Hunter',
     traits: [
       Trait.underworld,
       Trait.droid,
@@ -311,11 +335,13 @@ final cassianAndor = LeaderCard(
   number: 13,
   name: 'Cassian Andor',
   unique: true,
+  subTitle: 'Dedicated to the Rebellion',
   unit: LeaderUnitCard(
     set: set,
     number: 13,
     name: 'Cassian Andor',
     unique: true,
+    subTitle: 'Dedicated to the Rebellion',
     traits: [
       Trait.rebel,
     ],
@@ -333,11 +359,13 @@ final sabineWren = LeaderCard(
   number: 14,
   name: 'Sabine Wren',
   unique: true,
+  subTitle: 'Galvanized Revolutionary',
   unit: LeaderUnitCard(
     set: set,
     number: 14,
     name: 'Sabine Wren',
     unique: true,
+    subTitle: 'Galvanized Revolutionary',
     traits: [
       Trait.mandalorian,
       Trait.rebel,
@@ -357,11 +385,13 @@ final bobaFett = LeaderCard(
   number: 15,
   name: 'Boba Fett',
   unique: true,
+  subTitle: 'Collecting the Bounty',
   unit: LeaderUnitCard(
     set: set,
     number: 15,
     name: 'Boba Fett',
     unique: true,
+    subTitle: 'Collecting the Bounty',
     traits: [
       Trait.underworld,
       Trait.bountyHunter,
@@ -380,11 +410,13 @@ final grandAdmiralThrawn = LeaderCard(
   number: 16,
   name: 'Grand Admiral Thrawn',
   unique: true,
+  subTitle: 'Patient and Insightful',
   unit: LeaderUnitCard(
     set: set,
     number: 16,
     name: 'Grand Admiral Thrawn',
     unique: true,
+    subTitle: 'Patient and Insightful',
     traits: [
       Trait.imperial,
       Trait.official,
@@ -403,11 +435,13 @@ final hanSolo = LeaderCard(
   number: 17,
   name: 'Han Solo',
   unique: true,
+  subTitle: 'Audacious Smuggler',
   unit: LeaderUnitCard(
     set: set,
     number: 17,
     name: 'Han Solo',
     unique: true,
+    subTitle: 'Audacious Smuggler',
     traits: [
       Trait.underworld,
     ],
@@ -425,11 +459,13 @@ final jynErso = LeaderCard(
   number: 18,
   name: 'Jyn Erso',
   unique: true,
+  subTitle: 'Resisting Oppression',
   unit: LeaderUnitCard(
     set: set,
     number: 18,
     name: 'Jyn Erso',
     unique: true,
+    subTitle: 'Resisting Oppression',
     traits: [
       Trait.rebel,
     ],
@@ -446,7 +482,6 @@ final securityComplex = BaseCard(
   set: set,
   number: 19,
   name: 'Security Complex',
-  unique: false,
   health: 25,
 );
 
@@ -457,7 +492,6 @@ final capitalCity = BaseCard(
   set: set,
   number: 20,
   name: 'Capital City',
-  unique: false,
   health: 30,
 );
 
@@ -468,7 +502,6 @@ final dagobahSwamp = BaseCard(
   set: set,
   number: 21,
   name: 'Dagobah Swamp',
-  unique: false,
   health: 30,
 );
 
@@ -479,7 +512,6 @@ final energyConversionLab = BaseCard(
   set: set,
   number: 22,
   name: 'Energy Conversion Lab',
-  unique: false,
   health: 25,
 );
 
@@ -490,7 +522,6 @@ final commandCenter = BaseCard(
   set: set,
   number: 23,
   name: 'Command Center',
-  unique: false,
   health: 30,
 );
 
@@ -501,7 +532,6 @@ final echoBase = BaseCard(
   set: set,
   number: 24,
   name: 'Echo Base',
-  unique: false,
   health: 30,
 );
 
@@ -512,7 +542,6 @@ final tarkintown = BaseCard(
   set: set,
   number: 25,
   name: 'Tarkintown',
-  unique: false,
   health: 25,
 );
 
@@ -523,7 +552,6 @@ final catacombsOfCadera = BaseCard(
   set: set,
   number: 26,
   name: 'Catacombs of Cadera',
-  unique: false,
   health: 30,
 );
 
@@ -534,7 +562,6 @@ final kestroCity = BaseCard(
   set: set,
   number: 27,
   name: 'Kestro City',
-  unique: false,
   health: 30,
 );
 
@@ -545,7 +572,6 @@ final jedhaCity = BaseCard(
   set: set,
   number: 28,
   name: 'Jedha City',
-  unique: false,
   health: 25,
 );
 
@@ -556,7 +582,6 @@ final administratorsTower = BaseCard(
   set: set,
   number: 29,
   name: "Administrator's Tower",
-  unique: false,
   health: 30,
 );
 
@@ -567,7 +592,6 @@ final chopperBase = BaseCard(
   set: set,
   number: 30,
   name: 'Chopper Base',
-  unique: false,
   health: 30,
 );
 
@@ -578,6 +602,7 @@ final infernoFour = UnitCard(
   set: set,
   number: 31,
   name: 'Inferno Four',
+  subTitle: 'Unforgetting',
   unique: true,
   traits: [
     Trait.imperial,
@@ -597,6 +622,7 @@ final scoutBikePursuer = UnitCard(
   set: set,
   number: 32,
   name: 'Scout Bike Pursuer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -615,6 +641,7 @@ final deathTrooper = UnitCard(
   set: set,
   number: 33,
   name: 'Death Trooper',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -633,6 +660,7 @@ final delMeeko = UnitCard(
   set: set,
   number: 34,
   name: 'Del Meeko',
+  subTitle: 'Providing Overwatch',
   unique: true,
   traits: [
     Trait.imperial,
@@ -651,6 +679,7 @@ final lieutenantChildsen = UnitCard(
   set: set,
   number: 35,
   name: 'Lieutenant Childsen',
+  subTitle: 'Death Star Prison Warden',
   unique: true,
   traits: [
     Trait.imperial,
@@ -669,6 +698,7 @@ final gideonHask = UnitCard(
   set: set,
   number: 36,
   name: 'Gideon Hask',
+  subTitle: 'Ruthless Loyalist',
   unique: true,
   traits: [
     Trait.imperial,
@@ -687,6 +717,7 @@ final academyDefenseWalker = UnitCard(
   set: set,
   number: 37,
   name: 'Academy Defense Walker',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -706,6 +737,7 @@ final countDooku = UnitCard(
   set: set,
   number: 38,
   name: 'Count Dooku',
+  subTitle: 'Darth Tyranus',
   unique: true,
   traits: [
     Trait.force,
@@ -725,6 +757,7 @@ final atAtSuppressor = UnitCard(
   set: set,
   number: 39,
   name: 'AT-AT Suppressor',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -744,6 +777,7 @@ final avenger = UnitCard(
   set: set,
   number: 40,
   name: 'Avenger',
+  subTitle: 'Hunting Star Destroyer',
   unique: true,
   traits: [
     Trait.imperial,
@@ -806,6 +840,7 @@ final restoredArc170 = UnitCard(
   set: set,
   number: 44,
   name: 'Restored ARC-170',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -825,6 +860,7 @@ final yoda = UnitCard(
   set: set,
   number: 45,
   name: 'Yoda',
+  subTitle: 'Old Master',
   unique: true,
   traits: [
     Trait.force,
@@ -843,6 +879,7 @@ final consularSecurityForce = UnitCard(
   set: set,
   number: 46,
   name: 'Consular Security Force',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -861,6 +898,7 @@ final kananJarrus = UnitCard(
   set: set,
   number: 47,
   name: 'Kanan Jarrus',
+  subTitle: 'Revealed Jedi',
   unique: true,
   traits: [
     Trait.force,
@@ -881,6 +919,7 @@ final vigilantHonorGuards = UnitCard(
   set: set,
   number: 48,
   name: 'Vigilant Honor Guards',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -898,6 +937,7 @@ final obiWanKenobi = UnitCard(
   set: set,
   number: 49,
   name: 'Obi-Wan Kenobi',
+  subTitle: 'Following Fate',
   unique: true,
   traits: [
     Trait.force,
@@ -916,6 +956,7 @@ final theGhost = UnitCard(
   set: set,
   number: 50,
   name: 'The Ghost',
+  subTitle: 'Spectre Home Base',
   unique: true,
   traits: [
     Trait.rebel,
@@ -936,6 +977,7 @@ final lukeSkywalkerJediKnight = UnitCard(
   set: set,
   number: 51,
   name: 'Luke Skywalker',
+  subTitle: 'Jedi Knight',
   unique: true,
   traits: [
     Trait.force,
@@ -955,6 +997,7 @@ final redemption = UnitCard(
   set: set,
   number: 52,
   name: 'Redemption',
+  subTitle: 'Medical Frigate',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1020,6 +1063,7 @@ final bendu = UnitCard(
   set: set,
   number: 56,
   name: 'Bendu',
+  subTitle: 'The One in the Middle',
   unique: true,
   traits: [
     Trait.creature,
@@ -1066,6 +1110,7 @@ final $21bSurgicalDroid = UnitCard(
   set: set,
   number: 59,
   name: '2-1B Surgical Droid',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.droid,
@@ -1083,6 +1128,7 @@ final distantPatroller = UnitCard(
   set: set,
   number: 60,
   name: 'Distant Patroller',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -1102,6 +1148,7 @@ final guardianOfTheWhills = UnitCard(
   set: set,
   number: 61,
   name: 'Guardian of the Whills',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.force,
@@ -1120,6 +1167,7 @@ final regionalGovernor = UnitCard(
   set: set,
   number: 62,
   name: 'Regional Governor',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1138,6 +1186,7 @@ final cloudCityWingGuard = UnitCard(
   set: set,
   number: 63,
   name: 'Cloud City Wing Guard',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -1156,6 +1205,7 @@ final wildernessFighter = UnitCard(
   set: set,
   number: 64,
   name: 'Wilderness Fighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.trooper,
@@ -1173,6 +1223,7 @@ final bazeMalbus = UnitCard(
   set: set,
   number: 65,
   name: 'Baze Malbus',
+  subTitle: 'Temple Guardian',
   unique: true,
   traits: [
     Trait.fringe,
@@ -1190,6 +1241,7 @@ final systemPatrolCraft = UnitCard(
   set: set,
   number: 66,
   name: 'System Patrol Craft',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -1208,6 +1260,7 @@ final ruggedSurvivors = UnitCard(
   set: set,
   number: 67,
   name: 'Rugged Survivors',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -1225,6 +1278,7 @@ final cargoJuggernaut = UnitCard(
   set: set,
   number: 68,
   name: 'Cargo Juggernaut',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -1384,6 +1438,7 @@ final admiralPiett = UnitCard(
   set: set,
   number: 79,
   name: 'Admiral Piett',
+  subTitle: 'Captain of the Executor',
   unique: true,
   traits: [
     Trait.imperial,
@@ -1402,6 +1457,7 @@ final generalTagge = UnitCard(
   set: set,
   number: 80,
   name: 'General Tagge',
+  subTitle: 'Concerned Commander',
   unique: true,
   traits: [
     Trait.imperial,
@@ -1420,6 +1476,7 @@ final seasonedShoretrooper = UnitCard(
   set: set,
   number: 81,
   name: 'Seasoned Shoretrooper',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1438,6 +1495,7 @@ final emperorsRoyalGuard = UnitCard(
   set: set,
   number: 82,
   name: "Emperor's Royal Guard",
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1455,6 +1513,7 @@ final superlaserTechnician = UnitCard(
   set: set,
   number: 83,
   name: 'Superlaser Technician',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1472,6 +1531,7 @@ final grandMoffTarkinDeathStarOverseer = UnitCard(
   set: set,
   number: 84,
   name: 'Grand Moff Tarkin',
+  subTitle: 'Death Star Overseer',
   unique: true,
   traits: [
     Trait.imperial,
@@ -1490,6 +1550,7 @@ final rukh = UnitCard(
   set: set,
   number: 85,
   name: 'Rukh',
+  subTitle: "Thrawn's Assassin",
   unique: true,
   traits: [
     Trait.imperial,
@@ -1507,6 +1568,7 @@ final gladiatorStarDestroyer = UnitCard(
   set: set,
   number: 86,
   name: 'Gladiator Star Destroyer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1526,6 +1588,7 @@ final darthVaderCommandingTheFirstLegion = UnitCard(
   set: set,
   number: 87,
   name: 'Darth Vader',
+  subTitle: 'Commanding the First Legion',
   unique: true,
   traits: [
     Trait.force,
@@ -1545,6 +1608,7 @@ final blizzardAssaultAtAt = UnitCard(
   set: set,
   number: 88,
   name: 'Blizzard Assault AT-AT',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1564,6 +1628,7 @@ final relentless = UnitCard(
   set: set,
   number: 89,
   name: 'Relentless',
+  subTitle: "Konstantine's Folly",
   unique: true,
   traits: [
     Trait.imperial,
@@ -1583,6 +1648,7 @@ final devastator = UnitCard(
   set: set,
   number: 90,
   name: 'Devastator',
+  subTitle: 'Inescapable',
   unique: true,
   traits: [
     Trait.imperial,
@@ -1631,6 +1697,7 @@ final allianceDispatcher = UnitCard(
   set: set,
   number: 93,
   name: 'Alliance Dispatcher',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -1648,6 +1715,7 @@ final bailOrgana = UnitCard(
   set: set,
   number: 94,
   name: 'Bail Organa',
+  subTitle: 'Rebel Councilor',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1666,6 +1734,7 @@ final battlefieldMarine = UnitCard(
   set: set,
   number: 95,
   name: 'Battlefield Marine',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -1684,6 +1753,7 @@ final monMothma = UnitCard(
   set: set,
   number: 96,
   name: 'Mon Mothma',
+  subTitle: 'Voice Of The Rebellion',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1702,6 +1772,7 @@ final admiralAckbar = UnitCard(
   set: set,
   number: 97,
   name: 'Admiral Ackbar',
+  subTitle: 'Brilliant Strategist',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1720,6 +1791,7 @@ final echoBaseDefender = UnitCard(
   set: set,
   number: 98,
   name: 'Echo Base Defender',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -1738,6 +1810,7 @@ final brightHope = UnitCard(
   set: set,
   number: 99,
   name: 'Bright Hope',
+  subTitle: 'The Last Transport',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1757,6 +1830,7 @@ final wedgeAntilles = UnitCard(
   set: set,
   number: 100,
   name: 'Wedge Antilles',
+  subTitle: 'Star of the Rebellion',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1774,6 +1848,7 @@ final rogueSquadronSkirmisher = UnitCard(
   set: set,
   number: 101,
   name: 'Rogue Squadron Skirmisher',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -1793,6 +1868,7 @@ final homeOne = UnitCard(
   set: set,
   number: 102,
   name: 'Home One',
+  subTitle: 'Alliance Flagship',
   unique: true,
   traits: [
     Trait.rebel,
@@ -1841,6 +1917,7 @@ final generalKrell = UnitCard(
   set: set,
   number: 105,
   name: 'General Krell',
+  subTitle: 'Heartless Tactician',
   unique: true,
   traits: [
     Trait.force,
@@ -1888,6 +1965,7 @@ final vanguardInfantry = UnitCard(
   set: set,
   number: 108,
   name: 'Vanguard Infantry',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.trooper,
@@ -1905,6 +1983,7 @@ final colonelYularen = UnitCard(
   set: set,
   number: 109,
   name: 'Colonel Yularen',
+  subTitle: 'ISB Director',
   unique: true,
   traits: [
     Trait.imperial,
@@ -1923,6 +2002,7 @@ final frontlineShuttle = UnitCard(
   set: set,
   number: 110,
   name: 'Frontline Shuttle',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -1941,6 +2021,7 @@ final patrollingVWing = UnitCard(
   set: set,
   number: 111,
   name: 'Patrolling V-Wing',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -1959,6 +2040,7 @@ final consortiumStarviper = UnitCard(
   set: set,
   number: 112,
   name: 'Consortium StarViper',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -1978,6 +2060,7 @@ final homesteadMilitia = UnitCard(
   set: set,
   number: 113,
   name: 'Homestead Militia',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -1996,6 +2079,7 @@ final escortSkiff = UnitCard(
   set: set,
   number: 114,
   name: 'Escort Skiff',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -2015,6 +2099,7 @@ final agentKallus = UnitCard(
   set: set,
   number: 115,
   name: 'Agent Kallus',
+  subTitle: 'Seeking the Rebels',
   unique: true,
   traits: [
     Trait.imperial,
@@ -2033,6 +2118,7 @@ final steadfastBattalion = UnitCard(
   set: set,
   number: 116,
   name: 'Steadfast Battalion',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.trooper,
@@ -2050,6 +2136,7 @@ final mercenaryCompany = UnitCard(
   set: set,
   number: 117,
   name: 'Mercenary Company',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -2068,6 +2155,7 @@ final $97thLegion = UnitCard(
   set: set,
   number: 118,
   name: '97th Legion',
+  subTitle: 'Keeping the Peace on Sullust',
   unique: true,
   traits: [
     Trait.imperial,
@@ -2086,6 +2174,7 @@ final reinforcementWalker = UnitCard(
   set: set,
   number: 119,
   name: 'Reinforcement Walker',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -2217,6 +2306,7 @@ final deathStarStormtrooper = UnitCard(
   set: set,
   number: 128,
   name: 'Death Star Stormtrooper',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -2235,6 +2325,7 @@ final admiralOzzel = UnitCard(
   set: set,
   number: 129,
   name: 'Admiral Ozzel',
+  subTitle: 'Overconfident',
   unique: true,
   traits: [
     Trait.imperial,
@@ -2253,6 +2344,7 @@ final firstLegionSnowtrooper = UnitCard(
   set: set,
   number: 130,
   name: 'First Legion Snowtrooper',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -2271,6 +2363,7 @@ final fifthBrother = UnitCard(
   set: set,
   number: 131,
   name: 'Fifth Brother',
+  subTitle: 'Fear Hunter',
   unique: true,
   traits: [
     Trait.force,
@@ -2290,6 +2383,7 @@ final imperialInterceptor = UnitCard(
   set: set,
   number: 132,
   name: 'Imperial Interceptor',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -2309,6 +2403,7 @@ final seventhSister = UnitCard(
   set: set,
   number: 133,
   name: 'Seventh Sister',
+  subTitle: 'Implacable Inquisitor',
   unique: true,
   traits: [
     Trait.force,
@@ -2328,6 +2423,7 @@ final ruthlessRaider = UnitCard(
   set: set,
   number: 134,
   name: 'Ruthless Raider',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -2347,6 +2443,7 @@ final emperorPalpatineMasterOfTheDarkSide = UnitCard(
   set: set,
   number: 135,
   name: 'Emperor Palpatine',
+  subTitle: 'Master of the Dark Side',
   unique: true,
   traits: [
     Trait.force,
@@ -2427,6 +2524,7 @@ final specforceSoldier = UnitCard(
   set: set,
   number: 140,
   name: 'SpecForce Soldier',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2445,6 +2543,7 @@ final greenSquadronAWing = UnitCard(
   set: set,
   number: 141,
   name: 'Green Squadron A-Wing',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2464,6 +2563,7 @@ final sabineWrenExplosivesArtist = UnitCard(
   set: set,
   number: 142,
   name: 'Sabine Wren',
+  subTitle: 'Explosives Artist',
   unique: true,
   traits: [
     Trait.mandalorian,
@@ -2483,6 +2583,7 @@ final fightersForFreedom = UnitCard(
   set: set,
   number: 143,
   name: 'Fighters for Freedom',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2501,6 +2602,7 @@ final redThree = UnitCard(
   set: set,
   number: 144,
   name: 'Red Three',
+  subTitle: 'Unstoppable',
   unique: true,
   traits: [
     Trait.rebel,
@@ -2520,6 +2622,7 @@ final k2so = UnitCard(
   set: set,
   number: 145,
   name: 'K-2SO',
+  subTitle: "Cassian's Counterpart",
   unique: true,
   traits: [
     Trait.rebel,
@@ -2538,6 +2641,7 @@ final zebOrrelios = UnitCard(
   set: set,
   number: 146,
   name: 'Zeb Orrelios',
+  subTitle: 'Headstrong Warrior',
   unique: true,
   traits: [
     Trait.rebel,
@@ -2556,6 +2660,7 @@ final blackOne = UnitCard(
   set: set,
   number: 147,
   name: 'Black One',
+  subTitle: 'Scourge of Starkiller Base',
   unique: true,
   traits: [
     Trait.resistance,
@@ -2575,6 +2680,7 @@ final guerillaAttackPod = UnitCard(
   set: set,
   number: 148,
   name: 'Guerilla Attack Pod',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2594,6 +2700,7 @@ final maceWindu = UnitCard(
   set: set,
   number: 149,
   name: 'Mace Windu',
+  subTitle: 'Party Crasher',
   unique: true,
   traits: [
     Trait.force,
@@ -2655,6 +2762,7 @@ final sawGerrera = UnitCard(
   set: set,
   number: 153,
   name: 'Saw Gerrera',
+  subTitle: 'Extremist',
   unique: true,
   traits: [
     Trait.rebel,
@@ -2700,6 +2808,7 @@ final benthicTwoTubes = UnitCard(
   set: set,
   number: 156,
   name: 'Benthic "Two Tubes"',
+  subTitle: 'Partisan Lieutenant',
   unique: true,
   traits: [
     Trait.rebel,
@@ -2718,6 +2827,7 @@ final cantinaBraggart = UnitCard(
   set: set,
   number: 157,
   name: 'Cantina Braggart',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -2735,6 +2845,7 @@ final jedhaAgitator = UnitCard(
   set: set,
   number: 158,
   name: 'Jedha Agitator',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2752,6 +2863,7 @@ final partisanInsurgent = UnitCard(
   set: set,
   number: 159,
   name: 'Partisan Insurgent',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -2770,6 +2882,7 @@ final wolffe = UnitCard(
   set: set,
   number: 160,
   name: 'Wolffe',
+  subTitle: 'Suspicious Veteran',
   unique: true,
   traits: [
     Trait.fringe,
@@ -2788,6 +2901,7 @@ final ardentSympathizer = UnitCard(
   set: set,
   number: 161,
   name: 'Ardent Sympathizer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.trooper,
@@ -2805,6 +2919,7 @@ final disablingFangFighter = UnitCard(
   set: set,
   number: 162,
   name: 'Disabling Fang Fighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.mandalorian,
@@ -2824,6 +2939,7 @@ final starWingScout = UnitCard(
   set: set,
   number: 163,
   name: 'Star Wing Scout',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -2842,6 +2958,7 @@ final wampa = UnitCard(
   set: set,
   number: 164,
   name: 'Wampa',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.creature,
@@ -2859,6 +2976,7 @@ final occupierSiegeTank = UnitCard(
   set: set,
   number: 165,
   name: 'Occupier Siege Tank',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3018,6 +3136,7 @@ final isbAgent = UnitCard(
   set: set,
   number: 176,
   name: 'ISB Agent',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3035,6 +3154,7 @@ final bibFortuna = UnitCard(
   set: set,
   number: 177,
   name: 'Bib Fortuna',
+  subTitle: 'Jabbaâs Majordomo',
   unique: false,
   traits: [
     Trait.underworld,
@@ -3053,6 +3173,7 @@ final cartelSpacer = UnitCard(
   set: set,
   number: 178,
   name: 'Cartel Spacer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3072,6 +3193,7 @@ final bobaFettDisintegrator = UnitCard(
   set: set,
   number: 179,
   name: 'Boba Fett',
+  subTitle: 'Disintegrator',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3090,6 +3212,7 @@ final seventhFleetDefender = UnitCard(
   set: set,
   number: 180,
   name: 'Seventh Fleet Defender',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3109,6 +3232,7 @@ final jabbaTheHutt = UnitCard(
   set: set,
   number: 181,
   name: 'Jabba the Hutt',
+  subTitle: 'Cunning Daimyo',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3127,6 +3251,7 @@ final bossk = UnitCard(
   set: set,
   number: 182,
   name: 'Bossk',
+  subTitle: 'Deadly Stalker',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3145,6 +3270,7 @@ final bountyHunterCrew = UnitCard(
   set: set,
   number: 183,
   name: 'Bounty Hunter Crew',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3163,6 +3289,7 @@ final fettsFirespray = UnitCard(
   set: set,
   number: 184,
   name: "Fett's Firespray",
+  subTitle: 'Pursuing the Bounty',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3182,6 +3309,7 @@ final chimaera = UnitCard(
   set: set,
   number: 185,
   name: 'Chimaera',
+  subTitle: 'Flagship of the Seventh Fleet',
   unique: true,
   traits: [
     Trait.imperial,
@@ -3229,6 +3357,7 @@ final chopper = UnitCard(
   set: set,
   number: 188,
   name: 'Chopper',
+  subTitle: 'Metal Menace',
   unique: true,
   traits: [
     Trait.rebel,
@@ -3248,6 +3377,7 @@ final leiaOrganaDefiantPrincess = UnitCard(
   set: set,
   number: 189,
   name: 'Leia Organa',
+  subTitle: 'Defiant Princess',
   unique: true,
   traits: [
     Trait.rebel,
@@ -3266,6 +3396,7 @@ final lothalInsurgent = UnitCard(
   set: set,
   number: 190,
   name: 'Lothal Insurgent',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -3283,6 +3414,7 @@ final vanguardAce = UnitCard(
   set: set,
   number: 191,
   name: 'Vanguard Ace',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.newRepublic,
@@ -3302,6 +3434,7 @@ final ezraBridger = UnitCard(
   set: set,
   number: 192,
   name: 'Ezra Bridger',
+  subTitle: 'Resourceful Troublemaker',
   unique: true,
   traits: [
     Trait.force,
@@ -3321,6 +3454,7 @@ final millenniumFalcon = UnitCard(
   set: set,
   number: 193,
   name: 'Millennium Falcon',
+  subTitle: 'Piece of Junk',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3340,6 +3474,7 @@ final rogueOperative = UnitCard(
   set: set,
   number: 194,
   name: 'Rogue Operative',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -3358,6 +3493,7 @@ final auzituckLiberatorGunship = UnitCard(
   set: set,
   number: 195,
   name: 'Auzituck Liberator Gunship',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -3376,6 +3512,7 @@ final chewbaccaLoyalCompanion = UnitCard(
   set: set,
   number: 196,
   name: 'Chewbacca',
+  subTitle: 'Loyal Companion',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3394,6 +3531,7 @@ final landoCalrissian = UnitCard(
   set: set,
   number: 197,
   name: 'Lando Calrissian',
+  subTitle: 'Responsible Businessman',
   unique: true,
   traits: [
     Trait.fringe,
@@ -3412,6 +3550,7 @@ final hanSoloReluctantHero = UnitCard(
   set: set,
   number: 198,
   name: 'Han Solo',
+  subTitle: 'Reluctant Hero',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3457,6 +3596,7 @@ final bodhiRook = UnitCard(
   set: set,
   number: 201,
   name: 'Bodhi Rook',
+  subTitle: 'Imperial Defector',
   unique: true,
   traits: [
     Trait.imperial,
@@ -3475,6 +3615,7 @@ final cantinaBouncer = UnitCard(
   set: set,
   number: 202,
   name: 'Cantina Bouncer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -3506,6 +3647,7 @@ final greedo = UnitCard(
   set: set,
   number: 204,
   name: 'Greedo',
+  subTitle: 'Slow on the Draw',
   unique: true,
   traits: [
     Trait.underworld,
@@ -3524,6 +3666,7 @@ final jawaScavenger = UnitCard(
   set: set,
   number: 205,
   name: 'Jawa Scavenger',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -3542,6 +3685,7 @@ final miningGuildTieFighter = UnitCard(
   set: set,
   number: 206,
   name: 'Mining Guild TIE Fighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -3561,6 +3705,7 @@ final craftySmuggler = UnitCard(
   set: set,
   number: 207,
   name: 'Crafty Smuggler',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3578,6 +3723,7 @@ final outerRimHeadhunter = UnitCard(
   set: set,
   number: 208,
   name: 'Outer Rim Headhunter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -3597,6 +3743,7 @@ final piratedStarfighter = UnitCard(
   set: set,
   number: 209,
   name: 'Pirated Starfighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3616,6 +3763,7 @@ final swoopRacer = UnitCard(
   set: set,
   number: 210,
   name: 'Swoop Racer',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.fringe,
@@ -3633,6 +3781,7 @@ final gamorreanGuards = UnitCard(
   set: set,
   number: 211,
   name: 'Gamorrean Guards',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3650,6 +3799,7 @@ final strafingGunship = UnitCard(
   set: set,
   number: 212,
   name: 'Strafing Gunship',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3669,6 +3819,7 @@ final syndicateLackeys = UnitCard(
   set: set,
   number: 213,
   name: 'Syndicate Lackeys',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -3840,6 +3991,7 @@ final tieLnFighter = UnitCard(
   set: set,
   number: 225,
   name: 'TIE/ln Fighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3859,6 +4011,7 @@ final admiralMotti = UnitCard(
   set: set,
   number: 226,
   name: 'Admiral Motti',
+  subTitle: 'Brazen and Scornful',
   unique: true,
   traits: [
     Trait.imperial,
@@ -3877,6 +4030,7 @@ final snowtrooperLieutenant = UnitCard(
   set: set,
   number: 227,
   name: 'Snowtrooper Lieutenant',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3895,6 +4049,7 @@ final viperProbeDroid = UnitCard(
   set: set,
   number: 228,
   name: 'Viper Probe Droid',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3913,6 +4068,7 @@ final cellBlockGuard = UnitCard(
   set: set,
   number: 229,
   name: 'Cell Block Guard',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3931,6 +4087,7 @@ final generalVeers = UnitCard(
   set: set,
   number: 230,
   name: 'General Veers',
+  subTitle: 'Blizzard Force Commander',
   unique: true,
   traits: [
     Trait.imperial,
@@ -3949,6 +4106,7 @@ final tieAdvanced = UnitCard(
   set: set,
   number: 231,
   name: 'TIE Advanced',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -3968,6 +4126,7 @@ final atSt = UnitCard(
   set: set,
   number: 232,
   name: 'AT-ST',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.imperial,
@@ -4030,6 +4189,7 @@ final r2D2 = UnitCard(
   set: set,
   number: 236,
   name: 'R2-D2',
+  subTitle: 'Ignoring Protocol',
   unique: true,
   traits: [
     Trait.rebel,
@@ -4048,6 +4208,7 @@ final allianceXWing = UnitCard(
   set: set,
   number: 237,
   name: 'Alliance X-Wing',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4067,6 +4228,7 @@ final c3po = UnitCard(
   set: set,
   number: 238,
   name: 'C-3PO',
+  subTitle: 'Protocol Droid',
   unique: true,
   traits: [
     Trait.rebel,
@@ -4085,6 +4247,7 @@ final rebelPathfinder = UnitCard(
   set: set,
   number: 239,
   name: 'Rebel Pathfinder',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4103,6 +4266,7 @@ final fleetLieutenant = UnitCard(
   set: set,
   number: 240,
   name: 'Fleet Lieutenant',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4121,6 +4285,7 @@ final wingLeader = UnitCard(
   set: set,
   number: 241,
   name: 'Wing Leader',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4140,6 +4305,7 @@ final generalDodonna = UnitCard(
   set: set,
   number: 242,
   name: 'General Dodonna',
+  subTitle: 'Massassi Group Commander',
   unique: true,
   traits: [
     Trait.rebel,
@@ -4158,6 +4324,7 @@ final regionalSympathizers = UnitCard(
   set: set,
   number: 243,
   name: 'Regional Sympathizers',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4175,6 +4342,7 @@ final snowspeeder = UnitCard(
   set: set,
   number: 244,
   name: 'Snowspeeder',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4222,6 +4390,7 @@ final underworldThug = UnitCard(
   set: set,
   number: 247,
   name: 'Underworld Thug',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.underworld,
@@ -4239,6 +4408,7 @@ final volunteerSoldier = UnitCard(
   set: set,
   number: 248,
   name: 'Volunteer Soldier',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.trooper,
@@ -4256,6 +4426,7 @@ final frontierAtRt = UnitCard(
   set: set,
   number: 249,
   name: 'Frontier AT-RT',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,
@@ -4274,6 +4445,7 @@ final corellianFreighter = UnitCard(
   set: set,
   number: 250,
   name: 'Corellian Freighter',
+  subTitle: null,
   unique: false,
   traits: [
     Trait.vehicle,

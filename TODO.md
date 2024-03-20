@@ -10,9 +10,9 @@ _None_.
 
 - [x] Create `packages/unlimited`:
   - [x] Add `lib/model.dart` with the core data model.
-  - [ ] Add `lib/sets/sor.dart` with the _Spark of Rebellion_ set and starters.
-  - [ ] Add missing `subTitle` field to `Card`(s).
-  - [ ] Bases don't have a unique property.
+  - [x] Add `lib/sets/sor.dart` with the _Spark of Rebellion_ set and starters.
+  - [x] Add missing `subTitle` field to `Card`(s).
+  - [x] Bases don't have a unique property.
   - [ ] Add `lib/table.dart` with a simulated table model.
   - [ ] Add `lib/interop.dart` with [popular](docs/external.md) format export/import codecs.
 
