@@ -232,7 +232,17 @@ final class Retrofit extends Command<void> {
             'cost': c.cost.toString(),
           },
         ),
-      final card => '/* TODO: Support ${card.runtimeType} */ ${card.number}'
+      final scrap.UpgradeCard c => _invokeConstructor(
+          'UpgradeCard',
+          {
+            ...base,
+            'traits': _createList(
+              c.traits.map((t) => 'Trait.${_nameToIdentifier(t)}'),
+              indent: '  ',
+            ),
+            'cost': c.cost.toString(),
+          },
+        ),
     };
   }
 

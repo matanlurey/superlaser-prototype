@@ -970,12 +970,34 @@ final redemption = UnitCard(
 /// SOR 053: **Luke's Lightsaber**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_053_Lukes_Lightsaber_4267483ca6.png)
-final lukesLightsaber = /* TODO: Support UpgradeCard */ 53;
+final lukesLightsaber = UpgradeCard(
+  set: set,
+  number: 53,
+  name: "Luke's Lightsaber",
+  unique: true,
+  traits: [
+    Trait.item,
+    Trait.weapon,
+    Trait.lightsaber,
+  ],
+  cost: 2,
+);
 
 /// SOR 054: **Jedi Lightsaber**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_054_Jedi_Lightsaber_f6c31f52a2.png)
-final jediLightsaber = /* TODO: Support UpgradeCard */ 54;
+final jediLightsaber = UpgradeCard(
+  set: set,
+  number: 54,
+  name: 'Jedi Lightsaber',
+  unique: false,
+  traits: [
+    Trait.item,
+    Trait.weapon,
+    Trait.lightsaber,
+  ],
+  cost: 3,
+);
 
 /// SOR 055: **The Force Is With Me**.
 ///
@@ -1012,7 +1034,16 @@ final bendu = UnitCard(
 /// SOR 057: **Protector**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_057_Protector_2ef40152f5.png)
-final protector = /* TODO: Support UpgradeCard */ 57;
+final protector = UpgradeCard(
+  set: set,
+  number: 57,
+  name: 'Protector',
+  unique: false,
+  traits: [
+    Trait.innate,
+  ],
+  cost: 1,
+);
 
 /// SOR 058: **Vigilance**.
 ///
@@ -1208,22 +1239,59 @@ final cargoJuggernaut = UnitCard(
 /// SOR 069: **Resilient**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_069_Resilient_fa2f9cf645.png)
-final resilient = /* TODO: Support UpgradeCard */ 69;
+final resilient = UpgradeCard(
+  set: set,
+  number: 69,
+  name: 'Resilient',
+  unique: false,
+  traits: [
+    Trait.innate,
+  ],
+  cost: 1,
+);
 
 /// SOR 070: **Devotion**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_070_Devotion_4fcdd3e166.png)
-final devotion = /* TODO: Support UpgradeCard */ 70;
+final devotion = UpgradeCard(
+  set: set,
+  number: 70,
+  name: 'Devotion',
+  unique: false,
+  traits: [
+    Trait.innate,
+  ],
+  cost: 2,
+);
 
 /// SOR 071: **Electrostaff**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_071_Electrostaff_dbe28372b8.png)
-final electrostaff = /* TODO: Support UpgradeCard */ 71;
+final electrostaff = UpgradeCard(
+  set: set,
+  number: 71,
+  name: 'Electrostaff',
+  unique: false,
+  traits: [
+    Trait.item,
+    Trait.weapon,
+  ],
+  cost: 2,
+);
 
 /// SOR 072: **Entrenched**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_072_Entrenched_d3a4629144.png)
-final entrenched = /* TODO: Support UpgradeCard */ 72;
+final entrenched = UpgradeCard(
+  set: set,
+  number: 72,
+  name: 'Entrenched',
+  unique: false,
+  traits: [
+    Trait.condition,
+  ],
+  cost: 2,
+);
 
 /// SOR 073: **Moment of Peace**.
 ///
@@ -2032,17 +2100,45 @@ final reinforcementWalker = UnitCard(
 /// SOR 120: **Academy Training**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_120_Academy_Training_8e39c1fc2e.png)
-final academyTraining = /* TODO: Support UpgradeCard */ 120;
+final academyTraining = UpgradeCard(
+  set: set,
+  number: 120,
+  name: 'Academy Training',
+  unique: false,
+  traits: [
+    Trait.learned,
+  ],
+  cost: 2,
+);
 
 /// SOR 121: **Hardpoint Heavy Blaster**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_121_Hardpoint_Heavy_Blaster_a2e73fbba0.png)
-final hardpointHeavyBlaster = /* TODO: Support UpgradeCard */ 121;
+final hardpointHeavyBlaster = UpgradeCard(
+  set: set,
+  number: 121,
+  name: 'Hardpoint Heavy Blaster',
+  unique: false,
+  traits: [
+    Trait.modification,
+    Trait.weapon,
+  ],
+  cost: 2,
+);
 
 /// SOR 122: **Traitorous**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_122_Traitorous_a95670f273.png)
-final traitorous = /* TODO: Support UpgradeCard */ 122;
+final traitorous = UpgradeCard(
+  set: set,
+  number: 122,
+  name: 'Traitorous',
+  unique: false,
+  traits: [
+    Trait.innate,
+  ],
+  cost: 5,
+);
 
 /// SOR 123: **Recruit**.
 ///
@@ -2267,12 +2363,34 @@ final emperorPalpatineMasterOfTheDarkSide = UnitCard(
 /// SOR 136: **Vader's Lightsaber**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_136_Vaders_Lightsaber_68a2f8ece6.png)
-final vadersLightsaber = /* TODO: Support UpgradeCard */ 136;
+final vadersLightsaber = UpgradeCard(
+  set: set,
+  number: 136,
+  name: "Vader's Lightsaber",
+  unique: true,
+  traits: [
+    Trait.item,
+    Trait.weapon,
+    Trait.lightsaber,
+  ],
+  cost: 2,
+);
 
 /// SOR 137: **Fallen Lightsaber**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_137_Fallen_Lightsaber_64ca62f967.png)
-final fallenLightsaber = /* TODO: Support UpgradeCard */ 137;
+final fallenLightsaber = UpgradeCard(
+  set: set,
+  number: 137,
+  name: 'Fallen Lightsaber',
+  unique: false,
+  traits: [
+    Trait.item,
+    Trait.weapon,
+    Trait.lightsaber,
+  ],
+  cost: 3,
+);
 
 /// SOR 138: **Force Lightning**.
 ///
@@ -2756,7 +2874,16 @@ final occupierSiegeTank = UnitCard(
 /// SOR 166: **Infiltrator's Skill**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_166_Infiltrators_Skill_51a7fc5d9b.png)
-final infiltratorsSkill = /* TODO: Support UpgradeCard */ 166;
+final infiltratorsSkill = UpgradeCard(
+  set: set,
+  number: 166,
+  name: "Infiltrator's Skill",
+  unique: false,
+  traits: [
+    Trait.learned,
+  ],
+  cost: 1,
+);
 
 /// SOR 167: **Force Throw**.
 ///
@@ -3555,12 +3682,30 @@ final syndicateLackeys = UnitCard(
 /// SOR 214: **Smuggling Compartment**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_214_Smuggling_Compartment_af5217ef68.png)
-final smugglingCompartment = /* TODO: Support UpgradeCard */ 214;
+final smugglingCompartment = UpgradeCard(
+  set: set,
+  number: 214,
+  name: 'Smuggling Compartment',
+  unique: false,
+  traits: [
+    Trait.modification,
+  ],
+  cost: 1,
+);
 
 /// SOR 215: **Snapshot Reflexes**.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_215_Snapshot_Reflexes_fa4a7864c6.png)
-final snapshotReflexes = /* TODO: Support UpgradeCard */ 215;
+final snapshotReflexes = UpgradeCard(
+  set: set,
+  number: 215,
+  name: 'Snapshot Reflexes',
+  unique: false,
+  traits: [
+    Trait.learned,
+  ],
+  cost: 1,
+);
 
 /// SOR 216: **Disarm**.
 ///
