@@ -1,7 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:unlimited/src/model/arena.dart';
-import 'package:unlimited/src/model/expansion.dart';
-import 'package:unlimited/src/model/trait.dart';
+import 'package:unlimited/core.dart';
 
 /// Represents a reference to a card.
 ///
@@ -110,17 +108,15 @@ final class CardReference implements Comparable<CardReference> {
 /// ├── LeaderCard
 /// ├── BaseCard
 /// ├── TokenCard
-/// └── ArenaCard
-///     ├── LeaderUnitCard
-///     └── DeckCard
-///         ├── UnitCard
-///         ├── UpgradeCard
-///         └── EventCard
+/// └── PlayableCard
+///       ├── UnitCard
+///       ├── UpgradeCard
+///       └── EventCard
 /// ```
 ///
-/// In addition, [TargetCard], [PowerCard], [AttachmentCard] are sealed
-/// interfaces that are implemented by some of the above classes in order to
-/// indicate shared behavior.
+/// In addition, [ArenaCard], [DeckCard], [TargetCard], [PowerCard],
+/// [AttachmentCard] are sealed interfaces that are implemented by some of the
+/// above classes in order to indicate shared behavior.
 ///
 /// ## Equality
 ///
@@ -221,21 +217,18 @@ final class BaseCard extends Card implements TargetCard {
   final int health;
 }
 
-/// Represents a card that can be present in a player's arena.
-@immutable
-sealed class ArenaCard extends Card {
-  ArenaCard({
+/// Represents a card that can be played.
+///
+/// In other words, everything but a [BaseCard].
+sealed class PlayableCard extends Card {
+  PlayableCard({
     required super.set,
     required super.number,
     required super.name,
     required super.unique,
-    required this.arena,
     required Iterable<Trait> traits,
     required this.cost,
   }) : traits = Set.unmodifiable(traits);
-
-  /// Which arena this card is played in.
-  final Arena arena;
 
   /// Traits present on the card.
   ///
@@ -248,6 +241,27 @@ sealed class ArenaCard extends Card {
   /// cost of a card to be modified below, treat that card as having 0 cost
   /// instead.
   final int cost;
+}
+
+/// Marker interface for cards that can be present in a player's deck.
+@immutable
+sealed class DeckCard implements PlayableCard {}
+
+/// Represents a card that exists in a player's arena.
+@immutable
+sealed class ArenaCard extends PlayableCard {
+  ArenaCard({
+    required super.set,
+    required super.number,
+    required super.name,
+    required super.unique,
+    required super.traits,
+    required super.cost,
+    required this.arena,
+  });
+
+  /// Which arena this card is played in.
+  final Arena arena;
 }
 
 /// Represents a card that can receive damage.
@@ -288,23 +302,10 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
   final int power;
 }
 
-/// Represents a card that exists in a player's deck.
-@immutable
-sealed class DeckCard extends ArenaCard {
-  DeckCard({
-    required super.set,
-    required super.number,
-    required super.name,
-    required super.unique,
-    required super.arena,
-    required super.traits,
-    required super.cost,
-  });
-}
-
 /// Represents a unit card that exists in a player's deck.
 @immutable
-final class UnitCard extends DeckCard implements TargetCard, PowerCard {
+final class UnitCard extends ArenaCard
+    implements DeckCard, TargetCard, PowerCard {
   /// Creates a new unit card.
   UnitCard({
     required super.set,
@@ -343,14 +344,14 @@ sealed class AttachmentCard implements Card {
 
 /// Represents an upgrade card that exists in a player's deck.
 @immutable
-final class UpgradeCard extends DeckCard implements AttachmentCard {
+final class UpgradeCard extends PlayableCard
+    implements DeckCard, AttachmentCard {
   /// Creates a new upgrade card.
   UpgradeCard({
     required super.set,
     required super.number,
     required super.name,
     required super.unique,
-    required super.arena,
     required super.traits,
     required super.cost,
     this.powerModifier = 0,
@@ -391,14 +392,13 @@ final class TokenCard extends Card implements AttachmentCard {
 
 /// Represents an event card that exists in a player's deck.
 @immutable
-final class EventCard extends DeckCard {
+final class EventCard extends PlayableCard implements DeckCard {
   /// Creates a new event card.
   EventCard({
     required super.set,
     required super.number,
     required super.name,
     required super.unique,
-    required super.arena,
     required super.traits,
     required super.cost,
   });
