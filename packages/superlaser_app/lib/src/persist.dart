@@ -79,6 +79,6 @@ final class _Persistence implements Persistence {
       fileName: fileName,
       data: text,
     );
-    return result;
+    return result == 'Unknown' ? null : result;
   }
 }
