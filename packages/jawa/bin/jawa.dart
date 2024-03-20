@@ -1,6 +1,7 @@
 import 'dart:io' as io;
 
 import 'package:args/command_runner.dart';
+import 'package:jawa/src/retrofit.dart';
 import 'package:jawa/src/scavenge.dart';
 import 'package:path/path.dart' as p;
 import 'package:stack_trace/stack_trace.dart';
@@ -31,5 +32,6 @@ final class _JawaRunner extends CommandRunner<void> {
         projectRoot: _path,
       ),
     );
+    addCommand(Retrofit(projectRoot: _path));
   }
 }

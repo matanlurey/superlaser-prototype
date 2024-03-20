@@ -5,7 +5,7 @@ import 'package:unlimited/src/model/aspect.dart';
 ///
 /// Traits are sometimes referenced by card abilities. Common traits include:
 /// - Belonging to an organization, such as [rebel] or [sith].
-/// - Prominent specifes such as [twiLek] or [droid].
+/// - Prominent specifes such as [twilek] or [droid].
 /// - Famous professions such as [bountyHunter] or [inquisitor].
 ///
 /// The instance hierarchy is not sealed (i.e. this class is not a true `enum`)
@@ -61,7 +61,7 @@ final class Trait {
     transport,
     trick,
     trooper,
-    twiLek,
+    twilek,
     underworld,
     vehicle,
     walker,
@@ -187,7 +187,7 @@ final class Trait {
   static final trooper = Trait('Trooper');
 
   /// Represents the trait `Twi'lek`.
-  static final twiLek = Trait("Twi'lek");
+  static final twilek = Trait("Twi'lek");
 
   /// Represents the trait `Underworld`.
   static final underworld = Trait('Underworld');

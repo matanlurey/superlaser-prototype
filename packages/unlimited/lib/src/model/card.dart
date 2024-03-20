@@ -276,14 +276,10 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
     required super.unique,
     required super.traits,
     required super.cost,
-    required this.leader,
     required this.health,
     required this.power,
     super.arena = Arena.ground,
   });
-
-  /// The reverse, leader (non-unit) side of this card.
-  final LeaderCard leader;
 
   @override
   final int health;
