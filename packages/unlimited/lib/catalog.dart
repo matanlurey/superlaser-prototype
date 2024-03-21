@@ -30,8 +30,7 @@ library catalog;
 import 'package:unlimited/catalog/sor.dart' as sor;
 import 'package:unlimited/core.dart';
 
-// TODO: Exporting core.dart causes "unresolved export uri" in dartdoc.
-export 'package:unlimited/src/core/card.dart' show CardReference;
+export 'package:unlimited/core.dart' show CardReference;
 
 /// A collection of all known expansions and their cards.
 final catalog = Catalog.from([
