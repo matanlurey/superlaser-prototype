@@ -163,7 +163,7 @@ class _MainAppState extends State<_MainApp> {
               ],
             ),
             body: ListView.builder(
-              itemCount: _collection.length,
+              itemCount: cards.length,
               itemBuilder: (context, index) {
                 final data = cards[index];
                 final name = widget.database.lookup(data.card)!.card.name;

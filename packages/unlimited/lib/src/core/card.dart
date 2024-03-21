@@ -61,16 +61,15 @@ final class CardReference implements Comparable<CardReference> {
   /// finally [foil] (with non-foil cards coming before foil cards).
   @override
   int compareTo(CardReference other) {
-    final result = expansion.compareTo(other.expansion);
-    if (result != 0) {
-      return result;
+    if (expansion.compareTo(other.expansion) case final x when x != 0) {
+      return x;
     }
-
-    final result2 = number.compareTo(other.number);
-    if (result2 != 0) {
-      return result2;
+    if (number.compareTo(other.number) case final x when x != 0) {
+      return x;
     }
-
+    if (foil == other.foil) {
+      return 0;
+    }
     return foil ? 1 : -1;
   }
 
