@@ -19,23 +19,18 @@ import 'package:meta/meta.dart';
 /// ```
 @immutable
 final class Expansion {
-  /// Returns or creates an expansion with the given [name] and [code].
+  /// Ceates an expansion with the given [name] and [code].
   factory Expansion({
     required String name,
     required String code,
     required int count,
     DateTime? release,
   }) {
-    return values.firstWhere(
-      (v) => code == v.code,
-      orElse: () {
-        return Expansion._(
-          name: name,
-          code: code,
-          count: count,
-          release: release,
-        );
-      },
+    return Expansion._(
+      name: name,
+      code: code,
+      count: count,
+      release: release,
     );
   }
 

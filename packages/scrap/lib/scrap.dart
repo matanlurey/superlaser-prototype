@@ -775,6 +775,10 @@ final class Variants implements ToJson {
 }
 
 /// Represents a variant of a card.
+///
+/// ## Equality
+///
+/// Two variants are considered equal if they have the same [number].
 @immutable
 final class Variant implements ToJson {
   /// Creates a new variant.
@@ -796,6 +800,14 @@ final class Variant implements ToJson {
 
   /// Art of the variant.
   final Art art;
+
+  @override
+  bool operator ==(Object other) {
+    return other is Variant && other.number == number;
+  }
+
+  @override
+  int get hashCode => number;
 
   @override
   JsonValue toJson() {

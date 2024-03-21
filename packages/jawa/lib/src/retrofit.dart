@@ -135,7 +135,18 @@ final class Retrofit extends Command<void> {
           ..writeln('/// final sor1 = cards[0];')
           ..writeln('/// ```')
           ..writeln(
-            'final cards = /*<Card>*/[${used.map((u) => '\n  $u,').join()}\n];',
+            'final cards = <CardOrVariant>${_createList([
+                  ...data.cards.map(
+                    (c) => _invokeConstructor(
+                      'CanonicalCard',
+                      {
+                        'card': _nameToIdentifier(c.title),
+                      },
+                      indent: '  ',
+                    ),
+                  ),
+                  ..._collectVariants(data.cards, count: data.count),
+                ])};',
           );
 
         await io.File(
@@ -143,6 +154,57 @@ final class Retrofit extends Command<void> {
         ).writeAsString(code.toString());
       }
     }
+  }
+
+  static Iterable<String> _collectVariants(
+    Iterable<scrap.Card> cards, {
+    required int count,
+  }) {
+    // Create a mapping of all variants to their cards.
+    final variantMap = <scrap.Variant, scrap.Card>{};
+    final variantShowcase = <scrap.Variant>{};
+    for (final card in cards) {
+      if (card.variants case final scrap.Variants v) {
+        if (v.hyperspace case final scrap.Variant h) {
+          variantMap[h] = card;
+        }
+        if (v.showcase case final scrap.Variant s) {
+          variantMap[s] = card;
+          variantShowcase.add(s);
+        }
+      }
+    }
+
+    // Create a list of all variant cards.
+    final variants = [
+      for (final card in cards)
+        if (card.variants case final scrap.Variants v) ...[
+          if (v.hyperspace case final scrap.Variant h) h,
+          if (v.showcase case final scrap.Variant s) s,
+        ],
+    ];
+
+    // Sort them by number.
+    // ignore: cascade_invocations
+    variants.sort((a, b) => a.number.compareTo(b.number));
+
+    // Emit constructor calls.
+    return variants.where((v) {
+      // TODO: Support promotional variants that have the same number!
+      return v.number > count;
+    }).map((v) {
+      return _invokeConstructor(
+        'VariantCard',
+        {
+          'number': v.number.toString(),
+          'card': _nameToIdentifier(variantMap[v]!.title),
+          'type': ''
+              'VariantType.'
+              '${variantShowcase.contains(v) ? 'showcase' : 'hyperspace'}',
+        },
+        indent: '  ',
+      );
+    });
   }
 
   static String _invokeConstructor(

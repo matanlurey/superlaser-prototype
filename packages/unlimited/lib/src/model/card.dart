@@ -408,13 +408,21 @@ final class TokenCard extends Card implements AttachmentCard {
     required super.unique,
     this.powerModifier = 0,
     this.healthModifier = 0,
-  });
+  }) : super(subTitle: null);
 
   @override
   final int powerModifier;
 
   @override
   final int healthModifier;
+
+  /// Tokens never have a subtitle.
+  ///
+  /// _Technically it would be better to not even expose this property, but it
+  /// simplifies the card hierarchy to have it here (we already have enough
+  /// sealed classes as it is)._
+  @override
+  Null get subTitle => null;
 
   @override
   String toString() {
