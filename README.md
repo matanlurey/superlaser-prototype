@@ -2,6 +2,8 @@
 
 A fan-made utility kit for collecting and playing [Star Wars: Unlimited][].
 
+[![flutter CI](https://github.com/matanlurey/superlaser/actions/workflows/flutter.yml/badge.svg)](https://github.com/matanlurey/superlaser/actions/workflows/flutter.yml)
+
 [star wars: unlimited]: https://starwarsunlimited.com/
 
 All of the cards and images are property of their respective owners. This
