@@ -35,7 +35,8 @@ jobs:
         run: flutter build web --release
 
       - name: Build docs for "package:unlimited"
-        run: dart doc --output "./build/web/docs" --validate-links ../unlimited
+        # If I point to ../unlimited with "dart doc", src libraries are included in the docs.
+        run: cd ../unlimited && dart doc --output "./build/web/docs" --validate-links
           
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
