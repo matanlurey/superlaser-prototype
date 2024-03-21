@@ -2,19 +2,16 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:jsonut/jsonut.dart';
-import 'package:superlaser_app/src/cards.dart';
 import 'package:superlaser_app/src/collection.dart';
 import 'package:superlaser_app/src/persist.dart';
+import 'package:unlimited/catalog.dart';
 import 'package:unlimited/core.dart';
-import 'package:unlimited/sets/sor.dart' as sor;
 
 void main() async {
-  final database = Database.fromData(sor.set, sor.cards);
-
   runApp(
     _MainApp(
       initialCollection: Collection(),
-      database: database,
+      database: catalog,
       persistence: Persistence(),
     ),
   );
@@ -28,7 +25,7 @@ final class _MainApp extends StatefulWidget {
   });
 
   final Collection initialCollection;
-  final Database database;
+  final Catalog database;
   final Persistence persistence;
 
   @override
@@ -76,10 +73,7 @@ class _MainAppState extends State<_MainApp> {
                           child: Column(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              _Add(
-                                database: widget.database,
-                                onAdd: _add,
-                              ),
+                              _Add(onAdd: _add),
                             ],
                           ),
                         );
@@ -172,9 +166,7 @@ class _MainAppState extends State<_MainApp> {
               itemCount: _collection.length,
               itemBuilder: (context, index) {
                 final data = cards[index];
-                final name = widget.database
-                    .card(data.card.expansion, data.card.number)
-                    .$1;
+                final name = widget.database.lookup(data.card)!.card.name;
                 return ListTile(
                   title: Text(
                     '${data.card.expansion.toUpperCase()} ${data.card.number.toString().padLeft(3, '0')}',
@@ -201,11 +193,9 @@ class _MainAppState extends State<_MainApp> {
 /// Floating window that presents a text box for the user to input card numbers.
 final class _Add extends StatefulWidget {
   const _Add({
-    required this.database,
     required this.onAdd,
   });
 
-  final Database database;
   final void Function(CardReference) onAdd;
 
   @override

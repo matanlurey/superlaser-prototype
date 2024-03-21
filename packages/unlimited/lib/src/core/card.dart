@@ -126,21 +126,21 @@ final class CardReference implements Comparable<CardReference> {
 ///
 /// Two cards are considered equal if they:
 /// - Both are [TokenCard]s or both _aren't_ [TokenCard]s;
-/// - Have the same [set] and [number].
+/// - Have the same [expansion] and [number].
 @immutable
 sealed class Card {
   const Card({
-    required this.set,
+    required this.expansion,
     required this.number,
     required this.name,
     required this.subTitle,
     required this.unique,
   });
 
-  /// Which set this card is from.
-  final Expansion set;
+  /// Which release this card is from.
+  final Expansion expansion;
 
-  /// Card number within the [set].
+  /// Card number within the [expansion].
   ///
   /// Must be at least 1.
   final int number;
@@ -176,20 +176,35 @@ sealed class Card {
 
     // A token card is only equal to itself.
     if (other is TokenCard) {
-      return this is TokenCard && set == other.set && number == other.number;
+      return this is TokenCard &&
+          expansion == other.expansion &&
+          number == other.number;
     }
 
     // Otherwise, compare set and number.
-    return set == other.set && number == other.number;
+    return expansion == other.expansion && number == other.number;
   }
 
   @override
   @nonVirtual
-  int get hashCode => Object.hash(set, number);
+  int get hashCode => Object.hash(expansion, number);
 
   @override
   String toString() {
-    return '$name <${set.code.toUpperCase()} $number>';
+    return '$name <${expansion.code.toUpperCase()} $number>';
+  }
+
+  /// Returns a [CardReference] to this card.
+  ///
+  /// A reference is a lightweight object that retains the identity of a card
+  /// without needing to store the card's details. It is useful for storage in a
+  /// database or for a player's decklist.
+  CardReference toReference({bool foil = false}) {
+    return CardReference(
+      expansion: expansion.code,
+      number: number,
+      foil: foil,
+    );
   }
 }
 
@@ -198,7 +213,7 @@ sealed class Card {
 final class LeaderCard extends Card {
   /// Creates a new leader card.
   LeaderCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.subTitle,
@@ -215,7 +230,7 @@ final class LeaderCard extends Card {
 final class BaseCard extends Card implements TargetCard {
   /// Creates a new base card.
   const BaseCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required this.health,
@@ -246,7 +261,7 @@ final class BaseCard extends Card implements TargetCard {
 /// In other words, everything but a [BaseCard].
 sealed class PlayableCard extends Card {
   PlayableCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -276,7 +291,7 @@ sealed class DeckCard implements PlayableCard {}
 @immutable
 sealed class ArenaCard extends PlayableCard {
   ArenaCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -312,7 +327,7 @@ sealed class PowerCard implements Card {
 final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
   /// Creates a new leader unit card.
   LeaderUnitCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -337,7 +352,7 @@ final class UnitCard extends ArenaCard
     implements DeckCard, TargetCard, PowerCard {
   /// Creates a new unit card.
   UnitCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -376,7 +391,7 @@ final class UpgradeCard extends PlayableCard
     implements DeckCard, AttachmentCard {
   /// Creates a new upgrade card.
   UpgradeCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -406,7 +421,7 @@ final class UpgradeCard extends PlayableCard
 final class TokenCard extends Card implements AttachmentCard {
   /// Creates a new token card.
   TokenCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,
@@ -430,7 +445,7 @@ final class TokenCard extends Card implements AttachmentCard {
 
   @override
   String toString() {
-    return '$name <${set.code.toUpperCase()} T$number>';
+    return '$name <${expansion.code.toUpperCase()} T$number>';
   }
 }
 
@@ -439,7 +454,7 @@ final class TokenCard extends Card implements AttachmentCard {
 final class EventCard extends PlayableCard implements DeckCard {
   /// Creates a new event card.
   EventCard({
-    required super.set,
+    required super.expansion,
     required super.number,
     required super.name,
     required super.unique,

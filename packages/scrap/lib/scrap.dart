@@ -338,6 +338,11 @@ sealed class Card implements ToJson {
   @nonVirtual
   final bool unique;
 
+  @override
+  String toString() {
+    return '${_kind.name.capitalize()} <${number.toString().padLeft(3, '0')}>';
+  }
+
   @mustBeOverridden
   @override
   JsonObject toJson() {

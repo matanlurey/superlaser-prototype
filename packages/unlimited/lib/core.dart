@@ -1,6 +1,24 @@
-export 'src/model/arena.dart' show ArenaType;
-export 'src/model/aspect.dart' show Aspect;
-export 'src/model/card.dart'
+/// [Star Wars: Unlimited][] data models and primitives.
+///
+/// The features defined in this library are the core building blocks for
+/// interacting with common game concepts such as [Card]s, [Expansion]s, and
+/// card components such as [Trait]s and [Aspect]s.
+///
+/// [star wars: unlimited]: https://starwarsunlimited.com/
+///
+/// ## Usage
+///
+/// ```dart
+/// import 'package:unlimited/core.dart';
+/// ```
+library core;
+
+// Imported for documentation purposes.
+import 'package:unlimited/core.dart';
+
+export 'src/core/arena.dart' show ArenaType;
+export 'src/core/aspect.dart' show Aspect;
+export 'src/core/card.dart'
     show
         ArenaCard,
         AttachmentCard,
@@ -16,7 +34,9 @@ export 'src/model/card.dart'
         TokenCard,
         UnitCard,
         UpgradeCard;
-export 'src/model/expansion.dart' show Expansion;
-export 'src/model/trait.dart' show Trait;
-export 'src/model/variant.dart'
+export 'src/core/catalog.dart' show Catalog, CatalogExpansion;
+export 'src/core/expansion.dart'
+    show Expansion, ReleasedExpansion, UnreleasedExpansion;
+export 'src/core/trait.dart' show Trait;
+export 'src/core/variant.dart'
     show CanonicalCard, CardOrVariant, VariantCard, VariantType;

@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:unlimited/src/model/aspect.dart';
+import 'package:unlimited/src/core/aspect.dart';
 
 /// Flavorful attributes that categorize the card and no inherent rules.
 ///

@@ -2,10 +2,10 @@
 ///
 /// It is recommended to import this library with a prefix:
 /// ```dart
-/// import 'package:unlimited/sets/sor.dart' as sor;
+/// import 'package:unlimited/catalog/sor.dart' as sor;
 /// ```
 ///
-/// See [set] for set information and [cards] for all cards.
+/// See [expansion] for set information and [cards] for all cards.
 library;
 
 import 'package:unlimited/core.dart';
@@ -15,19 +15,19 @@ import 'package:unlimited/core.dart';
 // To regenerate, run `./bin/jawa retrofit -i data/sor.json`
 
 /// _Spark of Rebellion_ set.
-final set = Expansion.sparkOfRebellion;
+final expansion = Expansion.sparkOfRebellion;
 
 /// SOR 001: **Director Krennic** - Aspiring to Authority.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_001_Director_Krennic_Leader_62eaa20dc2.png)
 final directorKrennic = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 1,
   name: 'Director Krennic',
   unique: true,
   subTitle: 'Aspiring to Authority',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 1,
     name: 'Director Krennic',
     unique: true,
@@ -46,13 +46,13 @@ final directorKrennic = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_002_Iden_Versio_Leader_8638ef7fc2.png)
 final idenVersio = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 2,
   name: 'Iden Versio',
   unique: true,
   subTitle: 'Inferno Squad Commander',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 2,
     name: 'Iden Versio',
     unique: true,
@@ -71,13 +71,13 @@ final idenVersio = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_003_Chewbacca_Leader_962112464e.png)
 final chewbacca = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 3,
   name: 'Chewbacca',
   unique: true,
   subTitle: 'Walking Carpet',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 3,
     name: 'Chewbacca',
     unique: true,
@@ -96,13 +96,13 @@ final chewbacca = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Leader_3a0a77d2b4.png)
 final chirrutMwe = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 4,
   name: 'Chirrut Ãmwe',
   unique: true,
   subTitle: 'One With The Force',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 4,
     name: 'Chirrut Ãmwe',
     unique: true,
@@ -121,13 +121,13 @@ final chirrutMwe = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_005_Luke_Skywalker_Leader_ce133fc923.png)
 final lukeSkywalker = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 5,
   name: 'Luke Skywalker',
   unique: true,
   subTitle: 'Faithful Friend',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 5,
     name: 'Luke Skywalker',
     unique: true,
@@ -146,13 +146,13 @@ final lukeSkywalker = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_006_Emperor_Palpatine_Leader_602d034208.png)
 final emperorPalpatine = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 6,
   name: 'Emperor Palpatine',
   unique: true,
   subTitle: 'Galactic Ruler',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 6,
     name: 'Emperor Palpatine',
     unique: true,
@@ -173,13 +173,13 @@ final emperorPalpatine = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_007_Grand_Moff_Tarkin_Leader_c48bb1fb15.png)
 final grandMoffTarkin = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 7,
   name: 'Grand Moff Tarkin',
   unique: true,
   subTitle: 'Oversector Governor',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 7,
     name: 'Grand Moff Tarkin',
     unique: true,
@@ -198,13 +198,13 @@ final grandMoffTarkin = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_008_Hera_Syndulla_Leader_31a4e3f9cb.png)
 final heraSyndulla = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 8,
   name: 'Hera Syndulla',
   unique: true,
   subTitle: 'Spectre Two',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 8,
     name: 'Hera Syndulla',
     unique: true,
@@ -224,13 +224,13 @@ final heraSyndulla = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_009_Leia_Organa_Leader_d6e0eccc71.png)
 final leiaOrgana = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 9,
   name: 'Leia Organa',
   unique: true,
   subTitle: 'Alliance General',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 9,
     name: 'Leia Organa',
     unique: true,
@@ -249,13 +249,13 @@ final leiaOrgana = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_010_Darth_Vader_Leader_2854ebf6ec.png)
 final darthVader = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 10,
   name: 'Darth Vader',
   unique: true,
   subTitle: 'Dark Lord of the Sith',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 10,
     name: 'Darth Vader',
     unique: true,
@@ -275,13 +275,13 @@ final darthVader = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_011_Grand_Inquisitor_Leader_0a32464fea.png)
 final grandInquisitor = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 11,
   name: 'Grand Inquisitor',
   unique: true,
   subTitle: 'Hunting the Jedi',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 11,
     name: 'Grand Inquisitor',
     unique: true,
@@ -301,13 +301,13 @@ final grandInquisitor = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_012_IG_88_Leader_7626adb7fd.png)
 final ig88 = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 12,
   name: 'IG-88',
   unique: true,
   subTitle: 'Ruthless Bounty Hunter',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 12,
     name: 'IG-88',
     unique: true,
@@ -327,13 +327,13 @@ final ig88 = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_013_Cassian_Andor_Leader_7c8ffa9fd1.png)
 final cassianAndor = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 13,
   name: 'Cassian Andor',
   unique: true,
   subTitle: 'Dedicated to the Rebellion',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 13,
     name: 'Cassian Andor',
     unique: true,
@@ -351,13 +351,13 @@ final cassianAndor = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_014_Sabine_Wren_Leader_9f5d2ca6b1.png)
 final sabineWren = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 14,
   name: 'Sabine Wren',
   unique: true,
   subTitle: 'Galvanized Revolutionary',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 14,
     name: 'Sabine Wren',
     unique: true,
@@ -377,13 +377,13 @@ final sabineWren = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_015_Boba_Fett_Leader_86bd50de3a.png)
 final bobaFett = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 15,
   name: 'Boba Fett',
   unique: true,
   subTitle: 'Collecting the Bounty',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 15,
     name: 'Boba Fett',
     unique: true,
@@ -402,13 +402,13 @@ final bobaFett = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_016_Grand_Admiral_Thrawn_Leader_42331c80f2.png)
 final grandAdmiralThrawn = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 16,
   name: 'Grand Admiral Thrawn',
   unique: true,
   subTitle: 'Patient and Insightful',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 16,
     name: 'Grand Admiral Thrawn',
     unique: true,
@@ -427,13 +427,13 @@ final grandAdmiralThrawn = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_017_Han_Solo_Leader_97fbf52c61.png)
 final hanSolo = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 17,
   name: 'Han Solo',
   unique: true,
   subTitle: 'Audacious Smuggler',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 17,
     name: 'Han Solo',
     unique: true,
@@ -451,13 +451,13 @@ final hanSolo = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_018_Jyn_Erso_Leader_fa2fe074c7.png)
 final jynErso = LeaderCard(
-  set: set,
+  expansion: expansion,
   number: 18,
   name: 'Jyn Erso',
   unique: true,
   subTitle: 'Resisting Oppression',
   unit: LeaderUnitCard(
-    set: set,
+    expansion: expansion,
     number: 18,
     name: 'Jyn Erso',
     unique: true,
@@ -475,7 +475,7 @@ final jynErso = LeaderCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_019_Security_Complex_Base_e27cea5c5f.png)
 final securityComplex = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 19,
   name: 'Security Complex',
   health: 25,
@@ -485,7 +485,7 @@ final securityComplex = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_020_Capital_City_Base_4ab50bb7e0.png)
 final capitalCity = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 20,
   name: 'Capital City',
   health: 30,
@@ -495,7 +495,7 @@ final capitalCity = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_021_Dagobah_Swamp_Base_d416015b8b.png)
 final dagobahSwamp = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 21,
   name: 'Dagobah Swamp',
   health: 30,
@@ -505,7 +505,7 @@ final dagobahSwamp = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_022_Energy_Conversion_Lab_Base_7933f36b37.png)
 final energyConversionLab = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 22,
   name: 'Energy Conversion Lab',
   health: 25,
@@ -515,7 +515,7 @@ final energyConversionLab = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_023_Command_Center_Base_c455f9e940.png)
 final commandCenter = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 23,
   name: 'Command Center',
   health: 30,
@@ -525,7 +525,7 @@ final commandCenter = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_024_Echobase_Base_0878ce5c65.png)
 final echoBase = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 24,
   name: 'Echo Base',
   health: 30,
@@ -535,7 +535,7 @@ final echoBase = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_025_Tarkintown_Base_d70be70a40.png)
 final tarkintown = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 25,
   name: 'Tarkintown',
   health: 25,
@@ -545,7 +545,7 @@ final tarkintown = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_026_Catacombs_Of_Cadera_Base_68cc6c16b0.png)
 final catacombsOfCadera = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 26,
   name: 'Catacombs of Cadera',
   health: 30,
@@ -555,7 +555,7 @@ final catacombsOfCadera = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_027_Kestro_City_Base_1416658e9a.png)
 final kestroCity = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 27,
   name: 'Kestro City',
   health: 30,
@@ -565,7 +565,7 @@ final kestroCity = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_028_Jedha_City_Base_ac20bd51d2.png)
 final jedhaCity = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 28,
   name: 'Jedha City',
   health: 25,
@@ -575,7 +575,7 @@ final jedhaCity = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_029_Administrators_Tower_Base_7dac299254.png)
 final administratorsTower = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 29,
   name: "Administrator's Tower",
   health: 30,
@@ -585,7 +585,7 @@ final administratorsTower = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_030_Chopper_Base_Base_6ae28db083.png)
 final chopperBase = BaseCard(
-  set: set,
+  expansion: expansion,
   number: 30,
   name: 'Chopper Base',
   health: 30,
@@ -595,7 +595,7 @@ final chopperBase = BaseCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_031_Inferno_Four_c5229e9c96.png)
 final infernoFour = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 31,
   name: 'Inferno Four',
   subTitle: 'Unforgetting',
@@ -615,7 +615,7 @@ final infernoFour = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_032_Scout_Bike_Punisher_d4d83ad650.png)
 final scoutBikePursuer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 32,
   name: 'Scout Bike Pursuer',
   subTitle: null,
@@ -634,7 +634,7 @@ final scoutBikePursuer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_033_Death_Trooper_7505586c94.png)
 final deathTrooper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 33,
   name: 'Death Trooper',
   subTitle: null,
@@ -653,7 +653,7 @@ final deathTrooper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_034_Del_Meeko_b5f3fa0f46.png)
 final delMeeko = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 34,
   name: 'Del Meeko',
   subTitle: 'Providing Overwatch',
@@ -672,7 +672,7 @@ final delMeeko = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_035_Liutenant_Chilsen_080a3ccb73.png)
 final lieutenantChildsen = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 35,
   name: 'Lieutenant Childsen',
   subTitle: 'Death Star Prison Warden',
@@ -691,7 +691,7 @@ final lieutenantChildsen = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_036_Gideon_Hask_ba4c42082b.png)
 final gideonHask = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 36,
   name: 'Gideon Hask',
   subTitle: 'Ruthless Loyalist',
@@ -710,7 +710,7 @@ final gideonHask = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_037_Academy_Defense_Walker_4a93f3ed3b.png)
 final academyDefenseWalker = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 37,
   name: 'Academy Defense Walker',
   subTitle: null,
@@ -730,7 +730,7 @@ final academyDefenseWalker = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_038_Count_Dooku_ca0953bc50.png)
 final countDooku = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 38,
   name: 'Count Dooku',
   subTitle: 'Darth Tyranus',
@@ -750,7 +750,7 @@ final countDooku = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_039_ATAT_Supressor_04eec30907.png)
 final atAtSuppressor = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 39,
   name: 'AT-AT Suppressor',
   subTitle: null,
@@ -770,7 +770,7 @@ final atAtSuppressor = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_040_Avenger_6096088795.png)
 final avenger = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 40,
   name: 'Avenger',
   subTitle: 'Hunting Star Destroyer',
@@ -790,7 +790,7 @@ final avenger = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_041_Power_Of_The_Dark_Side_79623c71c8.png)
 final powerOfTheDarkSide = EventCard(
-  set: set,
+  expansion: expansion,
   number: 41,
   name: 'Power of the Dark Side',
   unique: false,
@@ -804,7 +804,7 @@ final powerOfTheDarkSide = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_042_Search_Your_Feelings_ef8cca4456.png)
 final searchYourFeelings = EventCard(
-  set: set,
+  expansion: expansion,
   number: 42,
   name: 'Search Your Feelings',
   unique: false,
@@ -818,7 +818,7 @@ final searchYourFeelings = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_043_Superlaser_Blast_09e51a024d.png)
 final superlaserBlast = EventCard(
-  set: set,
+  expansion: expansion,
   number: 43,
   name: 'Superlaser Blast',
   unique: false,
@@ -833,7 +833,7 @@ final superlaserBlast = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_044_Restored_ARC_170_ac04c34ea4.png)
 final restoredArc170 = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 44,
   name: 'Restored ARC-170',
   subTitle: null,
@@ -853,7 +853,7 @@ final restoredArc170 = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_045_Yoda_93e59381ba.png)
 final yoda = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 45,
   name: 'Yoda',
   subTitle: 'Old Master',
@@ -872,7 +872,7 @@ final yoda = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_046_Consular_Security_Force_6543d9e686.png)
 final consularSecurityForce = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 46,
   name: 'Consular Security Force',
   subTitle: null,
@@ -891,7 +891,7 @@ final consularSecurityForce = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_047_Kanan_Jarrus_36cc0aea8b.png)
 final kananJarrus = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 47,
   name: 'Kanan Jarrus',
   subTitle: 'Revealed Jedi',
@@ -912,7 +912,7 @@ final kananJarrus = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_048_Vigilant_Honor_Guards_b7ab09882a.png)
 final vigilantHonorGuards = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 48,
   name: 'Vigilant Honor Guards',
   subTitle: null,
@@ -930,7 +930,7 @@ final vigilantHonorGuards = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_049_Obi_Wan_Kenobi_a167dcc2ea.png)
 final obiWanKenobi = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 49,
   name: 'Obi-Wan Kenobi',
   subTitle: 'Following Fate',
@@ -949,7 +949,7 @@ final obiWanKenobi = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_050_The_Ghost_7029a2e044.png)
 final theGhost = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 50,
   name: 'The Ghost',
   subTitle: 'Spectre Home Base',
@@ -970,7 +970,7 @@ final theGhost = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_051_Luke_Skywalker_04975ee125.png)
 final lukeSkywalkerJediKnight = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 51,
   name: 'Luke Skywalker',
   subTitle: 'Jedi Knight',
@@ -990,7 +990,7 @@ final lukeSkywalkerJediKnight = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_052_Redemption_01f6e827d7.png)
 final redemption = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 52,
   name: 'Redemption',
   subTitle: 'Medical Frigate',
@@ -1010,7 +1010,7 @@ final redemption = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_053_Lukes_Lightsaber_4267483ca6.png)
 final lukesLightsaber = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 53,
   name: "Luke's Lightsaber",
   unique: true,
@@ -1026,7 +1026,7 @@ final lukesLightsaber = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_054_Jedi_Lightsaber_f6c31f52a2.png)
 final jediLightsaber = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 54,
   name: 'Jedi Lightsaber',
   unique: false,
@@ -1042,7 +1042,7 @@ final jediLightsaber = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_055_The_Force_Is_With_Me_bde94ded40.png)
 final theForceIsWithMe = EventCard(
-  set: set,
+  expansion: expansion,
   number: 55,
   name: 'The Force Is With Me',
   unique: false,
@@ -1056,7 +1056,7 @@ final theForceIsWithMe = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_056_Bendu_6e9cd1d87c.png)
 final bendu = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 56,
   name: 'Bendu',
   subTitle: 'The One in the Middle',
@@ -1075,7 +1075,7 @@ final bendu = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_057_Protector_2ef40152f5.png)
 final protector = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 57,
   name: 'Protector',
   unique: false,
@@ -1089,7 +1089,7 @@ final protector = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_058_Vigilance_522eb820dd.png)
 final vigilance = EventCard(
-  set: set,
+  expansion: expansion,
   number: 58,
   name: 'Vigilance',
   unique: false,
@@ -1103,7 +1103,7 @@ final vigilance = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_059_21_B_Surgical_Droid_890820aa54.png)
 final $21bSurgicalDroid = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 59,
   name: '2-1B Surgical Droid',
   subTitle: null,
@@ -1121,7 +1121,7 @@ final $21bSurgicalDroid = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_060_Distant_Patroller_cca6fb353a.png)
 final distantPatroller = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 60,
   name: 'Distant Patroller',
   subTitle: null,
@@ -1141,7 +1141,7 @@ final distantPatroller = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_061_Guardian_Of_The_Whills_1f3ca9d6e7.png)
 final guardianOfTheWhills = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 61,
   name: 'Guardian of the Whills',
   subTitle: null,
@@ -1160,7 +1160,7 @@ final guardianOfTheWhills = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_062_Regional_Governor_2a4d9c9ec9.png)
 final regionalGovernor = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 62,
   name: 'Regional Governor',
   subTitle: null,
@@ -1179,7 +1179,7 @@ final regionalGovernor = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_063_Cloud_City_Wing_Guard_ff2aa3a955.png)
 final cloudCityWingGuard = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 63,
   name: 'Cloud City Wing Guard',
   subTitle: null,
@@ -1198,7 +1198,7 @@ final cloudCityWingGuard = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_064_Wilderness_Fighter_6a4ed85811.png)
 final wildernessFighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 64,
   name: 'Wilderness Fighter',
   subTitle: null,
@@ -1216,7 +1216,7 @@ final wildernessFighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_065_Baze_Malbus_da639950e1.png)
 final bazeMalbus = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 65,
   name: 'Baze Malbus',
   subTitle: 'Temple Guardian',
@@ -1234,7 +1234,7 @@ final bazeMalbus = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_066_System_Patrol_Craft_d9eed83dab.png)
 final systemPatrolCraft = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 66,
   name: 'System Patrol Craft',
   subTitle: null,
@@ -1253,7 +1253,7 @@ final systemPatrolCraft = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_067_Rugged_Survivors_f9ab35178a.png)
 final ruggedSurvivors = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 67,
   name: 'Rugged Survivors',
   subTitle: null,
@@ -1271,7 +1271,7 @@ final ruggedSurvivors = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_068_Cargo_Juggernaut_a018dfb1c5.png)
 final cargoJuggernaut = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 68,
   name: 'Cargo Juggernaut',
   subTitle: null,
@@ -1290,7 +1290,7 @@ final cargoJuggernaut = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_069_Resilient_fa2f9cf645.png)
 final resilient = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 69,
   name: 'Resilient',
   unique: false,
@@ -1304,7 +1304,7 @@ final resilient = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_070_Devotion_4fcdd3e166.png)
 final devotion = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 70,
   name: 'Devotion',
   unique: false,
@@ -1318,7 +1318,7 @@ final devotion = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_071_Electrostaff_dbe28372b8.png)
 final electrostaff = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 71,
   name: 'Electrostaff',
   unique: false,
@@ -1333,7 +1333,7 @@ final electrostaff = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_072_Entrenched_d3a4629144.png)
 final entrenched = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 72,
   name: 'Entrenched',
   unique: false,
@@ -1347,7 +1347,7 @@ final entrenched = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_073_Moment_Of_Peace_ddba7c56ea.png)
 final momentOfPeace = EventCard(
-  set: set,
+  expansion: expansion,
   number: 73,
   name: 'Moment of Peace',
   unique: false,
@@ -1361,7 +1361,7 @@ final momentOfPeace = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_074_Repair_4307220e6c.png)
 final repair = EventCard(
-  set: set,
+  expansion: expansion,
   number: 74,
   name: 'Repair',
   unique: false,
@@ -1375,7 +1375,7 @@ final repair = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_075_It_Binds_All_Things_5abf5d1ff3.png)
 final itBindsAllThings = EventCard(
-  set: set,
+  expansion: expansion,
   number: 75,
   name: 'It Binds All Things',
   unique: false,
@@ -1389,7 +1389,7 @@ final itBindsAllThings = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_076_Make_An_Opening_19ec93f7b2.png)
 final makeAnOpening = EventCard(
-  set: set,
+  expansion: expansion,
   number: 76,
   name: 'Make an Opening',
   unique: false,
@@ -1403,7 +1403,7 @@ final makeAnOpening = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_077_Takedown_61b30eae9b.png)
 final takedown = EventCard(
-  set: set,
+  expansion: expansion,
   number: 77,
   name: 'Takedown',
   unique: false,
@@ -1417,7 +1417,7 @@ final takedown = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_078_Vanquish_ce5f5c8e38.png)
 final vanquish = EventCard(
-  set: set,
+  expansion: expansion,
   number: 78,
   name: 'Vanquish',
   unique: false,
@@ -1431,7 +1431,7 @@ final vanquish = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_079_Admiral_Piett_f8e83b47d8.png)
 final admiralPiett = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 79,
   name: 'Admiral Piett',
   subTitle: 'Captain of the Executor',
@@ -1450,7 +1450,7 @@ final admiralPiett = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_080_General_Tagge_ff768147c1.png)
 final generalTagge = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 80,
   name: 'General Tagge',
   subTitle: 'Concerned Commander',
@@ -1469,7 +1469,7 @@ final generalTagge = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_081_Seasoned_Shoretrooper_1899d2dcf2.png)
 final seasonedShoretrooper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 81,
   name: 'Seasoned Shoretrooper',
   subTitle: null,
@@ -1488,7 +1488,7 @@ final seasonedShoretrooper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_082_Emperors_Royal_Guard_85a63df270.png)
 final emperorsRoyalGuard = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 82,
   name: "Emperor's Royal Guard",
   subTitle: null,
@@ -1506,7 +1506,7 @@ final emperorsRoyalGuard = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_083_Superlaser_Technician_c3564989cd.png)
 final superlaserTechnician = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 83,
   name: 'Superlaser Technician',
   subTitle: null,
@@ -1524,7 +1524,7 @@ final superlaserTechnician = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_084_Grand_Moff_Tarkin_dc42121c84.png)
 final grandMoffTarkinDeathStarOverseer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 84,
   name: 'Grand Moff Tarkin',
   subTitle: 'Death Star Overseer',
@@ -1543,7 +1543,7 @@ final grandMoffTarkinDeathStarOverseer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_085_Rukh_eab07260af.png)
 final rukh = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 85,
   name: 'Rukh',
   subTitle: "Thrawn's Assassin",
@@ -1561,7 +1561,7 @@ final rukh = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_086_Gladiator_Star_Destroyer_ca172c68f4.png)
 final gladiatorStarDestroyer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 86,
   name: 'Gladiator Star Destroyer',
   subTitle: null,
@@ -1581,7 +1581,7 @@ final gladiatorStarDestroyer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_087_Darth_Vader_9428962c5e.png)
 final darthVaderCommandingTheFirstLegion = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 87,
   name: 'Darth Vader',
   subTitle: 'Commanding the First Legion',
@@ -1601,7 +1601,7 @@ final darthVaderCommandingTheFirstLegion = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_088_Blizzard_Assault_ATAT_603c53ec43.png)
 final blizzardAssaultAtAt = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 88,
   name: 'Blizzard Assault AT-AT',
   subTitle: null,
@@ -1621,7 +1621,7 @@ final blizzardAssaultAtAt = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_089_Relentless_42a871350e.png)
 final relentless = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 89,
   name: 'Relentless',
   subTitle: "Konstantine's Folly",
@@ -1641,7 +1641,7 @@ final relentless = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_090_Devastator_c81abff726.png)
 final devastator = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 90,
   name: 'Devastator',
   subTitle: 'Inescapable',
@@ -1661,7 +1661,7 @@ final devastator = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_091_The_Emperors_Legion_42a787f10f.png)
 final theEmperorsLegion = EventCard(
-  set: set,
+  expansion: expansion,
   number: 91,
   name: "The Emperor's Legion",
   unique: false,
@@ -1676,7 +1676,7 @@ final theEmperorsLegion = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_092_Overwhelming_Barrage_25875af3c4.png)
 final overwhelmingBarrage = EventCard(
-  set: set,
+  expansion: expansion,
   number: 92,
   name: 'Overwhelming Barrage',
   unique: false,
@@ -1690,7 +1690,7 @@ final overwhelmingBarrage = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_093_Alliance_Dispatcher_fe21f2cebe.png)
 final allianceDispatcher = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 93,
   name: 'Alliance Dispatcher',
   subTitle: null,
@@ -1708,7 +1708,7 @@ final allianceDispatcher = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_094_Bail_Organa_4d401b0573.png)
 final bailOrgana = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 94,
   name: 'Bail Organa',
   subTitle: 'Rebel Councilor',
@@ -1727,7 +1727,7 @@ final bailOrgana = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_095_Battlefield_Marine_57f78e775c.png)
 final battlefieldMarine = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 95,
   name: 'Battlefield Marine',
   subTitle: null,
@@ -1746,7 +1746,7 @@ final battlefieldMarine = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_096_Mon_Mothma_56adc6421e.png)
 final monMothma = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 96,
   name: 'Mon Mothma',
   subTitle: 'Voice Of The Rebellion',
@@ -1765,7 +1765,7 @@ final monMothma = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_097_Admiral_Ackbar_8882afe8ce.png)
 final admiralAckbar = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 97,
   name: 'Admiral Ackbar',
   subTitle: 'Brilliant Strategist',
@@ -1784,7 +1784,7 @@ final admiralAckbar = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_098_Echo_Base_Defender_48430642d0.png)
 final echoBaseDefender = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 98,
   name: 'Echo Base Defender',
   subTitle: null,
@@ -1803,7 +1803,7 @@ final echoBaseDefender = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_099_Bright_Hope_ae50787ef5.png)
 final brightHope = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 99,
   name: 'Bright Hope',
   subTitle: 'The Last Transport',
@@ -1823,7 +1823,7 @@ final brightHope = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_100_Wedge_Antilles_bf13e74641.png)
 final wedgeAntilles = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 100,
   name: 'Wedge Antilles',
   subTitle: 'Star of the Rebellion',
@@ -1841,7 +1841,7 @@ final wedgeAntilles = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_101_Rogue_Squadron_Skirmisher_e5659ca239.png)
 final rogueSquadronSkirmisher = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 101,
   name: 'Rogue Squadron Skirmisher',
   subTitle: null,
@@ -1861,7 +1861,7 @@ final rogueSquadronSkirmisher = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_102_Home_One_98b715810f.png)
 final homeOne = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 102,
   name: 'Home One',
   subTitle: 'Alliance Flagship',
@@ -1881,7 +1881,7 @@ final homeOne = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_103_Rebel_Assault_6cf559c9a4.png)
 final rebelAssault = EventCard(
-  set: set,
+  expansion: expansion,
   number: 103,
   name: 'Rebel Assault',
   unique: false,
@@ -1896,7 +1896,7 @@ final rebelAssault = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_104_U_Wing_Reinforcement_f153644979.png)
 final uWingReinforcement = EventCard(
-  set: set,
+  expansion: expansion,
   number: 104,
   name: 'U-Wing Reinforcement',
   unique: false,
@@ -1910,7 +1910,7 @@ final uWingReinforcement = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_105_General_Krell_a069b8f8fa.png)
 final generalKrell = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 105,
   name: 'General Krell',
   subTitle: 'Heartless Tactician',
@@ -1930,7 +1930,7 @@ final generalKrell = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_106_Attack_Pattern_Delta_9984c8ea9a.png)
 final attackPatternDelta = EventCard(
-  set: set,
+  expansion: expansion,
   number: 106,
   name: 'Attack Pattern Delta',
   unique: false,
@@ -1944,7 +1944,7 @@ final attackPatternDelta = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_107_Command_122a2a1778.png)
 final command = EventCard(
-  set: set,
+  expansion: expansion,
   number: 107,
   name: 'Command',
   unique: false,
@@ -1958,7 +1958,7 @@ final command = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_108_Vanguard_Infantry_b205ba75eb.png)
 final vanguardInfantry = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 108,
   name: 'Vanguard Infantry',
   subTitle: null,
@@ -1976,7 +1976,7 @@ final vanguardInfantry = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_109_Colonel_Yularen_f2e0118329.png)
 final colonelYularen = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 109,
   name: 'Colonel Yularen',
   subTitle: 'ISB Director',
@@ -1995,7 +1995,7 @@ final colonelYularen = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_110_Frontline_Shuttle_c59574d2cf.png)
 final frontlineShuttle = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 110,
   name: 'Frontline Shuttle',
   subTitle: null,
@@ -2014,7 +2014,7 @@ final frontlineShuttle = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_111_Patrolling_V_Wing_3a3a53da96.png)
 final patrollingVWing = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 111,
   name: 'Patrolling V-Wing',
   subTitle: null,
@@ -2033,7 +2033,7 @@ final patrollingVWing = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_112_Consortium_Star_Viper_2195622c64.png)
 final consortiumStarviper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 112,
   name: 'Consortium StarViper',
   subTitle: null,
@@ -2053,7 +2053,7 @@ final consortiumStarviper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_113_Homestead_Militia_cc7d656a70.png)
 final homesteadMilitia = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 113,
   name: 'Homestead Militia',
   subTitle: null,
@@ -2072,7 +2072,7 @@ final homesteadMilitia = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_114_Escort_Skiff_3b80c2783f.png)
 final escortSkiff = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 114,
   name: 'Escort Skiff',
   subTitle: null,
@@ -2092,7 +2092,7 @@ final escortSkiff = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_115_Agent_Kallus_36c692851c.png)
 final agentKallus = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 115,
   name: 'Agent Kallus',
   subTitle: 'Seeking the Rebels',
@@ -2111,7 +2111,7 @@ final agentKallus = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_116_Steadfast_Battalion_ec03fae55f.png)
 final steadfastBattalion = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 116,
   name: 'Steadfast Battalion',
   subTitle: null,
@@ -2129,7 +2129,7 @@ final steadfastBattalion = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_117_Mercenary_Company_a80a97ec0e.png)
 final mercenaryCompany = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 117,
   name: 'Mercenary Company',
   subTitle: null,
@@ -2148,7 +2148,7 @@ final mercenaryCompany = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_118_97th_Legion_bc9c6ec4e2.png)
 final $97thLegion = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 118,
   name: '97th Legion',
   subTitle: 'Keeping the Peace on Sullust',
@@ -2167,7 +2167,7 @@ final $97thLegion = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_119_Reinforcement_Walker_39f6c799de.png)
 final reinforcementWalker = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 119,
   name: 'Reinforcement Walker',
   subTitle: null,
@@ -2186,7 +2186,7 @@ final reinforcementWalker = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_120_Academy_Training_8e39c1fc2e.png)
 final academyTraining = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 120,
   name: 'Academy Training',
   unique: false,
@@ -2200,7 +2200,7 @@ final academyTraining = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_121_Hardpoint_Heavy_Blaster_a2e73fbba0.png)
 final hardpointHeavyBlaster = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 121,
   name: 'Hardpoint Heavy Blaster',
   unique: false,
@@ -2215,7 +2215,7 @@ final hardpointHeavyBlaster = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_122_Traitorous_a95670f273.png)
 final traitorous = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 122,
   name: 'Traitorous',
   unique: false,
@@ -2229,7 +2229,7 @@ final traitorous = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_123_Recruit_fb2e998b39.png)
 final recruit = EventCard(
-  set: set,
+  expansion: expansion,
   number: 123,
   name: 'Recruit',
   unique: false,
@@ -2243,7 +2243,7 @@ final recruit = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_124_Tactical_Advantage_dc518d12d9.png)
 final tacticalAdvantage = EventCard(
-  set: set,
+  expansion: expansion,
   number: 124,
   name: 'Tactical Advantage',
   unique: false,
@@ -2257,7 +2257,7 @@ final tacticalAdvantage = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_125_Prepare_For_Takeoff_d643ffe52b.png)
 final prepareForTakeoff = EventCard(
-  set: set,
+  expansion: expansion,
   number: 125,
   name: 'Prepare for Takeoff',
   unique: false,
@@ -2271,7 +2271,7 @@ final prepareForTakeoff = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_126_Resupply_5da424d70f.png)
 final resupply = EventCard(
-  set: set,
+  expansion: expansion,
   number: 126,
   name: 'Resupply',
   unique: false,
@@ -2285,7 +2285,7 @@ final resupply = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_127_Strike_True_6f0d15fd8b.png)
 final strikeTrue = EventCard(
-  set: set,
+  expansion: expansion,
   number: 127,
   name: 'Strike True',
   unique: false,
@@ -2299,7 +2299,7 @@ final strikeTrue = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_128_Death_Star_Stormtrooper_5bf4e0a2bc.png)
 final deathStarStormtrooper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 128,
   name: 'Death Star Stormtrooper',
   subTitle: null,
@@ -2318,7 +2318,7 @@ final deathStarStormtrooper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_129_Admiral_Ozzel_9f86355d3f.png)
 final admiralOzzel = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 129,
   name: 'Admiral Ozzel',
   subTitle: 'Overconfident',
@@ -2337,7 +2337,7 @@ final admiralOzzel = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_130_First_Legion_Snowtrooper_d75cd2eb7a.png)
 final firstLegionSnowtrooper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 130,
   name: 'First Legion Snowtrooper',
   subTitle: null,
@@ -2356,7 +2356,7 @@ final firstLegionSnowtrooper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_131_Fifth_Brother_a3f3956b2e.png)
 final fifthBrother = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 131,
   name: 'Fifth Brother',
   subTitle: 'Fear Hunter',
@@ -2376,7 +2376,7 @@ final fifthBrother = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_132_Imperial_Interceptor_5f1cdce534.png)
 final imperialInterceptor = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 132,
   name: 'Imperial Interceptor',
   subTitle: null,
@@ -2396,7 +2396,7 @@ final imperialInterceptor = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_133_Seventh_Sister_939ade1f02.png)
 final seventhSister = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 133,
   name: 'Seventh Sister',
   subTitle: 'Implacable Inquisitor',
@@ -2416,7 +2416,7 @@ final seventhSister = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_134_Ruthless_Raider_dde5cd9caf.png)
 final ruthlessRaider = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 134,
   name: 'Ruthless Raider',
   subTitle: null,
@@ -2436,7 +2436,7 @@ final ruthlessRaider = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_135_Emperor_Palpatine_4a0519e02f.png)
 final emperorPalpatineMasterOfTheDarkSide = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 135,
   name: 'Emperor Palpatine',
   subTitle: 'Master of the Dark Side',
@@ -2457,7 +2457,7 @@ final emperorPalpatineMasterOfTheDarkSide = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_136_Vaders_Lightsaber_68a2f8ece6.png)
 final vadersLightsaber = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 136,
   name: "Vader's Lightsaber",
   unique: true,
@@ -2473,7 +2473,7 @@ final vadersLightsaber = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_137_Fallen_Lightsaber_64ca62f967.png)
 final fallenLightsaber = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 137,
   name: 'Fallen Lightsaber',
   unique: false,
@@ -2489,7 +2489,7 @@ final fallenLightsaber = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_138_Force_Lightning_9b313a51da.png)
 final forceLightning = EventCard(
-  set: set,
+  expansion: expansion,
   number: 138,
   name: 'Force Lightning',
   unique: false,
@@ -2503,7 +2503,7 @@ final forceLightning = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_139_Force_Choke_257201b643.png)
 final forceChoke = EventCard(
-  set: set,
+  expansion: expansion,
   number: 139,
   name: 'Force Choke',
   unique: false,
@@ -2517,7 +2517,7 @@ final forceChoke = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_140_Spec_Force_Soldier_89ff6a8e9b.png)
 final specforceSoldier = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 140,
   name: 'SpecForce Soldier',
   subTitle: null,
@@ -2536,7 +2536,7 @@ final specforceSoldier = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_141_Green_Squadron_A_Wing_eabe5f2b9d.png)
 final greenSquadronAWing = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 141,
   name: 'Green Squadron A-Wing',
   subTitle: null,
@@ -2556,7 +2556,7 @@ final greenSquadronAWing = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_142_Sabine_Wren_995ee38895.png)
 final sabineWrenExplosivesArtist = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 142,
   name: 'Sabine Wren',
   subTitle: 'Explosives Artist',
@@ -2576,7 +2576,7 @@ final sabineWrenExplosivesArtist = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_143_Fighters_For_Freedom_f4bad9778e.png)
 final fightersForFreedom = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 143,
   name: 'Fighters for Freedom',
   subTitle: null,
@@ -2595,7 +2595,7 @@ final fightersForFreedom = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_143_Red_Three_2e17ca688b.png)
 final redThree = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 144,
   name: 'Red Three',
   subTitle: 'Unstoppable',
@@ -2615,7 +2615,7 @@ final redThree = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_145_K2_S0_8e6236d7e8.png)
 final k2so = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 145,
   name: 'K-2SO',
   subTitle: "Cassian's Counterpart",
@@ -2634,7 +2634,7 @@ final k2so = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_146_Zeb_Orrelios_1b3869647c.png)
 final zebOrrelios = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 146,
   name: 'Zeb Orrelios',
   subTitle: 'Headstrong Warrior',
@@ -2653,7 +2653,7 @@ final zebOrrelios = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_147_Black_One_f539d8bc9f.png)
 final blackOne = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 147,
   name: 'Black One',
   subTitle: 'Scourge of Starkiller Base',
@@ -2673,7 +2673,7 @@ final blackOne = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_148_Guerilla_Attack_Pod_551b329d28.png)
 final guerillaAttackPod = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 148,
   name: 'Guerilla Attack Pod',
   subTitle: null,
@@ -2693,7 +2693,7 @@ final guerillaAttackPod = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_149_Mace_Windu_a670a01a3f.png)
 final maceWindu = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 149,
   name: 'Mace Windu',
   subTitle: 'Party Crasher',
@@ -2713,7 +2713,7 @@ final maceWindu = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_150_Heroic_Sacrifice_e4c646edbb.png)
 final heroicSacrifice = EventCard(
-  set: set,
+  expansion: expansion,
   number: 150,
   name: 'Heroic Sacrifice',
   unique: false,
@@ -2727,7 +2727,7 @@ final heroicSacrifice = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_151_Karabast_754625da12.png)
 final karabast = EventCard(
-  set: set,
+  expansion: expansion,
   number: 151,
   name: 'Karabast',
   unique: false,
@@ -2741,7 +2741,7 @@ final karabast = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_152_For_A_Cause_I_Believe_In_f234f48322.png)
 final forACauseIBelieveIn = EventCard(
-  set: set,
+  expansion: expansion,
   number: 152,
   name: 'For a Cause I Believe In',
   unique: false,
@@ -2755,7 +2755,7 @@ final forACauseIBelieveIn = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_153_Saw_Gerrera_7a3f0b31f7.png)
 final sawGerrera = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 153,
   name: 'Saw Gerrera',
   subTitle: 'Extremist',
@@ -2773,7 +2773,7 @@ final sawGerrera = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_154_Rallying_Cry_7d8a1c2db5.png)
 final rallyingCry = EventCard(
-  set: set,
+  expansion: expansion,
   number: 154,
   name: 'Rallying Cry',
   unique: false,
@@ -2787,7 +2787,7 @@ final rallyingCry = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_155_Aggression_5849eaf280.png)
 final aggression = EventCard(
-  set: set,
+  expansion: expansion,
   number: 155,
   name: 'Aggression',
   unique: false,
@@ -2801,7 +2801,7 @@ final aggression = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_156_Benthic_Two_Tubes_f1969dcb25.png)
 final benthicTwoTubes = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 156,
   name: 'Benthic "Two Tubes"',
   subTitle: 'Partisan Lieutenant',
@@ -2820,7 +2820,7 @@ final benthicTwoTubes = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_157_Cantina_Braggart_f4544557b8.png)
 final cantinaBraggart = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 157,
   name: 'Cantina Braggart',
   subTitle: null,
@@ -2838,7 +2838,7 @@ final cantinaBraggart = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_158_Jeddha_Agitator_f896f597f2.png)
 final jedhaAgitator = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 158,
   name: 'Jedha Agitator',
   subTitle: null,
@@ -2856,7 +2856,7 @@ final jedhaAgitator = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_159_Partisan_Insurgent_b83fde9127.png)
 final partisanInsurgent = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 159,
   name: 'Partisan Insurgent',
   subTitle: null,
@@ -2875,7 +2875,7 @@ final partisanInsurgent = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_160_Wolffe_cc05de4569.png)
 final wolffe = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 160,
   name: 'Wolffe',
   subTitle: 'Suspicious Veteran',
@@ -2894,7 +2894,7 @@ final wolffe = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_161_Ardent_Sympathizer_9d04b27f69.png)
 final ardentSympathizer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 161,
   name: 'Ardent Sympathizer',
   subTitle: null,
@@ -2912,7 +2912,7 @@ final ardentSympathizer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_162_Disabling_Fang_Fighter_4cb5da9da3.png)
 final disablingFangFighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 162,
   name: 'Disabling Fang Fighter',
   subTitle: null,
@@ -2932,7 +2932,7 @@ final disablingFangFighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_163_Star_Wing_Scout_002018b805.png)
 final starWingScout = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 163,
   name: 'Star Wing Scout',
   subTitle: null,
@@ -2951,7 +2951,7 @@ final starWingScout = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_164_Wampa_3890f373aa.png)
 final wampa = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 164,
   name: 'Wampa',
   subTitle: null,
@@ -2969,7 +2969,7 @@ final wampa = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_165_Occupier_Siege_Tank_1321456822.png)
 final occupierSiegeTank = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 165,
   name: 'Occupier Siege Tank',
   subTitle: null,
@@ -2989,7 +2989,7 @@ final occupierSiegeTank = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_166_Infiltrators_Skill_51a7fc5d9b.png)
 final infiltratorsSkill = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 166,
   name: "Infiltrator's Skill",
   unique: false,
@@ -3003,7 +3003,7 @@ final infiltratorsSkill = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_167_Force_Throw_dc5ebf0218.png)
 final forceThrow = EventCard(
-  set: set,
+  expansion: expansion,
   number: 167,
   name: 'Force Throw',
   unique: false,
@@ -3017,7 +3017,7 @@ final forceThrow = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_168_Precision_Fire_1f0d428f19.png)
 final precisionFire = EventCard(
-  set: set,
+  expansion: expansion,
   number: 168,
   name: 'Precision Fire',
   unique: false,
@@ -3031,7 +3031,7 @@ final precisionFire = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_169_Keep_Fighting_6a5cc36ed4.png)
 final keepFighting = EventCard(
-  set: set,
+  expansion: expansion,
   number: 169,
   name: 'Keep Fighting',
   unique: false,
@@ -3045,7 +3045,7 @@ final keepFighting = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_170_Power_Failure_724950e0c3.png)
 final powerFailure = EventCard(
-  set: set,
+  expansion: expansion,
   number: 170,
   name: 'Power Failure',
   unique: false,
@@ -3059,7 +3059,7 @@ final powerFailure = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_171_Mission_Briefing_99591d1560.png)
 final missionBriefing = EventCard(
-  set: set,
+  expansion: expansion,
   number: 171,
   name: 'Mission Briefing',
   unique: false,
@@ -3073,7 +3073,7 @@ final missionBriefing = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_172_Open_Fire_e69912844c.png)
 final openFire = EventCard(
-  set: set,
+  expansion: expansion,
   number: 172,
   name: 'Open Fire',
   unique: false,
@@ -3087,7 +3087,7 @@ final openFire = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_173_Bombing_Run_bdc698f9ae.png)
 final bombingRun = EventCard(
-  set: set,
+  expansion: expansion,
   number: 173,
   name: 'Bombing Run',
   unique: false,
@@ -3101,7 +3101,7 @@ final bombingRun = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_174_Smoke_And_Cinders_bcec5a296c.png)
 final smokeAndCinders = EventCard(
-  set: set,
+  expansion: expansion,
   number: 174,
   name: 'Smoke and Cinders',
   unique: false,
@@ -3115,7 +3115,7 @@ final smokeAndCinders = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_175_Forced_Surrender_5f674561a0.png)
 final forcedSurrender = EventCard(
-  set: set,
+  expansion: expansion,
   number: 175,
   name: 'Forced Surrender',
   unique: false,
@@ -3129,7 +3129,7 @@ final forcedSurrender = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_176_ISB_Agent_e5452d3065.png)
 final isbAgent = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 176,
   name: 'ISB Agent',
   subTitle: null,
@@ -3147,7 +3147,7 @@ final isbAgent = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_177_Bib_Fortuna_a5a1c03260.png)
 final bibFortuna = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 177,
   name: 'Bib Fortuna',
   subTitle: 'Jabbaâs Majordomo',
@@ -3166,7 +3166,7 @@ final bibFortuna = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_178_Cartel_Spacer_cecc964b71.png)
 final cartelSpacer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 178,
   name: 'Cartel Spacer',
   subTitle: null,
@@ -3186,7 +3186,7 @@ final cartelSpacer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_179_Boba_Fett_9c9eed5611.png)
 final bobaFettDisintegrator = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 179,
   name: 'Boba Fett',
   subTitle: 'Disintegrator',
@@ -3205,7 +3205,7 @@ final bobaFettDisintegrator = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_180_Seventh_Fleet_Defender_2bf98d81f8.png)
 final seventhFleetDefender = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 180,
   name: 'Seventh Fleet Defender',
   subTitle: null,
@@ -3225,7 +3225,7 @@ final seventhFleetDefender = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_181_Jabba_The_Hutt_4a28d3748a.png)
 final jabbaTheHutt = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 181,
   name: 'Jabba the Hutt',
   subTitle: 'Cunning Daimyo',
@@ -3244,7 +3244,7 @@ final jabbaTheHutt = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_182_Bossk_2633bd7731.png)
 final bossk = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 182,
   name: 'Bossk',
   subTitle: 'Deadly Stalker',
@@ -3263,7 +3263,7 @@ final bossk = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_183_Bounty_Hunter_Crew_8704bb6c4c.png)
 final bountyHunterCrew = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 183,
   name: 'Bounty Hunter Crew',
   subTitle: null,
@@ -3282,7 +3282,7 @@ final bountyHunterCrew = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_184_Fetts_Firespray_44132b56bb.png)
 final fettsFirespray = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 184,
   name: "Fett's Firespray",
   subTitle: 'Pursuing the Bounty',
@@ -3302,7 +3302,7 @@ final fettsFirespray = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_185_Chimaera_4af32aee78.png)
 final chimaera = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 185,
   name: 'Chimaera',
   subTitle: 'Flagship of the Seventh Fleet',
@@ -3322,7 +3322,7 @@ final chimaera = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_186_No_Good_To_Me_Dead_a4460900c1.png)
 final noGoodToMeDead = EventCard(
-  set: set,
+  expansion: expansion,
   number: 186,
   name: 'No Good to Me Dead',
   unique: false,
@@ -3336,7 +3336,7 @@ final noGoodToMeDead = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_187_I_Had_No_Choice_a366b7cd1c.png)
 final iHadNoChoice = EventCard(
-  set: set,
+  expansion: expansion,
   number: 187,
   name: 'I Had No Choice',
   unique: false,
@@ -3350,7 +3350,7 @@ final iHadNoChoice = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_188_Chopper_a0da9faeb3.png)
 final chopper = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 188,
   name: 'Chopper',
   subTitle: 'Metal Menace',
@@ -3370,7 +3370,7 @@ final chopper = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_189_Leia_Organa_e20b52b08f.png)
 final leiaOrganaDefiantPrincess = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 189,
   name: 'Leia Organa',
   subTitle: 'Defiant Princess',
@@ -3389,7 +3389,7 @@ final leiaOrganaDefiantPrincess = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_190_Lothal_Insurgent_2e45ed14e6.png)
 final lothalInsurgent = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 190,
   name: 'Lothal Insurgent',
   subTitle: null,
@@ -3407,7 +3407,7 @@ final lothalInsurgent = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_191_Vanguard_Ace_026fca1a49.png)
 final vanguardAce = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 191,
   name: 'Vanguard Ace',
   subTitle: null,
@@ -3427,7 +3427,7 @@ final vanguardAce = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_192_Ezra_Bridger_077a7ef3e2.png)
 final ezraBridger = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 192,
   name: 'Ezra Bridger',
   subTitle: 'Resourceful Troublemaker',
@@ -3447,7 +3447,7 @@ final ezraBridger = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_193_Millennium_Falcon_06698f1d2c.png)
 final millenniumFalcon = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 193,
   name: 'Millennium Falcon',
   subTitle: 'Piece of Junk',
@@ -3467,7 +3467,7 @@ final millenniumFalcon = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_194_Rogue_Operative_a7c093aaee.png)
 final rogueOperative = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 194,
   name: 'Rogue Operative',
   subTitle: null,
@@ -3486,7 +3486,7 @@ final rogueOperative = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_195_Auzituck_Liberator_Gunship_b49766ca42.png)
 final auzituckLiberatorGunship = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 195,
   name: 'Auzituck Liberator Gunship',
   subTitle: null,
@@ -3505,7 +3505,7 @@ final auzituckLiberatorGunship = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_196_Chewbacca_6599ca8457.png)
 final chewbaccaLoyalCompanion = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 196,
   name: 'Chewbacca',
   subTitle: 'Loyal Companion',
@@ -3524,7 +3524,7 @@ final chewbaccaLoyalCompanion = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_197_Lando_Calrissian_9ac350bf70.png)
 final landoCalrissian = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 197,
   name: 'Lando Calrissian',
   subTitle: 'Responsible Businessman',
@@ -3543,7 +3543,7 @@ final landoCalrissian = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_198_Han_Solo_d085629c6c.png)
 final hanSoloReluctantHero = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 198,
   name: 'Han Solo',
   subTitle: 'Reluctant Hero',
@@ -3561,7 +3561,7 @@ final hanSoloReluctantHero = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_199_Bamboozle_21fb187545.png)
 final bamboozle = EventCard(
-  set: set,
+  expansion: expansion,
   number: 199,
   name: 'Bamboozle',
   unique: false,
@@ -3575,7 +3575,7 @@ final bamboozle = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_200_Spark_Of_Rebellion_2a64e7a09c.png)
 final sparkOfRebellion = EventCard(
-  set: set,
+  expansion: expansion,
   number: 200,
   name: 'Spark of Rebellion',
   unique: false,
@@ -3589,7 +3589,7 @@ final sparkOfRebellion = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_201_Bodhi_Rook_58ed4f8a69.png)
 final bodhiRook = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 201,
   name: 'Bodhi Rook',
   subTitle: 'Imperial Defector',
@@ -3608,7 +3608,7 @@ final bodhiRook = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_202_Cantina_Bouncer_eaf6a61193.png)
 final cantinaBouncer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 202,
   name: 'Cantina Bouncer',
   subTitle: null,
@@ -3626,7 +3626,7 @@ final cantinaBouncer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_203_Cunning_d4280baf43.png)
 final cunning = EventCard(
-  set: set,
+  expansion: expansion,
   number: 203,
   name: 'Cunning',
   unique: false,
@@ -3640,7 +3640,7 @@ final cunning = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_204_Greedo_8650a17d31.png)
 final greedo = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 204,
   name: 'Greedo',
   subTitle: 'Slow on the Draw',
@@ -3659,7 +3659,7 @@ final greedo = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_205_Jawa_Scavenger_bf9055b2fd.png)
 final jawaScavenger = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 205,
   name: 'Jawa Scavenger',
   subTitle: null,
@@ -3678,7 +3678,7 @@ final jawaScavenger = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_206_Mining_Guild_TIE_Fighter_fb27c1293e.png)
 final miningGuildTieFighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 206,
   name: 'Mining Guild TIE Fighter',
   subTitle: null,
@@ -3698,7 +3698,7 @@ final miningGuildTieFighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_207_Crafty_Smuggler_813c6f291f.png)
 final craftySmuggler = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 207,
   name: 'Crafty Smuggler',
   subTitle: null,
@@ -3716,7 +3716,7 @@ final craftySmuggler = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_208_Outer_Rim_Headhunter_938e9320bc.png)
 final outerRimHeadhunter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 208,
   name: 'Outer Rim Headhunter',
   subTitle: null,
@@ -3736,7 +3736,7 @@ final outerRimHeadhunter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_209_Pirated_Starfighter_33be875b1f.png)
 final piratedStarfighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 209,
   name: 'Pirated Starfighter',
   subTitle: null,
@@ -3756,7 +3756,7 @@ final piratedStarfighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_210_Swoop_Racer_be0dd7171e.png)
 final swoopRacer = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 210,
   name: 'Swoop Racer',
   subTitle: null,
@@ -3774,7 +3774,7 @@ final swoopRacer = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_211_Gamorrean_Guards_5c01711f83.png)
 final gamorreanGuards = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 211,
   name: 'Gamorrean Guards',
   subTitle: null,
@@ -3792,7 +3792,7 @@ final gamorreanGuards = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_212_Strafing_Gunship_f816ff4f90.png)
 final strafingGunship = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 212,
   name: 'Strafing Gunship',
   subTitle: null,
@@ -3812,7 +3812,7 @@ final strafingGunship = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_213_Syndicate_Lackeys_89779ec675.png)
 final syndicateLackeys = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 213,
   name: 'Syndicate Lackeys',
   subTitle: null,
@@ -3830,7 +3830,7 @@ final syndicateLackeys = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_214_Smuggling_Compartment_af5217ef68.png)
 final smugglingCompartment = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 214,
   name: 'Smuggling Compartment',
   unique: false,
@@ -3844,7 +3844,7 @@ final smugglingCompartment = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_215_Snapshot_Reflexes_fa4a7864c6.png)
 final snapshotReflexes = UpgradeCard(
-  set: set,
+  expansion: expansion,
   number: 215,
   name: 'Snapshot Reflexes',
   unique: false,
@@ -3858,7 +3858,7 @@ final snapshotReflexes = UpgradeCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_216_Disarm_39c9e618e7.png)
 final disarm = EventCard(
-  set: set,
+  expansion: expansion,
   number: 216,
   name: 'Disarm',
   unique: false,
@@ -3872,7 +3872,7 @@ final disarm = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_217_Shoot_First_e46216b8dd.png)
 final shootFirst = EventCard(
-  set: set,
+  expansion: expansion,
   number: 217,
   name: 'Shoot First',
   unique: false,
@@ -3886,7 +3886,7 @@ final shootFirst = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_218_Asteroid_Sanctuary_bf0ad4d7a6.png)
 final asteroidSanctuary = EventCard(
-  set: set,
+  expansion: expansion,
   number: 218,
   name: 'Asteroid Sanctuary',
   unique: false,
@@ -3900,7 +3900,7 @@ final asteroidSanctuary = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_219_Sneak_Attack_38789b63f1.png)
 final sneakAttack = EventCard(
-  set: set,
+  expansion: expansion,
   number: 219,
   name: 'Sneak Attack',
   unique: false,
@@ -3914,7 +3914,7 @@ final sneakAttack = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_220_Surprise_Strike_7cc3a7022a.png)
 final surpriseStrike = EventCard(
-  set: set,
+  expansion: expansion,
   number: 220,
   name: 'Surprise Strike',
   unique: false,
@@ -3928,7 +3928,7 @@ final surpriseStrike = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_221_Outmaneuver_b33024914c.png)
 final outmaneuver = EventCard(
-  set: set,
+  expansion: expansion,
   number: 221,
   name: 'Outmaneuver',
   unique: false,
@@ -3942,7 +3942,7 @@ final outmaneuver = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_222_Waylay_cccabd353c.png)
 final waylay = EventCard(
-  set: set,
+  expansion: expansion,
   number: 222,
   name: 'Waylay',
   unique: false,
@@ -3956,7 +3956,7 @@ final waylay = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_223_Dont_Get_Cocky_628dd78a82.png)
 final dontGetCocky = EventCard(
-  set: set,
+  expansion: expansion,
   number: 223,
   name: "Don't Get Cocky",
   unique: false,
@@ -3970,7 +3970,7 @@ final dontGetCocky = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_224_Change_Of_Heart_adee9f8153.png)
 final changeOfHeart = EventCard(
-  set: set,
+  expansion: expansion,
   number: 224,
   name: 'Change of Heart',
   unique: false,
@@ -3984,7 +3984,7 @@ final changeOfHeart = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_Card_225_TI_Eln_Fighter_379343b95d.png)
 final tieLnFighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 225,
   name: 'TIE/ln Fighter',
   subTitle: null,
@@ -4004,7 +4004,7 @@ final tieLnFighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_226_Admiral_Motti_ac552a5f4a.png)
 final admiralMotti = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 226,
   name: 'Admiral Motti',
   subTitle: 'Brazen and Scornful',
@@ -4023,7 +4023,7 @@ final admiralMotti = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_227_Snowtrooper_Lieutenant_85680a8a33.png)
 final snowtrooperLieutenant = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 227,
   name: 'Snowtrooper Lieutenant',
   subTitle: null,
@@ -4042,7 +4042,7 @@ final snowtrooperLieutenant = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_228_Viper_Probe_Droid_91a557b6cf.png)
 final viperProbeDroid = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 228,
   name: 'Viper Probe Droid',
   subTitle: null,
@@ -4061,7 +4061,7 @@ final viperProbeDroid = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_229_Cell_Block_Guard_a62b77b8b4.png)
 final cellBlockGuard = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 229,
   name: 'Cell Block Guard',
   subTitle: null,
@@ -4080,7 +4080,7 @@ final cellBlockGuard = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_230_General_Veers_6699e13d84.png)
 final generalVeers = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 230,
   name: 'General Veers',
   subTitle: 'Blizzard Force Commander',
@@ -4099,7 +4099,7 @@ final generalVeers = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_231_TIE_Advanced_cbf57e8c97.png)
 final tieAdvanced = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 231,
   name: 'TIE Advanced',
   subTitle: null,
@@ -4119,7 +4119,7 @@ final tieAdvanced = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_232_ATST_3c55d0e2b1.png)
 final atSt = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 232,
   name: 'AT-ST',
   subTitle: null,
@@ -4139,7 +4139,7 @@ final atSt = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_233_I_Am_Your_Father_5e53c2d02c.png)
 final iAmYourFather = EventCard(
-  set: set,
+  expansion: expansion,
   number: 233,
   name: 'I Am Your Father',
   unique: false,
@@ -4153,7 +4153,7 @@ final iAmYourFather = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_234_Maximum_Firepower_7df2337c32.png)
 final maximumFirepower = EventCard(
-  set: set,
+  expansion: expansion,
   number: 234,
   name: 'Maximum Firepower',
   unique: false,
@@ -4168,7 +4168,7 @@ final maximumFirepower = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_235_Galactic_Ambition_be0224b2a3.png)
 final galacticAmbition = EventCard(
-  set: set,
+  expansion: expansion,
   number: 235,
   name: 'Galactic Ambition',
   unique: false,
@@ -4182,7 +4182,7 @@ final galacticAmbition = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_236_R2_D2_e5e4f768fa.png)
 final r2D2 = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 236,
   name: 'R2-D2',
   subTitle: 'Ignoring Protocol',
@@ -4201,7 +4201,7 @@ final r2D2 = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_237_Alliance_X_Wing_ede2b16894.png)
 final allianceXWing = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 237,
   name: 'Alliance X-Wing',
   subTitle: null,
@@ -4221,7 +4221,7 @@ final allianceXWing = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_238_C3_P0_8c742a4f15.png)
 final c3po = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 238,
   name: 'C-3PO',
   subTitle: 'Protocol Droid',
@@ -4240,7 +4240,7 @@ final c3po = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_239_Rebel_Pathfinder_0380a1a328.png)
 final rebelPathfinder = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 239,
   name: 'Rebel Pathfinder',
   subTitle: null,
@@ -4259,7 +4259,7 @@ final rebelPathfinder = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_240_Fleet_Lieutenant_8af3989b00.png)
 final fleetLieutenant = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 240,
   name: 'Fleet Lieutenant',
   subTitle: null,
@@ -4278,7 +4278,7 @@ final fleetLieutenant = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_241_Wing_Leader_26a51a0f10.png)
 final wingLeader = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 241,
   name: 'Wing Leader',
   subTitle: null,
@@ -4298,7 +4298,7 @@ final wingLeader = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_242_General_Dodonna_d9036338c0.png)
 final generalDodonna = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 242,
   name: 'General Dodonna',
   subTitle: 'Massassi Group Commander',
@@ -4317,7 +4317,7 @@ final generalDodonna = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_243_Regional_Sympathizers_7ffa03f84d.png)
 final regionalSympathizers = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 243,
   name: 'Regional Sympathizers',
   subTitle: null,
@@ -4335,7 +4335,7 @@ final regionalSympathizers = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_244_Snowspeeder_d5baa2fb00.png)
 final snowspeeder = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 244,
   name: 'Snowspeeder',
   subTitle: null,
@@ -4355,7 +4355,7 @@ final snowspeeder = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_245_Medal_Ceremony_e66f55c7f9.png)
 final medalCeremony = EventCard(
-  set: set,
+  expansion: expansion,
   number: 245,
   name: 'Medal Ceremony',
   unique: false,
@@ -4369,7 +4369,7 @@ final medalCeremony = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_246_Youre_My_Only_Hope_372787ccf9.png)
 final youreMyOnlyHope = EventCard(
-  set: set,
+  expansion: expansion,
   number: 246,
   name: "You're My Only Hope",
   unique: false,
@@ -4383,7 +4383,7 @@ final youreMyOnlyHope = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_247_Underworld_Thug_7bda62b474.png)
 final underworldThug = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 247,
   name: 'Underworld Thug',
   subTitle: null,
@@ -4401,7 +4401,7 @@ final underworldThug = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_248_Volunteer_Soldier_5e62d197ca.png)
 final volunteerSoldier = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 248,
   name: 'Volunteer Soldier',
   subTitle: null,
@@ -4419,7 +4419,7 @@ final volunteerSoldier = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_249_Frontier_ATRT_c16ab78e05.png)
 final frontierAtRt = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 249,
   name: 'Frontier AT-RT',
   subTitle: null,
@@ -4438,7 +4438,7 @@ final frontierAtRt = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_250_Corellian_Fighter_5c0cc308c6.png)
 final corellianFreighter = UnitCard(
-  set: set,
+  expansion: expansion,
   number: 250,
   name: 'Corellian Freighter',
   subTitle: null,
@@ -4457,7 +4457,7 @@ final corellianFreighter = UnitCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_251_Confiscate_871d436979.png)
 final confiscate = EventCard(
-  set: set,
+  expansion: expansion,
   number: 251,
   name: 'Confiscate',
   unique: false,
@@ -4471,7 +4471,7 @@ final confiscate = EventCard(
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_252_Restock_0d8d539b8b.png)
 final restock = EventCard(
-  set: set,
+  expansion: expansion,
   number: 252,
   name: 'Restock',
   unique: false,
@@ -4487,2046 +4487,2298 @@ final restock = EventCard(
 /// ```dart
 /// final sor1 = cards[0];
 /// ```
-final cards = <CardOrVariant>[
+final cards = CatalogExpansion([
+  // Leader <001>
   CanonicalCard(
     card: directorKrennic,
   ),
+  // Leader <002>
   CanonicalCard(
     card: idenVersio,
   ),
+  // Leader <003>
   CanonicalCard(
     card: chewbacca,
   ),
+  // Leader <004>
   CanonicalCard(
     card: chirrutMwe,
   ),
+  // Leader <005>
   CanonicalCard(
     card: lukeSkywalker,
   ),
+  // Leader <006>
   CanonicalCard(
     card: emperorPalpatine,
   ),
+  // Leader <007>
   CanonicalCard(
     card: grandMoffTarkin,
   ),
+  // Leader <008>
   CanonicalCard(
     card: heraSyndulla,
   ),
+  // Leader <009>
   CanonicalCard(
     card: leiaOrgana,
   ),
+  // Leader <010>
   CanonicalCard(
     card: darthVader,
   ),
+  // Leader <011>
   CanonicalCard(
     card: grandInquisitor,
   ),
+  // Leader <012>
   CanonicalCard(
     card: ig88,
   ),
+  // Leader <013>
   CanonicalCard(
     card: cassianAndor,
   ),
+  // Leader <014>
   CanonicalCard(
     card: sabineWren,
   ),
+  // Leader <015>
   CanonicalCard(
     card: bobaFett,
   ),
+  // Leader <016>
   CanonicalCard(
     card: grandAdmiralThrawn,
   ),
+  // Leader <017>
   CanonicalCard(
     card: hanSolo,
   ),
+  // Leader <018>
   CanonicalCard(
     card: jynErso,
   ),
+  // Base <019>
   CanonicalCard(
     card: securityComplex,
   ),
+  // Base <020>
   CanonicalCard(
     card: capitalCity,
   ),
+  // Base <021>
   CanonicalCard(
     card: dagobahSwamp,
   ),
+  // Base <022>
   CanonicalCard(
     card: energyConversionLab,
   ),
+  // Base <023>
   CanonicalCard(
     card: commandCenter,
   ),
+  // Base <024>
   CanonicalCard(
     card: echoBase,
   ),
+  // Base <025>
   CanonicalCard(
     card: tarkintown,
   ),
+  // Base <026>
   CanonicalCard(
     card: catacombsOfCadera,
   ),
+  // Base <027>
   CanonicalCard(
     card: kestroCity,
   ),
+  // Base <028>
   CanonicalCard(
     card: jedhaCity,
   ),
+  // Base <029>
   CanonicalCard(
     card: administratorsTower,
   ),
+  // Base <030>
   CanonicalCard(
     card: chopperBase,
   ),
+  // Unit <031>
   CanonicalCard(
     card: infernoFour,
   ),
+  // Unit <032>
   CanonicalCard(
     card: scoutBikePursuer,
   ),
+  // Unit <033>
   CanonicalCard(
     card: deathTrooper,
   ),
+  // Unit <034>
   CanonicalCard(
     card: delMeeko,
   ),
+  // Unit <035>
   CanonicalCard(
     card: lieutenantChildsen,
   ),
+  // Unit <036>
   CanonicalCard(
     card: gideonHask,
   ),
+  // Unit <037>
   CanonicalCard(
     card: academyDefenseWalker,
   ),
+  // Unit <038>
   CanonicalCard(
     card: countDooku,
   ),
+  // Unit <039>
   CanonicalCard(
     card: atAtSuppressor,
   ),
+  // Unit <040>
   CanonicalCard(
     card: avenger,
   ),
+  // Event <041>
   CanonicalCard(
     card: powerOfTheDarkSide,
   ),
+  // Event <042>
   CanonicalCard(
     card: searchYourFeelings,
   ),
+  // Event <043>
   CanonicalCard(
     card: superlaserBlast,
   ),
+  // Unit <044>
   CanonicalCard(
     card: restoredArc170,
   ),
+  // Unit <045>
   CanonicalCard(
     card: yoda,
   ),
+  // Unit <046>
   CanonicalCard(
     card: consularSecurityForce,
   ),
+  // Unit <047>
   CanonicalCard(
     card: kananJarrus,
   ),
+  // Unit <048>
   CanonicalCard(
     card: vigilantHonorGuards,
   ),
+  // Unit <049>
   CanonicalCard(
     card: obiWanKenobi,
   ),
+  // Unit <050>
   CanonicalCard(
     card: theGhost,
   ),
+  // Unit <051>
   CanonicalCard(
-    card: lukeSkywalker,
+    card: lukeSkywalkerJediKnight,
   ),
+  // Unit <052>
   CanonicalCard(
     card: redemption,
   ),
+  // Upgrade <053>
   CanonicalCard(
     card: lukesLightsaber,
   ),
+  // Upgrade <054>
   CanonicalCard(
     card: jediLightsaber,
   ),
+  // Event <055>
   CanonicalCard(
     card: theForceIsWithMe,
   ),
+  // Unit <056>
   CanonicalCard(
     card: bendu,
   ),
+  // Upgrade <057>
   CanonicalCard(
     card: protector,
   ),
+  // Event <058>
   CanonicalCard(
     card: vigilance,
   ),
+  // Unit <059>
   CanonicalCard(
     card: $21bSurgicalDroid,
   ),
+  // Unit <060>
   CanonicalCard(
     card: distantPatroller,
   ),
+  // Unit <061>
   CanonicalCard(
     card: guardianOfTheWhills,
   ),
+  // Unit <062>
   CanonicalCard(
     card: regionalGovernor,
   ),
+  // Unit <063>
   CanonicalCard(
     card: cloudCityWingGuard,
   ),
+  // Unit <064>
   CanonicalCard(
     card: wildernessFighter,
   ),
+  // Unit <065>
   CanonicalCard(
     card: bazeMalbus,
   ),
+  // Unit <066>
   CanonicalCard(
     card: systemPatrolCraft,
   ),
+  // Unit <067>
   CanonicalCard(
     card: ruggedSurvivors,
   ),
+  // Unit <068>
   CanonicalCard(
     card: cargoJuggernaut,
   ),
+  // Upgrade <069>
   CanonicalCard(
     card: resilient,
   ),
+  // Upgrade <070>
   CanonicalCard(
     card: devotion,
   ),
+  // Upgrade <071>
   CanonicalCard(
     card: electrostaff,
   ),
+  // Upgrade <072>
   CanonicalCard(
     card: entrenched,
   ),
+  // Event <073>
   CanonicalCard(
     card: momentOfPeace,
   ),
+  // Event <074>
   CanonicalCard(
     card: repair,
   ),
+  // Event <075>
   CanonicalCard(
     card: itBindsAllThings,
   ),
+  // Event <076>
   CanonicalCard(
     card: makeAnOpening,
   ),
+  // Event <077>
   CanonicalCard(
     card: takedown,
   ),
+  // Event <078>
   CanonicalCard(
     card: vanquish,
   ),
+  // Unit <079>
   CanonicalCard(
     card: admiralPiett,
   ),
+  // Unit <080>
   CanonicalCard(
     card: generalTagge,
   ),
+  // Unit <081>
   CanonicalCard(
     card: seasonedShoretrooper,
   ),
+  // Unit <082>
   CanonicalCard(
     card: emperorsRoyalGuard,
   ),
+  // Unit <083>
   CanonicalCard(
     card: superlaserTechnician,
   ),
+  // Unit <084>
   CanonicalCard(
-    card: grandMoffTarkin,
+    card: grandMoffTarkinDeathStarOverseer,
   ),
+  // Unit <085>
   CanonicalCard(
     card: rukh,
   ),
+  // Unit <086>
   CanonicalCard(
     card: gladiatorStarDestroyer,
   ),
+  // Unit <087>
   CanonicalCard(
-    card: darthVader,
+    card: darthVaderCommandingTheFirstLegion,
   ),
+  // Unit <088>
   CanonicalCard(
     card: blizzardAssaultAtAt,
   ),
+  // Unit <089>
   CanonicalCard(
     card: relentless,
   ),
+  // Unit <090>
   CanonicalCard(
     card: devastator,
   ),
+  // Event <091>
   CanonicalCard(
     card: theEmperorsLegion,
   ),
+  // Event <092>
   CanonicalCard(
     card: overwhelmingBarrage,
   ),
+  // Unit <093>
   CanonicalCard(
     card: allianceDispatcher,
   ),
+  // Unit <094>
   CanonicalCard(
     card: bailOrgana,
   ),
+  // Unit <095>
   CanonicalCard(
     card: battlefieldMarine,
   ),
+  // Unit <096>
   CanonicalCard(
     card: monMothma,
   ),
+  // Unit <097>
   CanonicalCard(
     card: admiralAckbar,
   ),
+  // Unit <098>
   CanonicalCard(
     card: echoBaseDefender,
   ),
+  // Unit <099>
   CanonicalCard(
     card: brightHope,
   ),
+  // Unit <100>
   CanonicalCard(
     card: wedgeAntilles,
   ),
+  // Unit <101>
   CanonicalCard(
     card: rogueSquadronSkirmisher,
   ),
+  // Unit <102>
   CanonicalCard(
     card: homeOne,
   ),
+  // Event <103>
   CanonicalCard(
     card: rebelAssault,
   ),
+  // Event <104>
   CanonicalCard(
     card: uWingReinforcement,
   ),
+  // Unit <105>
   CanonicalCard(
     card: generalKrell,
   ),
+  // Event <106>
   CanonicalCard(
     card: attackPatternDelta,
   ),
+  // Event <107>
   CanonicalCard(
     card: command,
   ),
+  // Unit <108>
   CanonicalCard(
     card: vanguardInfantry,
   ),
+  // Unit <109>
   CanonicalCard(
     card: colonelYularen,
   ),
+  // Unit <110>
   CanonicalCard(
     card: frontlineShuttle,
   ),
+  // Unit <111>
   CanonicalCard(
     card: patrollingVWing,
   ),
+  // Unit <112>
   CanonicalCard(
     card: consortiumStarviper,
   ),
+  // Unit <113>
   CanonicalCard(
     card: homesteadMilitia,
   ),
+  // Unit <114>
   CanonicalCard(
     card: escortSkiff,
   ),
+  // Unit <115>
   CanonicalCard(
     card: agentKallus,
   ),
+  // Unit <116>
   CanonicalCard(
     card: steadfastBattalion,
   ),
+  // Unit <117>
   CanonicalCard(
     card: mercenaryCompany,
   ),
+  // Unit <118>
   CanonicalCard(
     card: $97thLegion,
   ),
+  // Unit <119>
   CanonicalCard(
     card: reinforcementWalker,
   ),
+  // Upgrade <120>
   CanonicalCard(
     card: academyTraining,
   ),
+  // Upgrade <121>
   CanonicalCard(
     card: hardpointHeavyBlaster,
   ),
+  // Upgrade <122>
   CanonicalCard(
     card: traitorous,
   ),
+  // Event <123>
   CanonicalCard(
     card: recruit,
   ),
+  // Event <124>
   CanonicalCard(
     card: tacticalAdvantage,
   ),
+  // Event <125>
   CanonicalCard(
     card: prepareForTakeoff,
   ),
+  // Event <126>
   CanonicalCard(
     card: resupply,
   ),
+  // Event <127>
   CanonicalCard(
     card: strikeTrue,
   ),
+  // Unit <128>
   CanonicalCard(
     card: deathStarStormtrooper,
   ),
+  // Unit <129>
   CanonicalCard(
     card: admiralOzzel,
   ),
+  // Unit <130>
   CanonicalCard(
     card: firstLegionSnowtrooper,
   ),
+  // Unit <131>
   CanonicalCard(
     card: fifthBrother,
   ),
+  // Unit <132>
   CanonicalCard(
     card: imperialInterceptor,
   ),
+  // Unit <133>
   CanonicalCard(
     card: seventhSister,
   ),
+  // Unit <134>
   CanonicalCard(
     card: ruthlessRaider,
   ),
+  // Unit <135>
   CanonicalCard(
-    card: emperorPalpatine,
+    card: emperorPalpatineMasterOfTheDarkSide,
   ),
+  // Upgrade <136>
   CanonicalCard(
     card: vadersLightsaber,
   ),
+  // Upgrade <137>
   CanonicalCard(
     card: fallenLightsaber,
   ),
+  // Event <138>
   CanonicalCard(
     card: forceLightning,
   ),
+  // Event <139>
   CanonicalCard(
     card: forceChoke,
   ),
+  // Unit <140>
   CanonicalCard(
     card: specforceSoldier,
   ),
+  // Unit <141>
   CanonicalCard(
     card: greenSquadronAWing,
   ),
+  // Unit <142>
   CanonicalCard(
-    card: sabineWren,
+    card: sabineWrenExplosivesArtist,
   ),
+  // Unit <143>
   CanonicalCard(
     card: fightersForFreedom,
   ),
+  // Unit <144>
   CanonicalCard(
     card: redThree,
   ),
+  // Unit <145>
   CanonicalCard(
     card: k2so,
   ),
+  // Unit <146>
   CanonicalCard(
     card: zebOrrelios,
   ),
+  // Unit <147>
   CanonicalCard(
     card: blackOne,
   ),
+  // Unit <148>
   CanonicalCard(
     card: guerillaAttackPod,
   ),
+  // Unit <149>
   CanonicalCard(
     card: maceWindu,
   ),
+  // Event <150>
   CanonicalCard(
     card: heroicSacrifice,
   ),
+  // Event <151>
   CanonicalCard(
     card: karabast,
   ),
+  // Event <152>
   CanonicalCard(
     card: forACauseIBelieveIn,
   ),
+  // Unit <153>
   CanonicalCard(
     card: sawGerrera,
   ),
+  // Event <154>
   CanonicalCard(
     card: rallyingCry,
   ),
+  // Event <155>
   CanonicalCard(
     card: aggression,
   ),
+  // Unit <156>
   CanonicalCard(
     card: benthicTwoTubes,
   ),
+  // Unit <157>
   CanonicalCard(
     card: cantinaBraggart,
   ),
+  // Unit <158>
   CanonicalCard(
     card: jedhaAgitator,
   ),
+  // Unit <159>
   CanonicalCard(
     card: partisanInsurgent,
   ),
+  // Unit <160>
   CanonicalCard(
     card: wolffe,
   ),
+  // Unit <161>
   CanonicalCard(
     card: ardentSympathizer,
   ),
+  // Unit <162>
   CanonicalCard(
     card: disablingFangFighter,
   ),
+  // Unit <163>
   CanonicalCard(
     card: starWingScout,
   ),
+  // Unit <164>
   CanonicalCard(
     card: wampa,
   ),
+  // Unit <165>
   CanonicalCard(
     card: occupierSiegeTank,
   ),
+  // Upgrade <166>
   CanonicalCard(
     card: infiltratorsSkill,
   ),
+  // Event <167>
   CanonicalCard(
     card: forceThrow,
   ),
+  // Event <168>
   CanonicalCard(
     card: precisionFire,
   ),
+  // Event <169>
   CanonicalCard(
     card: keepFighting,
   ),
+  // Event <170>
   CanonicalCard(
     card: powerFailure,
   ),
+  // Event <171>
   CanonicalCard(
     card: missionBriefing,
   ),
+  // Event <172>
   CanonicalCard(
     card: openFire,
   ),
+  // Event <173>
   CanonicalCard(
     card: bombingRun,
   ),
+  // Event <174>
   CanonicalCard(
     card: smokeAndCinders,
   ),
+  // Event <175>
   CanonicalCard(
     card: forcedSurrender,
   ),
+  // Unit <176>
   CanonicalCard(
     card: isbAgent,
   ),
+  // Unit <177>
   CanonicalCard(
     card: bibFortuna,
   ),
+  // Unit <178>
   CanonicalCard(
     card: cartelSpacer,
   ),
+  // Unit <179>
   CanonicalCard(
-    card: bobaFett,
+    card: bobaFettDisintegrator,
   ),
+  // Unit <180>
   CanonicalCard(
     card: seventhFleetDefender,
   ),
+  // Unit <181>
   CanonicalCard(
     card: jabbaTheHutt,
   ),
+  // Unit <182>
   CanonicalCard(
     card: bossk,
   ),
+  // Unit <183>
   CanonicalCard(
     card: bountyHunterCrew,
   ),
+  // Unit <184>
   CanonicalCard(
     card: fettsFirespray,
   ),
+  // Unit <185>
   CanonicalCard(
     card: chimaera,
   ),
+  // Event <186>
   CanonicalCard(
     card: noGoodToMeDead,
   ),
+  // Event <187>
   CanonicalCard(
     card: iHadNoChoice,
   ),
+  // Unit <188>
   CanonicalCard(
     card: chopper,
   ),
+  // Unit <189>
   CanonicalCard(
-    card: leiaOrgana,
+    card: leiaOrganaDefiantPrincess,
   ),
+  // Unit <190>
   CanonicalCard(
     card: lothalInsurgent,
   ),
+  // Unit <191>
   CanonicalCard(
     card: vanguardAce,
   ),
+  // Unit <192>
   CanonicalCard(
     card: ezraBridger,
   ),
+  // Unit <193>
   CanonicalCard(
     card: millenniumFalcon,
   ),
+  // Unit <194>
   CanonicalCard(
     card: rogueOperative,
   ),
+  // Unit <195>
   CanonicalCard(
     card: auzituckLiberatorGunship,
   ),
+  // Unit <196>
   CanonicalCard(
-    card: chewbacca,
+    card: chewbaccaLoyalCompanion,
   ),
+  // Unit <197>
   CanonicalCard(
     card: landoCalrissian,
   ),
+  // Unit <198>
   CanonicalCard(
-    card: hanSolo,
+    card: hanSoloReluctantHero,
   ),
+  // Event <199>
   CanonicalCard(
     card: bamboozle,
   ),
+  // Event <200>
   CanonicalCard(
     card: sparkOfRebellion,
   ),
+  // Unit <201>
   CanonicalCard(
     card: bodhiRook,
   ),
+  // Unit <202>
   CanonicalCard(
     card: cantinaBouncer,
   ),
+  // Event <203>
   CanonicalCard(
     card: cunning,
   ),
+  // Unit <204>
   CanonicalCard(
     card: greedo,
   ),
+  // Unit <205>
   CanonicalCard(
     card: jawaScavenger,
   ),
+  // Unit <206>
   CanonicalCard(
     card: miningGuildTieFighter,
   ),
+  // Unit <207>
   CanonicalCard(
     card: craftySmuggler,
   ),
+  // Unit <208>
   CanonicalCard(
     card: outerRimHeadhunter,
   ),
+  // Unit <209>
   CanonicalCard(
     card: piratedStarfighter,
   ),
+  // Unit <210>
   CanonicalCard(
     card: swoopRacer,
   ),
+  // Unit <211>
   CanonicalCard(
     card: gamorreanGuards,
   ),
+  // Unit <212>
   CanonicalCard(
     card: strafingGunship,
   ),
+  // Unit <213>
   CanonicalCard(
     card: syndicateLackeys,
   ),
+  // Upgrade <214>
   CanonicalCard(
     card: smugglingCompartment,
   ),
+  // Upgrade <215>
   CanonicalCard(
     card: snapshotReflexes,
   ),
+  // Event <216>
   CanonicalCard(
     card: disarm,
   ),
+  // Event <217>
   CanonicalCard(
     card: shootFirst,
   ),
+  // Event <218>
   CanonicalCard(
     card: asteroidSanctuary,
   ),
+  // Event <219>
   CanonicalCard(
     card: sneakAttack,
   ),
+  // Event <220>
   CanonicalCard(
     card: surpriseStrike,
   ),
+  // Event <221>
   CanonicalCard(
     card: outmaneuver,
   ),
+  // Event <222>
   CanonicalCard(
     card: waylay,
   ),
+  // Event <223>
   CanonicalCard(
     card: dontGetCocky,
   ),
+  // Event <224>
   CanonicalCard(
     card: changeOfHeart,
   ),
+  // Unit <225>
   CanonicalCard(
     card: tieLnFighter,
   ),
+  // Unit <226>
   CanonicalCard(
     card: admiralMotti,
   ),
+  // Unit <227>
   CanonicalCard(
     card: snowtrooperLieutenant,
   ),
+  // Unit <228>
   CanonicalCard(
     card: viperProbeDroid,
   ),
+  // Unit <229>
   CanonicalCard(
     card: cellBlockGuard,
   ),
+  // Unit <230>
   CanonicalCard(
     card: generalVeers,
   ),
+  // Unit <231>
   CanonicalCard(
     card: tieAdvanced,
   ),
+  // Unit <232>
   CanonicalCard(
     card: atSt,
   ),
+  // Event <233>
   CanonicalCard(
     card: iAmYourFather,
   ),
+  // Event <234>
   CanonicalCard(
     card: maximumFirepower,
   ),
+  // Event <235>
   CanonicalCard(
     card: galacticAmbition,
   ),
+  // Unit <236>
   CanonicalCard(
     card: r2D2,
   ),
+  // Unit <237>
   CanonicalCard(
     card: allianceXWing,
   ),
+  // Unit <238>
   CanonicalCard(
     card: c3po,
   ),
+  // Unit <239>
   CanonicalCard(
     card: rebelPathfinder,
   ),
+  // Unit <240>
   CanonicalCard(
     card: fleetLieutenant,
   ),
+  // Unit <241>
   CanonicalCard(
     card: wingLeader,
   ),
+  // Unit <242>
   CanonicalCard(
     card: generalDodonna,
   ),
+  // Unit <243>
   CanonicalCard(
     card: regionalSympathizers,
   ),
+  // Unit <244>
   CanonicalCard(
     card: snowspeeder,
   ),
+  // Event <245>
   CanonicalCard(
     card: medalCeremony,
   ),
+  // Event <246>
   CanonicalCard(
     card: youreMyOnlyHope,
   ),
+  // Unit <247>
   CanonicalCard(
     card: underworldThug,
   ),
+  // Unit <248>
   CanonicalCard(
     card: volunteerSoldier,
   ),
+  // Unit <249>
   CanonicalCard(
     card: frontierAtRt,
   ),
+  // Unit <250>
   CanonicalCard(
     card: corellianFreighter,
   ),
+  // Event <251>
   CanonicalCard(
     card: confiscate,
   ),
+  // Event <252>
   CanonicalCard(
     card: restock,
   ),
   VariantCard(
-    number: 253,
+    variantNumber: 253,
     card: directorKrennic,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 254,
+    variantNumber: 254,
     card: idenVersio,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 255,
+    variantNumber: 255,
     card: chewbacca,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 256,
+    variantNumber: 256,
     card: chirrutMwe,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 257,
+    variantNumber: 257,
     card: emperorPalpatine,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 258,
+    variantNumber: 258,
     card: grandMoffTarkin,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 259,
+    variantNumber: 259,
     card: heraSyndulla,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 260,
+    variantNumber: 260,
     card: leiaOrgana,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 261,
+    variantNumber: 261,
     card: grandInquisitor,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 262,
+    variantNumber: 262,
     card: ig88,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 263,
+    variantNumber: 263,
     card: cassianAndor,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 264,
+    variantNumber: 264,
     card: sabineWren,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 265,
+    variantNumber: 265,
     card: bobaFett,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 266,
+    variantNumber: 266,
     card: grandAdmiralThrawn,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 267,
+    variantNumber: 267,
     card: hanSolo,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 268,
+    variantNumber: 268,
     card: jynErso,
     type: VariantType.showcase,
   ),
   VariantCard(
-    number: 269,
+    variantNumber: 269,
     card: directorKrennic,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 270,
+    variantNumber: 270,
     card: idenVersio,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 271,
+    variantNumber: 271,
     card: chewbacca,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 272,
+    variantNumber: 272,
     card: chirrutMwe,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 273,
+    variantNumber: 273,
     card: emperorPalpatine,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 274,
+    variantNumber: 274,
     card: grandMoffTarkin,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 275,
+    variantNumber: 275,
     card: heraSyndulla,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 276,
+    variantNumber: 276,
     card: leiaOrgana,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 277,
+    variantNumber: 277,
     card: grandInquisitor,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 278,
+    variantNumber: 278,
     card: ig88,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 279,
+    variantNumber: 279,
     card: cassianAndor,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 280,
+    variantNumber: 280,
     card: sabineWren,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 281,
+    variantNumber: 281,
     card: bobaFett,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 282,
+    variantNumber: 282,
     card: grandAdmiralThrawn,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 283,
+    variantNumber: 283,
     card: hanSolo,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 284,
+    variantNumber: 284,
     card: jynErso,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 285,
+    variantNumber: 285,
     card: securityComplex,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 286,
+    variantNumber: 286,
     card: capitalCity,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 287,
+    variantNumber: 287,
     card: dagobahSwamp,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 288,
+    variantNumber: 288,
     card: energyConversionLab,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 289,
+    variantNumber: 289,
     card: commandCenter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 290,
+    variantNumber: 290,
     card: echoBase,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 291,
+    variantNumber: 291,
     card: tarkintown,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 292,
+    variantNumber: 292,
     card: catacombsOfCadera,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 293,
+    variantNumber: 293,
     card: kestroCity,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 294,
+    variantNumber: 294,
     card: jedhaCity,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 295,
+    variantNumber: 295,
     card: administratorsTower,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 296,
+    variantNumber: 296,
     card: chopperBase,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 297,
+    variantNumber: 297,
     card: infernoFour,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 298,
+    variantNumber: 298,
     card: scoutBikePursuer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 299,
+    variantNumber: 299,
     card: deathTrooper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 300,
+    variantNumber: 300,
     card: delMeeko,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 301,
+    variantNumber: 301,
     card: lieutenantChildsen,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 302,
+    variantNumber: 302,
     card: gideonHask,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 303,
+    variantNumber: 303,
     card: academyDefenseWalker,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 304,
+    variantNumber: 304,
     card: countDooku,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 305,
+    variantNumber: 305,
     card: atAtSuppressor,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 306,
+    variantNumber: 306,
     card: avenger,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 307,
+    variantNumber: 307,
     card: powerOfTheDarkSide,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 308,
+    variantNumber: 308,
     card: searchYourFeelings,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 309,
+    variantNumber: 309,
     card: superlaserBlast,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 310,
+    variantNumber: 310,
     card: restoredArc170,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 311,
+    variantNumber: 311,
     card: yoda,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 312,
+    variantNumber: 312,
     card: consularSecurityForce,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 313,
+    variantNumber: 313,
     card: kananJarrus,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 314,
+    variantNumber: 314,
     card: vigilantHonorGuards,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 315,
+    variantNumber: 315,
     card: obiWanKenobi,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 316,
+    variantNumber: 316,
     card: theGhost,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 317,
+    variantNumber: 317,
     card: lukeSkywalker,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 318,
+    variantNumber: 318,
     card: redemption,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 319,
+    variantNumber: 319,
     card: jediLightsaber,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 320,
+    variantNumber: 320,
     card: theForceIsWithMe,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 321,
+    variantNumber: 321,
     card: bendu,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 322,
+    variantNumber: 322,
     card: protector,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 323,
+    variantNumber: 323,
     card: vigilance,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 324,
+    variantNumber: 324,
     card: $21bSurgicalDroid,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 325,
+    variantNumber: 325,
     card: distantPatroller,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 326,
+    variantNumber: 326,
     card: guardianOfTheWhills,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 327,
+    variantNumber: 327,
     card: regionalGovernor,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 328,
+    variantNumber: 328,
     card: cloudCityWingGuard,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 329,
+    variantNumber: 329,
     card: wildernessFighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 330,
+    variantNumber: 330,
     card: bazeMalbus,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 331,
+    variantNumber: 331,
     card: systemPatrolCraft,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 332,
+    variantNumber: 332,
     card: ruggedSurvivors,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 333,
+    variantNumber: 333,
     card: cargoJuggernaut,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 334,
+    variantNumber: 334,
     card: resilient,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 335,
+    variantNumber: 335,
     card: devotion,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 336,
+    variantNumber: 336,
     card: electrostaff,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 337,
+    variantNumber: 337,
     card: entrenched,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 338,
+    variantNumber: 338,
     card: momentOfPeace,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 339,
+    variantNumber: 339,
     card: repair,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 340,
+    variantNumber: 340,
     card: itBindsAllThings,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 341,
+    variantNumber: 341,
     card: makeAnOpening,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 342,
+    variantNumber: 342,
     card: takedown,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 343,
+    variantNumber: 343,
     card: vanquish,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 344,
+    variantNumber: 344,
     card: admiralPiett,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 345,
+    variantNumber: 345,
     card: generalTagge,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 346,
+    variantNumber: 346,
     card: seasonedShoretrooper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 347,
+    variantNumber: 347,
     card: emperorsRoyalGuard,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 348,
+    variantNumber: 348,
     card: superlaserTechnician,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 349,
+    variantNumber: 349,
     card: rukh,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 350,
+    variantNumber: 350,
     card: gladiatorStarDestroyer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 351,
+    variantNumber: 351,
     card: darthVader,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 352,
+    variantNumber: 352,
     card: blizzardAssaultAtAt,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 353,
+    variantNumber: 353,
     card: relentless,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 354,
+    variantNumber: 354,
     card: devastator,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 355,
+    variantNumber: 355,
     card: theEmperorsLegion,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 356,
+    variantNumber: 356,
     card: overwhelmingBarrage,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 357,
+    variantNumber: 357,
     card: allianceDispatcher,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 358,
+    variantNumber: 358,
     card: bailOrgana,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 359,
+    variantNumber: 359,
     card: battlefieldMarine,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 360,
+    variantNumber: 360,
     card: monMothma,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 361,
+    variantNumber: 361,
     card: admiralAckbar,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 362,
+    variantNumber: 362,
     card: echoBaseDefender,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 363,
+    variantNumber: 363,
     card: brightHope,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 364,
+    variantNumber: 364,
     card: wedgeAntilles,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 365,
+    variantNumber: 365,
     card: rogueSquadronSkirmisher,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 366,
+    variantNumber: 366,
     card: homeOne,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 367,
+    variantNumber: 367,
     card: rebelAssault,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 368,
+    variantNumber: 368,
     card: uWingReinforcement,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 369,
+    variantNumber: 369,
     card: generalKrell,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 370,
+    variantNumber: 370,
     card: attackPatternDelta,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 371,
+    variantNumber: 371,
     card: command,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 372,
+    variantNumber: 372,
     card: vanguardInfantry,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 373,
+    variantNumber: 373,
     card: colonelYularen,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 374,
+    variantNumber: 374,
     card: frontlineShuttle,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 375,
+    variantNumber: 375,
     card: patrollingVWing,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 376,
+    variantNumber: 376,
     card: consortiumStarviper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 377,
+    variantNumber: 377,
     card: homesteadMilitia,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 378,
+    variantNumber: 378,
     card: escortSkiff,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 379,
+    variantNumber: 379,
     card: agentKallus,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 380,
+    variantNumber: 380,
     card: steadfastBattalion,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 381,
+    variantNumber: 381,
     card: mercenaryCompany,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 382,
+    variantNumber: 382,
     card: $97thLegion,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 383,
+    variantNumber: 383,
     card: reinforcementWalker,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 384,
+    variantNumber: 384,
     card: academyTraining,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 385,
+    variantNumber: 385,
     card: hardpointHeavyBlaster,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 386,
+    variantNumber: 386,
     card: traitorous,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 387,
+    variantNumber: 387,
     card: recruit,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 388,
+    variantNumber: 388,
     card: tacticalAdvantage,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 389,
+    variantNumber: 389,
     card: prepareForTakeoff,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 390,
+    variantNumber: 390,
     card: resupply,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 391,
+    variantNumber: 391,
     card: strikeTrue,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 392,
+    variantNumber: 392,
     card: deathStarStormtrooper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 393,
+    variantNumber: 393,
     card: admiralOzzel,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 394,
+    variantNumber: 394,
     card: firstLegionSnowtrooper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 395,
+    variantNumber: 395,
     card: fifthBrother,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 396,
+    variantNumber: 396,
     card: imperialInterceptor,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 397,
+    variantNumber: 397,
     card: seventhSister,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 398,
+    variantNumber: 398,
     card: ruthlessRaider,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 399,
+    variantNumber: 399,
     card: emperorPalpatine,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 400,
+    variantNumber: 400,
     card: fallenLightsaber,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 401,
+    variantNumber: 401,
     card: forceLightning,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 402,
+    variantNumber: 402,
     card: forceChoke,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 403,
+    variantNumber: 403,
     card: specforceSoldier,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 404,
+    variantNumber: 404,
     card: greenSquadronAWing,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 405,
+    variantNumber: 405,
     card: sabineWren,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 406,
+    variantNumber: 406,
     card: fightersForFreedom,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 407,
+    variantNumber: 407,
     card: redThree,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 408,
+    variantNumber: 408,
     card: k2so,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 409,
+    variantNumber: 409,
     card: zebOrrelios,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 410,
+    variantNumber: 410,
     card: blackOne,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 411,
+    variantNumber: 411,
     card: guerillaAttackPod,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 412,
+    variantNumber: 412,
     card: maceWindu,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 413,
+    variantNumber: 413,
     card: heroicSacrifice,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 414,
+    variantNumber: 414,
     card: karabast,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 415,
+    variantNumber: 415,
     card: forACauseIBelieveIn,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 416,
+    variantNumber: 416,
     card: sawGerrera,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 417,
+    variantNumber: 417,
     card: rallyingCry,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 418,
+    variantNumber: 418,
     card: aggression,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 419,
+    variantNumber: 419,
     card: benthicTwoTubes,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 420,
+    variantNumber: 420,
     card: cantinaBraggart,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 421,
+    variantNumber: 421,
     card: jedhaAgitator,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 422,
+    variantNumber: 422,
     card: partisanInsurgent,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 423,
+    variantNumber: 423,
     card: wolffe,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 424,
+    variantNumber: 424,
     card: ardentSympathizer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 425,
+    variantNumber: 425,
     card: disablingFangFighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 426,
+    variantNumber: 426,
     card: starWingScout,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 427,
+    variantNumber: 427,
     card: wampa,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 428,
+    variantNumber: 428,
     card: occupierSiegeTank,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 429,
+    variantNumber: 429,
     card: infiltratorsSkill,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 430,
+    variantNumber: 430,
     card: forceThrow,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 431,
+    variantNumber: 431,
     card: precisionFire,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 432,
+    variantNumber: 432,
     card: keepFighting,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 433,
+    variantNumber: 433,
     card: powerFailure,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 434,
+    variantNumber: 434,
     card: missionBriefing,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 435,
+    variantNumber: 435,
     card: openFire,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 436,
+    variantNumber: 436,
     card: bombingRun,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 437,
+    variantNumber: 437,
     card: smokeAndCinders,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 438,
+    variantNumber: 438,
     card: forcedSurrender,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 439,
+    variantNumber: 439,
     card: isbAgent,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 440,
+    variantNumber: 440,
     card: bibFortuna,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 441,
+    variantNumber: 441,
     card: cartelSpacer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 442,
+    variantNumber: 442,
     card: bobaFett,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 443,
+    variantNumber: 443,
     card: seventhFleetDefender,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 444,
+    variantNumber: 444,
     card: jabbaTheHutt,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 445,
+    variantNumber: 445,
     card: bossk,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 446,
+    variantNumber: 446,
     card: bountyHunterCrew,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 447,
+    variantNumber: 447,
     card: fettsFirespray,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 448,
+    variantNumber: 448,
     card: chimaera,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 449,
+    variantNumber: 449,
     card: noGoodToMeDead,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 450,
+    variantNumber: 450,
     card: iHadNoChoice,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 451,
+    variantNumber: 451,
     card: chopper,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 452,
+    variantNumber: 452,
     card: lothalInsurgent,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 453,
+    variantNumber: 453,
     card: vanguardAce,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 454,
+    variantNumber: 454,
     card: ezraBridger,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 455,
+    variantNumber: 455,
     card: millenniumFalcon,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 456,
+    variantNumber: 456,
     card: rogueOperative,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 457,
+    variantNumber: 457,
     card: auzituckLiberatorGunship,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 458,
+    variantNumber: 458,
     card: chewbacca,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 459,
+    variantNumber: 459,
     card: landoCalrissian,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 460,
+    variantNumber: 460,
     card: hanSolo,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 461,
+    variantNumber: 461,
     card: bamboozle,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 462,
+    variantNumber: 462,
     card: sparkOfRebellion,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 463,
+    variantNumber: 463,
     card: bodhiRook,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 464,
+    variantNumber: 464,
     card: cantinaBouncer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 465,
+    variantNumber: 465,
     card: cunning,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 466,
+    variantNumber: 466,
     card: greedo,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 467,
+    variantNumber: 467,
     card: jawaScavenger,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 468,
+    variantNumber: 468,
     card: miningGuildTieFighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 469,
+    variantNumber: 469,
     card: craftySmuggler,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 470,
+    variantNumber: 470,
     card: outerRimHeadhunter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 471,
+    variantNumber: 471,
     card: piratedStarfighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 472,
+    variantNumber: 472,
     card: swoopRacer,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 473,
+    variantNumber: 473,
     card: gamorreanGuards,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 474,
+    variantNumber: 474,
     card: strafingGunship,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 475,
+    variantNumber: 475,
     card: syndicateLackeys,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 476,
+    variantNumber: 476,
     card: smugglingCompartment,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 477,
+    variantNumber: 477,
     card: snapshotReflexes,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 478,
+    variantNumber: 478,
     card: disarm,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 479,
+    variantNumber: 479,
     card: shootFirst,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 480,
+    variantNumber: 480,
     card: asteroidSanctuary,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 481,
+    variantNumber: 481,
     card: sneakAttack,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 482,
+    variantNumber: 482,
     card: surpriseStrike,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 483,
+    variantNumber: 483,
     card: outmaneuver,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 484,
+    variantNumber: 484,
     card: waylay,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 486,
+    variantNumber: 486,
     card: changeOfHeart,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 487,
+    variantNumber: 487,
     card: tieLnFighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 488,
+    variantNumber: 488,
     card: snowtrooperLieutenant,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 489,
+    variantNumber: 489,
     card: viperProbeDroid,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 490,
+    variantNumber: 490,
     card: cellBlockGuard,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 491,
+    variantNumber: 491,
     card: generalVeers,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 492,
+    variantNumber: 492,
     card: tieAdvanced,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 493,
+    variantNumber: 493,
     card: atSt,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 494,
+    variantNumber: 494,
     card: maximumFirepower,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 495,
+    variantNumber: 495,
     card: galacticAmbition,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 496,
+    variantNumber: 496,
     card: allianceXWing,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 497,
+    variantNumber: 497,
     card: rebelPathfinder,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 498,
+    variantNumber: 498,
     card: fleetLieutenant,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 499,
+    variantNumber: 499,
     card: wingLeader,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 500,
+    variantNumber: 500,
     card: generalDodonna,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 501,
+    variantNumber: 501,
     card: regionalSympathizers,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 502,
+    variantNumber: 502,
     card: snowspeeder,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 503,
+    variantNumber: 503,
     card: medalCeremony,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 504,
+    variantNumber: 504,
     card: youreMyOnlyHope,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 505,
+    variantNumber: 505,
     card: underworldThug,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 506,
+    variantNumber: 506,
     card: volunteerSoldier,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 507,
+    variantNumber: 507,
     card: frontierAtRt,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 508,
+    variantNumber: 508,
     card: corellianFreighter,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 509,
+    variantNumber: 509,
     card: confiscate,
     type: VariantType.hyperspace,
   ),
   VariantCard(
-    number: 510,
+    variantNumber: 510,
     card: restock,
     type: VariantType.hyperspace,
   ),
-];
+]);

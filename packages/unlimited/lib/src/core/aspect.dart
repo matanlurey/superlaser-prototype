@@ -1,4 +1,4 @@
-import 'package:unlimited/src/model/card.dart';
+import 'package:unlimited/src/core/card.dart';
 import 'package:unlimited/src/utils.dart';
 
 /// Colored icons on a card representing different philosophies or motivations.

@@ -5,7 +5,7 @@ import 'package:path/path.dart' as p;
 import 'package:scrap/scrap.dart' as scrap;
 import 'package:unlimited/core.dart';
 
-import '../test.dart';
+import '../test_lib.dart';
 
 void main() {
   late final Set<String> traits;

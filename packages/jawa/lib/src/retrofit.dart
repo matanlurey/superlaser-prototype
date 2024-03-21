@@ -36,7 +36,7 @@ final class Retrofit extends Command<void> {
           'packages',
           'unlimited',
           'lib',
-          'sets',
+          'catalog',
         ),
       );
   }
@@ -59,6 +59,8 @@ final class Retrofit extends Command<void> {
     await for (final file in input.list()) {
       if (file case final io.File file) {
         final used = <String>{};
+        final idCache = <(String, Type), String>{};
+
         final json = JsonObject.parse(await file.readAsString());
         final data = scrap.Expansion.fromJson(json);
         final code = StringBuffer()
@@ -69,12 +71,12 @@ final class Retrofit extends Command<void> {
           )
           ..writeln('/// ```dart')
           ..writeln(
-            "/// import 'package:unlimited/sets/${data.code}.dart' as ${data.code};",
+            "/// import 'package:unlimited/catalog/${data.code}.dart' as ${data.code};",
           )
           ..writeln('/// ```')
           ..writeln('///')
           ..writeln(
-            '/// See [set] for set information and [cards] for all cards.',
+            '/// See [expansion] for set information and [cards] for all cards.',
           )
           ..writeln('library;')
           ..writeln()
@@ -91,7 +93,9 @@ final class Retrofit extends Command<void> {
         // ignore: cascade_invocations
         code
           ..writeln('/// _${data.name}_ set.')
-          ..writeln('final set = Expansion.${_nameToIdentifier(data.name)};')
+          ..writeln(
+            'final expansion = Expansion.${_nameToIdentifier(data.name)};',
+          )
           ..writeln();
 
         // For each card, generate a top-level field.
@@ -102,6 +106,11 @@ final class Retrofit extends Command<void> {
             identifier = _nameToIdentifier('${card.title}_${card.subTitle!}');
             used.add(identifier);
           }
+
+          // TODO: Consider breaking this whole thing into an intermediate step
+          // (i.e. with proper data structures) so that hacks like this aren't
+          // needed.
+          idCache[(card.title, card.runtimeType)] = identifier;
 
           code
             ..writeln(
@@ -131,18 +140,19 @@ final class Retrofit extends Command<void> {
           ..writeln('/// final sor1 = cards[0];')
           ..writeln('/// ```')
           ..writeln(
-            'final cards = <CardOrVariant>${_createList([
+            'final cards = CatalogExpansion(${_createList([
                   ...data.cards.map(
                     (c) => _invokeConstructor(
                       'CanonicalCard',
+                      comment: '$c',
                       {
-                        'card': _nameToIdentifier(c.title),
+                        'card': idCache[(c.title, c.runtimeType)]!,
                       },
                       indent: '  ',
                     ),
                   ),
                   ..._collectVariants(data.cards, count: data.count),
-                ])};',
+                ])});',
           );
 
         await io.File(
@@ -192,7 +202,7 @@ final class Retrofit extends Command<void> {
       return _invokeConstructor(
         'VariantCard',
         {
-          'number': v.number.toString(),
+          'variantNumber': v.number.toString(),
           'card': _nameToIdentifier(variantMap[v]!.title),
           'type': ''
               'VariantType.'
@@ -207,8 +217,15 @@ final class Retrofit extends Command<void> {
     String name,
     Map<String, String> fields, {
     String indent = '',
+    String? comment,
   }) {
-    final buffer = StringBuffer()
+    final buffer = StringBuffer();
+    if (comment != null) {
+      buffer
+        ..writeln('// $comment')
+        ..write(indent);
+    }
+    buffer
       ..writeln('$name(')
       ..writeAll(
         fields.entries.map((e) => '$indent  ${e.key}: ${e.value},\n'),
@@ -232,7 +249,7 @@ final class Retrofit extends Command<void> {
 
   static String _cardToConstructor(String identifier, scrap.Card card) {
     final base = <String, String>{
-      'set': 'set',
+      'expansion': 'expansion',
       'number': card.number.toString(),
       'name': _safeString(card.title),
     };
