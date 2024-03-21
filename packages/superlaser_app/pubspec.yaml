@@ -7,15 +7,12 @@ environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
-  collection: ^1.18.0
   file_picker: ^8.0.0+1
   flutter:
     sdk: flutter
   flutter_file_saver: ^0.6.2
   jsonut: ^0.4.0
   meta: ^1.11.0
-  path: ^1.9.0
-  path_provider: ^2.1.2
   unlimited:
     path: ../unlimited
 
@@ -24,8 +21,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   lints: ^3.0.0
-  scrap:
-    path: ../scrap
 
 flutter:
   uses-material-design: true
