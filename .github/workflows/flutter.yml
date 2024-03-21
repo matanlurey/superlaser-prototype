@@ -34,6 +34,9 @@ jobs:
       - name: Build PWA
         run: flutter build web --release
 
+      - name: Build docs for "package:unlimited"
+        run: dart doc --output "./build/web/docs" --validate-links ../unlimited
+          
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
