@@ -20,6 +20,9 @@ jobs:
         with:
           channel: 'stable'
 
+      - name: Set working directory
+        run: cd ./packages/superlaser_app
+
       - name: Get packages
         run: flutter pub get
 
