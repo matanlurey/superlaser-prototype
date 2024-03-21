@@ -12,6 +12,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./packages/superlaser_app
     steps:
       - uses: actions/checkout@v2
 
@@ -19,9 +22,6 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-
-      - name: Set working directory
-        run: cd ./packages/superlaser_app
 
       - name: Get packages
         run: flutter pub get
