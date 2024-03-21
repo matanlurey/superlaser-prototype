@@ -35,7 +35,7 @@ jobs:
         run: flutter build web --release
 
       - name: Build docs for "package:unlimited"
-        run: cd ../unlimited && dart pub get && dart doc --output "./build/web/docs" --validate-links
+        run: cd ../unlimited && dart pub get && dart doc --output "../superlaser_app/build/web/docs" --validate-links
 
       - name: Stamp out CNAME
         run: echo "try.superlaser.dev" > ./build/web/CNAME
