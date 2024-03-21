@@ -109,7 +109,9 @@ final class _Collection implements Collection {
 
   @override
   int add(CardReference card) {
-    return _cards.putIfAbsent(card, () => 0) + 1;
+    var value = _cards[card] ?? 0;
+    _cards[card] = ++value;
+    return value;
   }
 
   @override
