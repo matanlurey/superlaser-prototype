@@ -55,6 +55,7 @@ class _MainAppState extends State<_MainApp> {
   Widget build(BuildContext context) {
     final cards = _collection.cards.toList();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Builder(
         builder: (context) {
           return Scaffold(
