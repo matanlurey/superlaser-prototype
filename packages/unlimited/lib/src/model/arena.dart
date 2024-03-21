@@ -1,12 +1,12 @@
 import 'package:unlimited/src/model/card.dart';
 import 'package:unlimited/src/utils.dart';
 
-/// Which arena an [ArenaCard] is played in.
-enum Arena {
-  /// The ground arena.
+/// Possible shared zones for unit cards (i.e. sub-types of [ArenaCard]).
+enum ArenaType {
+  /// Where all ground units are placed.
   ground,
 
-  /// The space arena.
+  /// Where all space units are placed.
   space;
 
   @override

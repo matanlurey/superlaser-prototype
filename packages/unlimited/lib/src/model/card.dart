@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 import 'package:unlimited/core.dart';
 
-/// Represents a reference to a card.
+/// A minimal representation of a card that retains identity.
 ///
 /// This class is used to refer to a card without needing exact details about
 /// the card itself. It is used in cases where a card's details are not needed,
@@ -15,6 +15,10 @@ import 'package:unlimited/core.dart';
 /// - They are both [foil] or both _aren't_ [foil].
 ///
 /// To ignore [foil] when comparing two card references, use [withFoil].
+///
+/// ## Comparison
+///
+/// See [CardReference.compareTo] for details on how card references are sorted.
 ///
 /// ## Example
 ///
@@ -100,7 +104,7 @@ final class CardReference implements Comparable<CardReference> {
   }
 }
 
-/// Represents _any_ card in Star Wars: Unlimited.
+/// _Any_ card in Star Wars: Unlimited, with a sealed hierarchy of card types.
 ///
 /// The hierarchy is sealed as the following:
 /// ```txt
@@ -189,7 +193,7 @@ sealed class Card {
   }
 }
 
-/// Represents a leader card.
+/// The "leader" side of a leader/leader [unit] card.
 @immutable
 final class LeaderCard extends Card {
   /// Creates a new leader card.
@@ -206,7 +210,7 @@ final class LeaderCard extends Card {
   final LeaderUnitCard unit;
 }
 
-/// Represents a base card.
+/// A base card.
 @immutable
 final class BaseCard extends Card implements TargetCard {
   /// Creates a new base card.
@@ -237,7 +241,7 @@ final class BaseCard extends Card implements TargetCard {
   Null get subTitle => null;
 }
 
-/// Represents a card that can be played.
+/// Any card that is playable during a game.
 ///
 /// In other words, everything but a [BaseCard].
 sealed class PlayableCard extends Card {
@@ -264,11 +268,11 @@ sealed class PlayableCard extends Card {
   final int cost;
 }
 
-/// Marker interface for cards that can be present in a player's deck.
+/// Sealed interface for card types that can be present in a player's deck.
 @immutable
 sealed class DeckCard implements PlayableCard {}
 
-/// Represents a card that exists in a player's arena.
+/// Sealed interface for card types that can be present in an [arena].
 @immutable
 sealed class ArenaCard extends PlayableCard {
   ArenaCard({
@@ -283,10 +287,10 @@ sealed class ArenaCard extends PlayableCard {
   });
 
   /// Which arena this card is played in.
-  final Arena arena;
+  final ArenaType arena;
 }
 
-/// Represents a card that can receive damage.
+/// Sealed interface for card types that can receive damage.
 sealed class TargetCard implements Card {
   /// The health of this card.
   ///
@@ -294,7 +298,7 @@ sealed class TargetCard implements Card {
   int get health;
 }
 
-/// Represents a card that has attack power.
+/// Sealed interface for card types that have an attack power.
 sealed class PowerCard implements Card {
   /// The attack power of this card.
   ///
@@ -302,7 +306,9 @@ sealed class PowerCard implements Card {
   int get power;
 }
 
-/// Represents a _leader_ unit card that is present in a player's arena.
+/// The unit side of a [LeaderCard].
+///
+/// This card, despite the name, is not a [UnitCard].
 final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
   /// Creates a new leader unit card.
   LeaderUnitCard({
@@ -315,7 +321,7 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
     required super.cost,
     required this.health,
     required this.power,
-    super.arena = Arena.ground,
+    super.arena = ArenaType.ground,
   });
 
   @override
@@ -325,7 +331,7 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
   final int power;
 }
 
-/// Represents a unit card that exists in a player's deck.
+/// A unit card (specifically _unit_, not a [LeaderUnitCard]).
 @immutable
 final class UnitCard extends ArenaCard
     implements DeckCard, TargetCard, PowerCard {
@@ -350,9 +356,7 @@ final class UnitCard extends ArenaCard
   final int power;
 }
 
-/// Represents a card that is attached to a [UnitCard] or [LeaderUnitCard].
-///
-/// A _marker_ interface.
+/// A sealed interface for card types that can be attached to other cards.
 @immutable
 sealed class AttachmentCard implements Card {
   /// The power modifier of this card.
@@ -366,7 +370,7 @@ sealed class AttachmentCard implements Card {
   int get healthModifier;
 }
 
-/// Represents an upgrade card that exists in a player's deck.
+/// A card that can be played to be attached to a unit card.
 @immutable
 final class UpgradeCard extends PlayableCard
     implements DeckCard, AttachmentCard {
@@ -397,7 +401,7 @@ final class UpgradeCard extends PlayableCard
   Null get subTitle => null;
 }
 
-/// Represents a token.
+/// A card that represents a token attached to a unit card.
 @immutable
 final class TokenCard extends Card implements AttachmentCard {
   /// Creates a new token card.

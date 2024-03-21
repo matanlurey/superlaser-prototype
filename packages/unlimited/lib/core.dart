@@ -1,4 +1,4 @@
-export 'src/model/arena.dart' show Arena;
+export 'src/model/arena.dart' show ArenaType;
 export 'src/model/aspect.dart' show Aspect;
 export 'src/model/card.dart'
     show

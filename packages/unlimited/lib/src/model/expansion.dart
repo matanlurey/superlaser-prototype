@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 
-/// Expansion, or set, of a card.
+/// Expansion, or set, of cards.
 ///
 /// Expansions are used to group cards together by the set in which they were
 /// printed. Expansions are also used to determine the legality of a card in a

@@ -91,11 +91,7 @@ final class Retrofit extends Command<void> {
         // ignore: cascade_invocations
         code
           ..writeln('/// _${data.name}_ set.')
-          ..writeln('final set = Expansion(')
-          ..writeln("  code: '${data.code}',")
-          ..writeln("  name: '${data.name}',")
-          ..writeln('  count: ${data.count},')
-          ..writeln(');')
+          ..writeln('final set = Expansion.${_nameToIdentifier(data.name)};')
           ..writeln();
 
         // For each card, generate a top-level field.
@@ -285,7 +281,7 @@ final class Retrofit extends Command<void> {
             'cost': c.cost.toString(),
             'power': c.power.toString(),
             'health': c.health.toString(),
-            'arena': 'Arena.${_nameToIdentifier(c.arena.name)}',
+            'arena': 'ArenaType.${_nameToIdentifier(c.arena.name)}',
           },
         ),
       final scrap.EventCard c => _invokeConstructor(
