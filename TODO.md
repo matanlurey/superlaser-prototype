@@ -18,5 +18,6 @@ _None_.
 
 ## Nice to have
 
+- [ ] Replace `sor.cards` with a higher-level data structure than a `List<>`.
 - [ ] Store and download alternate artwork for games.
 - [ ] Store description text for cards.

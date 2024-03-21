@@ -1,23 +1,15 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:jsonut/jsonut.dart';
 import 'package:superlaser_app/src/cards.dart';
 import 'package:superlaser_app/src/collection.dart';
 import 'package:superlaser_app/src/persist.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/sets/sor.dart' as sor;
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  final Database database;
-  {
-    // Load assets/cards.json.
-    final cardsFile = await rootBundle.loadString('assets/cards.json');
-    final cardsJson = JsonObject.parse(cardsFile);
-    database = Database.fromJson(cardsJson);
-  }
+  final database = Database.fromData(sor.set, sor.cards);
 
   runApp(
     _MainApp(
