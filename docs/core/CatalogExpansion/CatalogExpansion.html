@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the CatalogExpansion constructor from Class CatalogExpansion from the core library, for the Dart programming language.">
+  <title>CatalogExpansion constructor - CatalogExpansion - core library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">unlimited</a></li>
+    <li><a href="../../core/core-library.html">core.dart</a></li>
+    <li><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></li>
+    <li class="self-crumb">CatalogExpansion constructor</li>
+  </ol>
+  <div class="self-name">CatalogExpansion</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        brightness_4
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        brightness_5
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="core&#47;CatalogExpansion-class-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-constructor">CatalogExpansion</span> constructor 
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+      <span class="name ">CatalogExpansion</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-data"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></span>&gt;</span></span> <span class="parameter-name">data</span></span></li>
+</ol>)
+    </section>
+
+    
+<section class="desc markdown">
+  <p>Creates a catalog expansion for the given <a href="../../core/CatalogExpansion/expansion.html">expansion</a> and <code>data</code>.</p>
+<p>The <code>data</code> must be:</p>
+<ul>
+<li>Non-empty;</li>
+<li>All be a member of the same <a href="../../core/CatalogExpansion/expansion.html">expansion</a>;</li>
+<li>Unique based on <a href="../../core/Card/number.html">Card.number</a>;</li>
+<li>Sorted by <a href="../../core/Card/number.html">Card.number</a>.</li>
+</ul>
+<p><strong>TIP</strong>: <a href="../../core/CardOrVariant-class.html">CardOrVariant</a> is <em>comparable</em>, so you can use <code>sort()</code>:</p>
+<pre class="language-dart"><code class="language-dart">CatalogExpansion([...]..sort());
+</code></pre>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">CatalogExpansion(Iterable&lt;CardOrVariant&gt; data)
+    : _data = data.toList(growable: false),
+      expansion = data.first.card.expansion {
+  if (_data.isEmpty) {
+    throw ArgumentError.value(
+      data,
+      &#39;cards&#39;,
+      &#39;Must not be empty&#39;,
+    );
+  }
+  late Card lastCard;
+  var last = 0;
+  for (final (i, wrapper) in _data.indexed) {
+    final card = wrapper.card;
+    if (card.expansion != expansion) {
+      throw ArgumentError.value(
+        &#39;$card&#39;,
+        &#39;cards&#39;,
+        &#39;All cards must belong to the same expansion (${expansion.code})&#39;,
+      );
+    }
+    final number = switch (wrapper) {
+      final CanonicalCard c =&gt; c.card.number,
+      final VariantCard v =&gt; v.variantNumber,
+    };
+    if (number &lt;= last) {
+      throw ArgumentError.value(
+        &#39;$card&#39;,
+        &#39;cards[$i]&#39;,
+        &#39;All cards must have a unique number and be sorted by number (last: $lastCard, next: #$number (${wrapper.runtimeType}) -&gt; $card)&#39;,
+      );
+    }
+    last = number;
+    lastCard = card;
+  }
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../../index.html">unlimited</a></li>
+    <li><a href="../../core/core-library.html">core</a></li>
+    <li><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></li>
+    <li class="self-crumb">CatalogExpansion constructor</li>
+</ol>
+
+
+    <h5>CatalogExpansion class</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    unlimited
+      0.0.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the lookup method from the CatalogExpansion class, for the Dart programming language.">
+  <title>lookup method - CatalogExpansion class - core library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../../static-assets/styles.css?v1">
+  <link rel="icon" href="../../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../../index.html">unlimited</a></li>
+    <li><a href="../../core/core-library.html">core.dart</a></li>
+    <li><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></li>
+    <li class="self-crumb">lookup method</li>
+  </ol>
+  <div class="self-name">lookup</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        brightness_4
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        brightness_5
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="core&#47;CatalogExpansion-class-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-method">lookup</span> method 
+</h1></div>
+
+    <section class="multi-line-signature">
+      
+
+<span class="returntype"><a href="../../core/CardOrVariant-class.html">CardOrVariant</a>?</span>
+<span class="name ">lookup</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="lookup-param-number"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">number</span></span></li>
+</ol>)
+
+      
+
+    </section>
+    
+<section class="desc markdown">
+  <p>Looks up a card by its number, or <code>null</code> if no such card exists.</p>
+<h2 id="performance">Performance</h2>
+<p>The performance of this method is <code>O(log n)</code> where <code>n</code> is the number of
+cards in the expansion. This is because the cards are sorted by number,
+and the method uses a <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">binary search</a> to find the card.</p>
+<p>This is expected to be sufficiently fast for most use cases, but if you
+need to look up cards by number frequently, consider caching the results
+(this is done automatically by the <a href="../../core/Catalog-class.html">Catalog</a> class).</p>
+</section>
+
+
+    
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">CardOrVariant? lookup(int number) {
+  var min = 0;
+  var max = _data.length - 1;
+  while (min &lt;= max) {
+    final mid = min + ((max - min) &gt;&gt; 1);
+    final card = _data[mid].card;
+    if (card.number &lt; number) {
+      min = mid + 1;
+    } else if (card.number &gt; number) {
+      max = mid - 1;
+    } else {
+      return _data[mid];
+    }
+  }
+  return null;
+}</code></pre>
+</section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../../index.html">unlimited</a></li>
+    <li><a href="../../core/core-library.html">core</a></li>
+    <li><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></li>
+    <li class="self-crumb">lookup method</li>
+</ol>
+
+
+    <h5>CatalogExpansion class</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    unlimited
+      0.0.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../../static-assets/highlight.pack.js?v1"></script>
+<script src="../../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
