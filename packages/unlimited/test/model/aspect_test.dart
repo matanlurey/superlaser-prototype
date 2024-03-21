@@ -1,6 +1,6 @@
 import 'package:unlimited/core.dart';
 
-import '../test.dart';
+import '../test_lib.dart';
 
 void main() {
   group('$Aspect', () {

@@ -96,7 +96,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_002_Iden_Versio_Leader_8638ef7fc2.png",
           "width": 418,
@@ -117,7 +117,7 @@
         "hyperspace": {
           "number": 270,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_270_Iden_Versio_Leader_HYP_bb114fc668.png",
               "width": 418,
@@ -252,7 +252,7 @@
     {
       "number": 4,
       "kind": "leader",
-      "title": "Chirrut Ãmwe",
+      "title": "Chirrut Îmwe",
       "rarity": "rare",
       "aspects": [
         "vigilance",
@@ -260,7 +260,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Leader_3a0a77d2b4.png",
           "width": 418,
@@ -281,7 +281,7 @@
         "hyperspace": {
           "number": 272,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_272_Chirrut_Imwe_Leader_HYP_1c3699db0c.png",
               "width": 418,
@@ -569,7 +569,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_008_Hera_Syndulla_Leader_31a4e3f9cb.png",
           "width": 418,
@@ -590,7 +590,7 @@
         "hyperspace": {
           "number": 275,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_275_Hera_Syndulla_Leader_HYP_97b9b1b67d.png",
               "width": 418,
@@ -611,7 +611,7 @@
         "showcase": {
           "number": 259,
           "art": {
-            "artist": "Cristina LaviÃ±a",
+            "artist": "Cristina Laviña",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_259_Hera_Syndulla_Leader_SHO_aa039c2455.png",
               "width": 418,
@@ -652,7 +652,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_009_Leia_Organa_Leader_d6e0eccc71.png",
           "width": 418,
@@ -673,7 +673,7 @@
         "hyperspace": {
           "number": 276,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_276_Leia_Organa_Leader_HYP_0646bdfc43.png",
               "width": 418,
@@ -1168,7 +1168,7 @@
         "showcase": {
           "number": 265,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_265_Boba_Fett_Leader_SHO_1e3d6a4f8e.png",
               "width": 418,
@@ -1371,7 +1371,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_018_Jyn_Erso_Leader_fa2fe074c7.png",
           "width": 418,
@@ -1392,7 +1392,7 @@
         "hyperspace": {
           "number": 284,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_284_Jyn_Erso_Leader_HYP_fc9d1cd2f8.png",
               "width": 418,
@@ -1493,7 +1493,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "SebastiÃ¡n Guidobono",
+        "artist": "Sebastián Guidobono",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_020_Capital_City_Base_4ab50bb7e0.png",
           "width": 418,
@@ -1509,7 +1509,7 @@
         "hyperspace": {
           "number": 286,
           "art": {
-            "artist": "SebastiÃ¡n Guidobono",
+            "artist": "Sebastián Guidobono",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_286_Capital_City_Base_HYP_0d0de4e7ba.png",
               "width": 418,
@@ -1829,7 +1829,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "RocÃ­o EspÃ­n",
+        "artist": "Rocío Espín",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_028_Jedha_City_Base_ac20bd51d2.png",
           "width": 418,
@@ -1845,7 +1845,7 @@
         "hyperspace": {
           "number": 294,
           "art": {
-            "artist": "RocÃ­o EspÃ­n",
+            "artist": "Rocío Espín",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_294_Jedha_City_Base_HYP_9307aee3ea.png",
               "width": 418,
@@ -2003,8 +2003,8 @@
       "title": "Scout Bike Pursuer",
       "rarity": "common",
       "aspects": [
-        "villainy",
-        "vigilance"
+        "vigilance",
+        "villainy"
       ],
       "unique": false,
       "art": {
@@ -2212,7 +2212,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_036_Gideon_Hask_ba4c42082b.png",
           "width": 300,
@@ -2228,7 +2228,7 @@
         "hyperspace": {
           "number": 302,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_302_Gideon_Hask_HYP_0f7d4567eb.png",
               "width": 300,
@@ -2258,8 +2258,8 @@
       "title": "Academy Defense Walker",
       "rarity": "common",
       "aspects": [
-        "villainy",
-        "vigilance"
+        "vigilance",
+        "villainy"
       ],
       "unique": false,
       "art": {
@@ -2512,8 +2512,8 @@
       "title": "Search Your Feelings",
       "rarity": "rare",
       "aspects": [
-        "villainy",
-        "vigilance"
+        "vigilance",
+        "villainy"
       ],
       "unique": false,
       "art": {
@@ -2764,7 +2764,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_047_Kanan_Jarrus_36cc0aea8b.png",
           "width": 300,
@@ -2780,7 +2780,7 @@
         "hyperspace": {
           "number": 313,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com/SWH_01_313_Kanan_Jarrus_HYP_e14dad98e5.png",
               "width": 300,
@@ -2867,7 +2867,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_049_Obi_Wan_Kenobi_a167dcc2ea.png",
           "width": 300,
@@ -2883,7 +2883,7 @@
         "hyperspace": {
           "number": 315,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_315_Obi_Wan_Kenobi_HYP_59830aab41.png",
               "width": 300,
@@ -3070,8 +3070,8 @@
       "title": "Luke's Lightsaber",
       "rarity": "special",
       "aspects": [
-        "heroism",
-        "vigilance"
+        "vigilance",
+        "heroism"
       ],
       "unique": true,
       "art": {
@@ -3311,7 +3311,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "Cristina LaviÃ±a",
+        "artist": "Cristina Laviña",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_058_Vigilance_522eb820dd.png",
           "width": 300,
@@ -3327,7 +3327,7 @@
         "hyperspace": {
           "number": 323,
           "art": {
-            "artist": "Cristina LaviÃ±a",
+            "artist": "Cristina Laviña",
             "front": {
               "url": "https://cdn.starwarsunlimited.com/SWH_01_323_Vigilance_HYP_7cc7616031.png",
               "width": 300,
@@ -4124,7 +4124,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_075_It_Binds_All_Things_5abf5d1ff3.png",
           "width": 300,
@@ -4140,7 +4140,7 @@
         "hyperspace": {
           "number": 340,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_340_It_Binds_All_Things_HYP_17bd510237.png",
               "width": 300,
@@ -5369,7 +5369,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_100_Wedge_Antilles_bf13e74641.png",
           "width": 300,
@@ -5385,7 +5385,7 @@
         "hyperspace": {
           "number": 364,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_364_Wedge_Antilles_HYP_ec498d0c79.png",
               "width": 300,
@@ -5471,7 +5471,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_102_Home_One_98b715810f.png",
           "width": 300,
@@ -5487,7 +5487,7 @@
         "hyperspace": {
           "number": 366,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_366_Home_One_HYP_7144aa3f01.png",
               "width": 300,
@@ -6975,7 +6975,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Lenka Å imeÄkovÃ¡",
+        "artist": "Lenka Šimečková",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_133_Seventh_Sister_939ade1f02.png",
           "width": 300,
@@ -6991,7 +6991,7 @@
         "hyperspace": {
           "number": 397,
           "art": {
-            "artist": "Lenka Å imeÄkovÃ¡",
+            "artist": "Lenka Šimečková",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_397_Seventh_Sister_HYP_9518a807ae.png",
               "width": 300,
@@ -7784,7 +7784,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_149_Mace_Windu_a670a01a3f.png",
           "width": 300,
@@ -7800,7 +7800,7 @@
         "hyperspace": {
           "number": 412,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com/SWH_01_412_Mace_Windu_HYP_f9ebba65b5.png",
               "width": 300,
@@ -8067,7 +8067,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_155_Aggression_5849eaf280.png",
           "width": 300,
@@ -8083,7 +8083,7 @@
         "hyperspace": {
           "number": 418,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com/SWH_01_418_Aggression_HYP_85ec72b127.png",
               "width": 300,
@@ -8610,7 +8610,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_166_Infiltrators_Skill_51a7fc5d9b.png",
           "width": 300,
@@ -8626,7 +8626,7 @@
         "hyperspace": {
           "number": 429,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_429_Infiltrators_Skill_HYP_e1f8cfa804.png",
               "width": 300,
@@ -9149,7 +9149,7 @@
       "health": 3,
       "power": 1,
       "arena": "ground",
-      "sub_title": "Jabbaâs Majordomo"
+      "sub_title": "Jabba’s Majordomo"
     },
     {
       "number": 178,
@@ -9470,7 +9470,7 @@
       ],
       "unique": true,
       "art": {
-        "artist": "AndrÃ© Mealha",
+        "artist": "André Mealha",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_184_Fetts_Firespray_44132b56bb.png",
           "width": 300,
@@ -9486,7 +9486,7 @@
         "hyperspace": {
           "number": 447,
           "art": {
-            "artist": "AndrÃ© Mealha",
+            "artist": "André Mealha",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_447_Fetts_Firespray_HYP_e051d01c6c.png",
               "width": 300,
@@ -9819,7 +9819,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AndrÃ© Mealha",
+        "artist": "André Mealha",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_191_Vanguard_Ace_026fca1a49.png",
           "width": 300,
@@ -9835,7 +9835,7 @@
         "hyperspace": {
           "number": 453,
           "art": {
-            "artist": "AndrÃ© Mealha",
+            "artist": "André Mealha",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_453_Vanguard_Ace_HYP_3ea3edfec5.png",
               "width": 300,
@@ -10419,7 +10419,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "Sandra ChlewiÅska",
+        "artist": "Sandra Chlewińska",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_203_Cunning_d4280baf43.png",
           "width": 300,
@@ -10435,7 +10435,7 @@
         "hyperspace": {
           "number": 465,
           "art": {
-            "artist": "Sandra ChlewiÅska",
+            "artist": "Sandra Chlewińska",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_465_Cunning_HYP_9c76fc00ac.png",
               "width": 300,
@@ -10514,7 +10514,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "Cristina LaviÃ±a",
+        "artist": "Cristina Laviña",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_205_Jawa_Scavenger_bf9055b2fd.png",
           "width": 300,
@@ -10530,7 +10530,7 @@
         "hyperspace": {
           "number": 467,
           "art": {
-            "artist": "Cristina LaviÃ±a",
+            "artist": "Cristina Laviña",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_467_Jawa_Scavenger_HYP_47435dea19.png",
               "width": 300,
@@ -10564,7 +10564,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AndrÃ© Mealha",
+        "artist": "André Mealha",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_206_Mining_Guild_TIE_Fighter_fb27c1293e.png",
           "width": 300,
@@ -10580,7 +10580,7 @@
         "hyperspace": {
           "number": 468,
           "art": {
-            "artist": "AndrÃ© Mealha",
+            "artist": "André Mealha",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_468_Mining_Guild_TIE_Fighter_HYP_ad20e3fc44.png",
               "width": 300,
@@ -10766,7 +10766,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AndrÃ© Mealha",
+        "artist": "André Mealha",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_210_Swoop_Racer_be0dd7171e.png",
           "width": 300,
@@ -10782,7 +10782,7 @@
         "hyperspace": {
           "number": 472,
           "art": {
-            "artist": "AndrÃ© Mealha",
+            "artist": "André Mealha",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_472_Swoop_Racer_HYP_c572f7763d.png",
               "width": 300,
@@ -11009,7 +11009,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_215_Snapshot_Reflexes_fa4a7864c6.png",
           "width": 300,
@@ -11025,7 +11025,7 @@
         "hyperspace": {
           "number": 477,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_477_Snapshot_Reflexes_HYP_49c57bbe52.png",
               "width": 300,
@@ -11324,7 +11324,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AmÃ©lie Hutt",
+        "artist": "Amélie Hutt",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_222_Waylay_cccabd353c.png",
           "width": 300,
@@ -11340,7 +11340,7 @@
         "hyperspace": {
           "number": 484,
           "art": {
-            "artist": "AmÃ©lie Hutt",
+            "artist": "Amélie Hutt",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_484_Waylay_HYP_f2cf39afaa.png",
               "width": 300,
@@ -11936,7 +11936,7 @@
       ],
       "unique": false,
       "art": {
-        "artist": "AndrÃ© Mealha",
+        "artist": "André Mealha",
         "front": {
           "url": "https://cdn.starwarsunlimited.com/SWH_01_235_Galactic_Ambition_be0224b2a3.png",
           "width": 300,
@@ -11952,7 +11952,7 @@
         "hyperspace": {
           "number": 495,
           "art": {
-            "artist": "AndrÃ© Mealha",
+            "artist": "André Mealha",
             "front": {
               "url": "https://cdn.starwarsunlimited.com//SWH_01_495_Galactic_Ambition_HYP_9331a5d875.png",
               "width": 300,

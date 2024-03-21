@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io' as io;
+import 'dart:typed_data';
 
 import 'package:crypto/crypto.dart' show md5;
 import 'package:http/http.dart' as http;
@@ -38,13 +39,22 @@ final class CachedHttpClient extends http.BaseClient {
       await setCache(request.url, response);
     }
 
-    final bytes = await file.readAsBytes();
+    final Uint8List bytes;
+    if (isJson) {
+      final json = await file.readAsString();
+      // Find then text Chirrut, and print the next 50 characters.
+      bytes = utf8.encode(json);
+    } else {
+      bytes = await file.readAsBytes();
+    }
+
     return http.StreamedResponse(
       Stream.value(bytes),
       200,
       contentLength: bytes.length,
       headers: {
-        if (isJson) 'content-type': 'application/json',
+        // Charset is critical or we lose accented characters!
+        if (isJson) 'content-type': 'application/json;charset=utf-8',
       },
     );
   }
@@ -72,6 +82,7 @@ final class CachedHttpClient extends http.BaseClient {
       );
       return;
     }
+
     await file.writeAsBytes(await response.stream.toBytes());
   }
 }

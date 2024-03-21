@@ -92,19 +92,19 @@ final chewbacca = LeaderCard(
   ),
 );
 
-/// SOR 004: **Chirrut Ãmwe** - One With The Force.
+/// SOR 004: **Chirrut Îmwe** - One With The Force.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_004_Chirrut_Imwe_Leader_3a0a77d2b4.png)
 final chirrutMwe = LeaderCard(
   expansion: expansion,
   number: 4,
-  name: 'Chirrut Ãmwe',
+  name: 'Chirrut Îmwe',
   unique: true,
   subTitle: 'One With The Force',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 4,
-    name: 'Chirrut Ãmwe',
+    name: 'Chirrut Îmwe',
     unique: true,
     subTitle: 'One With The Force',
     traits: [
@@ -3143,14 +3143,14 @@ final isbAgent = UnitCard(
   arena: ArenaType.ground,
 );
 
-/// SOR 177: **Bib Fortuna** - Jabbaâs Majordomo.
+/// SOR 177: **Bib Fortuna** - Jabba’s Majordomo.
 ///
 /// ![](https://cdn.starwarsunlimited.com/SWH_01_177_Bib_Fortuna_a5a1c03260.png)
 final bibFortuna = UnitCard(
   expansion: expansion,
   number: 177,
   name: 'Bib Fortuna',
-  subTitle: 'Jabbaâs Majordomo',
+  subTitle: 'Jabba’s Majordomo',
   unique: false,
   traits: [
     Trait.underworld,
