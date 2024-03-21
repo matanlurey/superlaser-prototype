@@ -1,11 +1,11 @@
 {
-    "name": "superlaser_app",
-    "short_name": "superlaser_app",
+    "name": "Superlaser",
+    "short_name": "Superlaser",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A fan-made utility kit for collecting and playing Star Wars: Unlimited.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
