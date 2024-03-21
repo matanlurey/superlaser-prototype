@@ -52,7 +52,8 @@ To parse the card data, see [`package:scrap`](./packages/scrap/):
 ### Packages
 
 [`package:unlimited`](./packages/unlimited) contains an application agnostic
-data model for the game.
+data model for the game. [Documentaion](https://try.superlaser.dev/docs) is
+built from the latest green build.
 
 ### Tools
 
