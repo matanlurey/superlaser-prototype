@@ -134,6 +134,8 @@ sealed class Card {
     required this.name,
     required this.subTitle,
     required this.unique,
+    required this.aspects,
+    required this.rarity,
   });
 
   /// Which release this card is from.
@@ -165,6 +167,12 @@ sealed class Card {
   /// control at a given time, they must defeat one of them, resolving any
   /// abilities that trigger upon either copy being played or defeated.
   final bool unique;
+
+  /// Which aspect icons are present on the card.
+  final Aspects aspects;
+
+  /// The rarity of this card.
+  final Rarity rarity;
 
   @override
   @nonVirtual
@@ -217,6 +225,8 @@ final class LeaderCard extends Card {
     required super.name,
     required super.subTitle,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required this.unit,
   });
 
@@ -232,6 +242,8 @@ final class BaseCard extends Card implements TargetCard {
     required super.expansion,
     required super.number,
     required super.name,
+    required super.aspects,
+    required super.rarity,
     required this.health,
   }) : super(unique: false, subTitle: null);
 
@@ -264,6 +276,8 @@ sealed class PlayableCard extends Card {
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.subTitle,
     required Iterable<Trait> traits,
     required this.cost,
@@ -294,6 +308,8 @@ sealed class ArenaCard extends PlayableCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.subTitle,
     required super.traits,
     required super.cost,
@@ -330,6 +346,8 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.subTitle,
     required super.traits,
     required super.cost,
@@ -355,6 +373,8 @@ final class UnitCard extends ArenaCard
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.subTitle,
     required super.arena,
     required super.traits,
@@ -394,6 +414,8 @@ final class UpgradeCard extends PlayableCard
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.traits,
     required super.cost,
     this.powerModifier = 0,
@@ -424,6 +446,8 @@ final class TokenCard extends Card implements AttachmentCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     this.powerModifier = 0,
     this.healthModifier = 0,
   }) : super(subTitle: null);
@@ -457,6 +481,8 @@ final class EventCard extends PlayableCard implements DeckCard {
     required super.number,
     required super.name,
     required super.unique,
+    required super.aspects,
+    required super.rarity,
     required super.traits,
     required super.cost,
   }) : super(subTitle: null);

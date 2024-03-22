@@ -24,12 +24,16 @@ final directorKrennic = LeaderCard(
   expansion: expansion,
   number: 1,
   name: 'Director Krennic',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Aspiring to Authority',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 1,
     name: 'Director Krennic',
+    aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Aspiring to Authority',
     traits: [
@@ -49,12 +53,16 @@ final idenVersio = LeaderCard(
   expansion: expansion,
   number: 2,
   name: 'Iden Versio',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Inferno Squad Commander',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 2,
     name: 'Iden Versio',
+    aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Inferno Squad Commander',
     traits: [
@@ -74,12 +82,16 @@ final chewbacca = LeaderCard(
   expansion: expansion,
   number: 3,
   name: 'Chewbacca',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Walking Carpet',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 3,
     name: 'Chewbacca',
+    aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Walking Carpet',
     traits: [
@@ -99,12 +111,16 @@ final chirrutMwe = LeaderCard(
   expansion: expansion,
   number: 4,
   name: 'Chirrut Îmwe',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'One With The Force',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 4,
     name: 'Chirrut Îmwe',
+    aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'One With The Force',
     traits: [
@@ -124,12 +140,16 @@ final lukeSkywalker = LeaderCard(
   expansion: expansion,
   number: 5,
   name: 'Luke Skywalker',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.special,
   unique: true,
   subTitle: 'Faithful Friend',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 5,
     name: 'Luke Skywalker',
+    aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+    rarity: Rarity.special,
     unique: true,
     subTitle: 'Faithful Friend',
     traits: [
@@ -149,12 +169,16 @@ final emperorPalpatine = LeaderCard(
   expansion: expansion,
   number: 6,
   name: 'Emperor Palpatine',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Galactic Ruler',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 6,
     name: 'Emperor Palpatine',
+    aspects: Aspects.two(Aspect.command, Aspect.villainy),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Galactic Ruler',
     traits: [
@@ -176,12 +200,16 @@ final grandMoffTarkin = LeaderCard(
   expansion: expansion,
   number: 7,
   name: 'Grand Moff Tarkin',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Oversector Governor',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 7,
     name: 'Grand Moff Tarkin',
+    aspects: Aspects.two(Aspect.command, Aspect.villainy),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Oversector Governor',
     traits: [
@@ -201,12 +229,16 @@ final heraSyndulla = LeaderCard(
   expansion: expansion,
   number: 8,
   name: 'Hera Syndulla',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Spectre Two',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 8,
     name: 'Hera Syndulla',
+    aspects: Aspects.two(Aspect.command, Aspect.heroism),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Spectre Two',
     traits: [
@@ -227,12 +259,16 @@ final leiaOrgana = LeaderCard(
   expansion: expansion,
   number: 9,
   name: 'Leia Organa',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Alliance General',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 9,
     name: 'Leia Organa',
+    aspects: Aspects.two(Aspect.command, Aspect.heroism),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Alliance General',
     traits: [
@@ -252,12 +288,16 @@ final darthVader = LeaderCard(
   expansion: expansion,
   number: 10,
   name: 'Darth Vader',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.special,
   unique: true,
   subTitle: 'Dark Lord of the Sith',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 10,
     name: 'Darth Vader',
+    aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+    rarity: Rarity.special,
     unique: true,
     subTitle: 'Dark Lord of the Sith',
     traits: [
@@ -278,12 +318,16 @@ final grandInquisitor = LeaderCard(
   expansion: expansion,
   number: 11,
   name: 'Grand Inquisitor',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Hunting the Jedi',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 11,
     name: 'Grand Inquisitor',
+    aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Hunting the Jedi',
     traits: [
@@ -304,12 +348,16 @@ final ig88 = LeaderCard(
   expansion: expansion,
   number: 12,
   name: 'IG-88',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Ruthless Bounty Hunter',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 12,
     name: 'IG-88',
+    aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Ruthless Bounty Hunter',
     traits: [
@@ -330,12 +378,16 @@ final cassianAndor = LeaderCard(
   expansion: expansion,
   number: 13,
   name: 'Cassian Andor',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Dedicated to the Rebellion',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 13,
     name: 'Cassian Andor',
+    aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Dedicated to the Rebellion',
     traits: [
@@ -354,12 +406,16 @@ final sabineWren = LeaderCard(
   expansion: expansion,
   number: 14,
   name: 'Sabine Wren',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Galvanized Revolutionary',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 14,
     name: 'Sabine Wren',
+    aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Galvanized Revolutionary',
     traits: [
@@ -380,12 +436,16 @@ final bobaFett = LeaderCard(
   expansion: expansion,
   number: 15,
   name: 'Boba Fett',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Collecting the Bounty',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 15,
     name: 'Boba Fett',
+    aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Collecting the Bounty',
     traits: [
@@ -405,12 +465,16 @@ final grandAdmiralThrawn = LeaderCard(
   expansion: expansion,
   number: 16,
   name: 'Grand Admiral Thrawn',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Patient and Insightful',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 16,
     name: 'Grand Admiral Thrawn',
+    aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Patient and Insightful',
     traits: [
@@ -430,12 +494,16 @@ final hanSolo = LeaderCard(
   expansion: expansion,
   number: 17,
   name: 'Han Solo',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: true,
   subTitle: 'Audacious Smuggler',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 17,
     name: 'Han Solo',
+    aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+    rarity: Rarity.rare,
     unique: true,
     subTitle: 'Audacious Smuggler',
     traits: [
@@ -454,12 +522,16 @@ final jynErso = LeaderCard(
   expansion: expansion,
   number: 18,
   name: 'Jyn Erso',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.common,
   unique: true,
   subTitle: 'Resisting Oppression',
   unit: LeaderUnitCard(
     expansion: expansion,
     number: 18,
     name: 'Jyn Erso',
+    aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+    rarity: Rarity.common,
     unique: true,
     subTitle: 'Resisting Oppression',
     traits: [
@@ -478,6 +550,8 @@ final securityComplex = BaseCard(
   expansion: expansion,
   number: 19,
   name: 'Security Complex',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.rare,
   health: 25,
 );
 
@@ -488,6 +562,8 @@ final capitalCity = BaseCard(
   expansion: expansion,
   number: 20,
   name: 'Capital City',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -498,6 +574,8 @@ final dagobahSwamp = BaseCard(
   expansion: expansion,
   number: 21,
   name: 'Dagobah Swamp',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -508,6 +586,8 @@ final energyConversionLab = BaseCard(
   expansion: expansion,
   number: 22,
   name: 'Energy Conversion Lab',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.rare,
   health: 25,
 );
 
@@ -518,6 +598,8 @@ final commandCenter = BaseCard(
   expansion: expansion,
   number: 23,
   name: 'Command Center',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -528,6 +610,8 @@ final echoBase = BaseCard(
   expansion: expansion,
   number: 24,
   name: 'Echo Base',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -538,6 +622,8 @@ final tarkintown = BaseCard(
   expansion: expansion,
   number: 25,
   name: 'Tarkintown',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.rare,
   health: 25,
 );
 
@@ -548,6 +634,8 @@ final catacombsOfCadera = BaseCard(
   expansion: expansion,
   number: 26,
   name: 'Catacombs of Cadera',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -558,6 +646,8 @@ final kestroCity = BaseCard(
   expansion: expansion,
   number: 27,
   name: 'Kestro City',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -568,6 +658,8 @@ final jedhaCity = BaseCard(
   expansion: expansion,
   number: 28,
   name: 'Jedha City',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.rare,
   health: 25,
 );
 
@@ -578,6 +670,8 @@ final administratorsTower = BaseCard(
   expansion: expansion,
   number: 29,
   name: "Administrator's Tower",
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -588,6 +682,8 @@ final chopperBase = BaseCard(
   expansion: expansion,
   number: 30,
   name: 'Chopper Base',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   health: 30,
 );
 
@@ -598,6 +694,8 @@ final infernoFour = UnitCard(
   expansion: expansion,
   number: 31,
   name: 'Inferno Four',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Unforgetting',
   unique: true,
   traits: [
@@ -618,6 +716,8 @@ final scoutBikePursuer = UnitCard(
   expansion: expansion,
   number: 32,
   name: 'Scout Bike Pursuer',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -637,6 +737,8 @@ final deathTrooper = UnitCard(
   expansion: expansion,
   number: 33,
   name: 'Death Trooper',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -656,6 +758,8 @@ final delMeeko = UnitCard(
   expansion: expansion,
   number: 34,
   name: 'Del Meeko',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Providing Overwatch',
   unique: true,
   traits: [
@@ -675,6 +779,8 @@ final lieutenantChildsen = UnitCard(
   expansion: expansion,
   number: 35,
   name: 'Lieutenant Childsen',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Death Star Prison Warden',
   unique: true,
   traits: [
@@ -694,6 +800,8 @@ final gideonHask = UnitCard(
   expansion: expansion,
   number: 36,
   name: 'Gideon Hask',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Ruthless Loyalist',
   unique: true,
   traits: [
@@ -713,6 +821,8 @@ final academyDefenseWalker = UnitCard(
   expansion: expansion,
   number: 37,
   name: 'Academy Defense Walker',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -733,6 +843,8 @@ final countDooku = UnitCard(
   expansion: expansion,
   number: 38,
   name: 'Count Dooku',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Darth Tyranus',
   unique: true,
   traits: [
@@ -753,6 +865,8 @@ final atAtSuppressor = UnitCard(
   expansion: expansion,
   number: 39,
   name: 'AT-AT Suppressor',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -773,6 +887,8 @@ final avenger = UnitCard(
   expansion: expansion,
   number: 40,
   name: 'Avenger',
+  aspects: Aspects.two(Aspect.villainy, Aspect.vigilance),
+  rarity: Rarity.legendary,
   subTitle: 'Hunting Star Destroyer',
   unique: true,
   traits: [
@@ -793,6 +909,8 @@ final powerOfTheDarkSide = EventCard(
   expansion: expansion,
   number: 41,
   name: 'Power of the Dark Side',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.innate,
@@ -807,6 +925,8 @@ final searchYourFeelings = EventCard(
   expansion: expansion,
   number: 42,
   name: 'Search Your Feelings',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.innate,
@@ -821,6 +941,8 @@ final superlaserBlast = EventCard(
   expansion: expansion,
   number: 43,
   name: 'Superlaser Blast',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.villainy),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.tactic,
@@ -836,6 +958,8 @@ final restoredArc170 = UnitCard(
   expansion: expansion,
   number: 44,
   name: 'Restored ARC-170',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -856,6 +980,8 @@ final yoda = UnitCard(
   expansion: expansion,
   number: 45,
   name: 'Yoda',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Old Master',
   unique: true,
   traits: [
@@ -875,6 +1001,8 @@ final consularSecurityForce = UnitCard(
   expansion: expansion,
   number: 46,
   name: 'Consular Security Force',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -894,6 +1022,8 @@ final kananJarrus = UnitCard(
   expansion: expansion,
   number: 47,
   name: 'Kanan Jarrus',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Revealed Jedi',
   unique: true,
   traits: [
@@ -915,6 +1045,8 @@ final vigilantHonorGuards = UnitCard(
   expansion: expansion,
   number: 48,
   name: 'Vigilant Honor Guards',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -933,6 +1065,8 @@ final obiWanKenobi = UnitCard(
   expansion: expansion,
   number: 49,
   name: 'Obi-Wan Kenobi',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Following Fate',
   unique: true,
   traits: [
@@ -952,6 +1086,8 @@ final theGhost = UnitCard(
   expansion: expansion,
   number: 50,
   name: 'The Ghost',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Spectre Home Base',
   unique: true,
   traits: [
@@ -973,6 +1109,8 @@ final lukeSkywalkerJediKnight = UnitCard(
   expansion: expansion,
   number: 51,
   name: 'Luke Skywalker',
+  aspects: Aspects.two(Aspect.heroism, Aspect.vigilance),
+  rarity: Rarity.legendary,
   subTitle: 'Jedi Knight',
   unique: true,
   traits: [
@@ -993,6 +1131,8 @@ final redemption = UnitCard(
   expansion: expansion,
   number: 52,
   name: 'Redemption',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Medical Frigate',
   unique: true,
   traits: [
@@ -1013,6 +1153,8 @@ final lukesLightsaber = UpgradeCard(
   expansion: expansion,
   number: 53,
   name: "Luke's Lightsaber",
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.special,
   unique: true,
   traits: [
     Trait.item,
@@ -1029,6 +1171,8 @@ final jediLightsaber = UpgradeCard(
   expansion: expansion,
   number: 54,
   name: 'Jedi Lightsaber',
+  aspects: Aspects.two(Aspect.heroism, Aspect.vigilance),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.item,
@@ -1045,6 +1189,8 @@ final theForceIsWithMe = EventCard(
   expansion: expansion,
   number: 55,
   name: 'The Force Is With Me',
+  aspects: Aspects.two(Aspect.vigilance, Aspect.heroism),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.force,
@@ -1059,6 +1205,8 @@ final bendu = UnitCard(
   expansion: expansion,
   number: 56,
   name: 'Bendu',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.rare,
   subTitle: 'The One in the Middle',
   unique: true,
   traits: [
@@ -1078,6 +1226,8 @@ final protector = UpgradeCard(
   expansion: expansion,
   number: 57,
   name: 'Protector',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.innate,
@@ -1092,6 +1242,8 @@ final vigilance = EventCard(
   expansion: expansion,
   number: 58,
   name: 'Vigilance',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.innate,
@@ -1106,6 +1258,8 @@ final $21bSurgicalDroid = UnitCard(
   expansion: expansion,
   number: 59,
   name: '2-1B Surgical Droid',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1124,6 +1278,8 @@ final distantPatroller = UnitCard(
   expansion: expansion,
   number: 60,
   name: 'Distant Patroller',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -1144,6 +1300,8 @@ final guardianOfTheWhills = UnitCard(
   expansion: expansion,
   number: 61,
   name: 'Guardian of the Whills',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1163,6 +1321,8 @@ final regionalGovernor = UnitCard(
   expansion: expansion,
   number: 62,
   name: 'Regional Governor',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.rare,
   subTitle: null,
   unique: false,
   traits: [
@@ -1182,6 +1342,8 @@ final cloudCityWingGuard = UnitCard(
   expansion: expansion,
   number: 63,
   name: 'Cloud City Wing Guard',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1201,6 +1363,8 @@ final wildernessFighter = UnitCard(
   expansion: expansion,
   number: 64,
   name: 'Wilderness Fighter',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1219,6 +1383,8 @@ final bazeMalbus = UnitCard(
   expansion: expansion,
   number: 65,
   name: 'Baze Malbus',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   subTitle: 'Temple Guardian',
   unique: true,
   traits: [
@@ -1237,6 +1403,8 @@ final systemPatrolCraft = UnitCard(
   expansion: expansion,
   number: 66,
   name: 'System Patrol Craft',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1256,6 +1424,8 @@ final ruggedSurvivors = UnitCard(
   expansion: expansion,
   number: 67,
   name: 'Rugged Survivors',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1274,6 +1444,8 @@ final cargoJuggernaut = UnitCard(
   expansion: expansion,
   number: 68,
   name: 'Cargo Juggernaut',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1293,6 +1465,8 @@ final resilient = UpgradeCard(
   expansion: expansion,
   number: 69,
   name: 'Resilient',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.innate,
@@ -1307,6 +1481,8 @@ final devotion = UpgradeCard(
   expansion: expansion,
   number: 70,
   name: 'Devotion',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.innate,
@@ -1321,6 +1497,8 @@ final electrostaff = UpgradeCard(
   expansion: expansion,
   number: 71,
   name: 'Electrostaff',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.item,
@@ -1336,6 +1514,8 @@ final entrenched = UpgradeCard(
   expansion: expansion,
   number: 72,
   name: 'Entrenched',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.condition,
@@ -1350,6 +1530,8 @@ final momentOfPeace = EventCard(
   expansion: expansion,
   number: 73,
   name: 'Moment of Peace',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.innate,
@@ -1364,6 +1546,8 @@ final repair = EventCard(
   expansion: expansion,
   number: 74,
   name: 'Repair',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.supply,
@@ -1378,6 +1562,8 @@ final itBindsAllThings = EventCard(
   expansion: expansion,
   number: 75,
   name: 'It Binds All Things',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.force,
@@ -1392,6 +1578,8 @@ final makeAnOpening = EventCard(
   expansion: expansion,
   number: 76,
   name: 'Make an Opening',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -1406,6 +1594,8 @@ final takedown = EventCard(
   expansion: expansion,
   number: 77,
   name: 'Takedown',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -1420,6 +1610,8 @@ final vanquish = EventCard(
   expansion: expansion,
   number: 78,
   name: 'Vanquish',
+  aspects: Aspects.one(Aspect.vigilance),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -1434,6 +1626,8 @@ final admiralPiett = UnitCard(
   expansion: expansion,
   number: 79,
   name: 'Admiral Piett',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Captain of the Executor',
   unique: true,
   traits: [
@@ -1453,6 +1647,8 @@ final generalTagge = UnitCard(
   expansion: expansion,
   number: 80,
   name: 'General Tagge',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Concerned Commander',
   unique: true,
   traits: [
@@ -1472,6 +1668,8 @@ final seasonedShoretrooper = UnitCard(
   expansion: expansion,
   number: 81,
   name: 'Seasoned Shoretrooper',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1491,6 +1689,8 @@ final emperorsRoyalGuard = UnitCard(
   expansion: expansion,
   number: 82,
   name: "Emperor's Royal Guard",
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: null,
   unique: false,
   traits: [
@@ -1509,6 +1709,8 @@ final superlaserTechnician = UnitCard(
   expansion: expansion,
   number: 83,
   name: 'Superlaser Technician',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1527,6 +1729,8 @@ final grandMoffTarkinDeathStarOverseer = UnitCard(
   expansion: expansion,
   number: 84,
   name: 'Grand Moff Tarkin',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.special,
   subTitle: 'Death Star Overseer',
   unique: true,
   traits: [
@@ -1546,6 +1750,8 @@ final rukh = UnitCard(
   expansion: expansion,
   number: 85,
   name: 'Rukh',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: "Thrawn's Assassin",
   unique: true,
   traits: [
@@ -1564,6 +1770,8 @@ final gladiatorStarDestroyer = UnitCard(
   expansion: expansion,
   number: 86,
   name: 'Gladiator Star Destroyer',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1584,6 +1792,8 @@ final darthVaderCommandingTheFirstLegion = UnitCard(
   expansion: expansion,
   number: 87,
   name: 'Darth Vader',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.legendary,
   subTitle: 'Commanding the First Legion',
   unique: true,
   traits: [
@@ -1604,6 +1814,8 @@ final blizzardAssaultAtAt = UnitCard(
   expansion: expansion,
   number: 88,
   name: 'Blizzard Assault AT-AT',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -1624,6 +1836,8 @@ final relentless = UnitCard(
   expansion: expansion,
   number: 89,
   name: 'Relentless',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: "Konstantine's Folly",
   unique: true,
   traits: [
@@ -1644,6 +1858,8 @@ final devastator = UnitCard(
   expansion: expansion,
   number: 90,
   name: 'Devastator',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.legendary,
   subTitle: 'Inescapable',
   unique: true,
   traits: [
@@ -1664,6 +1880,8 @@ final theEmperorsLegion = EventCard(
   expansion: expansion,
   number: 91,
   name: "The Emperor's Legion",
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.imperial,
@@ -1679,6 +1897,8 @@ final overwhelmingBarrage = EventCard(
   expansion: expansion,
   number: 92,
   name: 'Overwhelming Barrage',
+  aspects: Aspects.two(Aspect.command, Aspect.villainy),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -1693,6 +1913,8 @@ final allianceDispatcher = UnitCard(
   expansion: expansion,
   number: 93,
   name: 'Alliance Dispatcher',
+  aspects: Aspects.two(Aspect.heroism, Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1711,6 +1933,8 @@ final bailOrgana = UnitCard(
   expansion: expansion,
   number: 94,
   name: 'Bail Organa',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Rebel Councilor',
   unique: true,
   traits: [
@@ -1730,6 +1954,8 @@ final battlefieldMarine = UnitCard(
   expansion: expansion,
   number: 95,
   name: 'Battlefield Marine',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1749,6 +1975,8 @@ final monMothma = UnitCard(
   expansion: expansion,
   number: 96,
   name: 'Mon Mothma',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Voice Of The Rebellion',
   unique: true,
   traits: [
@@ -1768,6 +1996,8 @@ final admiralAckbar = UnitCard(
   expansion: expansion,
   number: 97,
   name: 'Admiral Ackbar',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Brilliant Strategist',
   unique: true,
   traits: [
@@ -1787,6 +2017,8 @@ final echoBaseDefender = UnitCard(
   expansion: expansion,
   number: 98,
   name: 'Echo Base Defender',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1806,6 +2038,8 @@ final brightHope = UnitCard(
   expansion: expansion,
   number: 99,
   name: 'Bright Hope',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'The Last Transport',
   unique: true,
   traits: [
@@ -1826,6 +2060,8 @@ final wedgeAntilles = UnitCard(
   expansion: expansion,
   number: 100,
   name: 'Wedge Antilles',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Star of the Rebellion',
   unique: true,
   traits: [
@@ -1844,6 +2080,8 @@ final rogueSquadronSkirmisher = UnitCard(
   expansion: expansion,
   number: 101,
   name: 'Rogue Squadron Skirmisher',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -1864,6 +2102,8 @@ final homeOne = UnitCard(
   expansion: expansion,
   number: 102,
   name: 'Home One',
+  aspects: Aspects.two(Aspect.command, Aspect.heroism),
+  rarity: Rarity.legendary,
   subTitle: 'Alliance Flagship',
   unique: true,
   traits: [
@@ -1884,6 +2124,8 @@ final rebelAssault = EventCard(
   expansion: expansion,
   number: 103,
   name: 'Rebel Assault',
+  aspects: Aspects.two(Aspect.heroism, Aspect.command),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.rebel,
@@ -1899,6 +2141,8 @@ final uWingReinforcement = EventCard(
   expansion: expansion,
   number: 104,
   name: 'U-Wing Reinforcement',
+  aspects: Aspects.two(Aspect.heroism, Aspect.command),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.supply,
@@ -1913,6 +2157,8 @@ final generalKrell = UnitCard(
   expansion: expansion,
   number: 105,
   name: 'General Krell',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.rare,
   subTitle: 'Heartless Tactician',
   unique: true,
   traits: [
@@ -1933,6 +2179,8 @@ final attackPatternDelta = EventCard(
   expansion: expansion,
   number: 106,
   name: 'Attack Pattern Delta',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -1947,6 +2195,8 @@ final command = EventCard(
   expansion: expansion,
   number: 107,
   name: 'Command',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.innate,
@@ -1961,6 +2211,8 @@ final vanguardInfantry = UnitCard(
   expansion: expansion,
   number: 108,
   name: 'Vanguard Infantry',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -1979,6 +2231,8 @@ final colonelYularen = UnitCard(
   expansion: expansion,
   number: 109,
   name: 'Colonel Yularen',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   subTitle: 'ISB Director',
   unique: true,
   traits: [
@@ -1998,6 +2252,8 @@ final frontlineShuttle = UnitCard(
   expansion: expansion,
   number: 110,
   name: 'Frontline Shuttle',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.rare,
   subTitle: null,
   unique: false,
   traits: [
@@ -2017,6 +2273,8 @@ final patrollingVWing = UnitCard(
   expansion: expansion,
   number: 111,
   name: 'Patrolling V-Wing',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2036,6 +2294,8 @@ final consortiumStarviper = UnitCard(
   expansion: expansion,
   number: 112,
   name: 'Consortium StarViper',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2056,6 +2316,8 @@ final homesteadMilitia = UnitCard(
   expansion: expansion,
   number: 113,
   name: 'Homestead Militia',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2075,6 +2337,8 @@ final escortSkiff = UnitCard(
   expansion: expansion,
   number: 114,
   name: 'Escort Skiff',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2095,6 +2359,8 @@ final agentKallus = UnitCard(
   expansion: expansion,
   number: 115,
   name: 'Agent Kallus',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.rare,
   subTitle: 'Seeking the Rebels',
   unique: true,
   traits: [
@@ -2114,6 +2380,8 @@ final steadfastBattalion = UnitCard(
   expansion: expansion,
   number: 116,
   name: 'Steadfast Battalion',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2132,6 +2400,8 @@ final mercenaryCompany = UnitCard(
   expansion: expansion,
   number: 117,
   name: 'Mercenary Company',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2151,6 +2421,8 @@ final $97thLegion = UnitCard(
   expansion: expansion,
   number: 118,
   name: '97th Legion',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   subTitle: 'Keeping the Peace on Sullust',
   unique: true,
   traits: [
@@ -2170,6 +2442,8 @@ final reinforcementWalker = UnitCard(
   expansion: expansion,
   number: 119,
   name: 'Reinforcement Walker',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -2189,6 +2463,8 @@ final academyTraining = UpgradeCard(
   expansion: expansion,
   number: 120,
   name: 'Academy Training',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.learned,
@@ -2203,6 +2479,8 @@ final hardpointHeavyBlaster = UpgradeCard(
   expansion: expansion,
   number: 121,
   name: 'Hardpoint Heavy Blaster',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.modification,
@@ -2218,6 +2496,8 @@ final traitorous = UpgradeCard(
   expansion: expansion,
   number: 122,
   name: 'Traitorous',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.innate,
@@ -2232,6 +2512,8 @@ final recruit = EventCard(
   expansion: expansion,
   number: 123,
   name: 'Recruit',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.supply,
@@ -2246,6 +2528,8 @@ final tacticalAdvantage = EventCard(
   expansion: expansion,
   number: 124,
   name: 'Tactical Advantage',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -2260,6 +2544,8 @@ final prepareForTakeoff = EventCard(
   expansion: expansion,
   number: 125,
   name: 'Prepare for Takeoff',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.plan,
@@ -2274,6 +2560,8 @@ final resupply = EventCard(
   expansion: expansion,
   number: 126,
   name: 'Resupply',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.supply,
@@ -2288,6 +2576,8 @@ final strikeTrue = EventCard(
   expansion: expansion,
   number: 127,
   name: 'Strike True',
+  aspects: Aspects.one(Aspect.command),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -2302,6 +2592,8 @@ final deathStarStormtrooper = UnitCard(
   expansion: expansion,
   number: 128,
   name: 'Death Star Stormtrooper',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2321,6 +2613,8 @@ final admiralOzzel = UnitCard(
   expansion: expansion,
   number: 129,
   name: 'Admiral Ozzel',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Overconfident',
   unique: true,
   traits: [
@@ -2340,6 +2634,8 @@ final firstLegionSnowtrooper = UnitCard(
   expansion: expansion,
   number: 130,
   name: 'First Legion Snowtrooper',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2359,6 +2655,8 @@ final fifthBrother = UnitCard(
   expansion: expansion,
   number: 131,
   name: 'Fifth Brother',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Fear Hunter',
   unique: true,
   traits: [
@@ -2379,6 +2677,8 @@ final imperialInterceptor = UnitCard(
   expansion: expansion,
   number: 132,
   name: 'Imperial Interceptor',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2399,6 +2699,8 @@ final seventhSister = UnitCard(
   expansion: expansion,
   number: 133,
   name: 'Seventh Sister',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Implacable Inquisitor',
   unique: true,
   traits: [
@@ -2419,6 +2721,8 @@ final ruthlessRaider = UnitCard(
   expansion: expansion,
   number: 134,
   name: 'Ruthless Raider',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -2439,6 +2743,8 @@ final emperorPalpatineMasterOfTheDarkSide = UnitCard(
   expansion: expansion,
   number: 135,
   name: 'Emperor Palpatine',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Master of the Dark Side',
   unique: true,
   traits: [
@@ -2460,6 +2766,8 @@ final vadersLightsaber = UpgradeCard(
   expansion: expansion,
   number: 136,
   name: "Vader's Lightsaber",
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.special,
   unique: true,
   traits: [
     Trait.item,
@@ -2476,6 +2784,8 @@ final fallenLightsaber = UpgradeCard(
   expansion: expansion,
   number: 137,
   name: 'Fallen Lightsaber',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.item,
@@ -2492,6 +2802,8 @@ final forceLightning = EventCard(
   expansion: expansion,
   number: 138,
   name: 'Force Lightning',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.force,
@@ -2506,6 +2818,8 @@ final forceChoke = EventCard(
   expansion: expansion,
   number: 139,
   name: 'Force Choke',
+  aspects: Aspects.two(Aspect.aggression, Aspect.villainy),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.force,
@@ -2520,6 +2834,8 @@ final specforceSoldier = UnitCard(
   expansion: expansion,
   number: 140,
   name: 'SpecForce Soldier',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2539,6 +2855,8 @@ final greenSquadronAWing = UnitCard(
   expansion: expansion,
   number: 141,
   name: 'Green Squadron A-Wing',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2559,6 +2877,8 @@ final sabineWrenExplosivesArtist = UnitCard(
   expansion: expansion,
   number: 142,
   name: 'Sabine Wren',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Explosives Artist',
   unique: true,
   traits: [
@@ -2579,6 +2899,8 @@ final fightersForFreedom = UnitCard(
   expansion: expansion,
   number: 143,
   name: 'Fighters for Freedom',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -2598,6 +2920,8 @@ final redThree = UnitCard(
   expansion: expansion,
   number: 144,
   name: 'Red Three',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Unstoppable',
   unique: true,
   traits: [
@@ -2618,6 +2942,8 @@ final k2so = UnitCard(
   expansion: expansion,
   number: 145,
   name: 'K-2SO',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: "Cassian's Counterpart",
   unique: true,
   traits: [
@@ -2637,6 +2963,8 @@ final zebOrrelios = UnitCard(
   expansion: expansion,
   number: 146,
   name: 'Zeb Orrelios',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Headstrong Warrior',
   unique: true,
   traits: [
@@ -2656,6 +2984,8 @@ final blackOne = UnitCard(
   expansion: expansion,
   number: 147,
   name: 'Black One',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.legendary,
   subTitle: 'Scourge of Starkiller Base',
   unique: true,
   traits: [
@@ -2676,6 +3006,8 @@ final guerillaAttackPod = UnitCard(
   expansion: expansion,
   number: 148,
   name: 'Guerilla Attack Pod',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2696,6 +3028,8 @@ final maceWindu = UnitCard(
   expansion: expansion,
   number: 149,
   name: 'Mace Windu',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.legendary,
   subTitle: 'Party Crasher',
   unique: true,
   traits: [
@@ -2716,6 +3050,8 @@ final heroicSacrifice = EventCard(
   expansion: expansion,
   number: 150,
   name: 'Heroic Sacrifice',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.tactic,
@@ -2730,6 +3066,8 @@ final karabast = EventCard(
   expansion: expansion,
   number: 151,
   name: 'Karabast',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.spectre,
@@ -2744,6 +3082,8 @@ final forACauseIBelieveIn = EventCard(
   expansion: expansion,
   number: 152,
   name: 'For a Cause I Believe In',
+  aspects: Aspects.two(Aspect.aggression, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.innate,
@@ -2758,6 +3098,8 @@ final sawGerrera = UnitCard(
   expansion: expansion,
   number: 153,
   name: 'Saw Gerrera',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.rare,
   subTitle: 'Extremist',
   unique: true,
   traits: [
@@ -2776,6 +3118,8 @@ final rallyingCry = EventCard(
   expansion: expansion,
   number: 154,
   name: 'Rallying Cry',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -2790,6 +3134,8 @@ final aggression = EventCard(
   expansion: expansion,
   number: 155,
   name: 'Aggression',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.innate,
@@ -2804,6 +3150,8 @@ final benthicTwoTubes = UnitCard(
   expansion: expansion,
   number: 156,
   name: 'Benthic "Two Tubes"',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   subTitle: 'Partisan Lieutenant',
   unique: true,
   traits: [
@@ -2823,6 +3171,8 @@ final cantinaBraggart = UnitCard(
   expansion: expansion,
   number: 157,
   name: 'Cantina Braggart',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2841,6 +3191,8 @@ final jedhaAgitator = UnitCard(
   expansion: expansion,
   number: 158,
   name: 'Jedha Agitator',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2859,6 +3211,8 @@ final partisanInsurgent = UnitCard(
   expansion: expansion,
   number: 159,
   name: 'Partisan Insurgent',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2878,6 +3232,8 @@ final wolffe = UnitCard(
   expansion: expansion,
   number: 160,
   name: 'Wolffe',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.rare,
   subTitle: 'Suspicious Veteran',
   unique: true,
   traits: [
@@ -2897,6 +3253,8 @@ final ardentSympathizer = UnitCard(
   expansion: expansion,
   number: 161,
   name: 'Ardent Sympathizer',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2915,6 +3273,8 @@ final disablingFangFighter = UnitCard(
   expansion: expansion,
   number: 162,
   name: 'Disabling Fang Fighter',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2935,6 +3295,8 @@ final starWingScout = UnitCard(
   expansion: expansion,
   number: 163,
   name: 'Star Wing Scout',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -2954,6 +3316,8 @@ final wampa = UnitCard(
   expansion: expansion,
   number: 164,
   name: 'Wampa',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2972,6 +3336,8 @@ final occupierSiegeTank = UnitCard(
   expansion: expansion,
   number: 165,
   name: 'Occupier Siege Tank',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -2992,6 +3358,8 @@ final infiltratorsSkill = UpgradeCard(
   expansion: expansion,
   number: 166,
   name: "Infiltrator's Skill",
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.learned,
@@ -3006,6 +3374,8 @@ final forceThrow = EventCard(
   expansion: expansion,
   number: 167,
   name: 'Force Throw',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.force,
@@ -3020,6 +3390,8 @@ final precisionFire = EventCard(
   expansion: expansion,
   number: 168,
   name: 'Precision Fire',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3034,6 +3406,8 @@ final keepFighting = EventCard(
   expansion: expansion,
   number: 169,
   name: 'Keep Fighting',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3048,6 +3422,8 @@ final powerFailure = EventCard(
   expansion: expansion,
   number: 170,
   name: 'Power Failure',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3062,6 +3438,8 @@ final missionBriefing = EventCard(
   expansion: expansion,
   number: 171,
   name: 'Mission Briefing',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.plan,
@@ -3076,6 +3454,8 @@ final openFire = EventCard(
   expansion: expansion,
   number: 172,
   name: 'Open Fire',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3090,6 +3470,8 @@ final bombingRun = EventCard(
   expansion: expansion,
   number: 173,
   name: 'Bombing Run',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3104,6 +3486,8 @@ final smokeAndCinders = EventCard(
   expansion: expansion,
   number: 174,
   name: 'Smoke and Cinders',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.disaster,
@@ -3118,6 +3502,8 @@ final forcedSurrender = EventCard(
   expansion: expansion,
   number: 175,
   name: 'Forced Surrender',
+  aspects: Aspects.one(Aspect.aggression),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.plan,
@@ -3132,6 +3518,8 @@ final isbAgent = UnitCard(
   expansion: expansion,
   number: 176,
   name: 'ISB Agent',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3150,6 +3538,8 @@ final bibFortuna = UnitCard(
   expansion: expansion,
   number: 177,
   name: 'Bib Fortuna',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Jabba’s Majordomo',
   unique: false,
   traits: [
@@ -3169,6 +3559,8 @@ final cartelSpacer = UnitCard(
   expansion: expansion,
   number: 178,
   name: 'Cartel Spacer',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -3189,6 +3581,8 @@ final bobaFettDisintegrator = UnitCard(
   expansion: expansion,
   number: 179,
   name: 'Boba Fett',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.legendary,
   subTitle: 'Disintegrator',
   unique: true,
   traits: [
@@ -3208,6 +3602,8 @@ final seventhFleetDefender = UnitCard(
   expansion: expansion,
   number: 180,
   name: 'Seventh Fleet Defender',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3228,6 +3624,8 @@ final jabbaTheHutt = UnitCard(
   expansion: expansion,
   number: 181,
   name: 'Jabba the Hutt',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Cunning Daimyo',
   unique: true,
   traits: [
@@ -3247,6 +3645,8 @@ final bossk = UnitCard(
   expansion: expansion,
   number: 182,
   name: 'Bossk',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Deadly Stalker',
   unique: true,
   traits: [
@@ -3266,6 +3666,8 @@ final bountyHunterCrew = UnitCard(
   expansion: expansion,
   number: 183,
   name: 'Bounty Hunter Crew',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3285,6 +3687,8 @@ final fettsFirespray = UnitCard(
   expansion: expansion,
   number: 184,
   name: "Fett's Firespray",
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Pursuing the Bounty',
   unique: true,
   traits: [
@@ -3305,6 +3709,8 @@ final chimaera = UnitCard(
   expansion: expansion,
   number: 185,
   name: 'Chimaera',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.rare,
   subTitle: 'Flagship of the Seventh Fleet',
   unique: true,
   traits: [
@@ -3325,6 +3731,8 @@ final noGoodToMeDead = EventCard(
   expansion: expansion,
   number: 186,
   name: 'No Good to Me Dead',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.plan,
@@ -3339,6 +3747,8 @@ final iHadNoChoice = EventCard(
   expansion: expansion,
   number: 187,
   name: 'I Had No Choice',
+  aspects: Aspects.two(Aspect.cunning, Aspect.villainy),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.trick,
@@ -3353,6 +3763,8 @@ final chopper = UnitCard(
   expansion: expansion,
   number: 188,
   name: 'Chopper',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Metal Menace',
   unique: true,
   traits: [
@@ -3373,6 +3785,8 @@ final leiaOrganaDefiantPrincess = UnitCard(
   expansion: expansion,
   number: 189,
   name: 'Leia Organa',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.special,
   subTitle: 'Defiant Princess',
   unique: true,
   traits: [
@@ -3392,6 +3806,8 @@ final lothalInsurgent = UnitCard(
   expansion: expansion,
   number: 190,
   name: 'Lothal Insurgent',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3410,6 +3826,8 @@ final vanguardAce = UnitCard(
   expansion: expansion,
   number: 191,
   name: 'Vanguard Ace',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -3430,6 +3848,8 @@ final ezraBridger = UnitCard(
   expansion: expansion,
   number: 192,
   name: 'Ezra Bridger',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Resourceful Troublemaker',
   unique: true,
   traits: [
@@ -3450,6 +3870,8 @@ final millenniumFalcon = UnitCard(
   expansion: expansion,
   number: 193,
   name: 'Millennium Falcon',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.legendary,
   subTitle: 'Piece of Junk',
   unique: true,
   traits: [
@@ -3470,6 +3892,8 @@ final rogueOperative = UnitCard(
   expansion: expansion,
   number: 194,
   name: 'Rogue Operative',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3489,6 +3913,8 @@ final auzituckLiberatorGunship = UnitCard(
   expansion: expansion,
   number: 195,
   name: 'Auzituck Liberator Gunship',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3508,6 +3934,8 @@ final chewbaccaLoyalCompanion = UnitCard(
   expansion: expansion,
   number: 196,
   name: 'Chewbacca',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Loyal Companion',
   unique: true,
   traits: [
@@ -3527,6 +3955,8 @@ final landoCalrissian = UnitCard(
   expansion: expansion,
   number: 197,
   name: 'Lando Calrissian',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Responsible Businessman',
   unique: true,
   traits: [
@@ -3546,6 +3976,8 @@ final hanSoloReluctantHero = UnitCard(
   expansion: expansion,
   number: 198,
   name: 'Han Solo',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.rare,
   subTitle: 'Reluctant Hero',
   unique: true,
   traits: [
@@ -3564,6 +3996,8 @@ final bamboozle = EventCard(
   expansion: expansion,
   number: 199,
   name: 'Bamboozle',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.trick,
@@ -3578,6 +4012,8 @@ final sparkOfRebellion = EventCard(
   expansion: expansion,
   number: 200,
   name: 'Spark of Rebellion',
+  aspects: Aspects.two(Aspect.cunning, Aspect.heroism),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.spectre,
@@ -3592,6 +4028,8 @@ final bodhiRook = UnitCard(
   expansion: expansion,
   number: 201,
   name: 'Bodhi Rook',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.rare,
   subTitle: 'Imperial Defector',
   unique: true,
   traits: [
@@ -3611,6 +4049,8 @@ final cantinaBouncer = UnitCard(
   expansion: expansion,
   number: 202,
   name: 'Cantina Bouncer',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -3629,6 +4069,8 @@ final cunning = EventCard(
   expansion: expansion,
   number: 203,
   name: 'Cunning',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.innate,
@@ -3643,6 +4085,8 @@ final greedo = UnitCard(
   expansion: expansion,
   number: 204,
   name: 'Greedo',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   subTitle: 'Slow on the Draw',
   unique: true,
   traits: [
@@ -3662,6 +4106,8 @@ final jawaScavenger = UnitCard(
   expansion: expansion,
   number: 205,
   name: 'Jawa Scavenger',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3681,6 +4127,8 @@ final miningGuildTieFighter = UnitCard(
   expansion: expansion,
   number: 206,
   name: 'Mining Guild TIE Fighter',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3701,6 +4149,8 @@ final craftySmuggler = UnitCard(
   expansion: expansion,
   number: 207,
   name: 'Crafty Smuggler',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3719,6 +4169,8 @@ final outerRimHeadhunter = UnitCard(
   expansion: expansion,
   number: 208,
   name: 'Outer Rim Headhunter',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3739,6 +4191,8 @@ final piratedStarfighter = UnitCard(
   expansion: expansion,
   number: 209,
   name: 'Pirated Starfighter',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -3759,6 +4213,8 @@ final swoopRacer = UnitCard(
   expansion: expansion,
   number: 210,
   name: 'Swoop Racer',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3777,6 +4233,8 @@ final gamorreanGuards = UnitCard(
   expansion: expansion,
   number: 211,
   name: 'Gamorrean Guards',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3795,6 +4253,8 @@ final strafingGunship = UnitCard(
   expansion: expansion,
   number: 212,
   name: 'Strafing Gunship',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.rare,
   subTitle: null,
   unique: false,
   traits: [
@@ -3815,6 +4275,8 @@ final syndicateLackeys = UnitCard(
   expansion: expansion,
   number: 213,
   name: 'Syndicate Lackeys',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -3833,6 +4295,8 @@ final smugglingCompartment = UpgradeCard(
   expansion: expansion,
   number: 214,
   name: 'Smuggling Compartment',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.modification,
@@ -3847,6 +4311,8 @@ final snapshotReflexes = UpgradeCard(
   expansion: expansion,
   number: 215,
   name: 'Snapshot Reflexes',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.learned,
@@ -3861,6 +4327,8 @@ final disarm = EventCard(
   expansion: expansion,
   number: 216,
   name: 'Disarm',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3875,6 +4343,8 @@ final shootFirst = EventCard(
   expansion: expansion,
   number: 217,
   name: 'Shoot First',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.trick,
@@ -3889,6 +4359,8 @@ final asteroidSanctuary = EventCard(
   expansion: expansion,
   number: 218,
   name: 'Asteroid Sanctuary',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.trick,
@@ -3903,6 +4375,8 @@ final sneakAttack = EventCard(
   expansion: expansion,
   number: 219,
   name: 'Sneak Attack',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.trick,
@@ -3917,6 +4391,8 @@ final surpriseStrike = EventCard(
   expansion: expansion,
   number: 220,
   name: 'Surprise Strike',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3931,6 +4407,8 @@ final outmaneuver = EventCard(
   expansion: expansion,
   number: 221,
   name: 'Outmaneuver',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.uncommon,
   unique: false,
   traits: [
     Trait.tactic,
@@ -3945,6 +4423,8 @@ final waylay = EventCard(
   expansion: expansion,
   number: 222,
   name: 'Waylay',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.trick,
@@ -3959,6 +4439,8 @@ final dontGetCocky = EventCard(
   expansion: expansion,
   number: 223,
   name: "Don't Get Cocky",
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.gambit,
@@ -3973,6 +4455,8 @@ final changeOfHeart = EventCard(
   expansion: expansion,
   number: 224,
   name: 'Change of Heart',
+  aspects: Aspects.one(Aspect.cunning),
+  rarity: Rarity.legendary,
   unique: false,
   traits: [
     Trait.gambit,
@@ -3987,6 +4471,8 @@ final tieLnFighter = UnitCard(
   expansion: expansion,
   number: 225,
   name: 'TIE/ln Fighter',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4007,6 +4493,8 @@ final admiralMotti = UnitCard(
   expansion: expansion,
   number: 226,
   name: 'Admiral Motti',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.special,
   subTitle: 'Brazen and Scornful',
   unique: true,
   traits: [
@@ -4026,6 +4514,8 @@ final snowtrooperLieutenant = UnitCard(
   expansion: expansion,
   number: 227,
   name: 'Snowtrooper Lieutenant',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4045,6 +4535,8 @@ final viperProbeDroid = UnitCard(
   expansion: expansion,
   number: 228,
   name: 'Viper Probe Droid',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4064,6 +4556,8 @@ final cellBlockGuard = UnitCard(
   expansion: expansion,
   number: 229,
   name: 'Cell Block Guard',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4083,6 +4577,8 @@ final generalVeers = UnitCard(
   expansion: expansion,
   number: 230,
   name: 'General Veers',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: 'Blizzard Force Commander',
   unique: true,
   traits: [
@@ -4102,6 +4598,8 @@ final tieAdvanced = UnitCard(
   expansion: expansion,
   number: 231,
   name: 'TIE Advanced',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -4122,6 +4620,8 @@ final atSt = UnitCard(
   expansion: expansion,
   number: 232,
   name: 'AT-ST',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4142,6 +4642,8 @@ final iAmYourFather = EventCard(
   expansion: expansion,
   number: 233,
   name: 'I Am Your Father',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.special,
   unique: false,
   traits: [
     Trait.gambit,
@@ -4156,6 +4658,8 @@ final maximumFirepower = EventCard(
   expansion: expansion,
   number: 234,
   name: 'Maximum Firepower',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.imperial,
@@ -4171,6 +4675,8 @@ final galacticAmbition = EventCard(
   expansion: expansion,
   number: 235,
   name: 'Galactic Ambition',
+  aspects: Aspects.one(Aspect.villainy),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.innate,
@@ -4185,6 +4691,8 @@ final r2D2 = UnitCard(
   expansion: expansion,
   number: 236,
   name: 'R2-D2',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.special,
   subTitle: 'Ignoring Protocol',
   unique: true,
   traits: [
@@ -4204,6 +4712,8 @@ final allianceXWing = UnitCard(
   expansion: expansion,
   number: 237,
   name: 'Alliance X-Wing',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4224,6 +4734,8 @@ final c3po = UnitCard(
   expansion: expansion,
   number: 238,
   name: 'C-3PO',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.special,
   subTitle: 'Protocol Droid',
   unique: true,
   traits: [
@@ -4243,6 +4755,8 @@ final rebelPathfinder = UnitCard(
   expansion: expansion,
   number: 239,
   name: 'Rebel Pathfinder',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4262,6 +4776,8 @@ final fleetLieutenant = UnitCard(
   expansion: expansion,
   number: 240,
   name: 'Fleet Lieutenant',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4281,6 +4797,8 @@ final wingLeader = UnitCard(
   expansion: expansion,
   number: 241,
   name: 'Wing Leader',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: null,
   unique: false,
   traits: [
@@ -4301,6 +4819,8 @@ final generalDodonna = UnitCard(
   expansion: expansion,
   number: 242,
   name: 'General Dodonna',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.uncommon,
   subTitle: 'Massassi Group Commander',
   unique: true,
   traits: [
@@ -4320,6 +4840,8 @@ final regionalSympathizers = UnitCard(
   expansion: expansion,
   number: 243,
   name: 'Regional Sympathizers',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4338,6 +4860,8 @@ final snowspeeder = UnitCard(
   expansion: expansion,
   number: 244,
   name: 'Snowspeeder',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4358,6 +4882,8 @@ final medalCeremony = EventCard(
   expansion: expansion,
   number: 245,
   name: 'Medal Ceremony',
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.rebel,
@@ -4372,6 +4898,8 @@ final youreMyOnlyHope = EventCard(
   expansion: expansion,
   number: 246,
   name: "You're My Only Hope",
+  aspects: Aspects.one(Aspect.heroism),
+  rarity: Rarity.rare,
   unique: false,
   traits: [
     Trait.gambit,
@@ -4386,6 +4914,8 @@ final underworldThug = UnitCard(
   expansion: expansion,
   number: 247,
   name: 'Underworld Thug',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4404,6 +4934,8 @@ final volunteerSoldier = UnitCard(
   expansion: expansion,
   number: 248,
   name: 'Volunteer Soldier',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4422,6 +4954,8 @@ final frontierAtRt = UnitCard(
   expansion: expansion,
   number: 249,
   name: 'Frontier AT-RT',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4441,6 +4975,8 @@ final corellianFreighter = UnitCard(
   expansion: expansion,
   number: 250,
   name: 'Corellian Freighter',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   subTitle: null,
   unique: false,
   traits: [
@@ -4460,6 +4996,8 @@ final confiscate = EventCard(
   expansion: expansion,
   number: 251,
   name: 'Confiscate',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.law,
@@ -4474,6 +5012,8 @@ final restock = EventCard(
   expansion: expansion,
   number: 252,
   name: 'Restock',
+  aspects: Aspects.none,
+  rarity: Rarity.common,
   unique: false,
   traits: [
     Trait.supply,

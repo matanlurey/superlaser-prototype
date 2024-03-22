@@ -37,7 +37,7 @@ final class HomeView extends StatelessWidget {
             Text(
               'Star Wars: Unlimited Utility Kit',
               textAlign: TextAlign.center,
-              style: theme.textTheme.titleMedium,
+              style: theme.textTheme.titleSmall,
             ),
             const SizedBox(
               height: 32,
@@ -85,7 +85,7 @@ final class HomeView extends StatelessWidget {
         ),
         title: const Text('Manage Collection'),
         trailing: const Icon(Icons.chevron_right),
-        onTap: () {
+        onTap: () async {
           // TODO: Re-add as a navigation action.
         },
         enabled: false,

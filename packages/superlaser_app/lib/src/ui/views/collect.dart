@@ -21,7 +21,7 @@ final class CollectView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Browse'),
+        title: const Text('Manage Collection'),
       ),
       body: const Center(
         child: Placeholder(),
