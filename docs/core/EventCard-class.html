@@ -108,7 +108,7 @@
 
     <dl class="constructor-summary-list">
         <dt id="EventCard" class="callable">
-          <span class="name"><a href="../core/EventCard/EventCard.html">EventCard</a></span><span class="signature">(<span class="parameter" id="-param-expansion">{<span>required</span> <span class="type-annotation"><a href="../core/Expansion-class.html">Expansion</a></span> <span class="parameter-name">expansion</span>, </span><span class="parameter" id="-param-number"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">number</span>, </span><span class="parameter" id="-param-name"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="-param-unique"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">unique</span>, </span><span class="parameter" id="-param-traits"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/Trait-class.html">Trait</a></span>&gt;</span></span> <span class="parameter-name">traits</span>, </span><span class="parameter" id="-param-cost"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">cost</span>}</span>)</span>
+          <span class="name"><a href="../core/EventCard/EventCard.html">EventCard</a></span><span class="signature">(<span class="parameter" id="-param-expansion">{<span>required</span> <span class="type-annotation"><a href="../core/Expansion-class.html">Expansion</a></span> <span class="parameter-name">expansion</span>, </span><span class="parameter" id="-param-number"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">number</span>, </span><span class="parameter" id="-param-name"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="-param-unique"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">unique</span>, </span><span class="parameter" id="-param-aspects"><span>required</span> <span class="type-annotation"><a href="../core/Aspects-class.html">Aspects</a></span> <span class="parameter-name">aspects</span>, </span><span class="parameter" id="-param-rarity"><span>required</span> <span class="type-annotation"><a href="../core/Rarity.html">Rarity</a></span> <span class="parameter-name">rarity</span>, </span><span class="parameter" id="-param-traits"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Iterable-class.html">Iterable</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/Trait-class.html">Trait</a></span>&gt;</span></span> <span class="parameter-name">traits</span>, </span><span class="parameter" id="-param-cost"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">cost</span>}</span>)</span>
         </dt>
         <dd>
           Creates a new event card.
@@ -120,6 +120,17 @@
       <h2>Properties</h2>
 
       <dl class="properties">
+        <dt id="aspects" class="property inherited">
+  <span class="name"><a href="../core/Card/aspects.html">aspects</a></span>
+  <span class="signature">&#8594; <a href="../core/Aspects-class.html">Aspects</a></span> 
+
+</dt>
+<dd class="inherited">
+  Which aspect icons are present on the card.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
+
+</dd>
+
         <dt id="cost" class="property inherited">
   <span class="name"><a href="../core/DeckCard/cost.html">cost</a></span>
   <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
@@ -171,6 +182,17 @@
 </dt>
 <dd class="inherited">
   Card number within the <a href="../core/Card/expansion.html">expansion</a>.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="rarity" class="property inherited">
+  <span class="name"><a href="../core/Card/rarity.html">rarity</a></span>
+  <span class="signature">&#8594; <a href="../core/Rarity.html">Rarity</a></span> 
+
+</dt>
+<dd class="inherited">
+  The rarity of this card.
   <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
 
 </dd>

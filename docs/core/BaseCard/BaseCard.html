@@ -65,6 +65,8 @@
       <span class="name ">BaseCard</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-expansion">{<span>required</span> <span class="type-annotation"><a href="../../core/Expansion-class.html">Expansion</a></span> <span class="parameter-name">expansion</span>, </span></li>
 <li><span class="parameter" id="-param-number"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">number</span>, </span></li>
 <li><span class="parameter" id="-param-name"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span></li>
+<li><span class="parameter" id="-param-aspects"><span>required</span> <span class="type-annotation"><a href="../../core/Aspects-class.html">Aspects</a></span> <span class="parameter-name">aspects</span>, </span></li>
+<li><span class="parameter" id="-param-rarity"><span>required</span> <span class="type-annotation"><a href="../../core/Rarity.html">Rarity</a></span> <span class="parameter-name">rarity</span>, </span></li>
 <li><span class="parameter" id="-param-health"><span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">health</span>}</span></li>
 </ol>)
     </section>
@@ -82,6 +84,8 @@
   required super.expansion,
   required super.number,
   required super.name,
+  required super.aspects,
+  required super.rarity,
   required this.health,
 }) : super(unique: false, subTitle: null);</code></pre>
 </section>
