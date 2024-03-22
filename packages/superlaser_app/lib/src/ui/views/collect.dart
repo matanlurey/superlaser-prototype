@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
 
-/// Browse the card catalog.
-final class BrowseView extends StatelessWidget {
-  /// Creates a new [BrowseView].
+/// Manage a card collection.
+final class CollectView extends StatelessWidget {
+  /// Creates a new [CollectView].
   ///
   /// If [catalog] is not provided, the built-in catalog is used.
-  BrowseView({
+  CollectView({
     Catalog? catalog,
     super.key,
   }) : catalog = catalog ?? built_in.catalog;

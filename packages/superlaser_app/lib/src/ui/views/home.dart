@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
-import 'package:superlaser_app/ui.dart';
 
-/// Home view that provides navigation to other views.
-final class Home extends StatelessWidget {
-  /// Creates a new [Home] view.
+/// Provides navigation to other views.
+final class HomeView extends StatelessWidget {
+  /// Creates a new [HomeView].
   ///
   /// If [catalog] is not provided, the built-in catalog is used.
-  Home({
+  HomeView({
     Catalog? catalog,
     super.key,
   }) : catalog = catalog ?? built_in.catalog;
@@ -72,7 +72,7 @@ final class Home extends StatelessWidget {
         onTap: () async {
           await Navigator.of(context).push(
             MaterialPageRoute<void>(
-              builder: (context) => Browse(catalog: catalog),
+              builder: (context) => BrowseView(catalog: catalog),
             ),
           );
         },
