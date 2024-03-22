@@ -4,17 +4,26 @@ import 'package:flutter/material.dart';
 import 'package:jsonut/jsonut.dart';
 import 'package:superlaser_app/src/tools/collection.dart';
 import 'package:superlaser_app/src/tools/persist.dart';
-import 'package:unlimited/catalog.dart';
+import 'package:superlaser_app/ui.dart';
+// import 'package:unlimited/catalog.dart';
 import 'package:unlimited/core.dart';
 
 void main() async {
   runApp(
-    _MainApp(
-      initialCollection: Collection(),
-      database: catalog,
-      persistence: Persistence(),
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      // TODO: Make this configurable/come from system settings.
+      theme: ThemeData.dark(),
+      home: Home(),
     ),
   );
+  // runApp(
+  //   _MainApp(
+  //     initialCollection: Collection(),
+  //     database: catalog,
+  //     persistence: Persistence(),
+  //   ),
+  // );
 }
 
 final class _MainApp extends StatefulWidget {
