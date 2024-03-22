@@ -1,5 +1,6 @@
 export 'src/ui/views/browse.dart';
 export 'src/ui/views/home.dart';
+export 'src/ui/widgets/card_image.dart';
 
 /// String utilities.
 extension Strings on String {
