@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:jsonut/jsonut.dart';
-import 'package:superlaser_app/src/collection.dart';
-import 'package:superlaser_app/src/persist.dart';
+import 'package:superlaser_app/src/tools/collection.dart';
+import 'package:superlaser_app/src/tools/persist.dart';
 import 'package:unlimited/catalog.dart';
 import 'package:unlimited/core.dart';
 
