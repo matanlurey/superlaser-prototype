@@ -34,6 +34,9 @@ jobs:
       - name: Build PWA
         run: flutter build web --release
 
+      - name: Copy Assets
+        run: cp -r ../../data/assets build/web/assets
+
       - name: Build docs for "package:unlimited"
         run: cd ../unlimited && dart pub get && dart doc --output "../superlaser_app/build/web/docs" --validate-links
 

@@ -1,3 +1,4 @@
+import 'package:meta/meta.dart';
 import 'package:unlimited/src/core/card.dart';
 import 'package:unlimited/src/utils.dart';
 
@@ -61,4 +62,78 @@ enum Aspect {
 
   @override
   String toString() => 'Aspect <${name.capitalize()}>';
+}
+
+/// Refers to 0-2 [Aspect] icons on a card.
+///
+/// ## Equality
+///
+/// Two [Aspects] are considered equal if they have the aspect icons.
+@immutable
+final class Aspects {
+  /// One aspect icon.
+  Aspects.one(Aspect this._a) : _b = null;
+
+  /// Two aspect icons.
+  Aspects.two(Aspect this._a, Aspect this._b);
+
+  Aspects._none()
+      : _a = null,
+        _b = null;
+
+  /// Create an [Aspects] instance from a list of [Aspect]s.
+  ///
+  /// Must have between 0 and 2 elements.
+  factory Aspects.from(Iterable<Aspect> aspects) {
+    final list = aspects.toList();
+    if (list.isEmpty) {
+      return Aspects._none();
+    } else if (list.length == 1) {
+      return Aspects.one(list[0]);
+    } else if (list.length == 2) {
+      return Aspects.two(list[0], list[1]);
+    } else {
+      throw RangeError.range(aspects.length, 0, 2, 'aspects');
+    }
+  }
+
+  /// No aspects, a neutral card.
+  static final none = Aspects._none();
+
+  final Aspect? _a;
+  final Aspect? _b;
+
+  /// The aspect icons on the card.
+  ///
+  /// If there are no aspects, this list is empty.
+  ///
+  /// This list is unmodifiable.
+  late final List<Aspect> values = List.unmodifiable(
+    [
+      if (_a != null) _a,
+      if (_b != null) _b,
+    ],
+  );
+
+  @override
+  bool operator ==(Object other) {
+    if (other is Aspects) {
+      return _a == other._a && _b == other._b;
+    }
+    return false;
+  }
+
+  @override
+  int get hashCode => Object.hash(_a, _b);
+
+  @override
+  String toString() {
+    if (_a == null) {
+      return 'Aspects <none>';
+    } else if (_b == null) {
+      return 'Aspects <${_a.name.capitalize()}>';
+    } else {
+      return 'Aspects <${_a.name.capitalize()}, ${_b.name.capitalize()}>';
+    }
+  }
 }

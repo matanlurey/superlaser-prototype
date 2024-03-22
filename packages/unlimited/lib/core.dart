@@ -17,7 +17,7 @@ library core;
 import 'package:unlimited/core.dart';
 
 export 'src/core/arena.dart' show ArenaType;
-export 'src/core/aspect.dart' show Aspect;
+export 'src/core/aspect.dart' show Aspect, Aspects;
 export 'src/core/card.dart'
     show
         ArenaCard,
@@ -37,6 +37,7 @@ export 'src/core/card.dart'
 export 'src/core/catalog.dart' show Catalog, CatalogExpansion;
 export 'src/core/expansion.dart'
     show Expansion, ReleasedExpansion, UnreleasedExpansion;
+export 'src/core/rarity.dart' show Rarity;
 export 'src/core/trait.dart' show Trait;
 export 'src/core/variant.dart'
     show CanonicalCard, CardOrVariant, VariantCard, VariantType;

@@ -247,11 +247,29 @@ final class Retrofit extends Command<void> {
     return buffer.toString();
   }
 
+  static String _createAspects(Iterable<scrap.Aspect> aspects) {
+    final values = aspects.toList();
+    if (values.isEmpty) {
+      return 'Aspects.none';
+    } else if (values.length == 1) {
+      return 'Aspects.one(Aspect.${_nameToIdentifier(values[0].name)})';
+    } else if (values.length == 2) {
+      return 'Aspects.two('
+          'Aspect.${_nameToIdentifier(values[0].name)}, '
+          'Aspect.${_nameToIdentifier(values[1].name)}'
+          ')';
+    } else {
+      throw RangeError.range(aspects.length, 0, 2, 'aspects');
+    }
+  }
+
   static String _cardToConstructor(String identifier, scrap.Card card) {
     final base = <String, String>{
       'expansion': 'expansion',
       'number': card.number.toString(),
       'name': _safeString(card.title),
+      'aspects': _createAspects(card.aspects.values),
+      'rarity': 'Rarity.${_nameToIdentifier(card.rarity.name)}',
     };
     return switch (card) {
       final scrap.LeaderCard c => _invokeConstructor(
