@@ -29,7 +29,6 @@ export 'src/core/card.dart'
         EventCard,
         LeaderCard,
         LeaderUnitCard,
-        PowerCard,
         TargetCard,
         TokenCard,
         UnitCard,

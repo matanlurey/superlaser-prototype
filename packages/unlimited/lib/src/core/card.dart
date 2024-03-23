@@ -302,7 +302,7 @@ sealed class DeckCard implements PlayableCard {}
 
 /// Sealed interface for card types that can be present in an [arena].
 @immutable
-sealed class ArenaCard extends PlayableCard {
+sealed class ArenaCard extends PlayableCard implements TargetCard {
   ArenaCard({
     required super.expansion,
     required super.number,
@@ -314,10 +314,22 @@ sealed class ArenaCard extends PlayableCard {
     required super.traits,
     required super.cost,
     required this.arena,
+    required this.power,
+    required this.health,
   });
 
   /// Which arena this card is played in.
   final ArenaType arena;
+
+  /// The attack power of this card.
+  ///
+  /// Must be at least 0.
+  final int power;
+
+  /// The health of this card.
+  ///
+  /// Must be at least 0.
+  final int health;
 }
 
 /// Sealed interface for card types that can receive damage.
@@ -328,18 +340,10 @@ sealed class TargetCard implements Card {
   int get health;
 }
 
-/// Sealed interface for card types that have an attack power.
-sealed class PowerCard implements Card {
-  /// The attack power of this card.
-  ///
-  /// Must be at least 0.
-  int get power;
-}
-
 /// The unit side of a [LeaderCard].
 ///
 /// This card, despite the name, is not a [UnitCard].
-final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
+final class LeaderUnitCard extends ArenaCard implements TargetCard {
   /// Creates a new leader unit card.
   LeaderUnitCard({
     required super.expansion,
@@ -351,22 +355,15 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard, PowerCard {
     required super.subTitle,
     required super.traits,
     required super.cost,
-    required this.health,
-    required this.power,
+    required super.power,
+    required super.health,
     super.arena = ArenaType.ground,
   });
-
-  @override
-  final int health;
-
-  @override
-  final int power;
 }
 
 /// A unit card (specifically _unit_, not a [LeaderUnitCard]).
 @immutable
-final class UnitCard extends ArenaCard
-    implements DeckCard, TargetCard, PowerCard {
+final class UnitCard extends ArenaCard implements DeckCard, TargetCard {
   /// Creates a new unit card.
   UnitCard({
     required super.expansion,
@@ -379,15 +376,9 @@ final class UnitCard extends ArenaCard
     required super.arena,
     required super.traits,
     required super.cost,
-    required this.health,
-    required this.power,
+    required super.power,
+    required super.health,
   });
-
-  @override
-  final int health;
-
-  @override
-  final int power;
 }
 
 /// A sealed interface for card types that can be attached to other cards.
