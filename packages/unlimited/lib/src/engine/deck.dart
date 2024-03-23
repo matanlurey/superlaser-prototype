@@ -37,6 +37,13 @@ sealed class Deck {
   /// The base card for the deck.
   final BaseCard base;
 
+  /// The leader(s) for the deck.
+  ///
+  /// Based on the deck format, this can be 1 or 2 leaders.
+  ///
+  /// The list is unmodifiable.
+  List<LeaderCard> get leaders;
+
   /// The cards in the deck.
   ///
   /// Cards must be ordered by [Card.compareTo].
@@ -88,6 +95,9 @@ final class PremierDeck extends Deck {
   /// The leader card for the deck.
   final LeaderCard leader;
 
+  @override
+  late final leaders = List<LeaderCard>.unmodifiable([leader]);
+
   /// The sideboard cards for the deck.
   final List<DeckCard> sideboard;
 
@@ -130,6 +140,9 @@ final class LimitedDeck extends Deck {
 
   /// The leader card for the deck.
   final LeaderCard leader;
+
+  @override
+  late final leaders = List<LeaderCard>.unmodifiable([leader]);
 
   /// The cards in the deck.
   ///
@@ -193,6 +206,7 @@ final class TwinSunsDeck extends Deck {
   /// The leaders must share the same [Aspect].
   ///
   /// The list is unmodifiable.
+  @override
   final List<LeaderCard> leaders;
 
   /// The cards in the deck.

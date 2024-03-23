@@ -78,39 +78,32 @@ sealed class Zone {
 
 /// A zone that is owned by exactly one player.
 @immutable
-sealed class OwnedZone extends Zone {
-  /// Creates a new owned zone for the given [owner].
-  OwnedZone({
-    required this.owner,
-  });
-
-  /// The player that owns this zone.
-  final Player owner;
-}
+sealed class OwnedZone extends Zone {}
 
 /// Each player has their own base zone.
 ///
-/// The [base] always remain in their owner's base zone, while [leader]s move
+/// The [base] always remain in their owner's base zone, while [leaders] move
 /// from their owner's base zone to the [GroundArenaZone] when deployed, and from
 /// the [GroundArenaZone] back to their owner's base zone when defeated.
 ///
 /// Units in their arena may attack enemy bases directly without moving zones.
 @immutable
 final class BaseZone extends OwnedZone {
-  /// Creates a new base zone for the given [owner] with a base and a leader.
+  /// Creates a new base zone with a base and a leader.
   BaseZone({
     required this.base,
-    required Leader this.leader,
-    required super.owner,
-  });
+    required Iterable<Leader> leaders,
+  }) : leaders = List.unmodifiable(leaders);
 
   /// The base that is in this zone.
   final Base base;
 
-  /// The leader that is in this zone.
+  /// The leader(s) that are in this zone.
   ///
-  /// This is `null` if the leader is deployed as a unit.
-  final Leader? leader;
+  /// Leaders are removed from the base zone when they are deployed.
+  ///
+  /// The list is unmodifiable.
+  final List<Leader> leaders;
 
   @override
   bool get inPlay => true;
@@ -228,23 +221,20 @@ final class SpaceArenaZone extends SharedZone {
 ///
 /// Cards in a resource zone are called [resources], which can be exhausted to
 /// pay the costs of other cards. Resources are placed facedown and remain
-/// facedown while in a resource zone. Tthe [owner] may view facedown resources
+/// facedown while in a resource zone. The owner may view facedown resources
 /// they control at any time, but is hidden information for their opponent.
 ///
 /// Players can choose to add a card from their hand to their resource zone
 /// during each regroup phase.
 @immutable
 final class ResourceZone extends OwnedZone {
-  /// Creates a new empty resource zone for the given [owner].
-  ResourceZone({
-    required super.owner,
-  }) : resources = const [];
+  /// Creates a new empty resource zone.
+  ResourceZone() : resources = const [];
 
-  /// Creates a new resource zone for the given [owner] with the given cards.
-  ResourceZone.withResources({
-    required Iterable<Resource> resources,
-    required super.owner,
-  }) : resources = List.unmodifiable(resources);
+  /// Creates a new resource zone with the given cards.
+  ResourceZone.withResources(
+    Iterable<Resource> resources,
+  ) : resources = List.unmodifiable(resources);
 
   /// The resources in this zone, in the order they were added.
   ///
@@ -267,11 +257,10 @@ final class ResourceZone extends OwnedZone {
 /// drawn, discarded, or played).
 @immutable
 final class DeckZone extends OwnedZone {
-  /// Creates a new deck zone for the given [owner] with the given cards.
-  DeckZone({
-    required Iterable<DeckCard> cards,
-    required super.owner,
-  }) : cards = List.unmodifiable(cards);
+  /// Creates a new deck zone with the given cards.
+  DeckZone.withCards(
+    Iterable<DeckCard> cards,
+  ) : cards = List.unmodifiable(cards);
 
   /// The cards in this zone, from top to bottom.
   ///
@@ -298,11 +287,13 @@ final class DeckZone extends OwnedZone {
 /// open information.
 @immutable
 final class HandZone extends OwnedZone {
-  /// Creates a new hand zone for the given [owner] with the given cards.
-  HandZone({
-    required Iterable<DeckCard> cards,
-    required super.owner,
-  }) : cards = List.unmodifiable(cards);
+  /// Creates a new empty hand zone.
+  HandZone() : cards = const [];
+
+  /// Creates a new hand zone with the given cards.
+  HandZone.withCards(
+    Iterable<DeckCard> cards,
+  ) : cards = List.unmodifiable(cards);
 
   /// The cards in the player's hand, in the order they were drawn.
   ///
@@ -328,11 +319,13 @@ final class HandZone extends OwnedZone {
 /// additional costs applied to the card.
 @immutable
 final class DiscardPileZone extends OwnedZone {
-  /// Creates a new discard pile zone for the given [owner] with the given cards.
-  DiscardPileZone({
-    required Iterable<DeckCard> cards,
-    required super.owner,
-  }) : cards = List.unmodifiable(cards);
+  /// Creates a new empty discard pile.
+  DiscardPileZone() : cards = const [];
+
+  /// Creates a new discard pile with the given cards.
+  DiscardPileZone.withCards(
+    Iterable<DeckCard> cards,
+  ) : cards = List.unmodifiable(cards);
 
   /// The cards in the discard pile, in any order.
   ///
