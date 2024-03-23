@@ -150,12 +150,11 @@ class _ViewAndEditRowState extends State<_ViewAndEditRow> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(16),
-          // +/- quantity.
-          child: Row(
+    return Padding(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        children: [
+          Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               IconButton(
@@ -185,13 +184,13 @@ class _ViewAndEditRowState extends State<_ViewAndEditRow> {
               ),
             ],
           ),
-        ),
-        Expanded(
-          child: CardImage(
-            card: widget.card,
+          Expanded(
+            child: CardImage(
+              card: widget.card,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
