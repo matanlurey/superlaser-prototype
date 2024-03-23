@@ -56,6 +56,39 @@ class _CollectViewState extends State<CollectView> {
               );
             },
           ),
+          // Button that opens a menu of other actions.
+          PopupMenuButton<String>(
+            itemBuilder: (_) {
+              return [
+                PopupMenuItem(
+                  value: 'import',
+                  child: const Text('Bulk Add CSV'),
+                  onTap: () async {
+                    final csv = await widget.persistence.import(
+                      allowedExtensions: ['csv'],
+                    );
+                    if (csv != null) {
+                      setState(() {
+                        _collection.parseAndAddCsv(csv);
+                      });
+                    }
+                  },
+                ),
+                PopupMenuItem(
+                  value: 'reset',
+                  child: const Text('Export to CSV'),
+                  onTap: () async {
+                    final csv = _collection.toCsv();
+                    await widget.persistence.export(
+                      csv,
+                      fileName: 'collection.csv',
+                    );
+                  },
+                ),
+              ];
+            },
+            onSelected: (value) async {},
+          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(
@@ -273,5 +306,57 @@ class _AddState extends State<_Add> {
         ],
       ),
     );
+  }
+}
+
+extension on Collection {
+  /// Parses a CSV string and adds the cards to the collection.
+  ///
+  /// See [toCsv] for information on the format.
+  void parseAndAddCsv(String csv) {
+    final lines = LineSplitter.split(csv);
+    for (final line in lines.skip(1)) {
+      final parts = line.split(',');
+      final expansion = parts[0].toLowerCase();
+      final number = int.parse(parts[1]);
+      final copies = int.parse(parts[2]);
+      final foil = parts[3] == 'true';
+      final card = CardReference(
+        expansion: expansion,
+        number: number,
+        foil: foil,
+      );
+      set(card, this.copies(card) + copies);
+    }
+  }
+
+  /// Converts the collection to a CSV string.
+  ///
+  /// The format is the popular `swudb.com` format:
+  /// ```csv
+  /// Set,CardNumber,Count,IsFoil
+  /// SOR,005,3,false
+  /// SOR,100,4,true
+  /// SOR,123,2,false
+  /// SOR,123,3,true
+  /// ```
+  ///
+  /// See https://github.com/matanlurey/superlaser/blob/main/docs/external.md.
+  String toCsv() {
+    final buffer = StringBuffer()..writeln('Set,CardNumber,Count,IsFoil');
+    for (final row in cards) {
+      buffer
+        ..writeAll(
+          [
+            row.card.expansion.toUpperCase(),
+            row.card.number.toString().padLeft(3, '0'),
+            row.copies,
+            row.card.foil,
+          ],
+          ',',
+        )
+        ..writeln();
+    }
+    return buffer.toString();
   }
 }

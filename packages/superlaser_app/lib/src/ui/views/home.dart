@@ -101,12 +101,12 @@ final class HomeView extends StatelessWidget {
               return AlertDialog(
                 title: const Text('Manage Collection'),
                 content: const Text(
-                  'Import a collection or start a new one?',
+                  'Load a collection.json or start a new one?',
                 ),
                 actions: [
                   TextButton(
                     onPressed: () => Navigator.of(context).pop(true),
-                    child: const Text('Import'),
+                    child: const Text('Load'),
                   ),
                   TextButton(
                     onPressed: () => Navigator.of(context).pop(false),
