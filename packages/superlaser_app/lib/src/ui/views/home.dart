@@ -108,6 +108,7 @@ final class HomeView extends StatelessWidget {
                 initialCollection: Collection.fromJson(
                   JsonArray.parse(result),
                 ),
+                persistence: persistence,
               ),
             ),
           );
