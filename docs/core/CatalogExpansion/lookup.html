@@ -91,10 +91,13 @@ need to look up cards by number frequently, consider caching the results
   var max = _data.length - 1;
   while (min &lt;= max) {
     final mid = min + ((max - min) &gt;&gt; 1);
-    final card = _data[mid].card;
-    if (card.number &lt; number) {
+    final target = switch (_data[mid]) {
+      final CanonicalCard c =&gt; c.card.number,
+      final VariantCard v =&gt; v.variantNumber,
+    };
+    if (target &lt; number) {
       min = mid + 1;
-    } else if (card.number &gt; number) {
+    } else if (target &gt; number) {
       max = mid - 1;
     } else {
       return _data[mid];
