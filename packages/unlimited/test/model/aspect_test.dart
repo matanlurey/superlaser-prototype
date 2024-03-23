@@ -34,7 +34,7 @@ void main() {
           Aspect.heroism,
           Aspect.villainy,
         ])
-        ..every((p) => p.has((h) => h.isMorale, 'isMorale').isTrue());
+        ..every((p) => p.has((h) => h.isMoral, 'isMorale').isTrue());
     });
   });
 }

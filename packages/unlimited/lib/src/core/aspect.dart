@@ -41,7 +41,7 @@ enum Aspect {
     cunning,
   ];
 
-  /// All aspects where [isMorale] is `true`.
+  /// All aspects where [isMoral] is `true`.
   static const morale = [
     heroism,
     villainy,
@@ -58,7 +58,7 @@ enum Aspect {
   final bool isNeutral;
 
   /// Whether this aspect is considered _morale_, or not [isNeutral].
-  bool get isMorale => !isNeutral;
+  bool get isMoral => !isNeutral;
 
   @override
   String toString() => 'Aspect <${name.capitalize()}>';
@@ -114,6 +114,13 @@ final class Aspects {
       if (_b != null) _b,
     ],
   );
+
+  /// Returns the moral aspect, if any.
+  Aspect? get moral => _a?.isMoral ?? false
+      ? _a
+      : _b?.isMoral ?? false
+          ? _b
+          : null;
 
   @override
   bool operator ==(Object other) {

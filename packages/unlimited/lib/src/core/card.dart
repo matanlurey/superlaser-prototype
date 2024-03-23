@@ -495,3 +495,15 @@ final class EventCard extends PlayableCard implements DeckCard {
   @override
   Null get subTitle => null;
 }
+
+/// Extension methods for [Iterable]s of [DeckCard]s.
+extension IterableDeckCard on Iterable<DeckCard> {
+  /// Returns the cards grouped by how many copies of each card are present.
+  Map<DeckCard, int> groupByCopies() {
+    final map = <DeckCard, int>{};
+    for (final card in this) {
+      map[card] = (map[card] ?? 0) + 1;
+    }
+    return map;
+  }
+}

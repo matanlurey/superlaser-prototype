@@ -167,11 +167,20 @@ final class TwinSunsDeck extends Deck {
       );
     }
 
-    if (leaders.length != 2) {
+    if (this.leaders.length != 2) {
       throw ArgumentError.value(
-        leaders.length,
+        this.leaders.length,
         'leaders',
         'Must have exactly 2 leaders.',
+      );
+    }
+
+    // Check if the leaders share the same moral aspect.
+    if (this.leaders[0].aspects.moral != this.leaders[1].aspects.moral) {
+      throw ArgumentError.value(
+        leaders,
+        'leaders',
+        'Must share the same moral aspect.',
       );
     }
 
