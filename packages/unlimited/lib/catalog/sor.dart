@@ -706,7 +706,7 @@ final infernoFour = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 032: **Scout Bike Pursuer**.
@@ -727,7 +727,7 @@ final scoutBikePursuer = UnitCard(
   cost: 2,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 033: **Death Trooper**.
@@ -748,7 +748,7 @@ final deathTrooper = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 034: **Del Meeko** - Providing Overwatch.
@@ -769,7 +769,7 @@ final delMeeko = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 035: **Lieutenant Childsen** - Death Star Prison Warden.
@@ -790,7 +790,7 @@ final lieutenantChildsen = UnitCard(
   cost: 4,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 036: **Gideon Hask** - Ruthless Loyalist.
@@ -811,7 +811,7 @@ final gideonHask = UnitCard(
   cost: 5,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 037: **Academy Defense Walker**.
@@ -833,7 +833,7 @@ final academyDefenseWalker = UnitCard(
   cost: 6,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 038: **Count Dooku** - Darth Tyranus.
@@ -855,7 +855,7 @@ final countDooku = UnitCard(
   cost: 7,
   power: 5,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 039: **AT-AT Suppressor**.
@@ -877,7 +877,7 @@ final atAtSuppressor = UnitCard(
   cost: 8,
   power: 8,
   health: 8,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 040: **Avenger** - Hunting Star Destroyer.
@@ -899,7 +899,7 @@ final avenger = UnitCard(
   cost: 9,
   power: 8,
   health: 8,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 041: **Power of the Dark Side**.
@@ -970,7 +970,7 @@ final restoredArc170 = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 045: **Yoda** - Old Master.
@@ -991,7 +991,7 @@ final yoda = UnitCard(
   cost: 3,
   power: 2,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 046: **Consular Security Force**.
@@ -1012,7 +1012,7 @@ final consularSecurityForce = UnitCard(
   cost: 4,
   power: 3,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 047: **Kanan Jarrus** - Revealed Jedi.
@@ -1035,7 +1035,7 @@ final kananJarrus = UnitCard(
   cost: 4,
   power: 4,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 048: **Vigilant Honor Guards**.
@@ -1055,7 +1055,7 @@ final vigilantHonorGuards = UnitCard(
   cost: 5,
   power: 4,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 049: **Obi-Wan Kenobi** - Following Fate.
@@ -1076,7 +1076,7 @@ final obiWanKenobi = UnitCard(
   cost: 6,
   power: 4,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 050: **The Ghost** - Spectre Home Base.
@@ -1099,7 +1099,7 @@ final theGhost = UnitCard(
   cost: 6,
   power: 5,
   health: 5,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 051: **Luke Skywalker** - Jedi Knight.
@@ -1121,7 +1121,7 @@ final lukeSkywalkerJediKnight = UnitCard(
   cost: 7,
   power: 6,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 052: **Redemption** - Medical Frigate.
@@ -1143,7 +1143,7 @@ final redemption = UnitCard(
   cost: 8,
   power: 6,
   health: 9,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 053: **Luke's Lightsaber**.
@@ -1216,7 +1216,7 @@ final bendu = UnitCard(
   cost: 6,
   power: 4,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 057: **Protector**.
@@ -1268,7 +1268,7 @@ final $21bSurgicalDroid = UnitCard(
   cost: 1,
   power: 1,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 060: **Distant Patroller**.
@@ -1290,7 +1290,7 @@ final distantPatroller = UnitCard(
   cost: 2,
   power: 2,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 061: **Guardian of the Whills**.
@@ -1311,7 +1311,7 @@ final guardianOfTheWhills = UnitCard(
   cost: 2,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 062: **Regional Governor**.
@@ -1332,7 +1332,7 @@ final regionalGovernor = UnitCard(
   cost: 2,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 063: **Cloud City Wing Guard**.
@@ -1353,7 +1353,7 @@ final cloudCityWingGuard = UnitCard(
   cost: 3,
   power: 2,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 064: **Wilderness Fighter**.
@@ -1373,7 +1373,7 @@ final wildernessFighter = UnitCard(
   cost: 3,
   power: 2,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 065: **Baze Malbus** - Temple Guardian.
@@ -1393,7 +1393,7 @@ final bazeMalbus = UnitCard(
   cost: 4,
   power: 2,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 066: **System Patrol Craft**.
@@ -1414,7 +1414,7 @@ final systemPatrolCraft = UnitCard(
   cost: 4,
   power: 3,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 067: **Rugged Survivors**.
@@ -1434,7 +1434,7 @@ final ruggedSurvivors = UnitCard(
   cost: 5,
   power: 3,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 068: **Cargo Juggernaut**.
@@ -1455,7 +1455,7 @@ final cargoJuggernaut = UnitCard(
   cost: 6,
   power: 4,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 069: **Resilient**.
@@ -1637,7 +1637,7 @@ final admiralPiett = UnitCard(
   cost: 2,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 080: **General Tagge** - Concerned Commander.
@@ -1658,7 +1658,7 @@ final generalTagge = UnitCard(
   cost: 2,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 081: **Seasoned Shoretrooper**.
@@ -1679,7 +1679,7 @@ final seasonedShoretrooper = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 082: **Emperor's Royal Guard**.
@@ -1699,7 +1699,7 @@ final emperorsRoyalGuard = UnitCard(
   cost: 3,
   power: 3,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 083: **Superlaser Technician**.
@@ -1719,7 +1719,7 @@ final superlaserTechnician = UnitCard(
   cost: 3,
   power: 2,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 084: **Grand Moff Tarkin** - Death Star Overseer.
@@ -1740,7 +1740,7 @@ final grandMoffTarkinDeathStarOverseer = UnitCard(
   cost: 4,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 085: **Rukh** - Thrawn's Assassin.
@@ -1760,7 +1760,7 @@ final rukh = UnitCard(
   cost: 5,
   power: 3,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 086: **Gladiator Star Destroyer**.
@@ -1782,7 +1782,7 @@ final gladiatorStarDestroyer = UnitCard(
   cost: 6,
   power: 5,
   health: 6,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 087: **Darth Vader** - Commanding the First Legion.
@@ -1804,7 +1804,7 @@ final darthVaderCommandingTheFirstLegion = UnitCard(
   cost: 7,
   power: 5,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 088: **Blizzard Assault AT-AT**.
@@ -1826,7 +1826,7 @@ final blizzardAssaultAtAt = UnitCard(
   cost: 8,
   power: 9,
   health: 9,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 089: **Relentless** - Konstantine's Folly.
@@ -1848,7 +1848,7 @@ final relentless = UnitCard(
   cost: 9,
   power: 8,
   health: 8,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 090: **Devastator** - Inescapable.
@@ -1870,7 +1870,7 @@ final devastator = UnitCard(
   cost: 10,
   power: 10,
   health: 10,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 091: **The Emperor's Legion**.
@@ -1923,7 +1923,7 @@ final allianceDispatcher = UnitCard(
   cost: 1,
   power: 1,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 094: **Bail Organa** - Rebel Councilor.
@@ -1944,7 +1944,7 @@ final bailOrgana = UnitCard(
   cost: 1,
   power: 1,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 095: **Battlefield Marine**.
@@ -1965,7 +1965,7 @@ final battlefieldMarine = UnitCard(
   cost: 2,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 096: **Mon Mothma** - Voice Of The Rebellion.
@@ -1986,7 +1986,7 @@ final monMothma = UnitCard(
   cost: 2,
   power: 1,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 097: **Admiral Ackbar** - Brilliant Strategist.
@@ -2007,7 +2007,7 @@ final admiralAckbar = UnitCard(
   cost: 3,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 098: **Echo Base Defender**.
@@ -2028,7 +2028,7 @@ final echoBaseDefender = UnitCard(
   cost: 3,
   power: 4,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 099: **Bright Hope** - The Last Transport.
@@ -2050,7 +2050,7 @@ final brightHope = UnitCard(
   cost: 4,
   power: 2,
   health: 6,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 100: **Wedge Antilles** - Star of the Rebellion.
@@ -2070,7 +2070,7 @@ final wedgeAntilles = UnitCard(
   cost: 5,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 101: **Rogue Squadron Skirmisher**.
@@ -2092,7 +2092,7 @@ final rogueSquadronSkirmisher = UnitCard(
   cost: 6,
   power: 4,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 102: **Home One** - Alliance Flagship.
@@ -2114,7 +2114,7 @@ final homeOne = UnitCard(
   cost: 8,
   power: 7,
   health: 7,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 103: **Rebel Assault**.
@@ -2169,7 +2169,7 @@ final generalKrell = UnitCard(
   cost: 5,
   power: 5,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 106: **Attack Pattern Delta**.
@@ -2221,7 +2221,7 @@ final vanguardInfantry = UnitCard(
   cost: 1,
   power: 1,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 109: **Colonel Yularen** - ISB Director.
@@ -2242,7 +2242,7 @@ final colonelYularen = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 110: **Frontline Shuttle**.
@@ -2263,7 +2263,7 @@ final frontlineShuttle = UnitCard(
   cost: 2,
   power: 1,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 111: **Patrolling V-Wing**.
@@ -2284,7 +2284,7 @@ final patrollingVWing = UnitCard(
   cost: 2,
   power: 1,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 112: **Consortium StarViper**.
@@ -2306,7 +2306,7 @@ final consortiumStarviper = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 113: **Homestead Militia**.
@@ -2327,7 +2327,7 @@ final homesteadMilitia = UnitCard(
   cost: 3,
   power: 3,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 114: **Escort Skiff**.
@@ -2349,7 +2349,7 @@ final escortSkiff = UnitCard(
   cost: 4,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 115: **Agent Kallus** - Seeking the Rebels.
@@ -2370,7 +2370,7 @@ final agentKallus = UnitCard(
   cost: 5,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 116: **Steadfast Battalion**.
@@ -2390,7 +2390,7 @@ final steadfastBattalion = UnitCard(
   cost: 5,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 117: **Mercenary Company**.
@@ -2411,7 +2411,7 @@ final mercenaryCompany = UnitCard(
   cost: 6,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 118: **97th Legion** - Keeping the Peace on Sullust.
@@ -2432,7 +2432,7 @@ final $97thLegion = UnitCard(
   cost: 7,
   power: 0,
   health: 0,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 119: **Reinforcement Walker**.
@@ -2453,7 +2453,7 @@ final reinforcementWalker = UnitCard(
   cost: 8,
   power: 6,
   health: 9,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 120: **Academy Training**.
@@ -2603,7 +2603,7 @@ final deathStarStormtrooper = UnitCard(
   cost: 1,
   power: 3,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 129: **Admiral Ozzel** - Overconfident.
@@ -2624,7 +2624,7 @@ final admiralOzzel = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 130: **First Legion Snowtrooper**.
@@ -2645,7 +2645,7 @@ final firstLegionSnowtrooper = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 131: **Fifth Brother** - Fear Hunter.
@@ -2667,7 +2667,7 @@ final fifthBrother = UnitCard(
   cost: 3,
   power: 2,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 132: **Imperial Interceptor**.
@@ -2689,7 +2689,7 @@ final imperialInterceptor = UnitCard(
   cost: 4,
   power: 3,
   health: 2,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 133: **Seventh Sister** - Implacable Inquisitor.
@@ -2711,7 +2711,7 @@ final seventhSister = UnitCard(
   cost: 5,
   power: 3,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 134: **Ruthless Raider**.
@@ -2733,7 +2733,7 @@ final ruthlessRaider = UnitCard(
   cost: 6,
   power: 4,
   health: 6,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 135: **Emperor Palpatine** - Master of the Dark Side.
@@ -2756,7 +2756,7 @@ final emperorPalpatineMasterOfTheDarkSide = UnitCard(
   cost: 8,
   power: 6,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 136: **Vader's Lightsaber**.
@@ -2845,7 +2845,7 @@ final specforceSoldier = UnitCard(
   cost: 1,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 141: **Green Squadron A-Wing**.
@@ -2867,7 +2867,7 @@ final greenSquadronAWing = UnitCard(
   cost: 2,
   power: 1,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 142: **Sabine Wren** - Explosives Artist.
@@ -2889,7 +2889,7 @@ final sabineWrenExplosivesArtist = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 143: **Fighters for Freedom**.
@@ -2910,7 +2910,7 @@ final fightersForFreedom = UnitCard(
   cost: 3,
   power: 3,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 144: **Red Three** - Unstoppable.
@@ -2932,7 +2932,7 @@ final redThree = UnitCard(
   cost: 3,
   power: 2,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 145: **K-2SO** - Cassian's Counterpart.
@@ -2953,7 +2953,7 @@ final k2so = UnitCard(
   cost: 4,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 146: **Zeb Orrelios** - Headstrong Warrior.
@@ -2974,7 +2974,7 @@ final zebOrrelios = UnitCard(
   cost: 5,
   power: 5,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 147: **Black One** - Scourge of Starkiller Base.
@@ -2996,7 +2996,7 @@ final blackOne = UnitCard(
   cost: 6,
   power: 4,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 148: **Guerilla Attack Pod**.
@@ -3018,7 +3018,7 @@ final guerillaAttackPod = UnitCard(
   cost: 6,
   power: 4,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 149: **Mace Windu** - Party Crasher.
@@ -3040,7 +3040,7 @@ final maceWindu = UnitCard(
   cost: 7,
   power: 5,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 150: **Heroic Sacrifice**.
@@ -3108,7 +3108,7 @@ final sawGerrera = UnitCard(
   cost: 4,
   power: 5,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 154: **Rallying Cry**.
@@ -3161,7 +3161,7 @@ final benthicTwoTubes = UnitCard(
   cost: 1,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 157: **Cantina Braggart**.
@@ -3181,7 +3181,7 @@ final cantinaBraggart = UnitCard(
   cost: 1,
   power: 0,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 158: **Jedha Agitator**.
@@ -3201,7 +3201,7 @@ final jedhaAgitator = UnitCard(
   cost: 2,
   power: 2,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 159: **Partisan Insurgent**.
@@ -3222,7 +3222,7 @@ final partisanInsurgent = UnitCard(
   cost: 2,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 160: **Wolffe** - Suspicious Veteran.
@@ -3243,7 +3243,7 @@ final wolffe = UnitCard(
   cost: 2,
   power: 3,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 161: **Ardent Sympathizer**.
@@ -3263,7 +3263,7 @@ final ardentSympathizer = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 162: **Disabling Fang Fighter**.
@@ -3285,7 +3285,7 @@ final disablingFangFighter = UnitCard(
   cost: 3,
   power: 3,
   health: 2,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 163: **Star Wing Scout**.
@@ -3306,7 +3306,7 @@ final starWingScout = UnitCard(
   cost: 3,
   power: 4,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 164: **Wampa**.
@@ -3326,7 +3326,7 @@ final wampa = UnitCard(
   cost: 4,
   power: 4,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 165: **Occupier Siege Tank**.
@@ -3348,7 +3348,7 @@ final occupierSiegeTank = UnitCard(
   cost: 5,
   power: 5,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 166: **Infiltrator's Skill**.
@@ -3528,7 +3528,7 @@ final isbAgent = UnitCard(
   cost: 1,
   power: 1,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 177: **Bib Fortuna** - Jabba’s Majordomo.
@@ -3549,7 +3549,7 @@ final bibFortuna = UnitCard(
   cost: 2,
   power: 1,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 178: **Cartel Spacer**.
@@ -3571,7 +3571,7 @@ final cartelSpacer = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 179: **Boba Fett** - Disintegrator.
@@ -3592,7 +3592,7 @@ final bobaFettDisintegrator = UnitCard(
   cost: 3,
   power: 3,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 180: **Seventh Fleet Defender**.
@@ -3614,7 +3614,7 @@ final seventhFleetDefender = UnitCard(
   cost: 3,
   power: 3,
   health: 2,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 181: **Jabba the Hutt** - Cunning Daimyo.
@@ -3635,7 +3635,7 @@ final jabbaTheHutt = UnitCard(
   cost: 4,
   power: 2,
   health: 8,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 182: **Bossk** - Deadly Stalker.
@@ -3656,7 +3656,7 @@ final bossk = UnitCard(
   cost: 5,
   power: 4,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 183: **Bounty Hunter Crew**.
@@ -3677,7 +3677,7 @@ final bountyHunterCrew = UnitCard(
   cost: 6,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 184: **Fett's Firespray** - Pursuing the Bounty.
@@ -3699,7 +3699,7 @@ final fettsFirespray = UnitCard(
   cost: 6,
   power: 5,
   health: 6,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 185: **Chimaera** - Flagship of the Seventh Fleet.
@@ -3721,7 +3721,7 @@ final chimaera = UnitCard(
   cost: 8,
   power: 8,
   health: 7,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 186: **No Good to Me Dead**.
@@ -3775,7 +3775,7 @@ final chopper = UnitCard(
   cost: 1,
   power: 1,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 189: **Leia Organa** - Defiant Princess.
@@ -3796,7 +3796,7 @@ final leiaOrganaDefiantPrincess = UnitCard(
   cost: 2,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 190: **Lothal Insurgent**.
@@ -3816,7 +3816,7 @@ final lothalInsurgent = UnitCard(
   cost: 2,
   power: 3,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 191: **Vanguard Ace**.
@@ -3838,7 +3838,7 @@ final vanguardAce = UnitCard(
   cost: 2,
   power: 1,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 192: **Ezra Bridger** - Resourceful Troublemaker.
@@ -3860,7 +3860,7 @@ final ezraBridger = UnitCard(
   cost: 3,
   power: 3,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 193: **Millennium Falcon** - Piece of Junk.
@@ -3882,7 +3882,7 @@ final millenniumFalcon = UnitCard(
   cost: 3,
   power: 3,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 194: **Rogue Operative**.
@@ -3903,7 +3903,7 @@ final rogueOperative = UnitCard(
   cost: 3,
   power: 2,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 195: **Auzituck Liberator Gunship**.
@@ -3924,7 +3924,7 @@ final auzituckLiberatorGunship = UnitCard(
   cost: 4,
   power: 3,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 196: **Chewbacca** - Loyal Companion.
@@ -3945,7 +3945,7 @@ final chewbaccaLoyalCompanion = UnitCard(
   cost: 5,
   power: 3,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 197: **Lando Calrissian** - Responsible Businessman.
@@ -3966,7 +3966,7 @@ final landoCalrissian = UnitCard(
   cost: 6,
   power: 6,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 198: **Han Solo** - Reluctant Hero.
@@ -3986,7 +3986,7 @@ final hanSoloReluctantHero = UnitCard(
   cost: 7,
   power: 6,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 199: **Bamboozle**.
@@ -4039,7 +4039,7 @@ final bodhiRook = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 202: **Cantina Bouncer**.
@@ -4059,7 +4059,7 @@ final cantinaBouncer = UnitCard(
   cost: 5,
   power: 3,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 203: **Cunning**.
@@ -4096,7 +4096,7 @@ final greedo = UnitCard(
   cost: 1,
   power: 3,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 205: **Jawa Scavenger**.
@@ -4117,7 +4117,7 @@ final jawaScavenger = UnitCard(
   cost: 1,
   power: 2,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 206: **Mining Guild TIE Fighter**.
@@ -4139,7 +4139,7 @@ final miningGuildTieFighter = UnitCard(
   cost: 1,
   power: 1,
   health: 2,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 207: **Crafty Smuggler**.
@@ -4159,7 +4159,7 @@ final craftySmuggler = UnitCard(
   cost: 2,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 208: **Outer Rim Headhunter**.
@@ -4181,7 +4181,7 @@ final outerRimHeadhunter = UnitCard(
   cost: 2,
   power: 1,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 209: **Pirated Starfighter**.
@@ -4203,7 +4203,7 @@ final piratedStarfighter = UnitCard(
   cost: 2,
   power: 2,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 210: **Swoop Racer**.
@@ -4223,7 +4223,7 @@ final swoopRacer = UnitCard(
   cost: 3,
   power: 4,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 211: **Gamorrean Guards**.
@@ -4243,7 +4243,7 @@ final gamorreanGuards = UnitCard(
   cost: 4,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 212: **Strafing Gunship**.
@@ -4265,7 +4265,7 @@ final strafingGunship = UnitCard(
   cost: 4,
   power: 3,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 213: **Syndicate Lackeys**.
@@ -4285,7 +4285,7 @@ final syndicateLackeys = UnitCard(
   cost: 5,
   power: 5,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 214: **Smuggling Compartment**.
@@ -4483,7 +4483,7 @@ final tieLnFighter = UnitCard(
   cost: 1,
   power: 2,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 226: **Admiral Motti** - Brazen and Scornful.
@@ -4504,7 +4504,7 @@ final admiralMotti = UnitCard(
   cost: 2,
   power: 1,
   health: 1,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 227: **Snowtrooper Lieutenant**.
@@ -4525,7 +4525,7 @@ final snowtrooperLieutenant = UnitCard(
   cost: 2,
   power: 2,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 228: **Viper Probe Droid**.
@@ -4546,7 +4546,7 @@ final viperProbeDroid = UnitCard(
   cost: 2,
   power: 3,
   health: 2,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 229: **Cell Block Guard**.
@@ -4567,7 +4567,7 @@ final cellBlockGuard = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 230: **General Veers** - Blizzard Force Commander.
@@ -4588,7 +4588,7 @@ final generalVeers = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 231: **TIE Advanced**.
@@ -4610,7 +4610,7 @@ final tieAdvanced = UnitCard(
   cost: 4,
   power: 3,
   health: 2,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 232: **AT-ST**.
@@ -4632,7 +4632,7 @@ final atSt = UnitCard(
   cost: 6,
   power: 6,
   health: 7,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 233: **I Am Your Father**.
@@ -4702,7 +4702,7 @@ final r2D2 = UnitCard(
   cost: 1,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 237: **Alliance X-Wing**.
@@ -4724,7 +4724,7 @@ final allianceXWing = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 238: **C-3PO** - Protocol Droid.
@@ -4745,7 +4745,7 @@ final c3po = UnitCard(
   cost: 2,
   power: 1,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 239: **Rebel Pathfinder**.
@@ -4766,7 +4766,7 @@ final rebelPathfinder = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 240: **Fleet Lieutenant**.
@@ -4787,7 +4787,7 @@ final fleetLieutenant = UnitCard(
   cost: 3,
   power: 3,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 241: **Wing Leader**.
@@ -4809,7 +4809,7 @@ final wingLeader = UnitCard(
   cost: 3,
   power: 2,
   health: 1,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 242: **General Dodonna** - Massassi Group Commander.
@@ -4830,7 +4830,7 @@ final generalDodonna = UnitCard(
   cost: 4,
   power: 4,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 243: **Regional Sympathizers**.
@@ -4850,7 +4850,7 @@ final regionalSympathizers = UnitCard(
   cost: 4,
   power: 3,
   health: 4,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 244: **Snowspeeder**.
@@ -4872,7 +4872,7 @@ final snowspeeder = UnitCard(
   cost: 5,
   power: 3,
   health: 6,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 245: **Medal Ceremony**.
@@ -4924,7 +4924,7 @@ final underworldThug = UnitCard(
   cost: 2,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 248: **Volunteer Soldier**.
@@ -4944,7 +4944,7 @@ final volunteerSoldier = UnitCard(
   cost: 3,
   power: 2,
   health: 3,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 249: **Frontier AT-RT**.
@@ -4965,7 +4965,7 @@ final frontierAtRt = UnitCard(
   cost: 4,
   power: 3,
   health: 5,
-  arena: ArenaType.ground,
+  arena: Arena.ground,
 );
 
 /// SOR 250: **Corellian Freighter**.
@@ -4986,7 +4986,7 @@ final corellianFreighter = UnitCard(
   cost: 5,
   power: 4,
   health: 4,
-  arena: ArenaType.space,
+  arena: Arena.space,
 );
 
 /// SOR 251: **Confiscate**.
