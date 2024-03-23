@@ -409,15 +409,14 @@ final class _Images extends Command<void> {
         final maxDigits = '${expansion.count}'.length;
 
         for (final card in expansion.cards) {
-          final number = card.number.toString().padLeft(maxDigits, '0');
-
-          // TODO: Add variants.
-          for (final art in [card.art]) {
+          // Adds front, back, and thumbnail images to the download queue.
+          void addDownloads(Art art, {required int number}) {
+            final paddedNumber = '$number'.padLeft(maxDigits, '0');
             downloads.add(
               _Download(
                 url: art.front.url,
                 file: io.File(
-                  p.join(expansionDir.path, '$number.front.png'),
+                  p.join(expansionDir.path, '$paddedNumber.front.png'),
                 ),
               ),
             );
@@ -426,7 +425,7 @@ final class _Images extends Command<void> {
                 _Download(
                   url: art.back!.url,
                   file: io.File(
-                    p.join(expansionDir.path, '$number.back.png'),
+                    p.join(expansionDir.path, '$paddedNumber.back.png'),
                   ),
                 ),
               );
@@ -435,10 +434,18 @@ final class _Images extends Command<void> {
               _Download(
                 url: art.thumbnail.url,
                 file: io.File(
-                  p.join(expansionDir.path, '$number.thumb.png'),
+                  p.join(expansionDir.path, '$paddedNumber.thumb.png'),
                 ),
               ),
             );
+          }
+
+          addDownloads(card.art, number: card.number);
+          if (card.variants?.hyperspace case final Variant hyperspace) {
+            addDownloads(hyperspace.art, number: hyperspace.number);
+          }
+          if (card.variants?.showcase case final Variant showcase) {
+            addDownloads(showcase.art, number: showcase.number);
           }
         }
       }

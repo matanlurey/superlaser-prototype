@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:superlaser_app/src/tools/collection.dart';
+import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
 
@@ -52,54 +53,64 @@ class _CollectViewState extends State<CollectView> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
-        child: Table(
-          columnWidths: const {
-            0: IntrinsicColumnWidth(),
-            1: IntrinsicColumnWidth(),
-            2: FlexColumnWidth(),
-            3: IntrinsicColumnWidth(),
-            4: FixedColumnWidth(64),
-          },
-          children: [
-            TableRow(
-              decoration: BoxDecoration(
-                color: Colors.grey[850],
-              ),
-              children: const [
-                Text('Expansion'),
-                SizedBox(width: 8),
-                Text('Card'),
-                SizedBox(width: 8),
-                Text(
-                  'Quantity',
-                  textAlign: TextAlign.right,
-                ),
+        child: Builder(
+          builder: (context) {
+            return DataTable(
+              showCheckboxColumn: false,
+              columnSpacing: 30,
+              columns: const [
+                DataColumn(label: Text('Set')),
+                DataColumn(label: Text('Name')),
+                DataColumn(label: Text('Copies'), numeric: true),
               ],
-            ),
-            ..._collection.cards.map((row) {
-              var name = widget.catalog.lookup(row.card)?.card.name;
-              if (row.card.foil) {
-                name = '(Foil) $name';
-              }
-              return TableRow(
-                children: [
-                  Text(row.card.expansion.toUpperCase()),
-                  const SizedBox(width: 8),
-                  Text(
-                    '${row.card.number.toString().padLeft(3, '0')}: $name',
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    row.copies.toString(),
-                    textAlign: TextAlign.right,
-                  ),
-                ],
-              );
-            }),
-          ],
+              rows: _collection.cards.map((row) {
+                var name = widget.catalog.lookup(row.card)!.card.name;
+                if (row.card.foil) {
+                  name = '(Foil) $name';
+                }
+                return DataRow(
+                  onSelectChanged: (_) {
+                    // Open a bottom sheet to preview and edit the copies.
+                    showBottomSheet(
+                      context: context,
+                      builder: (_) => _ViewAndEditRow(card: row.card),
+                    );
+                  },
+                  cells: [
+                    DataCell(Text(row.card.expansion.toUpperCase())),
+                    DataCell(
+                      Text(
+                        '#${row.card.number}: $name',
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    DataCell(Text('${row.copies}')),
+                  ],
+                );
+              }).toList(),
+            );
+          },
         ),
       ),
+    );
+  }
+}
+
+final class _ViewAndEditRow extends StatelessWidget {
+  const _ViewAndEditRow({
+    required this.card,
+  });
+
+  final CardReference card;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        CardImage(
+          card: card,
+        ),
+      ],
     );
   }
 }
