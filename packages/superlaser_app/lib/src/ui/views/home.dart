@@ -94,11 +94,50 @@ final class HomeView extends StatelessWidget {
         title: const Text('Manage Collection'),
         trailing: const Icon(Icons.chevron_right),
         onTap: () async {
+          // Ask whether to import a collection or start a new one.
+          final result = await showDialog<bool>(
+            context: context,
+            builder: (_) {
+              return AlertDialog(
+                title: const Text('Manage Collection'),
+                content: const Text(
+                  'Import a collection or start a new one?',
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.of(context).pop(true),
+                    child: const Text('Import'),
+                  ),
+                  TextButton(
+                    onPressed: () => Navigator.of(context).pop(false),
+                    child: const Text('New'),
+                  ),
+                ],
+              );
+            },
+          );
+
+          if (result == null || !context.mounted) {
+            return;
+          }
+
+          if (!result) {
+            await Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (context) => CollectView(
+                  catalog: catalog,
+                  persistence: persistence,
+                ),
+              ),
+            );
+            return;
+          }
+
           // Import a card collection.
-          final result = await persistence.import(
+          final import = await persistence.import(
             allowedExtensions: ['json'],
           );
-          if (result == null || !context.mounted) {
+          if (import == null || !context.mounted) {
             return;
           }
           await Navigator.of(context).push(
@@ -106,7 +145,7 @@ final class HomeView extends StatelessWidget {
               builder: (context) => CollectView(
                 catalog: catalog,
                 initialCollection: Collection.fromJson(
-                  JsonArray.parse(result),
+                  JsonArray.parse(import),
                 ),
                 persistence: persistence,
               ),
