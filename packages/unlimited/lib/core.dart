@@ -16,7 +16,7 @@ library core;
 // Imported for documentation purposes.
 import 'package:unlimited/core.dart';
 
-export 'src/core/arena.dart' show ArenaType;
+export 'src/core/arena.dart' show Arena;
 export 'src/core/aspect.dart' show Aspect, Aspects;
 export 'src/core/card.dart'
     show

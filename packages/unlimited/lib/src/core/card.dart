@@ -117,9 +117,9 @@ final class CardReference implements Comparable<CardReference> {
 ///       └── EventCard
 /// ```
 ///
-/// In addition, [ArenaCard], [DeckCard], [TargetCard], [PowerCard],
-/// [AttachmentCard] are sealed interfaces that are implemented by some of the
-/// above classes in order to indicate shared behavior.
+/// In addition, [ArenaCard], [DeckCard], [TargetCard], [AttachmentCard] are
+/// sealed interfaces that are implemented by some of the above classes in order
+/// to indicate shared behavior.
 ///
 /// ## Equality
 ///
@@ -127,7 +127,7 @@ final class CardReference implements Comparable<CardReference> {
 /// - Both are [TokenCard]s or both _aren't_ [TokenCard]s;
 /// - Have the same [expansion] and [number].
 @immutable
-sealed class Card {
+sealed class Card implements Comparable<Card> {
   const Card({
     required this.expansion,
     required this.number,
@@ -195,6 +195,14 @@ sealed class Card {
   @override
   @nonVirtual
   int get hashCode => Object.hash(expansion, number);
+
+  @override
+  int compareTo(Card other) {
+    if (expansion.compareTo(other.expansion) case final x when x != 0) {
+      return x;
+    }
+    return number.compareTo(other.number);
+  }
 
   @override
   String toString() {
@@ -298,7 +306,7 @@ sealed class PlayableCard extends Card {
 
 /// Sealed interface for card types that can be present in a player's deck.
 @immutable
-sealed class DeckCard implements PlayableCard {}
+sealed class DeckCard implements Card {}
 
 /// Sealed interface for card types that can be present in an [arena].
 @immutable
@@ -319,7 +327,7 @@ sealed class ArenaCard extends PlayableCard implements TargetCard {
   });
 
   /// Which arena this card is played in.
-  final ArenaType arena;
+  final Arena arena;
 
   /// The attack power of this card.
   ///
@@ -329,6 +337,7 @@ sealed class ArenaCard extends PlayableCard implements TargetCard {
   /// The health of this card.
   ///
   /// Must be at least 0.
+  @override
   final int health;
 }
 
@@ -357,7 +366,7 @@ final class LeaderUnitCard extends ArenaCard implements TargetCard {
     required super.cost,
     required super.power,
     required super.health,
-    super.arena = ArenaType.ground,
+    super.arena = Arena.ground,
   });
 }
 
@@ -485,4 +494,16 @@ final class EventCard extends PlayableCard implements DeckCard {
   /// sealed classes as it is)._
   @override
   Null get subTitle => null;
+}
+
+/// Extension methods for [Iterable]s of [DeckCard]s.
+extension IterableDeckCard on Iterable<DeckCard> {
+  /// Returns the cards grouped by how many copies of each card are present.
+  Map<DeckCard, int> groupByCopies() {
+    final map = <DeckCard, int>{};
+    for (final card in this) {
+      map[card] = (map[card] ?? 0) + 1;
+    }
+    return map;
+  }
 }

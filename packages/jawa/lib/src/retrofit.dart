@@ -316,7 +316,7 @@ final class Retrofit extends Command<void> {
             'cost': c.cost.toString(),
             'power': c.power.toString(),
             'health': c.health.toString(),
-            'arena': 'ArenaType.${_nameToIdentifier(c.arena.name)}',
+            'arena': 'Arena.${_nameToIdentifier(c.arena.name)}',
           },
         ),
       final scrap.EventCard c => _invokeConstructor(
