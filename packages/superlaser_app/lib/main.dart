@@ -27,7 +27,9 @@ void main() async {
         debugShowCheckedModeBanner: false,
         // TODO: Make this configurable/come from system settings.
         theme: ThemeData.dark(),
-        home: HomeView(),
+        home: HomeView(
+          persistence: Persistence(),
+        ),
       ),
     ),
   );

@@ -23,13 +23,11 @@ final class Catalog {
     });
   }
 
-  Catalog._(this._expansions) : _lookupCache = HashMap() {
-    for (final expansion in _expansions.values) {
-      for (final wrapper in expansion.data) {
-        _lookupCache[wrapper.card.toReference()] = wrapper;
-      }
-    }
-  }
+  Catalog._(this._expansions)
+      : _lookupCache = {
+          for (final expansion in _expansions.values)
+            for (final data in expansion.data) data.toReference(): data,
+        };
 
   static void _checkUniqueAndSorted(List<CatalogExpansion> expansions) {
     if (expansions.isEmpty) {
@@ -69,7 +67,7 @@ final class Catalog {
         .map((wrapper) => wrapper.card);
   }
 
-  final HashMap<CardReference, CardOrVariant> _lookupCache;
+  final Map<CardReference, CardOrVariant> _lookupCache;
 
   /// Looks up a card by its [reference], or `null` if no such card exists.
   ///
@@ -79,6 +77,7 @@ final class Catalog {
   ///
   /// The performance of this method is `O(1)`.
   CardOrVariant? lookup(CardReference reference) {
+    reference = reference.withFoil(foil: false);
     return _lookupCache[reference];
   }
 
@@ -204,10 +203,13 @@ final class CatalogExpansion {
     var max = _data.length - 1;
     while (min <= max) {
       final mid = min + ((max - min) >> 1);
-      final card = _data[mid].card;
-      if (card.number < number) {
+      final target = switch (_data[mid]) {
+        final CanonicalCard c => c.card.number,
+        final VariantCard v => v.variantNumber,
+      };
+      if (target < number) {
         min = mid + 1;
-      } else if (card.number > number) {
+      } else if (target > number) {
         max = mid - 1;
       } else {
         return _data[mid];

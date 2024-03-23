@@ -37,6 +37,9 @@ sealed class CardOrVariant implements Comparable<CardOrVariant> {
   @override
   @nonVirtual
   String toString() => card.toString();
+
+  /// Converts this card or variant to a [CardReference].
+  CardReference toReference({bool foil = false});
 }
 
 /// A canonical card.
@@ -46,6 +49,11 @@ final class CanonicalCard extends CardOrVariant {
   const CanonicalCard({
     required super.card,
   });
+
+  @override
+  CardReference toReference({bool foil = false}) {
+    return card.toReference(foil: foil);
+  }
 }
 
 /// The type of variant.
@@ -75,4 +83,13 @@ final class VariantCard extends CardOrVariant {
 
   /// The type of variant.
   final VariantType type;
+
+  @override
+  CardReference toReference({bool foil = false}) {
+    return CardReference(
+      expansion: card.expansion.code,
+      number: variantNumber,
+      foil: foil,
+    );
+  }
 }

@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:jsonut/jsonut.dart';
+import 'package:superlaser_app/src/tools/collection.dart';
+import 'package:superlaser_app/src/tools/persist.dart';
+import 'package:superlaser_app/src/ui/views/collect.dart';
 import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
@@ -9,6 +13,7 @@ final class HomeView extends StatelessWidget {
   ///
   /// If [catalog] is not provided, the built-in catalog is used.
   HomeView({
+    required this.persistence,
     Catalog? catalog,
     super.key,
   }) : catalog = catalog ?? built_in.catalog;
@@ -17,6 +22,9 @@ final class HomeView extends StatelessWidget {
   ///
   /// [star wars: unlimited]: https://starwarsunlimited.com
   final Catalog catalog;
+
+  /// Persistence layer for storing data.
+  final Persistence persistence;
 
   @override
   Widget build(BuildContext context) {
@@ -86,9 +94,24 @@ final class HomeView extends StatelessWidget {
         title: const Text('Manage Collection'),
         trailing: const Icon(Icons.chevron_right),
         onTap: () async {
-          // TODO: Re-add as a navigation action.
+          // Import a card collection.
+          final result = await persistence.import(
+            allowedExtensions: ['json'],
+          );
+          if (result == null || !context.mounted) {
+            return;
+          }
+          await Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (context) => CollectView(
+                catalog: catalog,
+                initialCollection: Collection.fromJson(
+                  JsonArray.parse(result),
+                ),
+              ),
+            ),
+          );
         },
-        enabled: false,
       ),
     ];
   }
