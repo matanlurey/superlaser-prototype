@@ -5,13 +5,21 @@ import 'package:unlimited/core.dart' as swu;
 /// The type of image to resolve.
 enum CardImageType {
   /// The front of the card.
-  front,
+  front(300, 418),
 
   /// The back of the card.
-  back,
+  back(418, 300),
 
   /// A thumbnail of the card.
-  thumb,
+  thumb(300, 100);
+
+  const CardImageType(this.width, this.height);
+
+  /// Width of the image type.
+  final int width;
+
+  /// Height of the image type.
+  final int height;
 }
 
 /// Given a [swu.CardReference], resolves the image for the card.
@@ -70,7 +78,11 @@ final class CardImage extends StatelessWidget {
   Widget build(BuildContext context) {
     final resolver = CardImageProvider.of(context);
 
-    Widget child = Image(image: resolver(card, type));
+    Widget child = Image(
+      image: resolver(card, type),
+      width: type.width.toDouble(),
+      height: type.height.toDouble(),
+    );
     if (card.foil) {
       child = Foil(opacity: 0.25, child: child);
     }
