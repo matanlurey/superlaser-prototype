@@ -42,6 +42,7 @@ library engine;
 // Imported for documentation purposes.
 import 'package:unlimited/src/engine/deck.dart';
 
+export 'src/engine/booster.dart';
 export 'src/engine/deck.dart';
 export 'src/engine/game.dart';
 export 'src/engine/id.dart';

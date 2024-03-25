@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:jsonut/jsonut.dart';
 import 'package:superlaser_app/src/tools/collection.dart';
 import 'package:superlaser_app/src/tools/persist.dart';
-import 'package:superlaser_app/src/ui/views/collect.dart';
 import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
@@ -149,6 +148,22 @@ final class HomeView extends StatelessWidget {
                 ),
                 persistence: persistence,
               ),
+            ),
+          );
+        },
+      ),
+      ListTile(
+        leading: const SizedBox(
+          width: 24,
+          height: 24,
+          child: Icon(Icons.folder_open),
+        ),
+        title: const Text('Crack a Pack'),
+        trailing: const Icon(Icons.chevron_right),
+        onTap: () async {
+          await Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (context) => CrackView(),
             ),
           );
         },

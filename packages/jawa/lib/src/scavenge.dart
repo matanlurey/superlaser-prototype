@@ -486,11 +486,13 @@ final class _Download {
 
   @override
   bool operator ==(Object other) {
-    return other is _Download && other.url == url;
+    return other is _Download &&
+        other.url == url &&
+        other.file.path == file.path;
   }
 
   @override
-  int get hashCode => url.hashCode;
+  int get hashCode => Object.hash(url, file.path);
 
   static final _dateFormat = DateFormat('EEE, dd MMM yyyy HH:mm:ss zzz');
 
@@ -515,6 +517,7 @@ final class _Download {
     if (cache) {
       final lastModified = response.headers['last-modified'];
       if (lastModified == null) {
+        io.stderr.writeln('Missing last-modified header for $url.');
         return;
       }
       if (_dateFormat.tryParse(lastModified) case final DateTime lastModified) {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foil/foil.dart';
 import 'package:unlimited/core.dart' as swu;
 
 /// The type of image to resolve.
@@ -68,7 +69,11 @@ final class CardImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final resolver = CardImageProvider.of(context);
-    final image = resolver(card, type);
-    return Image(image: image);
+
+    Widget child = Image(image: resolver(card, type));
+    if (card.foil) {
+      child = Foil(opacity: 0.25, child: child);
+    }
+    return child;
   }
 }

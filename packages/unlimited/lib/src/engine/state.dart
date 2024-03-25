@@ -1,7 +1,10 @@
 import 'package:meta/meta.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/engine.dart';
 
-/// TODO: Document.
+/// A game object used to pay the cost of cards and certain abilities
+///
+/// A card becomes a resource when placed into a player's [ResourceZone].
 @immutable
 final class Resource {
   /// Creates a new resource from the given [card].
@@ -28,7 +31,11 @@ final class Resource {
   String toString() => 'Resource <$card>';
 }
 
-/// TODO: Document.
+/// A type of card that represents a location in _Star Wars_.
+///
+/// When a base has no remaining HP, its owner immediately loses the game,
+/// and its opponent immediately wins the game. A player cannot resolve actions,
+/// abilities, or effects once their base's remaining HP reaches 0.
 @immutable
 final class Base {
   /// Creates a new base from the given [card].
@@ -55,7 +62,9 @@ final class Base {
   String toString() => 'Base <$card>';
 }
 
-/// TODO: Document.
+/// A double-sided card with two aspect icons, a name, subtitle, and abilities.
+///
+/// A leader is deployed using the **Epic Action** ability on its Leader side.
 @immutable
 final class Leader {
   /// Creates a new leader from the given [card].
@@ -82,7 +91,7 @@ final class Leader {
   String toString() => 'Leader <$card>';
 }
 
-/// TODO: Document.
+/// Depicts a _Star Wars_ character or vehicle.
 @immutable
 final class Unit {
   /// Creates a new unit from the given [card].

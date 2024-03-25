@@ -65,7 +65,6 @@ linter:
     - prefer_final_in_for_each
     - prefer_final_locals
     - prefer_if_elements_to_conditional_expressions
-    - prefer_int_literals
     - prefer_mixin
     - prefer_single_quotes
     - public_member_api_docs
