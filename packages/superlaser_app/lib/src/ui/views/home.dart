@@ -163,7 +163,7 @@ final class HomeView extends StatelessWidget {
         onTap: () async {
           await Navigator.of(context).push(
             MaterialPageRoute<void>(
-              builder: (context) => CrackView(),
+              builder: (context) => const CrackView(),
             ),
           );
         },
