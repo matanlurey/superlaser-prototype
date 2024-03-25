@@ -1,8 +1,8 @@
+import 'package:app/src/tools/collection.dart';
+import 'package:app/src/tools/persist.dart';
+import 'package:app/ui.dart';
 import 'package:flutter/material.dart';
 import 'package:jsonut/jsonut.dart';
-import 'package:superlaser_app/src/tools/collection.dart';
-import 'package:superlaser_app/src/tools/persist.dart';
-import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog.dart' as built_in show catalog;
 import 'package:unlimited/core.dart';
 

@@ -1,5 +1,5 @@
+import 'package:app/ui.dart';
 import 'package:flutter/material.dart';
-import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog/sor.dart' as sor;
 import 'package:unlimited/core.dart' hide Card;
 import 'package:unlimited/engine.dart';

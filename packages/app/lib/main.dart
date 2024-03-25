@@ -1,6 +1,6 @@
+import 'package:app/src/tools/persist.dart';
+import 'package:app/ui.dart';
 import 'package:flutter/material.dart';
-import 'package:superlaser_app/src/tools/persist.dart';
-import 'package:superlaser_app/ui.dart';
 
 void main() async {
   final baseImageUrl = Uri.https('try.superlaser.dev', 'images');
