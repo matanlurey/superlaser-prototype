@@ -14,7 +14,7 @@ project is not affiliated with Star Wars: Unlimited or Fantasy Flight Games.
 ### Applications
 
 A [Flutter](https://flutter.dev/) application is in early development in
-[`superlaser_app`](./packages/superlaser_app/).
+[`app`](./packages/app/).
 
 <img 
   alt="Screenshot of the Superlaser app"

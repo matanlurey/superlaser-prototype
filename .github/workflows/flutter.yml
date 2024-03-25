@@ -16,7 +16,7 @@ jobs:
       contents: write
     defaults:
       run:
-        working-directory: ./packages/superlaser_app
+        working-directory: ./packages/app
     steps:
       - uses: actions/checkout@v2
 
@@ -38,7 +38,7 @@ jobs:
         run: cp -r ../../data/assets build/web/images
 
       - name: Build docs for "package:unlimited"
-        run: cd ../unlimited && dart pub get && dart doc --output "../superlaser_app/build/web/docs" --validate-links
+        run: cd ../unlimited && dart pub get && dart doc --output "../app/build/web/docs" --validate-links
 
       - name: Stamp out CNAME
         run: echo "try.superlaser.dev" > ./build/web/CNAME
@@ -47,5 +47,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./packages/superlaser_app/build/web
+          publish_dir: ./packages/app/build/web
           publish_branch: latest
