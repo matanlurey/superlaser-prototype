@@ -5029,2294 +5029,2294 @@ final restock = EventCard(
 /// ```
 final cards = CatalogExpansion([
   // Leader <001>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: directorKrennic,
   ),
   // Leader <002>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: idenVersio,
   ),
   // Leader <003>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: chewbacca,
   ),
   // Leader <004>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: chirrutMwe,
   ),
   // Leader <005>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: lukeSkywalker,
   ),
   // Leader <006>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: emperorPalpatine,
   ),
   // Leader <007>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: grandMoffTarkin,
   ),
   // Leader <008>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: heraSyndulla,
   ),
   // Leader <009>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: leiaOrgana,
   ),
   // Leader <010>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: darthVader,
   ),
   // Leader <011>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: grandInquisitor,
   ),
   // Leader <012>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: ig88,
   ),
   // Leader <013>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: cassianAndor,
   ),
   // Leader <014>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: sabineWren,
   ),
   // Leader <015>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: bobaFett,
   ),
   // Leader <016>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: grandAdmiralThrawn,
   ),
   // Leader <017>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: hanSolo,
   ),
   // Leader <018>
-  CanonicalCard(
+  CanonicalCard<LeaderCard>(
     card: jynErso,
   ),
   // Base <019>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: securityComplex,
   ),
   // Base <020>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: capitalCity,
   ),
   // Base <021>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: dagobahSwamp,
   ),
   // Base <022>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: energyConversionLab,
   ),
   // Base <023>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: commandCenter,
   ),
   // Base <024>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: echoBase,
   ),
   // Base <025>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: tarkintown,
   ),
   // Base <026>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: catacombsOfCadera,
   ),
   // Base <027>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: kestroCity,
   ),
   // Base <028>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: jedhaCity,
   ),
   // Base <029>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: administratorsTower,
   ),
   // Base <030>
-  CanonicalCard(
+  CanonicalCard<BaseCard>(
     card: chopperBase,
   ),
   // Unit <031>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: infernoFour,
   ),
   // Unit <032>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: scoutBikePursuer,
   ),
   // Unit <033>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: deathTrooper,
   ),
   // Unit <034>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: delMeeko,
   ),
   // Unit <035>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: lieutenantChildsen,
   ),
   // Unit <036>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: gideonHask,
   ),
   // Unit <037>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: academyDefenseWalker,
   ),
   // Unit <038>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: countDooku,
   ),
   // Unit <039>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: atAtSuppressor,
   ),
   // Unit <040>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: avenger,
   ),
   // Event <041>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: powerOfTheDarkSide,
   ),
   // Event <042>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: searchYourFeelings,
   ),
   // Event <043>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: superlaserBlast,
   ),
   // Unit <044>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: restoredArc170,
   ),
   // Unit <045>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: yoda,
   ),
   // Unit <046>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: consularSecurityForce,
   ),
   // Unit <047>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: kananJarrus,
   ),
   // Unit <048>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: vigilantHonorGuards,
   ),
   // Unit <049>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: obiWanKenobi,
   ),
   // Unit <050>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: theGhost,
   ),
   // Unit <051>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: lukeSkywalkerJediKnight,
   ),
   // Unit <052>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: redemption,
   ),
   // Upgrade <053>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: lukesLightsaber,
   ),
   // Upgrade <054>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: jediLightsaber,
   ),
   // Event <055>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: theForceIsWithMe,
   ),
   // Unit <056>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bendu,
   ),
   // Upgrade <057>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: protector,
   ),
   // Event <058>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: vigilance,
   ),
   // Unit <059>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: $21bSurgicalDroid,
   ),
   // Unit <060>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: distantPatroller,
   ),
   // Unit <061>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: guardianOfTheWhills,
   ),
   // Unit <062>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: regionalGovernor,
   ),
   // Unit <063>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cloudCityWingGuard,
   ),
   // Unit <064>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: wildernessFighter,
   ),
   // Unit <065>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bazeMalbus,
   ),
   // Unit <066>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: systemPatrolCraft,
   ),
   // Unit <067>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: ruggedSurvivors,
   ),
   // Unit <068>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cargoJuggernaut,
   ),
   // Upgrade <069>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: resilient,
   ),
   // Upgrade <070>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: devotion,
   ),
   // Upgrade <071>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: electrostaff,
   ),
   // Upgrade <072>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: entrenched,
   ),
   // Event <073>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: momentOfPeace,
   ),
   // Event <074>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: repair,
   ),
   // Event <075>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: itBindsAllThings,
   ),
   // Event <076>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: makeAnOpening,
   ),
   // Event <077>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: takedown,
   ),
   // Event <078>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: vanquish,
   ),
   // Unit <079>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: admiralPiett,
   ),
   // Unit <080>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: generalTagge,
   ),
   // Unit <081>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: seasonedShoretrooper,
   ),
   // Unit <082>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: emperorsRoyalGuard,
   ),
   // Unit <083>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: superlaserTechnician,
   ),
   // Unit <084>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: grandMoffTarkinDeathStarOverseer,
   ),
   // Unit <085>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: rukh,
   ),
   // Unit <086>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: gladiatorStarDestroyer,
   ),
   // Unit <087>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: darthVaderCommandingTheFirstLegion,
   ),
   // Unit <088>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: blizzardAssaultAtAt,
   ),
   // Unit <089>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: relentless,
   ),
   // Unit <090>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: devastator,
   ),
   // Event <091>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: theEmperorsLegion,
   ),
   // Event <092>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: overwhelmingBarrage,
   ),
   // Unit <093>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: allianceDispatcher,
   ),
   // Unit <094>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bailOrgana,
   ),
   // Unit <095>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: battlefieldMarine,
   ),
   // Unit <096>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: monMothma,
   ),
   // Unit <097>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: admiralAckbar,
   ),
   // Unit <098>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: echoBaseDefender,
   ),
   // Unit <099>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: brightHope,
   ),
   // Unit <100>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: wedgeAntilles,
   ),
   // Unit <101>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: rogueSquadronSkirmisher,
   ),
   // Unit <102>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: homeOne,
   ),
   // Event <103>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: rebelAssault,
   ),
   // Event <104>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: uWingReinforcement,
   ),
   // Unit <105>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: generalKrell,
   ),
   // Event <106>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: attackPatternDelta,
   ),
   // Event <107>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: command,
   ),
   // Unit <108>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: vanguardInfantry,
   ),
   // Unit <109>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: colonelYularen,
   ),
   // Unit <110>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: frontlineShuttle,
   ),
   // Unit <111>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: patrollingVWing,
   ),
   // Unit <112>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: consortiumStarviper,
   ),
   // Unit <113>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: homesteadMilitia,
   ),
   // Unit <114>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: escortSkiff,
   ),
   // Unit <115>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: agentKallus,
   ),
   // Unit <116>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: steadfastBattalion,
   ),
   // Unit <117>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: mercenaryCompany,
   ),
   // Unit <118>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: $97thLegion,
   ),
   // Unit <119>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: reinforcementWalker,
   ),
   // Upgrade <120>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: academyTraining,
   ),
   // Upgrade <121>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: hardpointHeavyBlaster,
   ),
   // Upgrade <122>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: traitorous,
   ),
   // Event <123>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: recruit,
   ),
   // Event <124>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: tacticalAdvantage,
   ),
   // Event <125>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: prepareForTakeoff,
   ),
   // Event <126>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: resupply,
   ),
   // Event <127>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: strikeTrue,
   ),
   // Unit <128>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: deathStarStormtrooper,
   ),
   // Unit <129>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: admiralOzzel,
   ),
   // Unit <130>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: firstLegionSnowtrooper,
   ),
   // Unit <131>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: fifthBrother,
   ),
   // Unit <132>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: imperialInterceptor,
   ),
   // Unit <133>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: seventhSister,
   ),
   // Unit <134>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: ruthlessRaider,
   ),
   // Unit <135>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: emperorPalpatineMasterOfTheDarkSide,
   ),
   // Upgrade <136>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: vadersLightsaber,
   ),
   // Upgrade <137>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: fallenLightsaber,
   ),
   // Event <138>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: forceLightning,
   ),
   // Event <139>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: forceChoke,
   ),
   // Unit <140>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: specforceSoldier,
   ),
   // Unit <141>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: greenSquadronAWing,
   ),
   // Unit <142>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: sabineWrenExplosivesArtist,
   ),
   // Unit <143>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: fightersForFreedom,
   ),
   // Unit <144>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: redThree,
   ),
   // Unit <145>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: k2so,
   ),
   // Unit <146>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: zebOrrelios,
   ),
   // Unit <147>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: blackOne,
   ),
   // Unit <148>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: guerillaAttackPod,
   ),
   // Unit <149>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: maceWindu,
   ),
   // Event <150>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: heroicSacrifice,
   ),
   // Event <151>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: karabast,
   ),
   // Event <152>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: forACauseIBelieveIn,
   ),
   // Unit <153>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: sawGerrera,
   ),
   // Event <154>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: rallyingCry,
   ),
   // Event <155>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: aggression,
   ),
   // Unit <156>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: benthicTwoTubes,
   ),
   // Unit <157>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cantinaBraggart,
   ),
   // Unit <158>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: jedhaAgitator,
   ),
   // Unit <159>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: partisanInsurgent,
   ),
   // Unit <160>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: wolffe,
   ),
   // Unit <161>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: ardentSympathizer,
   ),
   // Unit <162>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: disablingFangFighter,
   ),
   // Unit <163>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: starWingScout,
   ),
   // Unit <164>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: wampa,
   ),
   // Unit <165>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: occupierSiegeTank,
   ),
   // Upgrade <166>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: infiltratorsSkill,
   ),
   // Event <167>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: forceThrow,
   ),
   // Event <168>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: precisionFire,
   ),
   // Event <169>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: keepFighting,
   ),
   // Event <170>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: powerFailure,
   ),
   // Event <171>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: missionBriefing,
   ),
   // Event <172>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: openFire,
   ),
   // Event <173>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: bombingRun,
   ),
   // Event <174>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: smokeAndCinders,
   ),
   // Event <175>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: forcedSurrender,
   ),
   // Unit <176>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: isbAgent,
   ),
   // Unit <177>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bibFortuna,
   ),
   // Unit <178>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cartelSpacer,
   ),
   // Unit <179>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bobaFettDisintegrator,
   ),
   // Unit <180>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: seventhFleetDefender,
   ),
   // Unit <181>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: jabbaTheHutt,
   ),
   // Unit <182>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bossk,
   ),
   // Unit <183>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bountyHunterCrew,
   ),
   // Unit <184>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: fettsFirespray,
   ),
   // Unit <185>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: chimaera,
   ),
   // Event <186>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: noGoodToMeDead,
   ),
   // Event <187>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: iHadNoChoice,
   ),
   // Unit <188>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: chopper,
   ),
   // Unit <189>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: leiaOrganaDefiantPrincess,
   ),
   // Unit <190>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: lothalInsurgent,
   ),
   // Unit <191>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: vanguardAce,
   ),
   // Unit <192>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: ezraBridger,
   ),
   // Unit <193>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: millenniumFalcon,
   ),
   // Unit <194>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: rogueOperative,
   ),
   // Unit <195>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: auzituckLiberatorGunship,
   ),
   // Unit <196>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: chewbaccaLoyalCompanion,
   ),
   // Unit <197>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: landoCalrissian,
   ),
   // Unit <198>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: hanSoloReluctantHero,
   ),
   // Event <199>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: bamboozle,
   ),
   // Event <200>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: sparkOfRebellion,
   ),
   // Unit <201>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: bodhiRook,
   ),
   // Unit <202>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cantinaBouncer,
   ),
   // Event <203>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: cunning,
   ),
   // Unit <204>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: greedo,
   ),
   // Unit <205>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: jawaScavenger,
   ),
   // Unit <206>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: miningGuildTieFighter,
   ),
   // Unit <207>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: craftySmuggler,
   ),
   // Unit <208>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: outerRimHeadhunter,
   ),
   // Unit <209>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: piratedStarfighter,
   ),
   // Unit <210>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: swoopRacer,
   ),
   // Unit <211>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: gamorreanGuards,
   ),
   // Unit <212>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: strafingGunship,
   ),
   // Unit <213>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: syndicateLackeys,
   ),
   // Upgrade <214>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: smugglingCompartment,
   ),
   // Upgrade <215>
-  CanonicalCard(
+  CanonicalCard<UpgradeCard>(
     card: snapshotReflexes,
   ),
   // Event <216>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: disarm,
   ),
   // Event <217>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: shootFirst,
   ),
   // Event <218>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: asteroidSanctuary,
   ),
   // Event <219>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: sneakAttack,
   ),
   // Event <220>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: surpriseStrike,
   ),
   // Event <221>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: outmaneuver,
   ),
   // Event <222>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: waylay,
   ),
   // Event <223>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: dontGetCocky,
   ),
   // Event <224>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: changeOfHeart,
   ),
   // Unit <225>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: tieLnFighter,
   ),
   // Unit <226>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: admiralMotti,
   ),
   // Unit <227>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: snowtrooperLieutenant,
   ),
   // Unit <228>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: viperProbeDroid,
   ),
   // Unit <229>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: cellBlockGuard,
   ),
   // Unit <230>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: generalVeers,
   ),
   // Unit <231>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: tieAdvanced,
   ),
   // Unit <232>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: atSt,
   ),
   // Event <233>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: iAmYourFather,
   ),
   // Event <234>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: maximumFirepower,
   ),
   // Event <235>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: galacticAmbition,
   ),
   // Unit <236>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: r2D2,
   ),
   // Unit <237>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: allianceXWing,
   ),
   // Unit <238>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: c3po,
   ),
   // Unit <239>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: rebelPathfinder,
   ),
   // Unit <240>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: fleetLieutenant,
   ),
   // Unit <241>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: wingLeader,
   ),
   // Unit <242>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: generalDodonna,
   ),
   // Unit <243>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: regionalSympathizers,
   ),
   // Unit <244>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: snowspeeder,
   ),
   // Event <245>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: medalCeremony,
   ),
   // Event <246>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: youreMyOnlyHope,
   ),
   // Unit <247>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: underworldThug,
   ),
   // Unit <248>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: volunteerSoldier,
   ),
   // Unit <249>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: frontierAtRt,
   ),
   // Unit <250>
-  CanonicalCard(
+  CanonicalCard<UnitCard>(
     card: corellianFreighter,
   ),
   // Event <251>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: confiscate,
   ),
   // Event <252>
-  CanonicalCard(
+  CanonicalCard<EventCard>(
     card: restock,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 253,
     card: directorKrennic,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 254,
     card: idenVersio,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 255,
     card: chewbacca,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 256,
     card: chirrutMwe,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 257,
     card: emperorPalpatine,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 258,
     card: grandMoffTarkin,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 259,
     card: heraSyndulla,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 260,
     card: leiaOrgana,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 261,
     card: grandInquisitor,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 262,
     card: ig88,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 263,
     card: cassianAndor,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 264,
     card: sabineWren,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 265,
     card: bobaFett,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 266,
     card: grandAdmiralThrawn,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 267,
     card: hanSolo,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 268,
     card: jynErso,
     type: VariantType.showcase,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 269,
     card: directorKrennic,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 270,
     card: idenVersio,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 271,
     card: chewbacca,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 272,
     card: chirrutMwe,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 273,
     card: emperorPalpatine,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 274,
     card: grandMoffTarkin,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 275,
     card: heraSyndulla,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 276,
     card: leiaOrgana,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 277,
     card: grandInquisitor,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 278,
     card: ig88,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 279,
     card: cassianAndor,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 280,
     card: sabineWren,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 281,
     card: bobaFett,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 282,
     card: grandAdmiralThrawn,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 283,
     card: hanSolo,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<LeaderCard>(
     variantNumber: 284,
     card: jynErso,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 285,
     card: securityComplex,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 286,
     card: capitalCity,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 287,
     card: dagobahSwamp,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 288,
     card: energyConversionLab,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 289,
     card: commandCenter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 290,
     card: echoBase,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 291,
     card: tarkintown,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 292,
     card: catacombsOfCadera,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 293,
     card: kestroCity,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 294,
     card: jedhaCity,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 295,
     card: administratorsTower,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<BaseCard>(
     variantNumber: 296,
     card: chopperBase,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 297,
     card: infernoFour,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 298,
     card: scoutBikePursuer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 299,
     card: deathTrooper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 300,
     card: delMeeko,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 301,
     card: lieutenantChildsen,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 302,
     card: gideonHask,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 303,
     card: academyDefenseWalker,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 304,
     card: countDooku,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 305,
     card: atAtSuppressor,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 306,
     card: avenger,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 307,
     card: powerOfTheDarkSide,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 308,
     card: searchYourFeelings,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 309,
     card: superlaserBlast,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 310,
     card: restoredArc170,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 311,
     card: yoda,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 312,
     card: consularSecurityForce,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 313,
     card: kananJarrus,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 314,
     card: vigilantHonorGuards,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 315,
     card: obiWanKenobi,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 316,
     card: theGhost,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 317,
-    card: lukeSkywalker,
+    card: lukeSkywalkerJediKnight,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 318,
     card: redemption,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 319,
     card: jediLightsaber,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 320,
     card: theForceIsWithMe,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 321,
     card: bendu,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 322,
     card: protector,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 323,
     card: vigilance,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 324,
     card: $21bSurgicalDroid,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 325,
     card: distantPatroller,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 326,
     card: guardianOfTheWhills,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 327,
     card: regionalGovernor,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 328,
     card: cloudCityWingGuard,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 329,
     card: wildernessFighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 330,
     card: bazeMalbus,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 331,
     card: systemPatrolCraft,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 332,
     card: ruggedSurvivors,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 333,
     card: cargoJuggernaut,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 334,
     card: resilient,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 335,
     card: devotion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 336,
     card: electrostaff,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 337,
     card: entrenched,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 338,
     card: momentOfPeace,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 339,
     card: repair,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 340,
     card: itBindsAllThings,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 341,
     card: makeAnOpening,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 342,
     card: takedown,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 343,
     card: vanquish,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 344,
     card: admiralPiett,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 345,
     card: generalTagge,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 346,
     card: seasonedShoretrooper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 347,
     card: emperorsRoyalGuard,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 348,
     card: superlaserTechnician,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 349,
     card: rukh,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 350,
     card: gladiatorStarDestroyer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 351,
-    card: darthVader,
+    card: darthVaderCommandingTheFirstLegion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 352,
     card: blizzardAssaultAtAt,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 353,
     card: relentless,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 354,
     card: devastator,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 355,
     card: theEmperorsLegion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 356,
     card: overwhelmingBarrage,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 357,
     card: allianceDispatcher,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 358,
     card: bailOrgana,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 359,
     card: battlefieldMarine,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 360,
     card: monMothma,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 361,
     card: admiralAckbar,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 362,
     card: echoBaseDefender,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 363,
     card: brightHope,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 364,
     card: wedgeAntilles,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 365,
     card: rogueSquadronSkirmisher,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 366,
     card: homeOne,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 367,
     card: rebelAssault,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 368,
     card: uWingReinforcement,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 369,
     card: generalKrell,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 370,
     card: attackPatternDelta,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 371,
     card: command,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 372,
     card: vanguardInfantry,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 373,
     card: colonelYularen,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 374,
     card: frontlineShuttle,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 375,
     card: patrollingVWing,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 376,
     card: consortiumStarviper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 377,
     card: homesteadMilitia,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 378,
     card: escortSkiff,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 379,
     card: agentKallus,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 380,
     card: steadfastBattalion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 381,
     card: mercenaryCompany,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 382,
     card: $97thLegion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 383,
     card: reinforcementWalker,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 384,
     card: academyTraining,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 385,
     card: hardpointHeavyBlaster,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 386,
     card: traitorous,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 387,
     card: recruit,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 388,
     card: tacticalAdvantage,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 389,
     card: prepareForTakeoff,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 390,
     card: resupply,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 391,
     card: strikeTrue,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 392,
     card: deathStarStormtrooper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 393,
     card: admiralOzzel,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 394,
     card: firstLegionSnowtrooper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 395,
     card: fifthBrother,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 396,
     card: imperialInterceptor,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 397,
     card: seventhSister,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 398,
     card: ruthlessRaider,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 399,
-    card: emperorPalpatine,
+    card: emperorPalpatineMasterOfTheDarkSide,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 400,
     card: fallenLightsaber,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 401,
     card: forceLightning,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 402,
     card: forceChoke,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 403,
     card: specforceSoldier,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 404,
     card: greenSquadronAWing,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 405,
-    card: sabineWren,
+    card: sabineWrenExplosivesArtist,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 406,
     card: fightersForFreedom,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 407,
     card: redThree,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 408,
     card: k2so,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 409,
     card: zebOrrelios,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 410,
     card: blackOne,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 411,
     card: guerillaAttackPod,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 412,
     card: maceWindu,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 413,
     card: heroicSacrifice,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 414,
     card: karabast,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 415,
     card: forACauseIBelieveIn,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 416,
     card: sawGerrera,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 417,
     card: rallyingCry,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 418,
     card: aggression,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 419,
     card: benthicTwoTubes,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 420,
     card: cantinaBraggart,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 421,
     card: jedhaAgitator,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 422,
     card: partisanInsurgent,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 423,
     card: wolffe,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 424,
     card: ardentSympathizer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 425,
     card: disablingFangFighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 426,
     card: starWingScout,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 427,
     card: wampa,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 428,
     card: occupierSiegeTank,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 429,
     card: infiltratorsSkill,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 430,
     card: forceThrow,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 431,
     card: precisionFire,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 432,
     card: keepFighting,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 433,
     card: powerFailure,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 434,
     card: missionBriefing,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 435,
     card: openFire,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 436,
     card: bombingRun,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 437,
     card: smokeAndCinders,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 438,
     card: forcedSurrender,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 439,
     card: isbAgent,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 440,
     card: bibFortuna,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 441,
     card: cartelSpacer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 442,
-    card: bobaFett,
+    card: bobaFettDisintegrator,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 443,
     card: seventhFleetDefender,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 444,
     card: jabbaTheHutt,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 445,
     card: bossk,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 446,
     card: bountyHunterCrew,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 447,
     card: fettsFirespray,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 448,
     card: chimaera,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 449,
     card: noGoodToMeDead,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 450,
     card: iHadNoChoice,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 451,
     card: chopper,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 452,
     card: lothalInsurgent,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 453,
     card: vanguardAce,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 454,
     card: ezraBridger,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 455,
     card: millenniumFalcon,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 456,
     card: rogueOperative,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 457,
     card: auzituckLiberatorGunship,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 458,
-    card: chewbacca,
+    card: chewbaccaLoyalCompanion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 459,
     card: landoCalrissian,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 460,
-    card: hanSolo,
+    card: hanSoloReluctantHero,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 461,
     card: bamboozle,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 462,
     card: sparkOfRebellion,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 463,
     card: bodhiRook,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 464,
     card: cantinaBouncer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 465,
     card: cunning,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 466,
     card: greedo,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 467,
     card: jawaScavenger,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 468,
     card: miningGuildTieFighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 469,
     card: craftySmuggler,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 470,
     card: outerRimHeadhunter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 471,
     card: piratedStarfighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 472,
     card: swoopRacer,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 473,
     card: gamorreanGuards,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 474,
     card: strafingGunship,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 475,
     card: syndicateLackeys,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 476,
     card: smugglingCompartment,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UpgradeCard>(
     variantNumber: 477,
     card: snapshotReflexes,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 478,
     card: disarm,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 479,
     card: shootFirst,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 480,
     card: asteroidSanctuary,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 481,
     card: sneakAttack,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 482,
     card: surpriseStrike,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 483,
     card: outmaneuver,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 484,
     card: waylay,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 486,
     card: changeOfHeart,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 487,
     card: tieLnFighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 488,
     card: snowtrooperLieutenant,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 489,
     card: viperProbeDroid,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 490,
     card: cellBlockGuard,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 491,
     card: generalVeers,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 492,
     card: tieAdvanced,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 493,
     card: atSt,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 494,
     card: maximumFirepower,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 495,
     card: galacticAmbition,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 496,
     card: allianceXWing,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 497,
     card: rebelPathfinder,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 498,
     card: fleetLieutenant,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 499,
     card: wingLeader,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 500,
     card: generalDodonna,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 501,
     card: regionalSympathizers,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 502,
     card: snowspeeder,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 503,
     card: medalCeremony,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 504,
     card: youreMyOnlyHope,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 505,
     card: underworldThug,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 506,
     card: volunteerSoldier,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 507,
     card: frontierAtRt,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<UnitCard>(
     variantNumber: 508,
     card: corellianFreighter,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 509,
     card: confiscate,
     type: VariantType.hyperspace,
   ),
-  VariantCard(
+  VariantCard<EventCard>(
     variantNumber: 510,
     card: restock,
     type: VariantType.hyperspace,

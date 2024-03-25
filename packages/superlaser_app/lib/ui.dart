@@ -1,4 +1,6 @@
 export 'src/ui/views/browse.dart';
+export 'src/ui/views/collect.dart';
+export 'src/ui/views/crack.dart';
 export 'src/ui/views/home.dart';
 export 'src/ui/widgets/card_image.dart';
 

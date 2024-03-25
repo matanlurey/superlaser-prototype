@@ -143,7 +143,13 @@ final class Retrofit extends Command<void> {
             'final cards = CatalogExpansion(${_createList([
                   ...data.cards.map(
                     (c) => _invokeConstructor(
-                      'CanonicalCard',
+                      'CanonicalCard<${switch (c) {
+                        final scrap.LeaderCard _ => 'LeaderCard',
+                        final scrap.BaseCard _ => 'BaseCard',
+                        final scrap.UnitCard _ => 'UnitCard',
+                        final scrap.EventCard _ => 'EventCard',
+                        final scrap.UpgradeCard _ => 'UpgradeCard',
+                      }}>',
                       comment: '$c',
                       {
                         'card': idCache[(c.title, c.runtimeType)]!,
@@ -151,7 +157,11 @@ final class Retrofit extends Command<void> {
                       indent: '  ',
                     ),
                   ),
-                  ..._collectVariants(data.cards, count: data.count),
+                  ..._collectVariants(
+                    data.cards,
+                    count: data.count,
+                    idCache: idCache,
+                  ),
                 ])});',
           );
 
@@ -165,6 +175,7 @@ final class Retrofit extends Command<void> {
   static Iterable<String> _collectVariants(
     Iterable<scrap.Card> cards, {
     required int count,
+    required Map<(String, Type), String> idCache,
   }) {
     // Create a mapping of all variants to their cards.
     final variantMap = <scrap.Variant, scrap.Card>{};
@@ -200,10 +211,16 @@ final class Retrofit extends Command<void> {
       return v.number > count;
     }).map((v) {
       return _invokeConstructor(
-        'VariantCard',
+        'VariantCard<${switch (variantMap[v]!) {
+          final scrap.LeaderCard _ => 'LeaderCard',
+          final scrap.BaseCard _ => 'BaseCard',
+          final scrap.UnitCard _ => 'UnitCard',
+          final scrap.EventCard _ => 'EventCard',
+          final scrap.UpgradeCard _ => 'UpgradeCard',
+        }}>',
         {
           'variantNumber': v.number.toString(),
-          'card': _nameToIdentifier(variantMap[v]!.title),
+          'card': idCache[(variantMap[v]!.title, variantMap[v]!.runtimeType)]!,
           'type': ''
               'VariantType.'
               '${variantShowcase.contains(v) ? 'showcase' : 'hyperspace'}',
