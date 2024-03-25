@@ -1,7 +1,9 @@
 import 'dart:collection';
 
+import 'package:collection/collection.dart';
 import 'package:meta/meta.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/src/core/variant.dart';
 
 /// A collection of expansions and their cards.
 ///

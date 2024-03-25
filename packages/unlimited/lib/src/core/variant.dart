@@ -11,13 +11,18 @@ import 'package:unlimited/src/core/card.dart';
 ///
 /// Two [CardOrVariant]s are considered equal if their [card] is equal.
 @immutable
-sealed class CardOrVariant implements Comparable<CardOrVariant> {
+sealed class CardOrVariant<T extends Card>
+    implements Comparable<CardOrVariant<T>> {
   const CardOrVariant({
     required this.card,
+    this.isFoil = false,
   });
 
   /// The card.
-  final Card card;
+  final T card;
+
+  /// Whether this card is a foil.
+  final bool isFoil;
 
   @override
   int compareTo(CardOrVariant other) {
@@ -39,20 +44,20 @@ sealed class CardOrVariant implements Comparable<CardOrVariant> {
   String toString() => card.toString();
 
   /// Converts this card or variant to a [CardReference].
-  CardReference toReference({bool foil = false});
+  CardReference toReference({bool? foil});
 }
 
 /// A canonical card.
 @immutable
-final class CanonicalCard extends CardOrVariant {
+final class CanonicalCard<T extends Card> extends CardOrVariant<T> {
   /// Creates a canonical card with the given [card].
   const CanonicalCard({
     required super.card,
   });
 
   @override
-  CardReference toReference({bool foil = false}) {
-    return card.toReference(foil: foil);
+  CardReference toReference({bool? foil}) {
+    return card.toReference(foil: foil ?? isFoil);
   }
 }
 
@@ -66,7 +71,7 @@ enum VariantType {
 }
 
 /// A variant of a card.
-final class VariantCard extends CardOrVariant {
+final class VariantCard<T extends Card> extends CardOrVariant<T> {
   /// Creates a variant with the given [card] and [type].
   const VariantCard({
     required this.variantNumber,
@@ -85,11 +90,11 @@ final class VariantCard extends CardOrVariant {
   final VariantType type;
 
   @override
-  CardReference toReference({bool foil = false}) {
+  CardReference toReference({bool? foil}) {
     return CardReference(
       expansion: card.expansion.code,
       number: variantNumber,
-      foil: foil,
+      foil: foil ?? isFoil,
     );
   }
 }
