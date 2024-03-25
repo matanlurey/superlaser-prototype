@@ -52,20 +52,40 @@ final class _CrackViewState extends State<CrackView> {
           : ListView(
               children: [
                 for (final card in _pack!.cards)
-                  Card(
-                    child: ListTile(
-                      title: Text(
-                        card.card.name,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      subtitle: Text(
-                        '${card.isFoil ? 'Foil ' : ''}'
-                        '${card is VariantCard ? '${card.type.name.capitalize()} ' : ''}'
-                        '${card.card.rarity.name.capitalize()}',
-                      ),
-                      leading: CardImage(
-                        card: card.toReference(),
-                        type: CardImageType.thumb,
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (context) {
+                            return Scaffold(
+                              appBar: AppBar(
+                                title: Text(card.card.name),
+                              ),
+                              body: Center(
+                                child: CardImage(
+                                  card: card.toReference(),
+                                ),
+                              ),
+                            );
+                          },
+                        ),
+                      );
+                    },
+                    child: Card(
+                      child: ListTile(
+                        title: Text(
+                          '${card.card.unique ? '✦ ' : ''}${card.card.name}',
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        subtitle: Text(
+                          '${card.card.rarity.name[0].capitalize()} '
+                          '${card.isFoil ? 'F ' : ''}'
+                          '${card is VariantCard ? '${card.type.name.capitalize()} ' : ''}',
+                        ),
+                        leading: CardImage(
+                          card: card.toReference(),
+                          type: CardImageType.thumb,
+                        ),
                       ),
                     ),
                   ),
