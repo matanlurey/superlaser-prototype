@@ -63,7 +63,7 @@
     <section class="multi-line-signature">
       
 
-<span class="returntype"><a href="../../core/CardOrVariant-class.html">CardOrVariant</a>?</span>
+<span class="returntype"><a href="../../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../core/Card-class.html">Card</a></span>&gt;</span>?</span>
 <span class="name ">lookup</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="lookup-param-number"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">number</span></span></li>
 </ol>)
 
@@ -86,7 +86,7 @@ need to look up cards by number frequently, consider caching the results
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">CardOrVariant? lookup(int number) {
+  <pre class="language-dart"><code class="language-dart">StyledCard? lookup(int number) {
   var min = 0;
   var max = _data.length - 1;
   while (min &lt;= max) {

@@ -30,7 +30,7 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard</a></li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">toReference method</li>
   </ol>
   <div class="self-name">toReference</div>
@@ -69,7 +69,7 @@
   </div>
 
 <span class="returntype"><a href="../../core/CardReference-class.html">CardReference</a></span>
-<span class="name ">toReference</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span> = <span class="default-value">false</span>}</span></li>
+<span class="name ">toReference</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">foil</span>}</span></li>
 </ol>)
 
       <div class="features"><span class="feature">override</span></div>
@@ -78,6 +78,9 @@
     
 <section class="desc markdown">
   <p>Converts this card or variant to a <a href="../../core/CardReference-class.html">CardReference</a>.</p>
+<p>By default, this method will use the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute to determine
+whether the reference should be for a foil card. If <code>foil</code> is provided,
+it will override the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute.</p>
 </section>
 
 
@@ -85,8 +88,8 @@
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
   <pre class="language-dart"><code class="language-dart">@override
-CardReference toReference({bool foil = false}) {
-  return card.toReference(foil: foil);
+CardReference toReference({bool? foil}) {
+  return card.toReference(foil: foil ?? isFoil);
 }</code></pre>
 </section>
 
@@ -104,7 +107,7 @@ CardReference toReference({bool foil = false}) {
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard</a></li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">toReference method</li>
 </ol>
 

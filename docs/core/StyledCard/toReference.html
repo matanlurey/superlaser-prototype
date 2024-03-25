@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the compareTo method from the CardOrVariant class, for the Dart programming language.">
-  <title>compareTo method - CardOrVariant class - core library - Dart API</title>
+  <meta name="description" content="API docs for the toReference method from the StyledCard class, for the Dart programming language.">
+  <title>toReference method - StyledCard class - core library - Dart API</title>
 
 
   
@@ -30,10 +30,10 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></li>
-    <li class="self-crumb">compareTo method</li>
+    <li><a href="../../core/StyledCard-class.html">StyledCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
+    <li class="self-crumb">toReference abstract method</li>
   </ol>
-  <div class="self-name">compareTo</div>
+  <div class="self-name">toReference</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,45 +54,35 @@
   <div
       id="dartdoc-main-content"
       class="main-content"
-      data-above-sidebar="core&#47;CardOrVariant-class-sidebar.html"
+      data-above-sidebar="core&#47;StyledCard-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-method">compareTo</span> method 
+<h1><span class="kind-method">toReference</span> abstract method 
 </h1></div>
 
     <section class="multi-line-signature">
       
-  <div>
-    <ol class="annotation-list">
-        <li>@<a href="https://api.flutter.dev/flutter/dart-core/override-constant.html">override</a></li>
-    </ol>
-  </div>
 
-<span class="returntype"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
-<span class="name ">compareTo</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="compareTo-param-other"><span class="type-annotation"><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></span> <span class="parameter-name">other</span></span></li>
+<span class="returntype"><a href="../../core/CardReference-class.html">CardReference</a></span>
+<span class="name ">toReference</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">foil</span>}</span></li>
 </ol>)
 
-      <div class="features"><span class="feature">override</span></div>
+      
 
     </section>
     
 <section class="desc markdown">
-  <p>Compares this object to another object.</p>
-<p>Returns a value like a <a href="https://api.flutter.dev/flutter/dart-core/Comparator.html">Comparator</a> when comparing <code>this</code> to <code>other</code>.
-That is, it returns a negative integer if <code>this</code> is ordered before <code>other</code>,
-a positive integer if <code>this</code> is ordered after <code>other</code>,
-and zero if <code>this</code> and <code>other</code> are ordered together.</p>
-<p>The <code>other</code> argument must be a value that is comparable to this object.</p>
+  <p>Converts this card or variant to a <a href="../../core/CardReference-class.html">CardReference</a>.</p>
+<p>By default, this method will use the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute to determine
+whether the reference should be for a foil card. If <code>foil</code> is provided,
+it will override the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute.</p>
 </section>
 
 
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">@override
-int compareTo(CardOrVariant other) {
-  return card.number.compareTo(other.card.number);
-}</code></pre>
+  <pre class="language-dart"><code class="language-dart">CardReference toReference({bool? foil});</code></pre>
 </section>
 
 
@@ -109,12 +99,12 @@ int compareTo(CardOrVariant other) {
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></li>
-    <li class="self-crumb">compareTo method</li>
+    <li><a href="../../core/StyledCard-class.html">StyledCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
+    <li class="self-crumb">toReference abstract method</li>
 </ol>
 
 
-    <h5>CardOrVariant class</h5>
+    <h5>StyledCard class</h5>
     <div id="dartdoc-sidebar-left-content"></div>
   </div><!--/.sidebar-offcanvas-->
 

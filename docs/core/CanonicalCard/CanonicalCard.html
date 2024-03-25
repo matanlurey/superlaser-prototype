@@ -30,7 +30,7 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard</a></li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">CanonicalCard const constructor</li>
   </ol>
   <div class="self-name">CanonicalCard</div>
@@ -57,18 +57,19 @@
       data-above-sidebar="core&#47;CanonicalCard-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-constructor">CanonicalCard</span> constructor 
+<h1><span class="kind-constructor">CanonicalCard&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span> constructor 
 </h1></div>
 
     <section class="multi-line-signature">
       const
-      <span class="name ">CanonicalCard</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-card">{<span>required</span> <span class="type-annotation"><a href="../../core/Card-class.html">Card</a></span> <span class="parameter-name">card</span>}</span></li>
+      <span class="name ">CanonicalCard&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-card">{<span>required</span> <span class="type-annotation">T</span> <span class="parameter-name">card</span>, </span></li>
+<li><span class="parameter" id="-param-isFoil"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isFoil</span> = <span class="default-value">false</span>}</span></li>
 </ol>)
     </section>
 
     
 <section class="desc markdown">
-  <p>Creates a canonical card with the given <a href="../../core/CardOrVariant/card.html">card</a>.</p>
+  <p>Creates a canonical card with the given <a href="../../core/StyledCard/card.html">card</a>.</p>
 </section>
 
 
@@ -77,6 +78,7 @@
   <h2><span>Implementation</span></h2>
   <pre class="language-dart"><code class="language-dart">const CanonicalCard({
   required super.card,
+  super.isFoil,
 });</code></pre>
 </section>
 
@@ -94,7 +96,7 @@
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard</a></li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">CanonicalCard const constructor</li>
 </ol>
 

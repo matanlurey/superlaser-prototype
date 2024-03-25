@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the type property from the VariantCard class, for the Dart programming language.">
-  <title>type property - VariantCard class - core library - Dart API</title>
+  <meta name="description" content="API docs for the cards property from the BoosterPack class, for the Dart programming language.">
+  <title>cards property - BoosterPack class - engine library - Dart API</title>
 
 
   
@@ -29,11 +29,11 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li><a href="../../engine/engine-library.html">engine.dart</a></li>
+    <li><a href="../../engine/BoosterPack-class.html">BoosterPack</a></li>
+    <li class="self-crumb">cards property</li>
   </ol>
-  <div class="self-name">type</div>
+  <div class="self-name">cards</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,28 +54,45 @@
   <div
       id="dartdoc-main-content"
       class="main-content"
-      data-above-sidebar="core&#47;VariantCard-class-sidebar.html"
+      data-above-sidebar="engine&#47;BoosterPack-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-property">type</span> property 
+<h1><span class="kind-property">cards</span> property 
 </h1></div>
 
         <section class="multi-line-signature">
           
-          <a href="../../core/VariantType.html">VariantType</a>
-          <span class="name ">type</span>
+          <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../core/Card-class.html">Card</a></span>&gt;</span></span>&gt;</span>
+          <span class="name ">cards</span>
           <div class="features"><span class="feature">final</span></div>
 
         </section>
         
 <section class="desc markdown">
-  <p>The type of variant.</p>
+  <p>The cards in the booster pack in a fixed order.</p>
+<p>The order is always:</p>
+<ul>
+<li>1 <a href="../../core/LeaderCard-class.html">LeaderCard</a>;</li>
+<li>1 <a href="../../core/BaseCard-class.html">BaseCard</a>;</li>
+<li>9 <a href="../../core/Rarity.html">Rarity.common</a> cards, none are duplicates;</li>
+<li>3 <a href="../../core/Rarity.html">Rarity.uncommon</a> cards<code>^1</code>, none are duplicates;</li>
+<li>1 <a href="../../core/Rarity.html">Rarity.rare</a> or <a href="../../core/Rarity.html">Rarity.legendary</a> card;</li>
+<li>1 <a href="../../core/CardReference/foil.html">CardReference.foil</a> card.</li>
+</ul>
+<p>There are no duplicates among the particular rarities, though it is
+possible for a card to be a variant (or foil) of another card in the pack.</p>
+<p><em><strong>NOTE</strong>: FFG has not published exact odds, so the distribution is based
+on a combination of published odds and community data. It's still random
+but may not match the exact distribution in physical packs.</em></p>
+<p>The list is unmodifiable.</p>
+<p><code>^1</code>: One <a href="../../core/Rarity.html">Rarity.uncommon</a> card has a 6.66% chance to be upgraded to a
+      <a href="../../core/VariantType.html">VariantType.hyperspace</a> <a href="../../core/Rarity.html">Rarity.rare</a> or <a href="../../core/Rarity.html">Rarity.legendary</a> card.</p>
 </section>
 
         
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">final VariantType type;</code></pre>
+  <pre class="language-dart"><code class="language-dart">final List&lt;StyledCard&gt; cards;</code></pre>
 </section>
 
 
@@ -91,13 +108,13 @@
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li><a href="../../engine/engine-library.html">engine</a></li>
+    <li><a href="../../engine/BoosterPack-class.html">BoosterPack</a></li>
+    <li class="self-crumb">cards property</li>
 </ol>
 
 
-    <h5>VariantCard class</h5>
+    <h5>BoosterPack class</h5>
     <div id="dartdoc-sidebar-left-content"></div>
   </div><!--/.sidebar-offcanvas-->
 

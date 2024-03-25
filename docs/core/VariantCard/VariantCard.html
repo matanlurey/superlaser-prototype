@@ -30,7 +30,7 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard</a></li>
+    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">VariantCard const constructor</li>
   </ol>
   <div class="self-name">VariantCard</div>
@@ -57,20 +57,21 @@
       data-above-sidebar="core&#47;VariantCard-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-constructor">VariantCard</span> constructor 
+<h1><span class="kind-constructor">VariantCard&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span> constructor 
 </h1></div>
 
     <section class="multi-line-signature">
       const
-      <span class="name ">VariantCard</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-variantNumber">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">variantNumber</span>, </span></li>
-<li><span class="parameter" id="-param-card"><span>required</span> <span class="type-annotation"><a href="../../core/Card-class.html">Card</a></span> <span class="parameter-name">card</span>, </span></li>
-<li><span class="parameter" id="-param-type"><span>required</span> <span class="type-annotation"><a href="../../core/VariantType.html">VariantType</a></span> <span class="parameter-name">type</span>}</span></li>
+      <span class="name ">VariantCard&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-variantNumber">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">variantNumber</span>, </span></li>
+<li><span class="parameter" id="-param-card"><span>required</span> <span class="type-annotation">T</span> <span class="parameter-name">card</span>, </span></li>
+<li><span class="parameter" id="-param-type"><span>required</span> <span class="type-annotation"><a href="../../core/VariantType.html">VariantType</a></span> <span class="parameter-name">type</span>, </span></li>
+<li><span class="parameter" id="-param-isFoil"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isFoil</span> = <span class="default-value">false</span>}</span></li>
 </ol>)
     </section>
 
     
 <section class="desc markdown">
-  <p>Creates a variant with the given <a href="../../core/CardOrVariant/card.html">card</a> and <a href="../../core/VariantCard/type.html">type</a>.</p>
+  <p>Creates a variant with the given <a href="../../core/StyledCard/card.html">card</a> and <a href="../../core/VariantCard/type.html">type</a>.</p>
 </section>
 
 
@@ -81,6 +82,7 @@
   required this.variantNumber,
   required super.card,
   required this.type,
+  super.isFoil,
 });</code></pre>
 </section>
 
@@ -98,7 +100,7 @@
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard</a></li>
+    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
     <li class="self-crumb">VariantCard const constructor</li>
 </ol>
 

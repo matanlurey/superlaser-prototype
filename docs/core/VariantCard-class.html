@@ -30,7 +30,7 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../index.html">unlimited</a></li>
     <li><a href="../core/core-library.html">core.dart</a></li>
-    <li class="self-crumb">VariantCard class</li>
+    <li class="self-crumb">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../core/Card-class.html">Card</a></span>&gt;</span> class</li>
   </ol>
   <div class="self-name">VariantCard</div>
   <form class="search navbar-right" role="search">
@@ -56,7 +56,7 @@
       data-above-sidebar="core&#47;core-library-sidebar.html"
       data-below-sidebar="core&#47;VariantCard-class-sidebar.html">
       <div>
-<h1><span class="kind-class">VariantCard</span> class 
+<h1><span class="kind-class">VariantCard&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span> class 
     <a href="https://dart.dev/language/class-modifiers#final" class="feature feature-final" title="This class can neither be extended, implemented, nor mixed in.">final</a>
  
 </h1></div>
@@ -74,7 +74,7 @@
   <dd>
     <ul class="gt-separated dark clazz-relationships">
       <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
-        <li><a href="../core/CardOrVariant-class.html">CardOrVariant</a></li>
+        <li><a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></li>
       <li>VariantCard</li>
     </ul>
   </dd>
@@ -96,10 +96,10 @@
 
     <dl class="constructor-summary-list">
         <dt id="VariantCard" class="callable">
-          <span class="name"><a href="../core/VariantCard/VariantCard.html">VariantCard</a></span><span class="signature">(<span class="parameter" id="-param-variantNumber">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">variantNumber</span>, </span><span class="parameter" id="-param-card"><span>required</span> <span class="type-annotation"><a href="../core/Card-class.html">Card</a></span> <span class="parameter-name">card</span>, </span><span class="parameter" id="-param-type"><span>required</span> <span class="type-annotation"><a href="../core/VariantType.html">VariantType</a></span> <span class="parameter-name">type</span>}</span>)</span>
+          <span class="name"><a href="../core/VariantCard/VariantCard.html">VariantCard</a></span><span class="signature">(<span class="parameter" id="-param-variantNumber">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">variantNumber</span>, </span><span class="parameter" id="-param-card"><span>required</span> <span class="type-annotation">T</span> <span class="parameter-name">card</span>, </span><span class="parameter" id="-param-type"><span>required</span> <span class="type-annotation"><a href="../core/VariantType.html">VariantType</a></span> <span class="parameter-name">type</span>, </span><span class="parameter" id="-param-isFoil"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isFoil</span> = <span class="default-value">false</span>}</span>)</span>
         </dt>
         <dd>
-          Creates a variant with the given <a href="../core/CardOrVariant/card.html">card</a> and <a href="../core/VariantCard/type.html">type</a>.
+          Creates a variant with the given <a href="../core/StyledCard/card.html">card</a> and <a href="../core/VariantCard/type.html">type</a>.
             <div class="constructor-modifier features">const</div>
         </dd>
     </dl>
@@ -110,24 +110,35 @@
 
       <dl class="properties">
         <dt id="card" class="property inherited">
-  <span class="name"><a href="../core/CardOrVariant/card.html">card</a></span>
-  <span class="signature">&#8594; <a href="../core/Card-class.html">Card</a></span> 
+  <span class="name"><a href="../core/StyledCard/card.html">card</a></span>
+  <span class="signature">&#8594; T</span> 
 
 </dt>
 <dd class="inherited">
-  The card.
+  Attributes of the card.
   <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
 
 </dd>
 
         <dt id="hashCode" class="property inherited">
-  <span class="name"><a href="../core/CardOrVariant/hashCode.html">hashCode</a></span>
+  <span class="name"><a href="../core/StyledCard/hashCode.html">hashCode</a></span>
   <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
 
 </dt>
 <dd class="inherited">
   The hash code for this object.
   <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isFoil" class="property inherited">
+  <span class="name"><a href="../core/StyledCard/isFoil.html">isFoil</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> 
+
+</dt>
+<dd class="inherited">
+  Whether this card is a foil.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
 
 </dd>
 
@@ -174,7 +185,7 @@
     <h2>Methods</h2>
     <dl class="callables">
         <dt id="compareTo" class="callable inherited">
-  <span class="name"><a href="../core/CardOrVariant/compareTo.html">compareTo</a></span><span class="signature">(<wbr><span class="parameter" id="compareTo-param-other"><span class="type-annotation"><a href="../core/CardOrVariant-class.html">CardOrVariant</a></span> <span class="parameter-name">other</span></span>)
+  <span class="name"><a href="../core/StyledCard/compareTo.html">compareTo</a></span><span class="signature">(<wbr><span class="parameter" id="compareTo-param-other"><span class="type-annotation"><a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/Card-class.html">Card</a></span>&gt;</span></span> <span class="parameter-name">other</span></span>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
   </span>
   
@@ -200,7 +211,7 @@
 </dd>
 
         <dt id="toReference" class="callable">
-  <span class="name"><a href="../core/VariantCard/toReference.html">toReference</a></span><span class="signature">(<wbr><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span> = <span class="default-value">false</span>}</span>)
+  <span class="name"><a href="../core/VariantCard/toReference.html">toReference</a></span><span class="signature">(<wbr><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">foil</span>}</span>)
     <span class="returntype parameter">&#8594; <a href="../core/CardReference-class.html">CardReference</a></span>
   </span>
   
@@ -213,7 +224,7 @@
 </dd>
 
         <dt id="toString" class="callable inherited">
-  <span class="name"><a href="../core/CardOrVariant/toString.html">toString</a></span><span class="signature">(<wbr>)
+  <span class="name"><a href="../core/StyledCard/toString.html">toString</a></span><span class="signature">(<wbr>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
   </span>
   
@@ -222,6 +233,19 @@
 <dd class="inherited">
   A string representation of this object.
   <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="withFoil" class="callable">
+  <span class="name"><a href="../core/VariantCard/withFoil.html">withFoil</a></span><span class="signature">(<wbr><span class="parameter" id="withFoil-param-foil">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../core/VariantCard-class.html">VariantCard</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Returns a copy of this card with the <a href="../core/StyledCard/isFoil.html">isFoil</a> attribute set to <code>foil</code>.
+  <div class="features"><span class="feature">override</span></div>
 
 </dd>
 
@@ -234,7 +258,7 @@
     <h2>Operators</h2>
     <dl class="callables">
         <dt id="operator ==" class="callable inherited">
-  <span class="name"><a href="../core/CardOrVariant/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+  <span class="name"><a href="../core/StyledCard/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
   </span>
   
@@ -266,7 +290,7 @@
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../index.html">unlimited</a></li>
     <li><a href="../core/core-library.html">core</a></li>
-    <li class="self-crumb">VariantCard class</li>
+    <li class="self-crumb">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../core/Card-class.html">Card</a></span>&gt;</span> class</li>
 </ol>
 
 

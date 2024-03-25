@@ -63,7 +63,7 @@
     <section class="multi-line-signature">
       
 
-<span class="returntype"><a href="../../core/CardOrVariant-class.html">CardOrVariant</a>?</span>
+<span class="returntype"><a href="../../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../core/Card-class.html">Card</a></span>&gt;</span>?</span>
 <span class="name ">lookup</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="lookup-param-reference"><span class="type-annotation"><a href="../../core/CardReference-class.html">CardReference</a></span> <span class="parameter-name">reference</span></span></li>
 </ol>)
 
@@ -82,7 +82,7 @@
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">CardOrVariant? lookup(CardReference reference) {
+  <pre class="language-dart"><code class="language-dart">StyledCard? lookup(CardReference reference) {
   reference = reference.withFoil(foil: false);
   return _lookupCache[reference];
 }</code></pre>

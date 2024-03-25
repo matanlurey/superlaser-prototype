@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the type property from the VariantCard class, for the Dart programming language.">
-  <title>type property - VariantCard class - core library - Dart API</title>
+  <meta name="description" content="API docs for the withFoil method from the VariantCard class, for the Dart programming language.">
+  <title>withFoil method - VariantCard class - core library - Dart API</title>
 
 
   
@@ -31,9 +31,9 @@
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
     <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li class="self-crumb">withFoil method</li>
   </ol>
-  <div class="self-name">type</div>
+  <div class="self-name">withFoil</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -57,25 +57,42 @@
       data-above-sidebar="core&#47;VariantCard-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-property">type</span> property 
+<h1><span class="kind-method">withFoil</span> method 
 </h1></div>
 
-        <section class="multi-line-signature">
-          
-          <a href="../../core/VariantType.html">VariantType</a>
-          <span class="name ">type</span>
-          <div class="features"><span class="feature">final</span></div>
+    <section class="multi-line-signature">
+      
+  <div>
+    <ol class="annotation-list">
+        <li>@<a href="https://api.flutter.dev/flutter/dart-core/override-constant.html">override</a></li>
+    </ol>
+  </div>
 
-        </section>
-        
+<span class="returntype"><a href="../../core/VariantCard-class.html">VariantCard</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>
+<span class="name ">withFoil</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="withFoil-param-foil">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span>}</span></li>
+</ol>)
+
+      <div class="features"><span class="feature">override</span></div>
+
+    </section>
+    
 <section class="desc markdown">
-  <p>The type of variant.</p>
+  <p>Returns a copy of this card with the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute set to <code>foil</code>.</p>
 </section>
 
-        
+
+    
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">final VariantType type;</code></pre>
+  <pre class="language-dart"><code class="language-dart">@override
+VariantCard&lt;T&gt; withFoil({required bool foil}) {
+  return VariantCard(
+    variantNumber: variantNumber,
+    card: card,
+    type: type,
+    isFoil: foil,
+  );
+}</code></pre>
 </section>
 
 
@@ -93,7 +110,7 @@
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
     <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li class="self-crumb">withFoil method</li>
 </ol>
 
 

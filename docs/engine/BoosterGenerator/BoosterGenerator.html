@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the type property from the VariantCard class, for the Dart programming language.">
-  <title>type property - VariantCard class - core library - Dart API</title>
+  <meta name="description" content="API docs for the BoosterGenerator constructor from Class BoosterGenerator from the engine library, for the Dart programming language.">
+  <title>BoosterGenerator constructor - BoosterGenerator - engine library - Dart API</title>
 
 
   
@@ -29,11 +29,11 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li><a href="../../engine/engine-library.html">engine.dart</a></li>
+    <li><a href="../../engine/BoosterGenerator-class.html">BoosterGenerator</a></li>
+    <li class="self-crumb">BoosterGenerator factory constructor</li>
   </ol>
-  <div class="self-name">type</div>
+  <div class="self-name">BoosterGenerator</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,28 +54,32 @@
   <div
       id="dartdoc-main-content"
       class="main-content"
-      data-above-sidebar="core&#47;VariantCard-class-sidebar.html"
+      data-above-sidebar="engine&#47;BoosterGenerator-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-property">type</span> property 
+<h1><span class="kind-constructor">BoosterGenerator</span> constructor 
 </h1></div>
 
-        <section class="multi-line-signature">
-          
-          <a href="../../core/VariantType.html">VariantType</a>
-          <span class="name ">type</span>
-          <div class="features"><span class="feature">final</span></div>
+    <section class="multi-line-signature">
+      
+      <span class="name ">BoosterGenerator</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="-param-expansion"><span class="type-annotation"><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></span> <span class="parameter-name">expansion</span>, </span></li>
+<li><span class="parameter" id="-param-random">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-math/Random-class.html">Random</a>?</span> <span class="parameter-name">random</span>}</span></li>
+</ol>)
+    </section>
 
-        </section>
-        
+    
 <section class="desc markdown">
-  <p>The type of variant.</p>
+  <p>Create a booster pack generator for the given <code>expansion</code>.</p>
+<p>If <code>random</code> is not provided, a default <a href="https://api.flutter.dev/flutter/dart-math/Random-class.html">Random</a> instance is used.</p>
 </section>
 
-        
+
+    
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">final VariantType type;</code></pre>
+  <pre class="language-dart"><code class="language-dart">factory BoosterGenerator(CatalogExpansion expansion, {Random? random}) {
+  return BoosterGenerator._(expansion, random ?? _defaultRandom);
+}</code></pre>
 </section>
 
 
@@ -91,15 +95,15 @@
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/VariantCard-class.html">VariantCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
-    <li class="self-crumb">type property</li>
+    <li><a href="../../engine/engine-library.html">engine</a></li>
+    <li><a href="../../engine/BoosterGenerator-class.html">BoosterGenerator</a></li>
+    <li class="self-crumb">BoosterGenerator factory constructor</li>
 </ol>
 
 
-    <h5>VariantCard class</h5>
+    <h5>BoosterGenerator class</h5>
     <div id="dartdoc-sidebar-left-content"></div>
-  </div><!--/.sidebar-offcanvas-->
+  </div><!--/.sidebar-offcanvas-left-->
 
   <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
   </div><!--/.sidebar-offcanvas-->

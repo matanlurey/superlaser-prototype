@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the toReference method from the CardOrVariant class, for the Dart programming language.">
-  <title>toReference method - CardOrVariant class - core library - Dart API</title>
+  <meta name="description" content="API docs for the withFoil method from the CanonicalCard class, for the Dart programming language.">
+  <title>withFoil method - CanonicalCard class - core library - Dart API</title>
 
 
   
@@ -30,10 +30,10 @@
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core.dart</a></li>
-    <li><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></li>
-    <li class="self-crumb">toReference abstract method</li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
+    <li class="self-crumb">withFoil method</li>
   </ol>
-  <div class="self-name">toReference</div>
+  <div class="self-name">withFoil</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,32 +54,40 @@
   <div
       id="dartdoc-main-content"
       class="main-content"
-      data-above-sidebar="core&#47;CardOrVariant-class-sidebar.html"
+      data-above-sidebar="core&#47;CanonicalCard-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-method">toReference</span> abstract method 
+<h1><span class="kind-method">withFoil</span> method 
 </h1></div>
 
     <section class="multi-line-signature">
       
+  <div>
+    <ol class="annotation-list">
+        <li>@<a href="https://api.flutter.dev/flutter/dart-core/override-constant.html">override</a></li>
+    </ol>
+  </div>
 
-<span class="returntype"><a href="../../core/CardReference-class.html">CardReference</a></span>
-<span class="name ">toReference</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="toReference-param-foil">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span> = <span class="default-value">false</span>}</span></li>
+<span class="returntype"><a href="../../core/CanonicalCard-class.html">CanonicalCard</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>
+<span class="name ">withFoil</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="withFoil-param-foil">{<span>required</span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">foil</span>}</span></li>
 </ol>)
 
-      
+      <div class="features"><span class="feature">override</span></div>
 
     </section>
     
 <section class="desc markdown">
-  <p>Converts this card or variant to a <a href="../../core/CardReference-class.html">CardReference</a>.</p>
+  <p>Returns a copy of this card with the <a href="../../core/StyledCard/isFoil.html">isFoil</a> attribute set to <code>foil</code>.</p>
 </section>
 
 
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">CardReference toReference({bool foil = false});</code></pre>
+  <pre class="language-dart"><code class="language-dart">@override
+CanonicalCard&lt;T&gt; withFoil({required bool foil}) {
+  return CanonicalCard(card: card, isFoil: foil);
+}</code></pre>
 </section>
 
 
@@ -96,12 +104,12 @@
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
     <li><a href="../../core/core-library.html">core</a></li>
-    <li><a href="../../core/CardOrVariant-class.html">CardOrVariant</a></li>
-    <li class="self-crumb">toReference abstract method</li>
+    <li><a href="../../core/CanonicalCard-class.html">CanonicalCard<span class="signature">&lt;<wbr><span class="type-parameter">T extends Card</span>&gt;</span></a></li>
+    <li class="self-crumb">withFoil method</li>
 </ol>
 
 
-    <h5>CardOrVariant class</h5>
+    <h5>CanonicalCard class</h5>
     <div id="dartdoc-sidebar-left-content"></div>
   </div><!--/.sidebar-offcanvas-->
 
