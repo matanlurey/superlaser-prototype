@@ -157,6 +157,8 @@ final class BoosterGenerator {
       units = units.where((unit) {
         return unit is VariantCard<UnitCard> && unit.type == variant;
       }).toList();
+    } else {
+      units = units.where((unit) => unit is! VariantCard<UnitCard>).toList();
     }
 
     // If we have no units left, we have a problem.

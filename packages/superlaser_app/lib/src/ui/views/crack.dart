@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:superlaser_app/ui.dart';
 import 'package:unlimited/catalog/sor.dart' as sor;
+import 'package:unlimited/core.dart' hide Card;
 import 'package:unlimited/engine.dart';
 
 /// Crack a simulated booster pack.
@@ -48,7 +50,26 @@ final class _CrackViewState extends State<CrackView> {
               ),
             )
           : ListView(
-              children: [],
+              children: [
+                for (final card in _pack!.cards)
+                  Card(
+                    child: ListTile(
+                      title: Text(
+                        card.card.name,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      subtitle: Text(
+                        '${card.isFoil ? 'Foil ' : ''}'
+                        '${card is VariantCard ? '${card.type.name.capitalize()} ' : ''}'
+                        '${card.card.rarity.name.capitalize()}',
+                      ),
+                      leading: CardImage(
+                        card: card.toReference(),
+                        type: CardImageType.thumb,
+                      ),
+                    ),
+                  ),
+              ],
             ),
     );
   }

@@ -27,4 +27,39 @@ void main() {
 
     expect(dispenser.dispense(0.9), 'D');
   });
+
+  test('dispenses on a typical distribution', () {
+    // Similar to LeaderCard.
+    final dispsenser = Dispenser(
+      [
+        (0.1640, () => 'RL'),
+        (0.1300, () => 'CHL'),
+        (0.0300, () => 'RHL'),
+        (0.0038, () => 'SL'),
+      ],
+      orElse: () => 'CL',
+    );
+
+    // Generate 1000 leaders equally distributed from 0.0 to 1.0.
+    final leaders = [
+      for (var i = 0; i < 1000; i++) dispsenser.dispense(i / 1000),
+    ];
+
+    // Check the distribution of the leaders are within expected ranges.
+    check(leaders.where((leader) => leader == 'RL')).which(
+      (l) => l.length.equals(164),
+    );
+    check(leaders.where((leader) => leader == 'CHL')).which(
+      (l) => l.length.equals(131),
+    );
+    check(leaders.where((leader) => leader == 'RHL')).which(
+      (l) => l.length.equals(30),
+    );
+    check(leaders.where((leader) => leader == 'SL')).which(
+      (l) => l.length.equals(3),
+    );
+    check(leaders.where((leader) => leader == 'CL')).which(
+      (l) => l.length.equals(672),
+    );
+  });
 }
