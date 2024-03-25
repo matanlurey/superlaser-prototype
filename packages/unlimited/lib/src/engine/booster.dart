@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/src/internal.dart';
 
 /// A generator for creating booster packs.
 ///
@@ -48,16 +49,23 @@ final class BoosterGenerator {
     ) = _indexCards<BaseCard>(_expansion.data);
     _allBases = allBases;
     _basesByRarity = basesByRarity;
+
+    final (
+      allUnits,
+      unitsByRarity,
+    ) = _indexCards<UnitCard>(_expansion.data);
+    _allUnits = allUnits;
+    _unitsByRarity = unitsByRarity;
   }
 
-  static (List<CardOrVariant<T>>, Map<Rarity, List<CardOrVariant<T>>>)
+  static (List<StyledCard<T>>, Map<Rarity, List<StyledCard<T>>>)
       _indexCards<T extends Card>(
-    Iterable<CardOrVariant> cards,
+    Iterable<StyledCard> cards,
   ) {
-    final all = cards.whereType<CardOrVariant<T>>().toList();
+    final all = cards.whereType<StyledCard<T>>().toList();
     return (
       all,
-      groupBy<CardOrVariant<T>, Rarity>(
+      groupBy<StyledCard<T>, Rarity>(
         all,
         (card) => card.card.rarity,
       ),
@@ -72,13 +80,16 @@ final class BoosterGenerator {
   /// Which expansion the generator is for.
   Expansion get expansion => _expansion.expansion;
 
-  late final List<CardOrVariant<LeaderCard>> _allLeaders;
-  late final Map<Rarity, List<CardOrVariant<LeaderCard>>> _leadersByRarity;
+  late final List<StyledCard<LeaderCard>> _allLeaders;
+  late final Map<Rarity, List<StyledCard<LeaderCard>>> _leadersByRarity;
 
-  late final List<CardOrVariant<BaseCard>> _allBases;
-  late final Map<Rarity, List<CardOrVariant<BaseCard>>> _basesByRarity;
+  late final List<StyledCard<BaseCard>> _allBases;
+  late final Map<Rarity, List<StyledCard<BaseCard>>> _basesByRarity;
 
-  CardOrVariant<LeaderCard> _pullLeader([
+  late final List<StyledCard<UnitCard>> _allUnits;
+  late final Map<Rarity, List<StyledCard<UnitCard>>> _unitsByRarity;
+
+  StyledCard<LeaderCard> _pullLeader([
     Rarity? rarity,
     VariantType? variant,
   ]) {
@@ -104,6 +115,63 @@ final class BoosterGenerator {
     return leaders[_random.nextInt(leaders.length)];
   }
 
+  StyledCard<BaseCard> _pullBase([
+    Rarity? rarity,
+    VariantType? variant,
+  ]) {
+    // Do we need to filter by rarity?
+    var bases = rarity == null
+        ? _allBases
+        : _basesByRarity[rarity] ??
+            (throw StateError('No $rarity bases in $expansion.'));
+
+    // Do we need to filter by variant?
+    if (variant != null) {
+      bases = bases.where((base) {
+        return base is VariantCard<BaseCard> && base.type == variant;
+      }).toList();
+    }
+
+    // If we have no bases left, we have a problem.
+    if (bases.isEmpty) {
+      throw StateError('No bases left in $expansion.');
+    }
+
+    // Pick a random base.
+    return bases[_random.nextInt(bases.length)];
+  }
+
+  StyledCard<UnitCard> _pullUnit([
+    Rarity? rarity,
+    VariantType? variant,
+    bool isFoil = false,
+  ]) {
+    // Do we need to filter by rarity?
+    var units = rarity == null
+        ? _allUnits
+        : _unitsByRarity[rarity] ??
+            (throw StateError('No $rarity units in $expansion.'));
+
+    // Do we need to filter by variant?
+    if (variant != null) {
+      units = units.where((unit) {
+        return unit is VariantCard<UnitCard> && unit.type == variant;
+      }).toList();
+    }
+
+    // If we have no units left, we have a problem.
+    if (units.isEmpty) {
+      throw StateError('No units left in $expansion.');
+    }
+
+    // Pick a random unit.
+    var result = units[_random.nextInt(units.length)];
+    if (isFoil) {
+      result = result.withFoil(foil: true);
+    }
+    return result;
+  }
+
   /// Weighted pull for [LeaderCard].
   ///
   /// Type                              | Pull Ratio  | Pull Chance
@@ -113,26 +181,54 @@ final class BoosterGenerator {
   /// Hyperspace Variant (Common)       | 1:7.7       | 13.00%
   /// Hyperspace Variant (Rare)         | 1:33.7      | 03.00%
   /// Showcase Variant (Either)         | 1:263.3     | 00.38%
-  late final _leaderWeights = _WeightedPull<LeaderCard>(
-    () => _pullLeader(Rarity.common),
+  late final _leaders = Dispenser(
     [
-      (
-        1.0 / 6.1,
-        () => _pullLeader(Rarity.rare),
-      ),
-      (
-        1.0 / 7.7,
-        () => _pullLeader(Rarity.common, VariantType.hyperspace),
-      ),
-      (
-        1.0 / 33.7,
-        () => _pullLeader(Rarity.rare, VariantType.hyperspace),
-      ),
-      (
-        1.0 / 263.3,
-        () => _pullLeader(null, VariantType.showcase),
-      ),
+      (0.1640, () => _pullLeader(Rarity.rare)),
+      (0.1300, () => _pullLeader(Rarity.common, VariantType.hyperspace)),
+      (0.0300, () => _pullLeader(Rarity.rare, VariantType.hyperspace)),
+      (0.0038, () => _pullLeader(null, VariantType.showcase)),
     ],
+    orElse: () => _pullLeader(Rarity.common),
+  );
+
+  /// Weighted pull for [BaseCard].
+  ///
+  /// Type                              | Pull Ratio  | Pull Chance
+  /// --------------------------------- | ----------- | ------------
+  /// Common                            | Else        | 67.22%
+  /// Rare                              | 1:6.1       | 16.40%
+  /// Hyperspace Variant (Common)       | 1:6.2       | 16.13%
+  late final _bases = Dispenser(
+    [
+      (0.1640, () => _pullBase(Rarity.rare)),
+      (0.1613, () => _pullBase(Rarity.common, VariantType.hyperspace)),
+    ],
+    orElse: () => _pullBase(Rarity.common),
+  );
+
+  /// Weighted pull for [StyledCard.isFoil].
+  ///
+  /// Type                              | Pull Ratio  | Pull Chance
+  /// --------------------------------- | ----------- | ------------
+  /// Common                            | Else        | 50.78%
+  /// Uncommon                          | 1:4.7       | 21.28%
+  /// Rare                              | 1:10.5      | 09.52%
+  /// Legendary                         | 1:64.3      | 01.56%
+  /// Hyperspace Variant (Common)       | 1:9.3       | 10.75%
+  /// Hyperspace Variant (Uncommon)     | 1:27.3      | 03.66%
+  /// Hyperspace Variant (Rare)         | 1:64.3      | 01.56%
+  /// Hyperspace Variant (Legendary)    | 1:228.8     | 00.44%
+  late final _foils = Dispenser(
+    [
+      (0.2128, () => _pullUnit(Rarity.uncommon, null, true)),
+      (0.0952, () => _pullUnit(Rarity.rare, null, true)),
+      (0.0156, () => _pullUnit(Rarity.legendary, null, true)),
+      (0.1075, () => _pullUnit(Rarity.common, VariantType.hyperspace, true)),
+      (0.0366, () => _pullUnit(Rarity.uncommon, VariantType.hyperspace, true)),
+      (0.0156, () => _pullUnit(Rarity.rare, VariantType.hyperspace, true)),
+      (0.0044, () => _pullUnit(Rarity.legendary, VariantType.hyperspace, true)),
+    ],
+    orElse: () => _pullUnit(Rarity.common, null, true),
   );
 
   /// Creates and returns a new 16-card booster pack.
@@ -147,50 +243,46 @@ final class BoosterGenerator {
   ///
   /// [^1]: i.e. [Rarity.special].
   BoosterPack create() {
-    // 1. Leader card.
-    final leader = _leaderWeights.pull(_random.nextDouble());
+    return BoosterPack.withCards(
+      leader: _leaders.dispense(_random.nextDouble()),
+      base: _bases.dispense(_random.nextDouble()),
 
-    throw UnimplementedError('TODO: Finish');
-  }
-}
+      commons: [
+        // 8 commons.
+        for (var i = 0; i < 8; i++) _pullUnit(Rarity.common),
 
-typedef _Pull<T extends Card> = CardOrVariant<T> Function();
+        // 9th common ... 1:2.8 packs have a hyperspace common.
+        if (_random.nextDouble() < 1 / 2.8)
+          _pullUnit(Rarity.common, VariantType.hyperspace)
+        else
+          _pullUnit(Rarity.common),
+      ],
 
-final class _WeightedPull<T extends Card> {
-  factory _WeightedPull(
-    _Pull<T> defaultCase,
-    Iterable<(double, _Pull<T>)> cases,
-  ) {
-    final total = cases.fold<double>(
-      0,
-      (total, pair) => total + pair.$1,
+      uncommons: [
+        // 2 Uncommons.
+        for (var i = 0; i < 2; i++) _pullUnit(Rarity.uncommon),
+
+        // 3rd uncommon ... 1:6.6 packs have a hyperspace rare or legendary.
+        if (_random.nextDouble() < 1 / 6.6)
+          // 1:71.7 it's a legendary.
+          if (_random.nextDouble() < 1 / 71.7)
+            _pullUnit(Rarity.legendary, VariantType.hyperspace)
+          else
+            _pullUnit(Rarity.rare, VariantType.hyperspace)
+        // Or a 1:8.8 chance of a hyperspace uncommon.
+        else if (_random.nextDouble() < 1 / 8.8)
+          _pullUnit(Rarity.uncommon, VariantType.hyperspace)
+        else
+          _pullUnit(Rarity.uncommon),
+      ],
+
+      // 1/8 a rare is upgraded to a legendary.
+      rareOrLegendary: _random.nextDouble() < 1 / 8
+          ? _pullUnit(Rarity.legendary)
+          : _pullUnit(Rarity.rare),
+
+      foil: _foils.dispense(_random.nextDouble()),
     );
-    if (total > 1.0) {
-      throw ArgumentError.value(
-        cases,
-        'cases',
-        'Total weight must be less than or equal to 1.0',
-      );
-    }
-    return _WeightedPull<T>._withCases([
-      (1.0 - total, defaultCase),
-      ...cases,
-    ]);
-  }
-
-  _WeightedPull._withCases(this._cases);
-
-  final List<(double, _Pull<T>)> _cases;
-
-  CardOrVariant<T> pull(double random) {
-    var total = 0.0;
-    for (final (weight, pull) in _cases) {
-      total += weight;
-      if (random < total) {
-        return pull();
-      }
-    }
-    throw StateError('Unreachable');
   }
 }
 
@@ -212,12 +304,12 @@ final class BoosterPack {
   /// specific cards for testing or simulation purposes. To create a _typical_
   /// (i.e. random) booster pack, use [BoosterGenerator] instead.
   factory BoosterPack.withCards({
-    required CardOrVariant<LeaderCard> leader,
-    required CardOrVariant<BaseCard> base,
-    required Iterable<CardOrVariant> commons,
-    required Iterable<CardOrVariant> uncommons,
-    required CardOrVariant rareOrLegendary,
-    required CardOrVariant foil,
+    required StyledCard<LeaderCard> leader,
+    required StyledCard<BaseCard> base,
+    required Iterable<StyledCard> commons,
+    required Iterable<StyledCard> uncommons,
+    required StyledCard rareOrLegendary,
+    required StyledCard foil,
   }) {
     return BoosterPack._([
       leader,
@@ -229,8 +321,7 @@ final class BoosterPack {
     ]);
   }
 
-  BoosterPack._(Iterable<CardOrVariant> cards)
-      : cards = List.unmodifiable(cards) {
+  BoosterPack._(Iterable<StyledCard> cards) : cards = List.unmodifiable(cards) {
     // We must always have 16 cards, and they must be from the same expansion.
     if (this.cards.length != 16) {
       throw ArgumentError.value(
@@ -269,7 +360,7 @@ final class BoosterPack {
   ///
   /// [^1]: One [Rarity.uncommon] card has a 6.66% chance to be upgraded to a
   ///       [VariantType.hyperspace] [Rarity.rare] or [Rarity.legendary] card.
-  final List<CardOrVariant> cards;
+  final List<StyledCard> cards;
 
   /// The expansion that the booster pack is from.
   Expansion get expansion => cards.first.card.expansion;

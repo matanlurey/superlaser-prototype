@@ -1,9 +1,7 @@
 import 'dart:collection';
 
-import 'package:collection/collection.dart';
 import 'package:meta/meta.dart';
 import 'package:unlimited/core.dart';
-import 'package:unlimited/src/core/variant.dart';
 
 /// A collection of expansions and their cards.
 ///
@@ -69,7 +67,7 @@ final class Catalog {
         .map((wrapper) => wrapper.card);
   }
 
-  final Map<CardReference, CardOrVariant> _lookupCache;
+  final Map<CardReference, StyledCard> _lookupCache;
 
   /// Looks up a card by its [reference], or `null` if no such card exists.
   ///
@@ -78,7 +76,7 @@ final class Catalog {
   /// ## Performance
   ///
   /// The performance of this method is `O(1)`.
-  CardOrVariant? lookup(CardReference reference) {
+  StyledCard? lookup(CardReference reference) {
     reference = reference.withFoil(foil: false);
     return _lookupCache[reference];
   }
@@ -119,11 +117,11 @@ final class CatalogExpansion {
   /// - Unique based on [Card.number];
   /// - Sorted by [Card.number].
   ///
-  /// **TIP**: [CardOrVariant] is _comparable_, so you can use `sort()`:
+  /// **TIP**: [StyledCard] is _comparable_, so you can use `sort()`:
   /// ```dart
   /// CatalogExpansion([...]..sort());
   /// ```
-  CatalogExpansion(Iterable<CardOrVariant> data)
+  CatalogExpansion(Iterable<StyledCard> data)
       : _data = data.toList(growable: false),
         expansion = data.first.card.expansion {
     if (_data.isEmpty) {
@@ -184,8 +182,8 @@ final class CatalogExpansion {
   /// ```
   ///
   /// The list is unmodifiable.
-  late final data = List<CardOrVariant>.unmodifiable(_data);
-  final List<CardOrVariant> _data;
+  late final data = List<StyledCard>.unmodifiable(_data);
+  final List<StyledCard> _data;
 
   /// Looks up a card by its number, or `null` if no such card exists.
   ///
@@ -200,7 +198,7 @@ final class CatalogExpansion {
   /// (this is done automatically by the [Catalog] class).
   ///
   /// [binary search]: https://en.wikipedia.org/wiki/Binary_search_algorithm
-  CardOrVariant? lookup(int number) {
+  StyledCard? lookup(int number) {
     var min = 0;
     var max = _data.length - 1;
     while (min <= max) {

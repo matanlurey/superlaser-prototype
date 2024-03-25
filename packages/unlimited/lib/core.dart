@@ -39,4 +39,4 @@ export 'src/core/expansion.dart'
 export 'src/core/rarity.dart' show Rarity;
 export 'src/core/trait.dart' show Trait;
 export 'src/core/variant.dart'
-    show CanonicalCard, CardOrVariant, VariantCard, VariantType;
+    show CanonicalCard, StyledCard, VariantCard, VariantType;
