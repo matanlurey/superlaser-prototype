@@ -82,9 +82,12 @@ final class _CrackViewState extends State<CrackView> {
                           '${card.isFoil ? 'F ' : ''}'
                           '${card is VariantCard ? '${card.type.name.capitalize()} ' : ''}',
                         ),
-                        leading: CardImage(
-                          card: card.toReference(),
-                          type: CardImageType.thumb,
+                        leading: SizedBox(
+                          width: 150,
+                          child: CardImage(
+                            card: card.toReference(),
+                            type: CardImageType.thumb,
+                          ),
                         ),
                       ),
                     ),
