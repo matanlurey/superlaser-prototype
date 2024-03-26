@@ -104,6 +104,10 @@ final class BoosterGenerator {
       leaders = leaders.where((leader) {
         return leader is VariantCard<LeaderCard> && leader.type == variant;
       }).toList();
+    } else {
+      leaders = leaders
+          .where((leader) => leader is! VariantCard<LeaderCard>)
+          .toList();
     }
 
     // If we have no leaders left, we have a problem.
@@ -130,6 +134,8 @@ final class BoosterGenerator {
       bases = bases.where((base) {
         return base is VariantCard<BaseCard> && base.type == variant;
       }).toList();
+    } else {
+      bases = bases.where((base) => base is! VariantCard<BaseCard>).toList();
     }
 
     // If we have no bases left, we have a problem.
