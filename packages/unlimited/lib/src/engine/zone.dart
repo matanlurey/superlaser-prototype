@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:meta/meta.dart';
 import 'package:unlimited/core.dart';
 import 'package:unlimited/engine.dart';
@@ -269,6 +271,27 @@ final class DeckZone extends OwnedZone {
 
   @override
   bool get inPlay => false;
+
+  /// Returns a new deck zone with the drawn card removed.
+  ///
+  /// The [fn] function is called with the drawn card.
+  ///
+  /// If the deck is empty, throws a [StateError].
+  @useResult
+  DeckZone draw(void Function(DeckCard) fn) {
+    if (cards.isEmpty) {
+      throw StateError('Cannot draw from an empty deck');
+    }
+    final copy = [...cards];
+    fn(cards.removeAt(0));
+    return DeckZone.withCards(copy);
+  }
+
+  /// Returns a new deck zone with the given cards shuffled.
+  @useResult
+  DeckZone shuffle([Random? random]) {
+    return DeckZone.withCards([...cards]..shuffle(random));
+  }
 }
 
 /// Each player's hand is its own zone.

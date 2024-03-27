@@ -6,18 +6,38 @@
 /// be used when building anything like a simulator, a game client, or a game
 /// visualizer.
 ///
+/// Most data structures in this library are _mutable_ where they would be
+/// modified during gameplay. For example, a [Base] can be damaged, so it's
+/// mutable. However a [Deck] is _immutable_ because it's a collection of cards
+/// that doesn't change during gameplay (you'll need to write your own logic for
+/// something like deck building).
+///
 /// ## Usage
 ///
 /// ```dart
 /// import 'package:unlimited/engine.dart';
 /// ```
 ///
-/// ## Validation
+/// ## Scope
 ///
-/// Where possible, this library will validate the game state and enforce the
-/// rules of the game. However, it is not a complete rules engine, and it is
-/// possible to create invalid game states. It is the responsibility of the
-/// caller to ensure that the game state is valid.
+/// This library provides static type checking and some low-level correctness
+/// checks. For example, the [PremierDeck] class ensures that the deck has at
+/// least 50 cards and no more than 3 copies of any card. However, it does not
+/// try to simulate the game rules, and as such is missing concepts such as
+/// "valid action", "current player", or "defeated unit", which are left to the
+/// user to implement:
+///
+/// ```dart
+/// void example(Base base) {
+///   // Go ahead and place 1000 damage on the base.
+///   base.damage(1000);
+///   print(base.damage()); // 1000, even though in game rules the game is over.
+///
+///   // Ok, now heal it back to 30.
+///   base.damage(-1000);
+///   print(base.damage); // 30.
+/// }
+/// ```
 ///
 /// In addition, this library does not provide any user interface or invalid
 /// input handling beyond throwing errors that are not expected to be caught.
@@ -40,10 +60,10 @@
 library engine;
 
 // Imported for documentation purposes.
-import 'package:unlimited/src/engine/deck.dart';
+import 'package:unlimited/src/build/deck.dart';
+import 'package:unlimited/src/engine/state.dart';
 
-export 'src/engine/booster.dart';
-export 'src/engine/deck.dart';
+export 'src/build/deck.dart';
 export 'src/engine/game.dart';
 export 'src/engine/id.dart';
 export 'src/engine/player.dart';

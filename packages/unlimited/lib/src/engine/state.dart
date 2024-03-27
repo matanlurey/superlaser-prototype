@@ -20,43 +20,26 @@ final class Resource {
   final DeckCard card;
 
   @override
-  bool operator ==(Object other) {
-    return other is Resource && other.card == card;
-  }
-
-  @override
-  int get hashCode => card.hashCode;
-
-  @override
   String toString() => 'Resource <$card>';
 }
 
+/// A game object that can receive damage tok
+mixin Target {}
+
 /// A type of card that represents a location in _Star Wars_.
-///
-/// When a base has no remaining HP, its owner immediately loses the game,
-/// and its opponent immediately wins the game. A player cannot resolve actions,
-/// abilities, or effects once their base's remaining HP reaches 0.
-@immutable
 final class Base {
-  /// Creates a new base from the given [card].
-  factory Base.fromCard(BaseCard card) {
-    return Base._(card: card);
+  /// Creates a new base from the given [card] and [initialDamage].
+  factory Base.fromCard(BaseCard card, {int initialDamage = 0}) {
+    return Base._(card: card, initialDamage: initialDamage);
   }
 
   const Base._({
     required this.card,
+    required int initialDamage,
   });
 
   /// The card that represents the base.
   final BaseCard card;
-
-  @override
-  bool operator ==(Object other) {
-    return other is Base && other.card == card;
-  }
-
-  @override
-  int get hashCode => card.hashCode;
 
   @override
   String toString() => 'Base <$card>';

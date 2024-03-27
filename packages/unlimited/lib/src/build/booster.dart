@@ -2,7 +2,99 @@ import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/src/core/card.dart';
 import 'package:unlimited/src/internal.dart';
+
+/// A 16-card booster pack.
+///
+/// Each booster pack contains exactly 16 cards:
+/// - 1 is guaranteed to be a [LeaderCard].
+/// - 1 is guaranteed to be a [BaseCard].
+/// - the remaining 14 are [DeckCard]s.
+///
+/// Outside of cards exclusive to starter decks[^1], the cards are divided by
+/// [Rarity]. See [cards] for more details.
+///
+/// [^1]: i.e. [Rarity.special].
+final class BoosterPack {
+  /// Create a booster pack with the given [cards].
+  ///
+  /// This constructor is intended to be used to create a booster pack with
+  /// specific cards for testing or simulation purposes. To create a _typical_
+  /// (i.e. random) booster pack, use [BoosterGenerator] instead.
+  factory BoosterPack.withCards({
+    required StyledCard<LeaderCard> leader,
+    required StyledCard<BaseCard> base,
+    required Iterable<StyledCard> commons,
+    required Iterable<StyledCard> uncommons,
+    required StyledCard rareOrLegendary,
+    required StyledCard foil,
+  }) {
+    return BoosterPack._([
+      leader,
+      base,
+      ...commons,
+      ...uncommons,
+      rareOrLegendary,
+      foil,
+    ]);
+  }
+
+  BoosterPack._(Iterable<StyledCard> cards) : cards = List.unmodifiable(cards) {
+    // We must always have 16 cards, and they must be from the same expansion.
+    if (this.cards.length != 16) {
+      throw ArgumentError.value(
+        cards,
+        'cards',
+        'Must have exactly 16 cards',
+      );
+    }
+    if (!this.cards.every((card) => card.card.expansion == expansion)) {
+      throw ArgumentError.value(
+        cards,
+        'cards',
+        'All cards must belong to the same set',
+      );
+    }
+  }
+
+  /// The cards in the booster pack in a fixed order.
+  ///
+  /// The order is always:
+  /// - 1 [LeaderCard];
+  /// - 1 [BaseCard];
+  /// - 9 [Rarity.common] cards, none are duplicates;
+  /// - 3 [Rarity.uncommon] cards[^1], none are duplicates;
+  /// - 1 [Rarity.rare] or [Rarity.legendary] card;
+  /// - 1 [CardReference.foil] card.
+  ///
+  /// There are no duplicates among the particular rarities, though it is
+  /// possible for a card to be a variant (or foil) of another card in the pack.
+  ///
+  /// _**NOTE**: FFG has not published exact odds, so the distribution is based
+  /// on a combination of published odds and community data. It's still random
+  /// but may not match the exact distribution in physical packs._
+  ///
+  /// The list is unmodifiable.
+  ///
+  /// [^1]: One [Rarity.uncommon] card has a 6.66% chance to be upgraded to a
+  ///       [VariantType.hyperspace] [Rarity.rare] or [Rarity.legendary] card.
+  final List<StyledCard> cards;
+
+  /// Leader card in the booster pack.
+  LeaderCard get leader => cards[0].card as LeaderCard;
+
+  /// Base card in the booster pack.
+  BaseCard get base => cards[1].card as BaseCard;
+
+  /// Other cards in the booster pack (excluding [leader] and [base]).
+  Iterable<StyledCard<DeckCard>> get others {
+    return cards.skip(2).map((card) => card as StyledCard<DeckCard>);
+  }
+
+  /// The expansion that the booster pack is from.
+  Expansion get expansion => cards.first.card.expansion;
+}
 
 /// A generator for creating booster packs.
 ///
@@ -31,7 +123,7 @@ final class BoosterGenerator {
   /// Create a booster pack generator for the given [expansion].
   ///
   /// If [random] is not provided, a default [Random] instance is used.
-  factory BoosterGenerator(CatalogExpansion expansion, {Random? random}) {
+  factory BoosterGenerator.of(CatalogExpansion expansion, {Random? random}) {
     return BoosterGenerator._(expansion, random ?? _defaultRandom);
   }
 
@@ -292,84 +384,4 @@ final class BoosterGenerator {
       foil: _foils.dispense(_random.nextDouble()),
     );
   }
-}
-
-/// A 16-card booster pack.
-///
-/// Each booster pack contains exactly 16 cards:
-/// - 1 is guaranteed to be a [LeaderCard].
-/// - 1 is guaranteed to be a [BaseCard].
-/// - the remaining 14 are [DeckCard]s.
-///
-/// Outside of cards exclusive to starter decks[^1], the cards are divided by
-/// [Rarity]. See [cards] for more details.
-///
-/// [^1]: i.e. [Rarity.special].
-final class BoosterPack {
-  /// Create a booster pack with the given [cards].
-  ///
-  /// This constructor is intended to be used to create a booster pack with
-  /// specific cards for testing or simulation purposes. To create a _typical_
-  /// (i.e. random) booster pack, use [BoosterGenerator] instead.
-  factory BoosterPack.withCards({
-    required StyledCard<LeaderCard> leader,
-    required StyledCard<BaseCard> base,
-    required Iterable<StyledCard> commons,
-    required Iterable<StyledCard> uncommons,
-    required StyledCard rareOrLegendary,
-    required StyledCard foil,
-  }) {
-    return BoosterPack._([
-      leader,
-      base,
-      ...commons,
-      ...uncommons,
-      rareOrLegendary,
-      foil,
-    ]);
-  }
-
-  BoosterPack._(Iterable<StyledCard> cards) : cards = List.unmodifiable(cards) {
-    // We must always have 16 cards, and they must be from the same expansion.
-    if (this.cards.length != 16) {
-      throw ArgumentError.value(
-        cards,
-        'cards',
-        'Must have exactly 16 cards',
-      );
-    }
-    if (!this.cards.every((card) => card.card.expansion == expansion)) {
-      throw ArgumentError.value(
-        cards,
-        'cards',
-        'All cards must belong to the same set',
-      );
-    }
-  }
-
-  /// The cards in the booster pack in a fixed order.
-  ///
-  /// The order is always:
-  /// - 1 [LeaderCard];
-  /// - 1 [BaseCard];
-  /// - 9 [Rarity.common] cards, none are duplicates;
-  /// - 3 [Rarity.uncommon] cards[^1], none are duplicates;
-  /// - 1 [Rarity.rare] or [Rarity.legendary] card;
-  /// - 1 [CardReference.foil] card.
-  ///
-  /// There are no duplicates among the particular rarities, though it is
-  /// possible for a card to be a variant (or foil) of another card in the pack.
-  ///
-  /// _**NOTE**: FFG has not published exact odds, so the distribution is based
-  /// on a combination of published odds and community data. It's still random
-  /// but may not match the exact distribution in physical packs._
-  ///
-  /// The list is unmodifiable.
-  ///
-  /// [^1]: One [Rarity.uncommon] card has a 6.66% chance to be upgraded to a
-  ///       [VariantType.hyperspace] [Rarity.rare] or [Rarity.legendary] card.
-  final List<StyledCard> cards;
-
-  /// The expansion that the booster pack is from.
-  Expansion get expansion => cards.first.card.expansion;
 }

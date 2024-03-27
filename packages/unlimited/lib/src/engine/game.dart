@@ -5,41 +5,60 @@ import 'package:unlimited/engine.dart';
 @immutable
 final class PlayerState {
   const PlayerState._({
-    required this.base,
-    required this.resources,
-    required this.hand,
-    required this.deck,
-    required this.discardPile,
+    required this.baseZone,
+    required this.resourceZone,
+    required this.handZone,
+    required this.deckZone,
+    required this.discardPileZone,
   });
 
   /// Creates a new player state from the initial state.
+  ///
+  /// Bases and leaders are automatically put into play.
   factory PlayerState.fromInitialState(InitialPlayerState state) {
     return PlayerState._(
-      base: BaseZone(
+      baseZone: BaseZone(
         base: Base.fromCard(state.deck.base),
         leaders: state.deck.leaders.map(Leader.fromCard),
       ),
-      resources: ResourceZone(),
-      hand: HandZone(),
-      deck: DeckZone.withCards(state.deck.cards),
-      discardPile: DiscardPileZone(),
+      resourceZone: ResourceZone(),
+      handZone: HandZone(),
+      deckZone: DeckZone.withCards(state.deck.cards),
+      discardPileZone: DiscardPileZone(),
     );
   }
 
   /// The base zone for the player.
-  final BaseZone base;
+  final BaseZone baseZone;
 
   /// The resource zone for the player.
-  final ResourceZone resources;
+  final ResourceZone resourceZone;
 
   /// The hand zone for the player.
-  final HandZone hand;
+  final HandZone handZone;
 
   /// The deck zone for the player.
-  final DeckZone deck;
+  final DeckZone deckZone;
 
   /// The discard pile zone for the player.
-  final DiscardPileZone discardPile;
+  final DiscardPileZone discardPileZone;
+
+  /// Returns a copy of the player state with the provided zones replaced.
+  PlayerState copyWith({
+    BaseZone Function(BaseZone)? base,
+    ResourceZone Function(ResourceZone)? resource,
+    HandZone Function(HandZone)? hand,
+    DeckZone Function(DeckZone)? deck,
+    DiscardPileZone Function(DiscardPileZone)? discardPile,
+  }) {
+    return PlayerState._(
+      baseZone: base?.call(baseZone) ?? baseZone,
+      resourceZone: resource?.call(resourceZone) ?? resourceZone,
+      handZone: hand?.call(handZone) ?? handZone,
+      deckZone: deck?.call(deckZone) ?? deckZone,
+      discardPileZone: discardPile?.call(discardPileZone) ?? discardPileZone,
+    );
+  }
 }
 
 /// Initial player-specific state.
@@ -59,16 +78,10 @@ final class InitialPlayerState<T extends Deck> {
 }
 
 /// Game structure for the [Star Wars: Unlimited] Trading Card Game.
-///
-/// A game consists of multiple [rounds], and each round consists of an action
-/// phase and a regroup phase. During the action phase, players take turns
-/// taking an action. During the regroup phase, players can put a resource into
-/// play and ready exhausted cards.
 @immutable
 final class Game {
   Game._({
     required Map<Player, PlayerState> players,
-    required this.rounds,
     required this.groundArena,
     required this.spaceArena,
   }) : players = Map.unmodifiable(players);
@@ -76,7 +89,6 @@ final class Game {
   /// Creates a game from existing state.
   factory Game.from({
     required Map<Player, PlayerState> players,
-    required int rounds,
     required GroundArenaZone groundArena,
     required SpaceArenaZone spaceArena,
   }) = Game._;
@@ -92,7 +104,6 @@ final class Game {
         a.player: aState,
         b.player: bState,
       },
-      rounds: 0,
       groundArena: GroundArenaZone(),
       spaceArena: SpaceArenaZone(),
     );
@@ -119,12 +130,36 @@ final class Game {
   /// Individual state for each player.
   final Map<Player, PlayerState> players;
 
-  /// How many rounds have been played.
-  ///
-  /// See also: [currentRound].
-  final int rounds;
+  /// Returns a copy of the game with the ground arena replaced.
+  @useResult
+  Game withGroundArena(GroundArenaZone groundArena) {
+    return Game.from(
+      players: players,
+      groundArena: groundArena,
+      spaceArena: spaceArena,
+    );
+  }
 
-  /// The current round of the game.
-  @nonVirtual
-  int get currentRound => rounds + 1;
+  /// Returns a copy of the game with the space arena replaced.
+  @useResult
+  Game withSpaceArena(SpaceArenaZone spaceArena) {
+    return Game.from(
+      players: players,
+      groundArena: groundArena,
+      spaceArena: spaceArena,
+    );
+  }
+
+  /// Returns a copy of the game with the specified player's state replaced.
+  @useResult
+  Game withPlayerState(Player player, PlayerState Function(PlayerState) fn) {
+    return Game.from(
+      players: Map.unmodifiable({
+        ...players,
+        player: fn(players[player]!),
+      }),
+      groundArena: groundArena,
+      spaceArena: spaceArena,
+    );
+  }
 }
