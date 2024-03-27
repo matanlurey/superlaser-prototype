@@ -25,3 +25,5 @@
 /// }
 /// ```
 library engine;
+
+export 'src/engine/zone.dart';
