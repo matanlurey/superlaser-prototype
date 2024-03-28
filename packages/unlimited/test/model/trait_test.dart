@@ -1,3 +1,6 @@
+@TestOn('vm')
+library;
+
 import 'dart:io' as io;
 
 import 'package:jsonut/jsonut.dart';
@@ -11,12 +14,11 @@ void main() {
   late final Set<String> traits;
 
   setUpAll(() {
-    // TODO: Replace this with something that doesn't break 'dart test'.
-    final projectRoot = io.Platform.script.resolve('../../../..').toFilePath();
     final jsonObject = JsonObject.parse(
       io.File(
         p.join(
-          projectRoot,
+          '../',
+          '../',
           'data',
           'sor.json',
         ),

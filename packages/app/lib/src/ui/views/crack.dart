@@ -1,8 +1,8 @@
 import 'package:app/ui.dart';
 import 'package:flutter/material.dart';
+import 'package:unlimited/build.dart';
 import 'package:unlimited/catalog/sor.dart' as sor;
 import 'package:unlimited/core.dart' hide Card;
-import 'package:unlimited/engine.dart';
 
 /// Crack a simulated booster pack.
 final class CrackView extends StatefulWidget {
@@ -16,7 +16,7 @@ final class CrackView extends StatefulWidget {
 }
 
 final class _CrackViewState extends State<CrackView> {
-  static final _generator = BoosterGenerator(sor.cards);
+  static final _generator = BoosterGenerator.of(sor.cards);
 
   BoosterPack? _pack;
 

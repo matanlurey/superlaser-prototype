@@ -6,7 +6,7 @@ void main() {
   group('$Expansion', () {
     test('equivalent based on `code`', () {
       final a = _expansion('a', 1);
-      final b = _expansion('b', 1);
+      final b = _expansion('a', 1);
       final c = _expansion('c', 2);
 
       check(a, because: 'a.code == b.code').equivalent(b);

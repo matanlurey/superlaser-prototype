@@ -1,6 +1,5 @@
 import 'package:meta/meta.dart';
 import 'package:unlimited/src/core/card.dart';
-import 'package:unlimited/src/utils.dart';
 
 /// Colored icons on a card representing different philosophies or motivations.
 ///
@@ -59,9 +58,6 @@ enum Aspect {
 
   /// Whether this aspect is considered _morale_, or not [isNeutral].
   bool get isMoral => !isNeutral;
-
-  @override
-  String toString() => 'Aspect <${name.capitalize()}>';
 }
 
 /// Refers to 0-2 [Aspect] icons on a card.
@@ -137,10 +133,7 @@ final class Aspects {
   String toString() {
     if (_a == null) {
       return 'Aspects <none>';
-    } else if (_b == null) {
-      return 'Aspects <${_a.name.capitalize()}>';
-    } else {
-      return 'Aspects <${_a.name.capitalize()}, ${_b.name.capitalize()}>';
     }
+    return 'Aspects <${values.join(', ')}>';
   }
 }

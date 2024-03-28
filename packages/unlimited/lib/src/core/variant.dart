@@ -55,6 +55,23 @@ sealed class StyledCard<T extends Card> implements Comparable<StyledCard<T>> {
   StyledCard<T> withFoil({required bool foil});
 }
 
+/// Extension methods for `StyledCard<LeaderCard>`.
+extension StyledLeaderCard on StyledCard<LeaderCard> {
+  /// Converts this card to a [StyledCard].
+  StyledCard<ArenaCard> toUnit() {
+    if (this case final VariantCard<LeaderCard> variant) {
+      return VariantCard(
+        variantNumber: variant.variantNumber,
+        card: variant.card.unit,
+        type: variant.type,
+        isFoil: variant.isFoil,
+      );
+    } else {
+      return CanonicalCard(card: card.unit, isFoil: isFoil);
+    }
+  }
+}
+
 /// A canonical card.
 @immutable
 final class CanonicalCard<T extends Card> extends StyledCard<T> {
