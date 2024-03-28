@@ -112,7 +112,10 @@ the <a href="../../engine/Player/hashCode.html">hashCode</a> method as well to m
   <h2><span>Implementation</span></h2>
   <pre class="language-dart"><code class="language-dart">@override
 bool operator ==(Object other) {
-  return other is Player &amp;&amp; other._id == _id;
+  if (other is Player) {
+    return key == other.key;
+  }
+  return false;
 }</code></pre>
 </section>
 

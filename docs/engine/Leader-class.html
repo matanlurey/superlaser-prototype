@@ -63,27 +63,28 @@
 
     
 <section class="desc markdown">
-  <p>A double-sided card with two aspect icons, a name, subtitle, and abilities.</p>
-<p>A leader is deployed using the <strong>Epic Action</strong> ability on its Leader side.</p>
+  <p>A leader, which once per game can be deployed to the ground arena.</p>
 </section>
 
 
     <section>
       <dl class="dl-horizontal">
         
-
-        
-        
-
-
-
-        
-  <dt>Annotations</dt>
+  <dt>Inheritance</dt>
   <dd>
-    <ul class="annotation-list clazz-relationships">
-        <li>@<a href="https://pub.dev/documentation/meta/1.12.0/meta/immutable-constant.html">immutable</a></li>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="../engine/Entity-class.html">Entity</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/LeaderCard-class.html">LeaderCard</a></span>&gt;</span></li>
+      <li>Leader</li>
     </ul>
   </dd>
+
+        
+        
+
+
+
+        
 
 
       </dl>
@@ -94,39 +95,38 @@
     <h2>Constructors</h2>
 
     <dl class="constructor-summary-list">
-        <dt id="Leader.fromCard" class="callable">
-          <span class="name"><a href="../engine/Leader/Leader.fromCard.html">Leader.fromCard</a></span><span class="signature">(<span class="parameter" id="fromCard-param-card"><span class="type-annotation"><a href="../core/LeaderCard-class.html">LeaderCard</a></span> <span class="parameter-name">card</span></span>)</span>
+        <dt id="Leader" class="callable">
+          <span class="name"><a href="../engine/Leader/Leader.html">Leader</a></span><span class="signature">(<span class="parameter" id="-param-origin">{<span>required</span> <span class="type-annotation"><a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/LeaderCard-class.html">LeaderCard</a></span>&gt;</span></span> <span class="parameter-name">origin</span>}</span>)</span>
         </dt>
         <dd>
-          Creates a new leader from the given <code>card</code>.
-            <div class="constructor-modifier features">factory</div>
+          Creates a new leader with the given <a href="../engine/Entity/origin.html">origin</a> and optional starting state.
         </dd>
     </dl>
   </section>
 
-    <section class="summary offset-anchor" id="instance-properties">
+    <section class="summary offset-anchor inherited" id="instance-properties">
       <h2>Properties</h2>
 
       <dl class="properties">
-        <dt id="card" class="property">
-  <span class="name"><a href="../engine/Leader/card.html">card</a></span>
-  <span class="signature">&#8594; <a href="../core/LeaderCard-class.html">LeaderCard</a></span> 
-
-</dt>
-<dd>
-  The card that represents the leader.
-  <div class="features"><span class="feature">final</span></div>
-
-</dd>
-
-        <dt id="hashCode" class="property">
-  <span class="name"><a href="../engine/Leader/hashCode.html">hashCode</a></span>
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
   <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
 
 </dt>
-<dd>
+<dd class="inherited">
   The hash code for this object.
-  <div class="features"><span class="feature">no setter</span><span class="feature">override</span></div>
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="origin" class="property inherited">
+  <span class="name"><a href="../engine/Entity/origin.html">origin</a></span>
+  <span class="signature">&#8594; <a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/LeaderCard-class.html">LeaderCard</a></span>&gt;</span></span> 
+
+</dt>
+<dd class="inherited">
+  Which card and artwork this entity represents.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
 
 </dd>
 
@@ -163,16 +163,29 @@
 
 </dd>
 
-        <dt id="toString" class="callable">
-  <span class="name"><a href="../engine/Leader/toString.html">toString</a></span><span class="signature">(<wbr>)
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
   </span>
   
 
 </dt>
-<dd>
+<dd class="inherited">
   A string representation of this object.
-  <div class="features"><span class="feature">override</span></div>
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toUnit" class="callable">
+  <span class="name"><a href="../engine/Leader/toUnit.html">toUnit</a></span><span class="signature">(<wbr><span class="parameter" id="toUnit-param-owner">{<span>required</span> <span class="type-annotation"><a href="../engine/Player-class.html">Player</a></span> <span class="parameter-name">owner</span>}</span>)
+    <span class="returntype parameter">&#8594; <a href="../engine/Unit-class.html">Unit</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  Returns a unit representing this leader to be deployed.
+  
 
 </dd>
 
@@ -180,20 +193,20 @@
   </section>
     
   <section
-      class="summary offset-anchor"
+      class="summary offset-anchor inherited"
       id="operators">
     <h2>Operators</h2>
     <dl class="callables">
-        <dt id="operator ==" class="callable">
-  <span class="name"><a href="../engine/Leader/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
   </span>
   
 
 </dt>
-<dd>
+<dd class="inherited">
   The equality operator.
-  <div class="features"><span class="feature">override</span></div>
+  <div class="features"><span class="feature">inherited</span></div>
 
 </dd>
 

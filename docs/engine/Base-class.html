@@ -63,29 +63,29 @@
 
     
 <section class="desc markdown">
-  <p>A type of card that represents a location in <em>Star Wars</em>.</p>
-<p>When a base has no remaining HP, its owner immediately loses the game,
-and its opponent immediately wins the game. A player cannot resolve actions,
-abilities, or effects once their base's remaining HP reaches 0.</p>
+  <p>A base, which when defeated, causes the player to lose the game.</p>
 </section>
 
 
     <section>
       <dl class="dl-horizontal">
         
-
-        
-        
-
-
-
-        
-  <dt>Annotations</dt>
+  <dt>Inheritance</dt>
   <dd>
-    <ul class="annotation-list clazz-relationships">
-        <li>@<a href="https://pub.dev/documentation/meta/1.12.0/meta/immutable-constant.html">immutable</a></li>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+        <li><a href="../engine/Entity-class.html">Entity</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/BaseCard-class.html">BaseCard</a></span>&gt;</span></li>
+        <li><a href="../engine/Target-class.html">Target</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/BaseCard-class.html">BaseCard</a></span>&gt;</span></li>
+      <li>Base</li>
     </ul>
   </dd>
+
+        
+        
+
+
+
+        
 
 
       </dl>
@@ -96,39 +96,82 @@ abilities, or effects once their base's remaining HP reaches 0.</p>
     <h2>Constructors</h2>
 
     <dl class="constructor-summary-list">
-        <dt id="Base.fromCard" class="callable">
-          <span class="name"><a href="../engine/Base/Base.fromCard.html">Base.fromCard</a></span><span class="signature">(<span class="parameter" id="fromCard-param-card"><span class="type-annotation"><a href="../core/BaseCard-class.html">BaseCard</a></span> <span class="parameter-name">card</span></span>)</span>
+        <dt id="Base" class="callable">
+          <span class="name"><a href="../engine/Base/Base.html">Base</a></span><span class="signature">(<span class="parameter" id="-param-origin">{<span>required</span> <span class="type-annotation"><a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/BaseCard-class.html">BaseCard</a></span>&gt;</span></span> <span class="parameter-name">origin</span>, </span><span class="parameter" id="-param-damage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">damage</span> = <span class="default-value">0</span>, </span><span class="parameter" id="-param-healthModifier"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">healthModifier</span> = <span class="default-value">0</span>}</span>)</span>
         </dt>
         <dd>
-          Creates a new base from the given <code>card</code>.
-            <div class="constructor-modifier features">factory</div>
+          Creates a new base with the given <code>origin</code> and optional starting state.
         </dd>
     </dl>
   </section>
 
-    <section class="summary offset-anchor" id="instance-properties">
+    <section class="summary offset-anchor inherited" id="instance-properties">
       <h2>Properties</h2>
 
       <dl class="properties">
-        <dt id="card" class="property">
-  <span class="name"><a href="../engine/Base/card.html">card</a></span>
-  <span class="signature">&#8594; <a href="../core/BaseCard-class.html">BaseCard</a></span> 
+        <dt id="damage" class="property inherited">
+  <span class="name"><a href="../engine/Target/damage.html">damage</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
 
 </dt>
-<dd>
-  The card that represents the base.
-  <div class="features"><span class="feature">final</span></div>
+<dd class="inherited">
+  The current damage on this target.
+  <div class="features"><span class="feature">getter/setter pair</span><span class="feature">inherited</span></div>
 
 </dd>
 
-        <dt id="hashCode" class="property">
-  <span class="name"><a href="../engine/Base/hashCode.html">hashCode</a></span>
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/hashCode.html">hashCode</a></span>
   <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
 
 </dt>
-<dd>
+<dd class="inherited">
   The hash code for this object.
-  <div class="features"><span class="feature">no setter</span><span class="feature">override</span></div>
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="health" class="property inherited">
+  <span class="name"><a href="../engine/Target/health.html">health</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The total health of this target.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="healthModifier" class="property inherited">
+  <span class="name"><a href="../engine/Target/healthModifier.html">healthModifier</a></span>
+  <span class="signature">&#8596; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> 
+
+</dt>
+<dd class="inherited">
+  The current health modifier on this target.
+  <div class="features"><span class="feature">getter/setter pair</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isDefeated" class="property inherited">
+  <span class="name"><a href="../engine/Target/isDefeated.html">isDefeated</a></span>
+  <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> 
+
+</dt>
+<dd class="inherited">
+  Whether the target is considered defeated (<a href="../engine/Target/damage.html">damage</a> &gt;= <a href="../engine/Target/health.html">health</a>).
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="origin" class="property inherited">
+  <span class="name"><a href="../engine/Entity/origin.html">origin</a></span>
+  <span class="signature">&#8594; <a href="../core/StyledCard-class.html">StyledCard</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../core/BaseCard-class.html">BaseCard</a></span>&gt;</span></span> 
+
+</dt>
+<dd class="inherited">
+  Which card and artwork this entity represents.
+  <div class="features"><span class="feature">final</span><span class="feature">inherited</span></div>
 
 </dd>
 
@@ -148,10 +191,49 @@ abilities, or effects once their base's remaining HP reaches 0.</p>
 
     
   <section
-      class="summary offset-anchor"
+      class="summary offset-anchor inherited"
       id="instance-methods">
     <h2>Methods</h2>
     <dl class="callables">
+        <dt id="addHealthModifier" class="callable inherited">
+  <span class="name"><a href="../engine/Target/addHealthModifier.html">addHealthModifier</a></span><span class="signature">(<wbr><span class="parameter" id="addHealthModifier-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">value</span></span>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Adds <code>value</code> to the health modifier on this target.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="dealDamage" class="callable inherited">
+  <span class="name"><a href="../engine/Target/dealDamage.html">dealDamage</a></span><span class="signature">(<wbr><span class="parameter" id="dealDamage-param-damage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">damage</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Deals <code>damage</code> to this target.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="healDamage" class="callable inherited">
+  <span class="name"><a href="../engine/Target/healDamage.html">healDamage</a></span><span class="signature">(<wbr><span class="parameter" id="healDamage-param-damage"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span> <span class="parameter-name">damage</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Heals <code>damage</code> from this target.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
         <dt id="noSuchMethod" class="callable inherited">
   <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
     <span class="returntype parameter">&#8594; dynamic</span>
@@ -165,16 +247,29 @@ abilities, or effects once their base's remaining HP reaches 0.</p>
 
 </dd>
 
-        <dt id="toString" class="callable">
-  <span class="name"><a href="../engine/Base/toString.html">toString</a></span><span class="signature">(<wbr>)
+        <dt id="resetHealthModifier" class="callable inherited">
+  <span class="name"><a href="../engine/Target/resetHealthModifier.html">resetHealthModifier</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; void</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Resets the health modifier on this target (i.e. sets it to <code>0</code>).
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
   </span>
   
 
 </dt>
-<dd>
+<dd class="inherited">
   A string representation of this object.
-  <div class="features"><span class="feature">override</span></div>
+  <div class="features"><span class="feature">inherited</span></div>
 
 </dd>
 
@@ -182,20 +277,20 @@ abilities, or effects once their base's remaining HP reaches 0.</p>
   </section>
     
   <section
-      class="summary offset-anchor"
+      class="summary offset-anchor inherited"
       id="operators">
     <h2>Operators</h2>
     <dl class="callables">
-        <dt id="operator ==" class="callable">
-  <span class="name"><a href="../engine/Base/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
   </span>
   
 
 </dt>
-<dd>
+<dd class="inherited">
   The equality operator.
-  <div class="features"><span class="feature">override</span></div>
+  <div class="features"><span class="feature">inherited</span></div>
 
 </dd>
 

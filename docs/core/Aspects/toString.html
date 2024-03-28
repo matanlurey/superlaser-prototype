@@ -96,11 +96,8 @@ mainly for debugging or logging.</p>
 String toString() {
   if (_a == null) {
     return &#39;Aspects &lt;none&gt;&#39;;
-  } else if (_b == null) {
-    return &#39;Aspects &lt;${_a.name.capitalize()}&gt;&#39;;
-  } else {
-    return &#39;Aspects &lt;${_a.name.capitalize()}, ${_b.name.capitalize()}&gt;&#39;;
   }
+  return &#39;Aspects &lt;${values.join(&#39;, &#39;)}&gt;&#39;;
 }</code></pre>
 </section>
 

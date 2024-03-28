@@ -75,25 +75,16 @@ visualizer.</p>
 <h2 id="usage">Usage</h2>
 <pre class="language-dart"><code class="language-dart">import 'package:unlimited/engine.dart';
 </code></pre>
-<h2 id="validation">Validation</h2>
-<p>Where possible, this library will validate the game state and enforce the
-rules of the game. However, it is not a complete rules engine, and it is
-possible to create invalid game states. It is the responsibility of the
-caller to ensure that the game state is valid.</p>
-<p>In addition, this library does not provide any user interface or invalid
-input handling beyond throwing errors that are not expected to be caught.
-For example, programs that take input to build a <a href="../engine/PremierDeck-class.html">PremierDeck</a> should check
-constraints (such as at least 50 cards, no more than 3 copies) before
-creating the deck:</p>
-<pre class="language-dart"><code class="language-dart">import 'package:unlimited/core.dart';
-import 'package:unlimited/engine.dart';
+<h2 id="scope">Scope</h2>
+<p>This library provides static type checking and some low-level correctness
+checks. For example, the <a href="../engine/Base-class.html">Base</a> class can never have <em>negative</em> damage:</p>
+<pre class="language-dart"><code class="language-dart">void example(Base base) {
+  print(base.damage); // 0, starting off undamaged.
 
-void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
-  if (cards.length &lt; 50) {
-    print('Deck must have at least 50 cards.');
-    return;
-  }
-  // ...
+  base.dealDamage(10);
+  print(base.damage); // 10, after taking damage.
+
+  base.healDamage(15); // Throws, would make damage negative.
 }
 </code></pre>
 </section>
@@ -108,87 +99,15 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
 
 </dt>
 <dd>
-  A type of card that represents a location in <em>Star Wars</em>.
+  A base, which when defeated, causes the player to lose the game.
 </dd>
 
-        <dt id="BaseZone">
-  <span class="name "><a href="../engine/BaseZone-class.html">BaseZone</a></span> 
+        <dt id="Entity">
+  <span class="name "><a href="../engine/Entity-class.html">Entity</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../core/Card-class.html">Card</a></span>&gt;</span></span> 
 
 </dt>
 <dd>
-  Each player has their own base zone.
-</dd>
-
-        <dt id="BoosterGenerator">
-  <span class="name "><a href="../engine/BoosterGenerator-class.html">BoosterGenerator</a></span> 
-
-</dt>
-<dd>
-  A generator for creating booster packs.
-</dd>
-
-        <dt id="BoosterPack">
-  <span class="name "><a href="../engine/BoosterPack-class.html">BoosterPack</a></span> 
-
-</dt>
-<dd>
-  A 16-card booster pack.
-</dd>
-
-        <dt id="Deck">
-  <span class="name "><a href="../engine/Deck-class.html">Deck</a></span> 
-
-</dt>
-<dd>
-  A pre-built deck.
-</dd>
-
-        <dt id="DeckZone">
-  <span class="name "><a href="../engine/DeckZone-class.html">DeckZone</a></span> 
-
-</dt>
-<dd>
-  Each player's deck is its own zone.
-</dd>
-
-        <dt id="DiscardPileZone">
-  <span class="name "><a href="../engine/DiscardPileZone-class.html">DiscardPileZone</a></span> 
-
-</dt>
-<dd>
-  Each player's discard pile is its own zone.
-</dd>
-
-        <dt id="Game">
-  <span class="name "><a href="../engine/Game-class.html">Game</a></span> 
-
-</dt>
-<dd>
-  Game structure for the <code>Star Wars: Unlimited</code> Trading Card Game.
-</dd>
-
-        <dt id="GroundArenaZone">
-  <span class="name "><a href="../engine/GroundArenaZone-class.html">GroundArenaZone</a></span> 
-
-</dt>
-<dd>
-  A shared zone where each player's ground units are played.
-</dd>
-
-        <dt id="HandZone">
-  <span class="name "><a href="../engine/HandZone-class.html">HandZone</a></span> 
-
-</dt>
-<dd>
-  Each player's hand is its own zone.
-</dd>
-
-        <dt id="InitialPlayerState">
-  <span class="name "><a href="../engine/InitialPlayerState-class.html">InitialPlayerState</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../engine/Deck-class.html">Deck</a></span>&gt;</span></span> 
-
-</dt>
-<dd>
-  Initial player-specific state.
+  A game object backed by a <a href="../core/Card-class.html">Card</a> of type <code>T</code>.
 </dd>
 
         <dt id="Leader">
@@ -196,31 +115,7 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
 
 </dt>
 <dd>
-  A double-sided card with two aspect icons, a name, subtitle, and abilities.
-</dd>
-
-        <dt id="LimitedDeck">
-  <span class="name "><a href="../engine/LimitedDeck-class.html">LimitedDeck</a></span> 
-
-</dt>
-<dd>
-  A deck constructed from a limited pool of cards such as <em>draft</em> or <em>sealed</em>.
-</dd>
-
-        <dt id="OwnedZone">
-  <span class="name "><a href="../engine/OwnedZone-class.html">OwnedZone</a></span> 
-
-</dt>
-<dd>
-  A zone that is owned by exactly one player.
-</dd>
-
-        <dt id="PlayArea">
-  <span class="name "><a href="../engine/PlayArea-class.html">PlayArea</a></span> 
-
-</dt>
-<dd>
-  Consists of all<code>^1</code> cards that a <a href="../engine/PlayArea/player.html">player</a> controls in <a href="../engine/Zone/inPlay.html">Zone.inPlay</a> zones.
+  A leader, which once per game can be deployed to the ground arena.
 </dd>
 
         <dt id="Player">
@@ -228,63 +123,15 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
 
 </dt>
 <dd>
-  A player in the game.
+  An opaque object representing a player in the game.
 </dd>
 
-        <dt id="PlayerState">
-  <span class="name "><a href="../engine/PlayerState-class.html">PlayerState</a></span> 
+        <dt id="Target">
+  <span class="name "><a href="../engine/Target-class.html">Target</a><span class="signature">&lt;<wbr><span class="type-parameter">T extends <a href="../core/TargetCard-class.html">TargetCard</a></span>&gt;</span></span> 
 
 </dt>
 <dd>
-  Player-specific state.
-</dd>
-
-        <dt id="PremierDeck">
-  <span class="name "><a href="../engine/PremierDeck-class.html">PremierDeck</a></span> 
-
-</dt>
-<dd>
-  The primary format of Competitive-tier Organized Play events.
-</dd>
-
-        <dt id="Resource">
-  <span class="name "><a href="../engine/Resource-class.html">Resource</a></span> 
-
-</dt>
-<dd>
-  A game object used to pay the cost of cards and certain abilities
-</dd>
-
-        <dt id="ResourceZone">
-  <span class="name "><a href="../engine/ResourceZone-class.html">ResourceZone</a></span> 
-
-</dt>
-<dd>
-  Each player has their own resource zone.
-</dd>
-
-        <dt id="SharedZone">
-  <span class="name "><a href="../engine/SharedZone-class.html">SharedZone</a></span> 
-
-</dt>
-<dd>
-  A zone that is shared by all players.
-</dd>
-
-        <dt id="SpaceArenaZone">
-  <span class="name "><a href="../engine/SpaceArenaZone-class.html">SpaceArenaZone</a></span> 
-
-</dt>
-<dd>
-  A shared zone where each player's space units are played.
-</dd>
-
-        <dt id="TwinSunsDeck">
-  <span class="name "><a href="../engine/TwinSunsDeck-class.html">TwinSunsDeck</a></span> 
-
-</dt>
-<dd>
-  The primary multiplayer format of Star Wars: Unlimited.
+  A game object that can receive damage and can be defeated.
 </dd>
 
         <dt id="Unit">
@@ -292,15 +139,7 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
 
 </dt>
 <dd>
-  Depicts a <em>Star Wars</em> character or vehicle.
-</dd>
-
-        <dt id="Zone">
-  <span class="name "><a href="../engine/Zone-class.html">Zone</a></span> 
-
-</dt>
-<dd>
-  Defines areas of the game with specific rules.
+  A unit, which can be deployed to the ground or space arena.
 </dd>
 
       </dl>
@@ -308,21 +147,6 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
 
 
 
-    <section class="summary offset-anchor" id="extension-types">
-      <h2>Extension Types</h2>
-
-      <dl>
-        <dt id="Id">
-    <span class="name "><a href="../engine/Id-extension-type.html">Id</a></span> 
-
-</dt>
-<dd>
-    Represents an opaque identifier, usually for uniquely identifying an object.
-</dd>
-
-
-      </dl>
-    </section>
 
 
 
@@ -349,6 +173,7 @@ void example(LeaderCard leader, BaseCard base, List&lt;DeckCard&gt; cards) {
     <h5><span class="package-name">unlimited</span> <span class="package-kind">package</span></h5>
     <ol>
       <li class="section-title">Libraries</li>
+      <li><a href="../build/build-library.html">build</a></li>
       <li><a href="../catalog/catalog-library.html">catalog</a></li>
       <li><a href="../core/core-library.html">core</a></li>
       <li><a href="../engine/engine-library.html">engine</a></li>
