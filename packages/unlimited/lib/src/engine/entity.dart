@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
 import 'package:meta/meta.dart';
-import 'package:unlimited/build.dart';
 import 'package:unlimited/core.dart';
+import 'package:unlimited/src/core/variant.dart';
 
 /// An opaque object representing a player in the game.
 ///
@@ -211,7 +211,7 @@ abstract final class Target<T extends TargetCard> extends Entity<T> {
   bool get isDefeated => damage >= health;
 }
 
-/// Represents a player's base in the game.
+/// A base, which when defeated, causes the player to lose the game.
 final class Base extends Target<BaseCard> {
   /// Creates a new base with the given [origin] and optional starting state.
   Base({
@@ -221,105 +221,97 @@ final class Base extends Target<BaseCard> {
   });
 }
 
-// TODO: Implement.
-final class Leader {
-  Leader._();
-
-  LeaderCard get card => throw UnimplementedError();
-
-  Unit toUnit({required BaseZone origin}) => throw UnimplementedError();
-}
-
-// TODO: Implement.
-final class Unit {
-  Unit._();
-
-  UnitCard get card => throw UnimplementedError();
-}
-
-// TODO: Implement.
-final class LeaderUnit implements Unit {
-  LeaderUnit._();
-
-  @override
-  UnitCard get card => throw UnimplementedError();
-}
-
-/// Defined areas of the game with specific rules.
-///
-/// This is a _marker_ type, meaning it has no properties or methods.
-sealed class Zone {}
-
-/// Each player has a base zone, which contains their base and leader(s).
-final class BaseZone extends Zone {
-  /// Creates a new base zone with the given [base] and [leader].
-  BaseZone({
-    required this.base,
-    required Leader leader,
-  }) : _leaders = [leader];
-
-  /// Creates a new base zone with the given [base] and [leaders].
-  BaseZone.twinSuns({
-    required this.base,
-    required (Leader, Leader) leaders,
-  }) : _leaders = [leaders.$1, leaders.$2];
-
-  final List<Leader> _leaders;
-
-  /// The base card for the zone.
-  final Base base;
-
-  /// The leader card(s) in the zone.
-  ///
-  /// This list is unmodifiable, and has between 0 and 2 elements, depending on
-  /// the deck format (i.e. [TwinSunsDeck] will have 2 leaders compared to a
-  /// standard deck with 1 leader) and whether the leader(s) are in play (in
-  /// [GroundArena]).
-  ///
-  /// To modify, use [deploy] or [GroundArena.defeat] on the [LeaderUnit].
-  late final leaders = List<Leader>.unmodifiable(_leaders);
-
-  /// The count of aspect icons from both the base and leader(s).
-  ///
-  /// The order of the aspects is not guaranteed.
-  ///
-  /// This list is unmodifiable.
-  late final aspects = List<Aspect>.unmodifiable([
-    ...base.card.aspects.values,
-    for (final leader in _leaders) ...leader.card.aspects.values,
-  ]);
-
-  /// Deploys the leader to the given [arena].
-  ///
-  /// The [leader] must be currently present in this zone.
-  void deploy(Leader leader, GroundArena arena) {
-    if (!_leaders.remove(leader)) {
-      throw ArgumentError.value(leader, 'leader', 'Not in this zone.');
-    }
-    arena.deploy(leader.toUnit(origin: this));
+/// A unit, which can be deployed to the ground or space arena.
+final class Unit extends Target<ArenaCard> {
+  /// Creates a new unit with the given [origin] and optional starting state.
+  Unit({
+    required super.origin,
+    required this.owner,
+    super.damage,
+    super.healthModifier,
+    int powerModifier = 0,
+  })  : _powerModifier = powerModifier,
+        controlledBy = owner {
+    RangeError.checkNotNegative(powerModifier, 'powerModifier');
   }
 
-  /// Returns `true` if the zone has insufficient [aspects] to play [card].
-  @useResult
-  bool lacksAspects(Card card) {
-    final check = aspects.toList();
-    for (final aspect in card.aspects.values) {
-      if (!check.remove(aspect)) {
-        return true;
-      }
+  /// Which player owns this unit.
+  final Player owner;
+
+  /// Which player controls this unit.
+  ///
+  /// This can be different from [owner] if the unit is controlled by another
+  /// player, such as through a card effect.
+  Player controlledBy;
+
+  int _powerModifier;
+
+  /// The current power modifier on this unit.
+  ///
+  /// Power can be modified by cards, abilities, or other effects.
+  ///
+  /// This value is always non-negative.
+  @nonVirtual
+  int get powerModifier => _powerModifier;
+
+  /// Sets the power modifier on this unit.
+  ///
+  /// The [value] must be non-negative.
+  ///
+  /// This setter is provided for convenience, but it is recommended to use
+  /// [addPowerModifier] and [resetPowerModifier] instead to make interactions
+  /// more explicit.
+  @nonVirtual
+  set powerModifier(int value) {
+    RangeError.checkNotNegative(value, 'value');
+    _powerModifier = value;
+  }
+
+  /// Adds [value] to the power modifier on this unit.
+  ///
+  /// The value must be at least 1.
+  @nonVirtual
+  void addPowerModifier(int value) {
+    if (value < 1) {
+      throw RangeError.value(value, 'value', 'Must be at least 1.');
     }
-    return false;
+    powerModifier += value;
+  }
+
+  /// Resets the power modifier on this unit (i.e. sets it to `0`).
+  ///
+  /// This is a convenience method to reset the power modifier to its default
+  /// value. It is recommended to use this method instead of setting the power
+  /// modifier directly to `0` to make interactions more explicit.
+  ///
+  /// For example, when recalculating the power modifier based on active
+  /// upgrades, it is recommended to call this method, and then iterate over the
+  /// active upgrades to apply their power modifiers.
+  @nonVirtual
+  void resetPowerModifier() {
+    powerModifier = 0;
+  }
+
+  /// The total power of this unit.
+  ///
+  /// This value is always non-negative.
+  @nonVirtual
+  int get power => origin.card.power + powerModifier;
+}
+
+/// A leader, which once per game can be deployed to the ground arena.
+final class Leader extends Entity<LeaderCard> {
+  /// Creates a new leader with the given [origin] and optional starting state.
+  Leader({
+    required super.origin,
+  });
+
+  /// Returns a unit representing this leader to be deployed.
+  @nonVirtual
+  Unit toUnit({required Player owner}) {
+    return Unit(
+      origin: origin.toUnit(),
+      owner: owner,
+    );
   }
 }
-
-/// A zone shared by all players.
-sealed class SharedZone extends Zone {}
-
-/// The ground arena, where [Arena.ground] units are deployed.
-final class GroundArena extends SharedZone {
-  void deploy(Unit unit) {}
-  void defeat(Unit unit) {}
-}
-
-/// The space arena, where [Arena.space] units are deployed.
-final class SpaceArena extends SharedZone {}

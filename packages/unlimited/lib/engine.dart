@@ -19,11 +19,16 @@
 ///
 /// ```dart
 /// void example(Base base) {
-///   print(base.damage()); // 0, starting off undamaged.
-///   print(base.damage(10)); // 10, taking 10 damage.
-///   print(base.damage(-20)); // 0, cannot have negative damage.
+///   print(base.damage); // 0, starting off undamaged.
+///
+///   base.dealDamage(10);
+///   print(base.damage); // 10, after taking damage.
+///
+///   base.healDamage(15); // Throws, would make damage negative.
 /// }
 /// ```
 library engine;
 
-export 'src/engine/zone.dart';
+import 'package:unlimited/engine.dart';
+
+export 'src/engine/entity.dart';

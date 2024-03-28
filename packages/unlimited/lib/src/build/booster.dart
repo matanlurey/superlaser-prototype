@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:collection/collection.dart';
 import 'package:unlimited/core.dart';
-import 'package:unlimited/src/core/card.dart';
 import 'package:unlimited/src/internal.dart';
 
 /// A 16-card booster pack.
