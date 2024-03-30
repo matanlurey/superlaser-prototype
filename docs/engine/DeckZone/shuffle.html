@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the BoosterGenerator.of constructor from Class BoosterGenerator from the build library, for the Dart programming language.">
-  <title>BoosterGenerator.of constructor - BoosterGenerator - build library - Dart API</title>
+  <meta name="description" content="API docs for the shuffle method from the DeckZone class, for the Dart programming language.">
+  <title>shuffle method - DeckZone class - engine library - Dart API</title>
 
 
   
@@ -29,11 +29,11 @@
   <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../build/build-library.html">build.dart</a></li>
-    <li><a href="../../build/BoosterGenerator-class.html">BoosterGenerator</a></li>
-    <li class="self-crumb">BoosterGenerator.of factory constructor</li>
+    <li><a href="../../engine/engine-library.html">engine.dart</a></li>
+    <li><a href="../../engine/DeckZone-class.html">DeckZone</a></li>
+    <li class="self-crumb">shuffle method</li>
   </ol>
-  <div class="self-name">BoosterGenerator.of</div>
+  <div class="self-name">shuffle</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -54,31 +54,34 @@
   <div
       id="dartdoc-main-content"
       class="main-content"
-      data-above-sidebar="build&#47;BoosterGenerator-class-sidebar.html"
+      data-above-sidebar="engine&#47;DeckZone-class-sidebar.html"
       data-below-sidebar="">
       <div>
-<h1><span class="kind-constructor">BoosterGenerator.of</span> constructor 
+<h1><span class="kind-method">shuffle</span> method 
 </h1></div>
 
     <section class="multi-line-signature">
       
-      <span class="name ">BoosterGenerator.of</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="of-param-expansion"><span class="type-annotation"><a href="../../core/CatalogExpansion-class.html">CatalogExpansion</a></span> <span class="parameter-name">expansion</span>, </span></li>
-<li><span class="parameter" id="of-param-random">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-math/Random-class.html">Random</a>?</span> <span class="parameter-name">random</span>}</span></li>
-</ol>)
-    </section>
 
+<span class="returntype">void</span>
+<span class="name ">shuffle</span>(<wbr><ol class="parameter-list"><li><span class="parameter" id="shuffle-param-random">[<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-math/Random-class.html">Random</a>?</span> <span class="parameter-name">random</span>]</span></li>
+</ol>)
+
+      
+
+    </section>
     
 <section class="desc markdown">
-  <p>Create a booster pack generator for the given <code>expansion</code>.</p>
-<p>If <code>random</code> is not provided, a default <a href="https://api.flutter.dev/flutter/dart-math/Random-class.html">Random</a> instance is used.</p>
+  <p>Shuffles the deck.</p>
+<p>If <code>random</code> is provided, it will be used to shuffle the deck.</p>
 </section>
 
 
     
 <section class="summary source-code" id="source">
   <h2><span>Implementation</span></h2>
-  <pre class="language-dart"><code class="language-dart">factory BoosterGenerator.of(CatalogExpansion expansion, {Random? random}) {
-  return BoosterGenerator._(expansion, random ?? defaultRandom);
+  <pre class="language-dart"><code class="language-dart">void shuffle([Random? random]) {
+  _cards.shuffle(random ?? defaultRandom);
 }</code></pre>
 </section>
 
@@ -95,15 +98,15 @@
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
     <li><a href="../../index.html">unlimited</a></li>
-    <li><a href="../../build/build-library.html">build</a></li>
-    <li><a href="../../build/BoosterGenerator-class.html">BoosterGenerator</a></li>
-    <li class="self-crumb">BoosterGenerator.of factory constructor</li>
+    <li><a href="../../engine/engine-library.html">engine</a></li>
+    <li><a href="../../engine/DeckZone-class.html">DeckZone</a></li>
+    <li class="self-crumb">shuffle method</li>
 </ol>
 
 
-    <h5>BoosterGenerator class</h5>
+    <h5>DeckZone class</h5>
     <div id="dartdoc-sidebar-left-content"></div>
-  </div><!--/.sidebar-offcanvas-left-->
+  </div><!--/.sidebar-offcanvas-->
 
   <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
   </div><!--/.sidebar-offcanvas-->
