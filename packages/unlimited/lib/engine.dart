@@ -32,3 +32,4 @@ library engine;
 import 'package:unlimited/engine.dart';
 
 export 'src/engine/entity.dart';
+export 'src/engine/zone.dart';

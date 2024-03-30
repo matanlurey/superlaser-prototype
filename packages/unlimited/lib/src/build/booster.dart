@@ -123,7 +123,7 @@ final class BoosterGenerator {
   ///
   /// If [random] is not provided, a default [Random] instance is used.
   factory BoosterGenerator.of(CatalogExpansion expansion, {Random? random}) {
-    return BoosterGenerator._(expansion, random ?? _defaultRandom);
+    return BoosterGenerator._(expansion, random ?? defaultRandom);
   }
 
   BoosterGenerator._(this._expansion, this._random) {
@@ -162,8 +162,6 @@ final class BoosterGenerator {
       ),
     );
   }
-
-  static final _defaultRandom = Random();
 
   final CatalogExpansion _expansion;
   final Random _random;

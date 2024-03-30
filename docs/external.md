@@ -3,11 +3,15 @@
 A list of external resources and tools to consider interopability with.
 
 - [forcetable.com](#forcetablecom)
+- [limitlesstcg.com](#limitlesstcgcom)
+- [garbagerollers.com](#garbagerollerscom)
 - [starwarsunlimited.com](#starwarsunlimitedcom)
 - [swu-db.com](#swu-dbcom)
 - [swudb.com](#swudbcom)
+- [swuresource.com](#swuresourcecom)
 - [sw-unlimited-db.com](#sw-unlimited-dbcom)
 - [tcgplayer.com](#tcgplayercom)
+- [youtube.com](#youtubecom)
 
 ## [forcetable.com](https://forcetable.com/)
 
@@ -18,6 +22,15 @@ https://www.forcetable.net/swu/import?svc=swudb&id=ewogICJtZXRhZGF0YSI6IHsKICAgI
 ```
 
 The `id={}` parameter is a base64 encoded string of the popular JSON format.
+
+## [limitlesstcg.com](https://limitlesstcg.com/)
+
+Events and [decklists](https://play.limitlesstcg.com/tournament/swu-launch-event/player/cerberusrex/decklist). Would require more work to parse
+as it's not a structured format.
+
+## [garbagerollers.com](https://garbagerollers.com/)
+
+Blog with decks and articles.
 
 ## [starwarsunlimited.com](https://starwarsunlimited.com/)
 
@@ -96,6 +109,12 @@ SOR,100,4,true
 SOR,123,2,false
 SOR,123,3,true
 ```
+
+### [swuresource.com](https://swuresource.com/)
+
+News and decklists ([example](https://www.swuresource.com/swu-launch-celebration-event/)) from events.
+
+They have an [RSS feed](https://www.swuresource.com/feed/).
 
 ### [sw-unlimited-db.com](https://sw-unlimited-db.com/)
 
@@ -219,3 +238,9 @@ The format kind of sucks, but it would be trivial to interop with.
 
 Maintains a set of [price guides](https://www.tcgplayer.com/categories/trading-and-collectible-card-games/star-wars-unlimited), and provides a set of [APIs](https://help.tcgplayer.com/hc/en-us/articles/201577976-How-can-I-get-access-to-your-card-pricing-data) in order to get
 real-time pricing data (and even affiliate links).
+
+### [youtube.com](https://youtube.com)
+
+Some creator's post decklists on YouTube, which could be scraped.
+
+For example [Thorrk's Hot Takes](https://www.youtube.com/feeds/videos.xml?channel_id=UChKP3DoE5J0G4mFEmenv7oA), or [KTOD](https://www.youtube.com/feeds/videos.xml?channel_id=UCpLg-Fi_v1A-NwhIWsrvY0Q).
